@@ -1,0 +1,945 @@
+{
+  "title": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+  "tabs": [
+    {
+      "id": "16f7cedb-1644-5462-90d7-f1f44e73a485",
+      "title": "Strona 1",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 22,
+          "cols": 3,
+          "field": {
+            "id": "c698334f-3ac2-50ca-81b8-f8ca07e62215",
+            "type": "SECTION",
+            "techName": "dane_formularza_section_s1",
+            "title": "Dane formularza",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6d8057a7-f62c-5fb8-b25a-15017921f335",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_0",
+                  "title": "",
+                  "description": "................................., dnia .......................",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f82823ec-89f3-51a6-b28a-73d026d6dc59",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_1",
+                  "title": "",
+                  "description": "(miejscowość)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b95b7c0d-01ad-50aa-b83b-608b67c16bca",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_2",
+                  "title": "",
+                  "description": "(data)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "bad5cee6-3fde-5761-b110-4fa6ff8c5315",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_3",
+                  "title": "",
+                  "description": "o duplikat legitymacji szkolnej)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c31c16a9-f1be-5c02-aacb-7f4f597c374e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_4",
+                  "title": "",
+                  "description": "Dyrektor",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ffa23a5f-97d4-5329-8052-12b297345511",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_5",
+                  "title": "",
+                  "description": "Państwowego Liceum Sztuk Plastycznych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a37df1fc-c259-58fd-b805-e05f72e338a7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_6",
+                  "title": "",
+                  "description": "im. Leona Wyczółkowskiego w Bydgoszczy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2745316d-4567-5347-9505-e58056c07be7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_7",
+                  "title": "",
+                  "description": "ul. Konarskiego 2",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3c4ef5de-d6ec-51dd-982a-d8aad5947010",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_8",
+                  "title": "",
+                  "description": "85-066 Bydgoszcz",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7133e686-9600-5eb7-aa9e-fdfef3d6cb9f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_9",
+                  "title": "",
+                  "description": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e7021342-a486-5f0d-b7c2-9c8714b32d25",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_10",
+                  "title": "",
+                  "description": "……………………………………………………… (np. zniszczenia, zgubienia, kradzieży) oryginału.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "625d8444-15e6-58dc-9864-cb5597b07c92",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_11",
+                  "title": "",
+                  "description": "(czytelny podpis pełnoletniego ucznia/opiekuna prawnego)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1057a30c-de8d-559f-bf2b-8f18556b5e5a",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_osoby_wnioskujacej_c8297431ed",
+                  "title": "(imię i nazwisko osoby wnioskującej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "813b902e-5105-5585-ad13-2c20e2c272dc",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_ucznia_d1665d970b",
+                  "title": "(imię i nazwisko ucznia)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 13,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1b890825-a081-5f78-bfd6-fa5314c48ce8",
+                  "type": "TEXT_FIELD",
+                  "techName": "klasa_dead0fa6d0",
+                  "title": "(klasa)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 14,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "49e16b6c-4e5c-563b-8b0f-2c6220889467",
+                  "type": "DATEPICKER",
+                  "techName": "data_urodzenia_ucznia_a520a649de",
+                  "title": "(data urodzenia ucznia)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 15,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3c95f497-0593-5a20-8c50-fb2752e1fa3c",
+                  "type": "TEXT_FIELD",
+                  "techName": "pesel_ucznia_1ef3dd905d",
+                  "title": "(PESEL ucznia)",
+                  "description": "",
+                  "options": [],
+                  "validation": [
+                    "PESEL"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 16,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "68f08d12-c1f3-59a9-a248-34e7d9dcec73",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_zamieszkania_ucznia_97cca0155e",
+                  "title": "(adres zamieszkania ucznia)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 17,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "283cca58-d9e7-5c57-a888-ab6eca7b5d49",
+                  "type": "TEXTAREA",
+                  "techName": "zwracam_sie_z_prosba_o_wydanie_duplikatu_legitymacji_szkolnej_z_powodu_9de0837ede",
+                  "title": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 18,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 22,
+          "rows": 3,
+          "cols": 3,
+          "field": {
+            "id": "94e60f9f-7749-5d65-89d5-8aaaaa22945b",
+            "type": "SECTION",
+            "techName": "zalaczniki_section_s2",
+            "title": "Załączniki:",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d85b0af1-63eb-5d56-8f5a-5dd4761d45bf",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_0",
+                  "title": "",
+                  "description": "1. Aktualne, podpisane zdjęcie legitymacyjne.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cedbbf72-a633-5df1-8a9c-2b86d00e01f3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_1",
+                  "title": "",
+                  "description": "2. Dowód wniesienia opłaty za wydanie duplikatu legitymacji.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "30b05429-5ad6-5bde-9391-4f10db33eb71",
+      "title": "Strona 2",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 21,
+          "cols": 3,
+          "field": {
+            "id": "0dc0bf1e-6202-5c18-81b6-2bd165ba0d48",
+            "type": "SECTION",
+            "techName": "strona_2_section_s3",
+            "title": "Strona 2",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c716d1d5-2ec0-58fc-9a99-6eb1f684e8bb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_0",
+                  "title": "",
+                  "description": "Dodatkowe informacje !",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7d240472-430a-5fc0-bf16-93016592327d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_1",
+                  "title": "",
+                  "description": "Wniosek o wystawienie duplikatu legitymacji szkolnej w formie papierowej do sekretariatu szkoły",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "04cd4857-05a5-5eca-b96e-2c7766825273",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_2",
+                  "title": "",
+                  "description": "składa pełnoletni uczeń lub rodzic/opiekun prawny ucznia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b3d19fcd-c697-54f3-a228-9bbc5f028da7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_3",
+                  "title": "",
+                  "description": "Wnioski złożone drogą elektroniczną należy podpisać kwalifikowanym podpisem elektronicznym. Za",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ddbeb72a-c1db-5293-b20a-2f7bf099302e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_4",
+                  "title": "",
+                  "description": "każdy duplikat legitymacji szkolnej należy dokonać wpłaty w wysokości 9 zł.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b7b2caef-e75f-5c23-a74f-99d077f408e1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_5",
+                  "title": "",
+                  "description": "Opłatę wnosi się na rachunek:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f270cd1a-d854-52d1-afdf-61e773c17e41",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_6",
+                  "title": "",
+                  "description": "Państwowego Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego w Bydgoszczy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0310789d-4dab-5381-8f0a-d29571383a36",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_7",
+                  "title": "",
+                  "description": "ul. Konarskiego 2",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "66e28533-d96d-5a98-ab37-755b64ae3c7e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_8",
+                  "title": "",
+                  "description": "85-066 Bydgoszcz",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "57167eaa-acdd-5408-acab-849b20c3a546",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_9",
+                  "title": "",
+                  "description": "W treści przelewu prosimy o podanie: „ imienia i nazwiska - opłata za wydanie duplikatu",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e7b7572b-e80a-58b4-be0c-08a68c1e1286",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_10",
+                  "title": "",
+                  "description": "legitymacji szkolnej”- ułatwi to identyfikację wpłat.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c2e55261-7141-5b65-bf0a-542038f78c57",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_11",
+                  "title": "",
+                  "description": "Bardzo prosimy o zwrotne przekazanie do Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7ba6a87d-3c46-5eb3-a6b8-7089c06a665f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_12",
+                  "title": "",
+                  "description": "w Bydgoszczy potwierdzenia uiszczenia wymaganej opłaty, drogą elektroniczną na adres:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2f31fad0-8504-5b27-9a5c-9501beeb3cde",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_13",
+                  "title": "",
+                  "description": "sekretariat@plastyk.bydgoszcz.pl, co przyspieszy sporządzenie i wydanie duplikatu.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cfb1e99c-3d3d-5e03-9956-629e27962af0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_14",
+                  "title": "",
+                  "description": "Do pobrania takiej opłaty obliguje nas § 23 ust. 2 rozporządzenia Ministra Kultury i Dziedzictwa",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3e29eccd-b4e3-5abb-a6c1-6a3e4db522e2",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_15",
+                  "title": "",
+                  "description": "Narodowego w sprawie świadectw, dyplomów państwowych i innych druków publicznych szkół i",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1f2f36a4-7731-501d-8b10-2caeaa248587",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_16",
+                  "title": "",
+                  "description": "placówek artystycznych (Dz. U. z 2020 r. poz. 813), zgodnie z którym, za wydanie odpowiednio",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1f76c71c-7521-5b76-9a22-01824dfe9287",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_17",
+                  "title": "",
+                  "description": "duplikatu legitymacji szkolnej albo e-legitymacji szkolnej pobiera się opłatę w wysokości równej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e442f9b1-f63d-5baa-96b7-c47e359a3ca9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_18",
+                  "title": "",
+                  "description": "kwocie opłaty skarbowej od poświadczenia własnoręczności podpisu.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "28d670a8-6746-5c46-89f4-2939ac3e5a81",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_rachunku_ca3fbb79a9",
+                  "title": "numer rachunku",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 19,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "8b6876b6-69f5-5934-ab39-910ec39a19ef",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "38f94630-98cc-5566-a531-0e64af7f2f1d",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "f9ad2f1a-3551-5e30-8ce9-ea320fdbc02e",
+        "source": "16f7cedb-1644-5462-90d7-f1f44e73a485",
+        "target": "30b05429-5ad6-5bde-9391-4f10db33eb71"
+      },
+      {
+        "id": "ff1fa91a-8966-5800-a4df-9054ffe1343b",
+        "source": "30b05429-5ad6-5bde-9391-4f10db33eb71",
+        "target": "8b6876b6-69f5-5934-ab39-910ec39a19ef"
+      }
+    ]
+  }
+}

@@ -1,0 +1,751 @@
+{
+  "title": "WNIOSEK",
+  "tabs": [
+    {
+      "id": "93eb3e06-dfbf-5984-a746-9148315740f6",
+      "title": "Strona 1",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 8,
+          "cols": 3,
+          "field": {
+            "id": "aae10aa0-06a1-513e-beac-8f4aec6689ad",
+            "type": "SECTION",
+            "techName": "dane_formularza_section_s1",
+            "title": "Dane formularza",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "49a38cfc-4b5a-53e6-a45a-cfc1984f0da7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_0",
+                  "title": "",
+                  "description": "Kierownik Urzędu Stanu Cywilnego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "06731e13-2308-5306-8bd7-ea02307b2f1b",
+                  "type": "TEXTAREA",
+                  "techName": "w_milejczycach_870794a213",
+                  "title": "w Milejczycach",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "37832762-bd4a-5561-9b77-1a2a03665fa7",
+                  "type": "TEXTAREA",
+                  "techName": "wnioskodawca_7ed49af6f7",
+                  "title": "Wnioskodawca",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "rows": 18,
+          "cols": 3,
+          "field": {
+            "id": "a58bfd47-adaf-5895-9fcc-192ecc24938c",
+            "type": "SECTION",
+            "techName": "imig_imiona_i_nazwisko_aaa_aaa_section_s2",
+            "title": "[Imig (imiona) i NAZWISKO |. aaa aaa",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d1d5ae53-8295-58ca-a1aa-edb946d4af52",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_0",
+                  "title": "",
+                  "description": "2.NAZWISKO TOdOWE aaa,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "41933fff-54fd-521e-be02-990033c88d4c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_1",
+                  "title": "",
+                  "description": "Na podstawie ustawy z dnia 17 października 2008 r. o zmianie imienia i nazwiska (Dz. U. Nr 220, poz. 1414 z",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "04966b40-9887-5aa5-b104-a5bfd9dc069f",
+                  "type": "DATEPICKER",
+                  "techName": "data_i_miejsce_urodzenia_f25bc94ff0",
+                  "title": "Data i miejsce urodzenia",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "f9f70a3b-9699-5718-90ff-b8f7fa71c205",
+                  "type": "TEXTAREA",
+                  "techName": "stan_cywilny_26efa32f07",
+                  "title": "Stan cywilny",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a3cbbffa-a7f0-5b54-b016-7c9838011d26",
+                  "type": "DATEPICKER",
+                  "techName": "seria_i_nr_dowodu_osobistego_data_wydania_i_organ_wydajacy_8911f078aa",
+                  "title": "Seria i nr dowodu osobistego, data wydania i organ wydajacy",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6a6c8e9f-dad7-5541-97f3-f18085af6d56",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_ewidencyjny_pesel_6baa8e5026",
+                  "title": "Numer ewidencyjny PESEL",
+                  "description": "",
+                  "options": [],
+                  "validation": [
+                    "PESEL"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ab789f13-2788-550d-8d21-fd1ae6d1478f",
+                  "type": "TEXT_FIELD",
+                  "techName": "telefon_kontaktowy_3b8b548fbf",
+                  "title": "Telefon kontaktowy",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 6,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d2f27e9e-28e3-5b79-a2ff-d07f9dac0ba6",
+                  "type": "TEXT_FIELD",
+                  "techName": "o_zmiane_imienia_nazwiska_a64ac46d15",
+                  "title": "O ZMIANĘ IMIENIA / NAZWISKA",
+                  "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                  "options": [],
+                  "validation": [
+                    "REQUIRED"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 7,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d3c82a36-8ef7-5b05-be74-9ab137b290dc",
+                  "type": "TEXT_FIELD",
+                  "techName": "pozn_zm_wnosze_o_zmiane_imienia_nazwiska_nazwiska_rodowego_9bf99fb985",
+                  "title": "późn. zm.) wnoszę o zmianę imienia/nazwiska/nazwiska rodowego",
+                  "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                  "options": [],
+                  "validation": [
+                    "REQUIRED"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 8,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "3ddd735d-e8af-5846-8a59-a98beaf124ca",
+                  "type": "TEXTAREA",
+                  "techName": "na_8aa2b65a05",
+                  "title": "na",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 9,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "26ba6afb-9689-528f-8328-09a7f6830b88",
+                  "type": "TEXTAREA",
+                  "techName": "wnosze_nie_wnosze_o_rozciagniecie_zmiany_na_maloletnie_dzieci_ce0ad4a31c",
+                  "title": "Wnoszę / nie wnoszę o rozciągnięcie zmiany na małoletnie dzieci",
+                  "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                  "options": [],
+                  "validation": [
+                    "REQUIRED"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 10,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "7c93d061-20e2-5b67-88cf-1544110a2bb6",
+      "title": "Strona 2",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 28,
+          "cols": 3,
+          "field": {
+            "id": "f00328b7-dd77-54fa-97ef-f0fc5044ee58",
+            "type": "SECTION",
+            "techName": "strona_2_section_s4",
+            "title": "Strona 2",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7ae35a6c-8838-55f7-bfe6-79ae1b797109",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_0",
+                  "title": "",
+                  "description": "Oświadczam, że w tej samej sprawie nie złożyłem/złożyłam wcześniej wniosku do innego kierownika",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "274613c3-7715-50cb-8671-8765a2f879ac",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_1",
+                  "title": "",
+                  "description": "urzędu stanu cywilnego ani nie została w tej samej sprawie wydana decyzja odmowna.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a7773ceb-ab73-50c9-be5a-36971d7b4ff3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_2",
+                  "title": "",
+                  "description": "data i podpis wnioskodawcy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "af494f8c-f22b-5999-8990-46416a0b6484",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_3",
+                  "title": "",
+                  "description": "* Niepotrzebne skreślić",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "12f66519-0200-5308-b814-affb3d2be4a7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_4",
+                  "title": "",
+                  "description": "Na podst. art. 4 i 8 ust. 1 ustawy z dnia 16.11.2006 r. o opłacie skarbowej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e6112124-9f02-562f-9767-101903482d21",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_5",
+                  "title": "",
+                  "description": "I.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3e53e921-08fc-50b3-ad41-217d4aaf0970",
+                  "type": "TEXT_FIELD",
+                  "techName": "sposob_odbioru_dokumentow_627bc90e59",
+                  "title": "Sposób odbioru dokumentów",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 6,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "77cc5444-8c1b-5e94-86b7-9222f633f868",
+                  "type": "TEXTAREA",
+                  "techName": "d_osobiscie_w_siedzibie_usc_1ba1bfcdc0",
+                  "title": "D osobiście w siedzibie USC",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 7,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1970c6c1-dbe9-5f19-bdee-272dff164783",
+                  "type": "TEXT_FIELD",
+                  "techName": "d_przeslanie_na_adres_wnioskodawcy_258aa6cdeb",
+                  "title": "D przesłanie na adres wnioskodawcy",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 8,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "50e4e505-9b39-5f2b-a092-fc9f493155e0",
+                  "type": "TEXT_FIELD",
+                  "techName": "wskazanie_miejsca_sporzadzenia_wlasciwego_usc_c4d3a1e42a",
+                  "title": "Wskazanie miejsca sporządzenia (właściwego USC)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 9,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "25b156ae-01df-59f9-ba69-a208215bc2ec",
+                  "type": "TEXT_FIELD",
+                  "techName": "aktu_urodzenia_osoby_ktorej_zmiana_dotyczy_a02f322f11",
+                  "title": "aktu urodzenia osoby, której zmiana dotyczy",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 10,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "fb3f5e10-bacd-50bc-a300-918b9ffd9765",
+                  "type": "TEXTAREA",
+                  "techName": "aktu_malzenstwa_osoby_ktorej_zmiana_dotyczy_dbda0dcaf3",
+                  "title": "aktu małżeństwa osoby, której zmiana dotyczy",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 11,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9161caad-c893-520d-9006-3d06b19d7f6b",
+                  "type": "TEXT_FIELD",
+                  "techName": "aktu_urodzenia_maloletnich_dzieci_jezeli_zmiana_bedzie_dotyczyla_tych_aktow_75eb9c0458",
+                  "title": "aktu urodzenia małoletnich dzieci, jeżeli zmiana będzie dotyczyła tych aktów",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "896170ce-c585-502e-9990-1ebb917c4dba",
+                  "type": "TEXTAREA",
+                  "techName": "dz_u_nr_225_poz_1635_z_dnia_08_12_2006_r_ze_zm_673f6a436a",
+                  "title": "(Dz. U. Nr 225 poz. 1635 z dnia 08.12.2006 r. ze zm.)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 13,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "462a6169-5322-5bce-907b-361e8665c0ca",
+                  "type": "TEXTAREA",
+                  "techName": "oplate_skarbowa_w_kwocie_37_zl_zaplacono_w_dniu_c880a7a29d",
+                  "title": "opłatę skarbową w kwocie 37 zł zapłacono w dniu",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 14,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "ed356ae4-222f-557a-aacb-f452325855f9",
+                  "type": "TEXTAREA",
+                  "techName": "nr_kp_25dd1e325e",
+                  "title": "nr KP",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 15,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a768ba50-b493-5e68-91f9-ea9edf03cbd3",
+                  "type": "TEXT_FIELD",
+                  "techName": "na_konto_ca15caa243",
+                  "title": "na konto",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 16,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "e94b4817-720a-5afa-9309-bde3da86f0ad",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "7a9f461e-ab19-5503-a56b-f2015ee50124",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "6e3a1d14-8a29-5a08-87b7-170f9f4b34ee",
+        "source": "93eb3e06-dfbf-5984-a746-9148315740f6",
+        "target": "7c93d061-20e2-5b67-88cf-1544110a2bb6"
+      },
+      {
+        "id": "6a3f427a-7bec-52e3-9cee-1a76be60b013",
+        "source": "7c93d061-20e2-5b67-88cf-1544110a2bb6",
+        "target": "e94b4817-720a-5afa-9309-bde3da86f0ad"
+      }
+    ]
+  }
+}

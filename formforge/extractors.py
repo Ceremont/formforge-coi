@@ -46,6 +46,10 @@ class DocumentExtractor:
                 self.pdf(path)
             elif extension == "docx":
                 self.docx(path)
+            elif extension == "doc":
+                from .legacy_doc import read_doc
+
+                read_doc(self, path)
             elif extension == "xlsx":
                 self.xlsx(path)
             elif extension == "ods":

@@ -107,9 +107,8 @@ def test_partial_tile_failure_retains_other_pages(tmp_path, monkeypatch):
 def test_jpe_and_docx_under_doc_extension_are_verified():
     assert FileValidator(Settings()).validate("unseen.JPE", "image/jpeg", source("07", "jpe").read_bytes()) == "jpe"
     assert FileValidator(Settings()).validate("unseen.DOC", "application/msword", source("05", "doc").read_bytes()) == "docx"
-    with pytest.raises(DocumentError) as e:
-        FileValidator(Settings()).validate("binary.doc", "application/msword", source("01", "doc").read_bytes())
-    assert e.value.code == "doc_not_supported"
+    # 0.4 intentionally adds verified read-only Word97 binary text support.
+    assert FileValidator(Settings()).validate("binary.doc", "application/msword", source("01", "doc").read_bytes()) == "doc"
 
 
 def test_real_certificate_checkboxes_and_other_dependency():

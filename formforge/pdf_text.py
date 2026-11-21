@@ -15,6 +15,11 @@ def lines(textpage, height):
         except Exception:
             continue
         if right <= left or top <= bottom:
+            # PDFium can expose a real space with a zero-area character box.
+            # Preserve that source separator instead of joining Polish words.
+            if char.isspace() and glyphs:
+                previous = glyphs[-1]
+                glyphs[-1] = (*previous[:4], previous[4] + " ")
             continue
         glyphs.append((height - top, left, right, height - bottom, char))
     if not glyphs:
@@ -47,7 +52,7 @@ def lines(textpage, height):
             content = []
             previous = None
             for glyph in segment:
-                if previous and glyph[1] - previous[2] > max(1.3, median * 0.22):
+                if previous and not previous[4][-1].isspace() and not glyph[4].isspace() and glyph[1] - previous[2] > max(1.3, median * 0.22):
                     content.append(" ")
                 content.append(glyph[4])
                 previous = glyph

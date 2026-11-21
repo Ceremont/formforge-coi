@@ -19,9 +19,16 @@ def understand(document):
     output = []
     legal = False
     attachments = False
+    printed_payment = False
+    previous_page = None
     for block in document.blocks:
         text = block.text.strip()
         normalized = " ".join(fold(text).split())
+        if previous_page != block.page:
+            printed_payment = False
+            previous_page = block.page
+        if re.search(r"\boplate (?:wnosi sie|nalezy wniesc)\b", normalized):
+            printed_payment = True
         clean = re.sub(r"^(?:[ivx]+[.)]|\d+(?:\.\d+)*[.)]?)\s*", "", normalized)
         start_legal = bool(
             re.match(r"(?:klauzula informacyjna|informacj[ae].*przetwarzani|obowiazek informacyjny|administratorem (?:pana|pani|danych)|zgodnie z art\.?\s*13)", clean)
@@ -52,6 +59,13 @@ def understand(document):
         elif re.search(r"miejscowosc i data|^[^:]{0,50},\s*dni(?:a)?\b|^dnia\b", normalized):
             block.kind = "information"
             reason = "paper place/date header; electronic completion uses finish page"
+        elif block.kind != "form_field" and (
+            re.search(r"\boplate (?:wnosi sie|nalezy wniesc)\b|potwierdzenia uiszczenia wymaganej oplaty.*(?:adres|droga)", normalized)
+            or printed_payment
+            and normalized == "numer rachunku"
+        ):
+            block.kind = "instruction"
+            reason = "Printed payment instructions and the authority's bank details, not an answer control"
         elif re.match(r"(?:uwaga|instrukcja|pouczenie|wypelnij|wypelniaj|nalezy|niepotrzebne skreslic|postaw|zaznacz|wypelnia organ)\b", clean):
             block.kind = "instruction"
             reason = "explicit completion instruction"

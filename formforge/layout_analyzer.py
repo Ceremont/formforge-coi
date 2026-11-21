@@ -11,7 +11,7 @@ def fold(text: str) -> str:
 
 
 LABEL = re.compile(
-    r"^(?:imie(?: i nazwisko)?|nazwisko|pesel|nip|regon|e-?mail|telefon|data(?: urodzenia| zlozenia)?|kod pocztowy|adres(?: zamieszkania)?|miejscowosc|ulica|numer domu|numer lokalu)\s*[:*]?$",
+    r"^(?:imie(?: i nazwisko)?|nazwisko|(?:(?:numer|nr\.?)\s+)?(?:pesel|nip|regon|krs)|e-?mail|telefon|data(?: urodzenia| zlozenia)?|kod pocztowy|adres(?: zamieszkania)?|miejscowosc|ulica|(?:numer|nr\.?) domu|(?:numer|nr\.?) lokalu|poczta)\s*[:*]?$",
     re.I,
 )
 
@@ -40,14 +40,20 @@ class LayoutAnalyzer:
                     continue
                 if block.kind in ("form_field", "heading", "blank"):
                     continue
-                if re.fullmatch(r"[_ .…\-]{3,}", text):
+                thematic = re.fullmatch(
+                    r"(?:dane (?:wnioskodawcy|osobowe|kontaktowe|ucznia|przedstawiciela)|sposob i forma udostepnienia informacji|zalaczniki)\s*[:* ]*", normalized
+                )
+                if thematic:
+                    block.kind = "heading"
+                    block.metadata["role_reason"] = "Thematic caption without an answer marker"
+                elif re.fullmatch(r"[_ .…\-]{3,}", text):
                     block.kind = "blank"
                 elif re.match(r"^(uwaga|instrukcja|nalezy|wypelnij|prosimy)\b", normalized):
                     block.kind = "instruction"
                 elif re.match(r"^(podstawa prawna|pouczenie|rodo|administratorem danych|zgodnie z art)", normalized):
                     block.kind = "legal"
-                elif not LABEL.fullmatch(normalized.strip(" /*:()")):
-                    numbered = re.match(r"^(?:[IVX]{1,5}|\d{1,2})[.)]\s+[A-ZĄĆĘŁŃÓŚŹŻ]", text)
+                elif not LABEL.fullmatch(re.sub(r"(?<=[a-z])\d{1,2}\b", "", re.sub(r"^(?:[ivx]{1,5}|\d{1,2})[.)]\s*", "", normalized)).strip(" /*:()")):
+                    numbered = re.match(r"^(?:[ivx]{1,5}|\d{1,2})[.)]\s+(?:dane|informacje|instrukcja|oswiadczeni|zalaczniki|podpis)\b", normalized)
                     upper = text.isupper() and 3 < len(text) < 90 and not re.search(r"[:*]|[_:.]{2,}", text)
                     large = block.bbox and block.bbox[3] - block.bbox[1] > median * 1.35
                     if (numbered or upper or large or block.metadata.get("bold")) and len(text) < 110 and not re.search(r"[:_…]|\.{3,}", text):

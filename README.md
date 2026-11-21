@@ -1,4 +1,4 @@
-# FormForge COI 0.3 — Engine Upgrade
+# FormForge COI 0.4 — Intelligence & Compliance
 
 Offline Document AI dla istniejącego projektu HackNation 2026. Python 3.14,
 FastAPI, lokalny OCR, edytor i oficjalny COI `title/tabs/flow`.
@@ -7,13 +7,15 @@ FastAPI, lokalny OCR, edytor i oficjalny COI `title/tabs/flow`.
 Poprawny JSON nie oznacza pełnego odczytu dokumentu. UI pokazuje partial,
 no_fields/review_required, źródła i reguły wymagające potwierdzenia.
 
-Aktualne wyniki: **62/69** plików organizatorów przetworzonych (wcześniej 53/69),
-62/62 lokalnie poprawne COI, **178 pytest**, zachowane wcześniejsze API/UI.
-Siedem binarnych DOC nadal nie jest obsługiwanych. Trzy nowe zewnętrzne dokumenty
+Aktualne wyniki: **68/69** plików organizatorów przetworzonych (wcześniej 53/69),
+68/68 lokalnie poprawne COI, **191 pytest**, zachowane wcześniejsze API/UI.
+Odczyt tekstu Word 97–2003 działa; DOC z osadzonymi obiektami jest odrzucany. Trzy nowe zewnętrzne dokumenty
 oceniono oddzielnie, z oznaczeniami zapisanymi przed predykcją. Dokładny zakres
 metryk, słabe punkty sekcji oraz wyniki before/after:
 
-- [ENGINE_V03_REPORT](docs/ENGINE_V03_REPORT.md)
+- [FINAL_ACCURACY_REPORT](docs/FINAL_ACCURACY_REPORT.md)
+- [COI_REQUIREMENTS_MATRIX](docs/COI_REQUIREMENTS_MATRIX.md)
+- [ENGINE_V03_REPORT — historyczny](docs/ENGINE_V03_REPORT.md)
 - [REMAINING_COMPETITION_GAPS](docs/REMAINING_COMPETITION_GAPS.md)
 - [Kontrakt i sprzeczności COI](docs/OFFICIAL_COI_ANALYSIS.md)
 - `evaluation/engine-v03/README.md` i pełne wyniki/eksporty
@@ -45,6 +47,9 @@ Runtime bez narzędzi testowych: `python -m pip install -r requirements.lock`.
 
 ## Docker
 
+Poniższy przebadany obraz opisuje etap 0.3. Nowy obraz i pełna weryfikacja
+wydania nastąpią w etapie 1.0; aktualny silnik 0.4 działa natywnie.
+
 ```bash
 docker build -t formforge-coi:0.3.0 .
 FORMFORGE_HTTP_PORT=8766 docker compose up -d --no-build
@@ -73,7 +78,7 @@ Pełny natywny SBOM i testy obciążeniowe pozostają osobnym wymaganiem.
 PDF tekstowy, skanowany i mieszany; DOCX z textbox/drawing i tabelami zagnieżdżonymi;
 XLSX/ODS z metadanymi scaleń; PNG/JPG/JPEG/JPE. Rozszerzenie/MIME/sygnatura i
 archiwa są sprawdzane. Dwa pliki `.DOC` z materiałów są naprawdę DOCX i tak są
-czytane po weryfikacji pakietu. **Binarne legacy DOC zwracają 415**.
+czytane po weryfikacji pakietu. DOC Word 97–2003: ograniczony odczyt tekstu przez BSD olefile. Szyfrowanie, makra, osadzone obiekty i starsze wersje są odrzucane; bez składu Word.
 
 Duże skany: limit źródła 80 mln pikseli i budżet 25 mln pikseli na fragment OCR.
 Pionowe pasy są dzielone bez pominiętych pikseli, z logicznymi stronami i
@@ -157,7 +162,7 @@ Pliki są tymczasowe i usuwane po żądaniu; brak bazy dokumentów, logowania tr
 i zewnętrznej analizy. Wybrane załączniki i wartości podglądu nie są utrwalane.
 JWT HS256 jest opcjonalny lokalnie; sekret/issuer/audience podaje się w runtime.
 
-Kod: MIT. Nadal 37 przypiętych bibliotek runtime; brak nowych zależności.
+Kod: MIT. 38 przypiętych bibliotek runtime; nowa zależność olefile 0.47 (BSD).
 Zobacz `requirements.lock`, `docs/runtime-licenses.json`, THIRD_PARTY_NOTICES.md.
 PyMuPDF i LibreOffice nie są zależnościami. Materiały organizatorów i zewnętrznych
 instytucji zachowują własne prawa/warunki. Runtime nie czyta etalonowych JSON ani

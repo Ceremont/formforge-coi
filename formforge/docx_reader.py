@@ -115,7 +115,28 @@ def read_docx(extractor, path):
         kind = "heading" if para.style and para.style.name.startswith(("Heading", "Title", "Nagłówek")) else "text"
         info = dict(metadata or {})
         info["bold"] = bool(para.runs) and all(r.bold for r in para.runs if r.text.strip())
-        extractor.add(text_of(node), page_id, kind="cell" if metadata else kind, method=method, metadata=info, bbox=bbox)
+        text = text_of(node)
+        leaders = node.findall(".//" + qn("w:tabs") + "/" + qn("w:tab"))
+        answer_tabs = not text.strip() and "\t" in text and any(t.get(qn("w:leader")) in {"dot", "underscore"} for t in leaders)
+        if answer_tabs:
+            context = next((b for b in reversed(extractor.blocks[-6:]) if re.fullmatch(r"(?:przedmiot|tresc|zakres|uzasadnienie|opis)(?:\s+\w+){0,4}", b.text.strip(), re.I)), None)
+            if context:
+                extractor.add(
+                    context.text,
+                    page_id,
+                    kind="form_field",
+                    method="docx_tab_leader",
+                    metadata={
+                        "native_type": "textarea",
+                        "requires_review": True,
+                        "source_text": context.text + " · pusta linia z tabulatorem i znakiem wiodącym",
+                        "choice_evidence": "Pusta linia odpowiedzi z tabulatorem po nagłówku tematycznym źródła",
+                    },
+                )
+            else:
+                extractor.add("___", page_id, kind="blank", method="docx_tab_leader", metadata={"input_region": True})
+        else:
+            extractor.add(text, page_id, kind="cell" if metadata else kind, method=method, metadata=info, bbox=bbox)
         for container, index, box, rect in detached:
             container.insert(index, box)
             paragraphs = list(box.iter(qn("w:p")))
@@ -139,7 +160,11 @@ def read_docx(extractor, path):
             elif node.tag == qn("w:tbl"):
                 table = Table(node, parent)
                 seen = set()
+                header = None
                 for ri, row in enumerate(table.rows):
+                    labels = [c.text.strip() for c in row.cells]
+                    if header is None and len({s for s in labels if 1 < len(s) < 110}) >= 2 and all(not s or len(s) < 110 for s in labels):
+                        header = (ri, labels)
                     for ci, cell in enumerate(row.cells):
                         if cell._tc in seen:
                             continue
@@ -151,6 +176,23 @@ def read_docx(extractor, path):
                             "paired_blank": ci + 1 < len(row.cells) and not row.cells[ci + 1].text.strip(),
                             "nested_depth": depth,
                         }
+                        if header and ri > header[0] and ci < len(header[1]) and header[1][ci] and not cell.text.strip() and cell._tc.find(qn("w:tbl")) is None:
+                            label = header[1][ci]
+                            extractor.add(
+                                label,
+                                page_id,
+                                kind="form_field",
+                                method="docx_blank_table_cell",
+                                metadata={
+                                    **meta,
+                                    "native_type": "text",
+                                    "cell": f"{prefix}/t{index}/R{ri + 1}C{ci + 1}",
+                                    "requires_review": True,
+                                    "source_text": f"{label} · pusta komórka: wiersz {ri + 1}, kolumna {ci + 1}",
+                                    "choice_evidence": "Jawna pusta komórka pod wielokolumnowym nagłówkiem tabeli; powtarzalność dynamiczna nie jest zakładana",
+                                },
+                            )
+                            continue
                         for child in cell._tc:
                             if child.tag == qn("w:p"):
                                 paragraph(child, cell, meta, method="docx_table")

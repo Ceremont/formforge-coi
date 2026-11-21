@@ -1,0 +1,722 @@
+{
+  "protocol": "Single annotator; manual source inspection before predictions, strict fixed patterns and type checks. Not an official COI workflow ground truth. Physical page scope for PDF; no persona/row geometry equivalence. Exclusions are preregistered and never adjusted to results.",
+  "created_utc": "2026-11-21T21:36:59.014848+00:00",
+  "cases": [
+    {
+      "id": "name-change",
+      "scope": "Citizen source controls across two scanned pages; compound birth/identity boxes stay text. Includes strikeout decisions and three child rows. Excludes paper signature/place/date and receipt footer for office use. One continued justification, not a second page input.",
+      "expected": [
+        {
+          "key": "applicant",
+          "pattern": "imie.*nazwisko",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "birth_surname",
+          "pattern": "nazwisko rodowe",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "birth_date_place",
+          "pattern": "data i miejsce urodzenia",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "citizenship",
+          "pattern": "obywatelstwo",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "marital_status",
+          "pattern": "stan cywilny",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "address",
+          "pattern": "adres do korespondencji",
+          "type": "address",
+          "page": 1
+        },
+        {
+          "key": "identity_document",
+          "pattern": "seria.*(?:dowodu|dokumentu)",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "pesel",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 1
+        },
+        {
+          "key": "phone",
+          "pattern": "telefon",
+          "type": "phone",
+          "page": 1
+        },
+        {
+          "key": "old_name",
+          "pattern": "^(?:z|dotychczasowe.*)$",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "new_name",
+          "pattern": "^(?:na|nowe.*)$",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "change_kind",
+          "pattern": "zmian.*(?:imienia.*nazwiska|nazwiska.*imienia)",
+          "type": "radio",
+          "page": 1
+        },
+        {
+          "key": "children_extension",
+          "pattern": "wnosze.*nie wnosze|rozciagniecie",
+          "type": "radio",
+          "page": 1
+        },
+        {
+          "key": "child_name_1",
+          "pattern": "(?:imie|nazwisko).*dziec|dziec.*(?:imie|nazwisko)",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "child_pesel_1",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 1
+        },
+        {
+          "key": "child_name_2",
+          "pattern": "(?:imie|nazwisko).*dziec|dziec.*(?:imie|nazwisko)",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "child_pesel_2",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 1
+        },
+        {
+          "key": "child_name_3",
+          "pattern": "(?:imie|nazwisko).*dziec|dziec.*(?:imie|nazwisko)",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "child_pesel_3",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 1
+        },
+        {
+          "key": "reason",
+          "pattern": "uzasadnienie",
+          "type": "textarea",
+          "page": 1
+        },
+        {
+          "key": "personal_delivery",
+          "pattern": "osobiscie.*usc",
+          "type": "checkbox",
+          "page": 2
+        },
+        {
+          "key": "postal_delivery",
+          "pattern": "przeslanie na adres",
+          "type": "checkbox",
+          "page": 2
+        },
+        {
+          "key": "birth_registry",
+          "pattern": "aktu urodzenia osoby",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "marriage_registry",
+          "pattern": "aktu malzenstwa osoby",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "children_registry",
+          "pattern": "aktu urodzenia.*dzieci",
+          "type": "textarea",
+          "page": 2
+        }
+      ],
+      "expected_sections": [
+        "Wnioskodawca",
+        "Uzasadnienie",
+        "Sposób odbioru dokumentów",
+        "Wskazanie miejsca sporządzenia"
+      ]
+    },
+    {
+      "id": "parking-card",
+      "scope": "Citizen fields in Parts A and B, authority-name input, checklist boxes and photograph placeholder in D. Excludes office header, pickup Part C, paper signatures, card designs and legal/technical notes. Matching within physical page; named-person role assignment is not measured.",
+      "expected": [
+        {
+          "key": "authority",
+          "pattern": "nazwa organu",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "applicant_first",
+          "pattern": "^imie",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "applicant_last",
+          "pattern": "^nazwisko",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "applicant_pesel",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 1
+        },
+        {
+          "key": "applicant_ruling",
+          "pattern": "numer i data",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "applicant_town",
+          "pattern": "miejscowosc",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "applicant_postal",
+          "pattern": "kod pocztowy",
+          "type": "postal_code",
+          "page": 1
+        },
+        {
+          "key": "applicant_postoffice",
+          "pattern": "poczta",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "applicant_street",
+          "pattern": "ulica",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "applicant_home",
+          "pattern": "nr domu|numer domu",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "representative_first",
+          "pattern": "^imie",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "representative_last",
+          "pattern": "^nazwisko",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "representative_pesel",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 1
+        },
+        {
+          "key": "representative_town",
+          "pattern": "miejscowosc",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "representative_postal",
+          "pattern": "kod pocztowy",
+          "type": "postal_code",
+          "page": 1
+        },
+        {
+          "key": "representative_postoffice",
+          "pattern": "poczta",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "representative_street",
+          "pattern": "ulica",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "representative_home",
+          "pattern": "nr domu|numer domu",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "photo_check",
+          "pattern": "fotografi",
+          "type": "checkbox",
+          "page": 1
+        },
+        {
+          "key": "fee_check",
+          "pattern": "dowod.*oplat",
+          "type": "checkbox",
+          "page": 1
+        },
+        {
+          "key": "parent_declaration",
+          "pattern": "wladze rodzicielska",
+          "type": "checkbox",
+          "page": 1
+        },
+        {
+          "key": "guardian_declaration",
+          "pattern": "sprawuje opieke",
+          "type": "checkbox",
+          "page": 1
+        },
+        {
+          "key": "curator_declaration",
+          "pattern": "sprawuje kuratele",
+          "type": "checkbox",
+          "page": 1
+        },
+        {
+          "key": "truth_declaration",
+          "pattern": "dane.*aktualne",
+          "type": "checkbox",
+          "page": 1
+        },
+        {
+          "key": "pickup_name",
+          "pattern": "upowazniam.*pana|upowaznion.*imie",
+          "type": "text",
+          "page": 1
+        },
+        {
+          "key": "pickup_pesel",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 1
+        },
+        {
+          "key": "facility_facility",
+          "pattern": "^nazwa",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_krs",
+          "pattern": "krs",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_regon",
+          "pattern": "regon",
+          "type": "regon",
+          "page": 2
+        },
+        {
+          "key": "facility_plate",
+          "pattern": "numer rejestracyjny",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_vehicle",
+          "pattern": "marka i model",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_town",
+          "pattern": "miejscowosc",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_postal",
+          "pattern": "kod pocztowy",
+          "type": "postal_code",
+          "page": 2
+        },
+        {
+          "key": "facility_postoffice",
+          "pattern": "poczta",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_street",
+          "pattern": "ulica",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_home",
+          "pattern": "nr domu|numer domu",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_first",
+          "pattern": "^imie",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_last",
+          "pattern": "^nazwisko",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_pesel",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": 2
+        },
+        {
+          "key": "facility_town2",
+          "pattern": "miejscowosc",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_postal2",
+          "pattern": "kod pocztowy",
+          "type": "postal_code",
+          "page": 2
+        },
+        {
+          "key": "facility_postoffice2",
+          "pattern": "poczta",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_street2",
+          "pattern": "ulica",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_home2",
+          "pattern": "nr domu|numer domu",
+          "type": "text",
+          "page": 2
+        },
+        {
+          "key": "facility_fee_check",
+          "pattern": "dowod.*oplat",
+          "type": "checkbox",
+          "page": 2
+        },
+        {
+          "key": "facility_authorization",
+          "pattern": "posiadam upowaznienie",
+          "type": "checkbox",
+          "page": 2
+        },
+        {
+          "key": "facility_activity",
+          "pattern": "placowka prowadzi",
+          "type": "checkbox",
+          "page": 2
+        },
+        {
+          "key": "facility_truth",
+          "pattern": "dane.*aktualne",
+          "type": "checkbox",
+          "page": 2
+        },
+        {
+          "key": "photo_upload",
+          "pattern": "fotografi",
+          "type": "attachment",
+          "page": 3
+        }
+      ],
+      "expected_sections": [
+        "Dane wnioskodawcy",
+        "Adres do korespondencji",
+        "Dane osoby składającej wniosek",
+        "Upoważnienie",
+        "Adres siedziby"
+      ]
+    },
+    {
+      "id": "tree-removal",
+      "scope": "Three personal controls, all six cells in each of six explicit blank table rows, and source-listed map upload. No dynamic group inferred. Excludes paper signature/date and legal guidance. DOCX pagination unknown; no page restriction.",
+      "expected": [
+        {
+          "key": "owner",
+          "pattern": "imie.*nazwisko",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "address",
+          "pattern": "adres zamieszkania|korespondencyjny",
+          "type": "address",
+          "page": null
+        },
+        {
+          "key": "phone",
+          "pattern": "numer telefonu",
+          "type": "phone",
+          "page": null
+        },
+        {
+          "key": "row1_number",
+          "pattern": "^nr$",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row1_species",
+          "pattern": "gatunek",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row1_circ130",
+          "pattern": "obwod.*130",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row1_circ5",
+          "pattern": "obwod.*5\\s*cm",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row1_land",
+          "pattern": "dzialki.*obreb",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row1_notes",
+          "pattern": "uwagi",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "row2_number",
+          "pattern": "^nr$",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row2_species",
+          "pattern": "gatunek",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row2_circ130",
+          "pattern": "obwod.*130",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row2_circ5",
+          "pattern": "obwod.*5\\s*cm",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row2_land",
+          "pattern": "dzialki.*obreb",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row2_notes",
+          "pattern": "uwagi",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "row3_number",
+          "pattern": "^nr$",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row3_species",
+          "pattern": "gatunek",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row3_circ130",
+          "pattern": "obwod.*130",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row3_circ5",
+          "pattern": "obwod.*5\\s*cm",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row3_land",
+          "pattern": "dzialki.*obreb",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row3_notes",
+          "pattern": "uwagi",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "row4_number",
+          "pattern": "^nr$",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row4_species",
+          "pattern": "gatunek",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row4_circ130",
+          "pattern": "obwod.*130",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row4_circ5",
+          "pattern": "obwod.*5\\s*cm",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row4_land",
+          "pattern": "dzialki.*obreb",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row4_notes",
+          "pattern": "uwagi",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "row5_number",
+          "pattern": "^nr$",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row5_species",
+          "pattern": "gatunek",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row5_circ130",
+          "pattern": "obwod.*130",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row5_circ5",
+          "pattern": "obwod.*5\\s*cm",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row5_land",
+          "pattern": "dzialki.*obreb",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row5_notes",
+          "pattern": "uwagi",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "row6_number",
+          "pattern": "^nr$",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row6_species",
+          "pattern": "gatunek",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row6_circ130",
+          "pattern": "obwod.*130",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row6_circ5",
+          "pattern": "obwod.*5\\s*cm",
+          "type": "number",
+          "page": null
+        },
+        {
+          "key": "row6_land",
+          "pattern": "dzialki.*obreb",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "row6_notes",
+          "pattern": "uwagi",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "map",
+          "pattern": "rysunek|mapa|mapke",
+          "type": "attachment",
+          "page": null
+        }
+      ],
+      "expected_sections": null
+    }
+  ]
+}

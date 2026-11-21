@@ -186,6 +186,9 @@ def main():
     import pypdfium2 as pdfium
 
     OUT.mkdir(exist_ok=True)
+    from doc_sample import document_bytes
+
+    (OUT / "zaswiadczenie.doc").write_bytes(document_bytes("\r".join(SPECS["zaswiadczenie"][0]) + "\r"))
     expected = {}
     for name, pages in SPECS.items():
         write_pdf(OUT / f"{name}.pdf", pages)

@@ -15,8 +15,8 @@ TYPE_RULES = [
     (r"\b(telefon(?:u|iczny|icznego)?|tel\.?|phone)\b", FieldType.PHONE),
     (r"\b(kod pocztowy|postal code)\b", FieldType.POSTAL_CODE),
     (r"\b(data|date|termin(?:ie|u)?)\b|(?:od|do) dnia|(?:rrrr|yyyy)[-/.](?:mm)[-/.](?:dd)|(?:dd)[-/.](?:mm)[-/.](?:rrrr|yyyy)", FieldType.DATE),
-    (r"\b(liczba|ilosc|kwota|wysokosc oplaty|powierzchnia|dlugosc|szerokosc|razem|number|amount)\b", FieldType.NUMBER),
-    (r"\b(uzasadnienie|opis|uwagi|description)\b", FieldType.TEXTAREA),
+    (r"\b(liczba|ilosc|kwota|wysokosc oplaty|powierzchnia|dlugosc|szerokosc|obwod|razem|number|amount)\b|^nr$", FieldType.NUMBER),
+    (r"\b(uzasadnienie|opis|uwagi|description|przyczyna)\b|z powodu|nastepujacym zakresie", FieldType.TEXTAREA),
     (r"\b(zalacznik|zalaczniki|attachment)\b", FieldType.ATTACHMENT),
     (r"\b(adres|address)\b", FieldType.ADDRESS),
 ]
@@ -61,7 +61,7 @@ class FieldDetector:
                     continue
                 if existing:
                     fields.remove(existing)
-                normalized = fold(label)
+                normalized = re.sub(r"(?<=[a-z])\d{1,2}\b", "", fold(label))
                 if kind == FieldType.TEXT:
                     kind = next((field_type for pattern, field_type in TYPE_RULES if re.search(pattern, normalized)), FieldType.TEXT)
                     simple_text = re.search(r"imie|nazwisk|miejscowosc|ulica|nr domu|nr lokalu|numer (?:domu|lokalu|rachunku)|rasa psa", normalized)
@@ -70,6 +70,9 @@ class FieldDetector:
                 if label.lower() == "do" and fields and fields[-1].field_type == FieldType.DATE:
                     kind = FieldType.DATE
                     label = "do (koniec terminu)"
+                alternative_contact = "/" in label and "adres" in normalized and "mail" in normalized and "telefon" in normalized
+                if alternative_contact:
+                    kind = FieldType.TEXT
                 required = bool(block.metadata.get("required")) or bool(re.search(r"\*|\bobowiazkow[eya]\b|\bwymagan[eya]\b", fold(text)))
                 if re.search(r"opcjonaln|nie (?:są|sa) (?:obowiązkowe|obowiazkowe)|nieobowiazk", fold(text)):
                     required = False
@@ -77,6 +80,8 @@ class FieldDetector:
                 field_id = "f_" + sha256(f"{block.page}:{block.id}:{label}".encode()).hexdigest()[:12]
                 review = (
                     min(confidence, block.confidence) < 0.8
+                    or normalized != fold(label)
+                    or alternative_contact
                     or bool(block.metadata.get("requires_review"))
                     or bool(re.search(r"\b(jezeli|jesli|w przypadku|o ile|when|if)\b", fold(text)))
                 )
@@ -166,6 +171,9 @@ class FieldDetector:
             labels = [p.strip(" .…:_;-\n") for p in parts[:-1] if p.strip(" .…:_;-\n")]
             if labels:
                 return [(label, FieldType.TEXT, [], 0.9) for label in labels]
+            caption = parts[-1].strip()
+            if caption.startswith("(") and caption.endswith(")") and len(caption) < 120 and re.search(r"\b(imie|nazwisko|adres|telefon|telefonu|pesel|nip|regon|kod pocztowy)\b", fold(caption)):
+                return [(caption.strip("() "), FieldType.TEXT, [], 0.85)]
         if ":" in text:
             label, tail = text.split(":", 1)
             if len(label) < 140 and not re.search(r"[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż]", tail) and len(label.split()) <= 18:

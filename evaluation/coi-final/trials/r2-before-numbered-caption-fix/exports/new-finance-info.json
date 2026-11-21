@@ -1,0 +1,1022 @@
+{
+  "title": "Wniosek o udostępnienie informacji publicznej",
+  "tabs": [
+    {
+      "id": "41b35810-e221-5c13-a9a1-2a96ad084450",
+      "title": "Strona 1",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "863b8385-5e73-5ce3-b5b2-7b2242205aeb",
+            "type": "SECTION",
+            "techName": "dane_wnioskodawcy_section_s1",
+            "title": "Dane wnioskodawcy",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b6b82f60-7717-5890-a6b1-fcbf43de19bb",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_5f0e147021",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "10d7bdb4-4260-5d68-b1d4-9c0a73f21eae",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_0f03dff902",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7c6a7504-2f11-571b-bbec-6e5dac0361b4",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_zamieszkania_adres_e_mail_skrytka_epuap_numer_telefonu_4900b0648c",
+                  "title": "Adres zamieszkania/adres e-mail/skrytka ePUAP/numer telefonu",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "35016b09-6e1d-5d77-b604-1a5df7f20f4e",
+            "type": "SECTION",
+            "techName": "dane_organu_section_s2",
+            "title": "Dane organu",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "420bdd0c-ba95-5a47-8e0c-f52eebae73ae",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_0",
+                  "title": "",
+                  "description": "Minister Finansów i Gospodarki",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c34880fa-804d-5c6f-8f45-4829a0bfe2da",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_1",
+                  "title": "",
+                  "description": "Ministerstwo Finansów ul. Świętokrzyska 12, 00-916 Warszawa",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2a794113-64a7-567f-a69e-5425fca130b5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_2",
+                  "title": "",
+                  "description": "Adres: ePUAP: /bx1qpt265q/skrytka /email: kancelaria@mf.gov.pl",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "169b76f2-9ee2-5f0f-a257-5c0c98533ef5",
+            "type": "SECTION",
+            "techName": "przedmiot_wniosku_section_s3",
+            "title": "Przedmiot wniosku",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c97ed291-72ee-5eeb-b608-755ad87703e1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_0",
+                  "title": "",
+                  "description": "Na podstawie art. 2 ust. 1 i art. 10 ust. 1 ustawy o dostępie do  informacji publicznej wnoszę o udostępnienie następujących informacji:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "f7c4070c-6f10-565c-81a9-bd3638b3905a",
+                  "type": "TEXTAREA",
+                  "techName": "przedmiot_wniosku_6abe691380",
+                  "title": "Przedmiot wniosku",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 13,
+          "rows": 36,
+          "cols": 3,
+          "field": {
+            "id": "146838c2-6481-5d11-90af-e2cf7e03848c",
+            "type": "SECTION",
+            "techName": "na_podstawie_art_14_ust_1_ustawy1_wnosze_o_udostepnienie_mi_powyzszych_informacji_w_nastepujacy_spos_section_s5",
+            "title": "Na podstawie art. 14 ust. 1 ustawy1, wnoszę o udostępnienie mi powyższych informacji w  następujący sposób (zaznacz puste pole):",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "89afa767-6beb-5bdd-8885-8d099afab979",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_0",
+                  "title": "",
+                  "description": "Data i podpis wnioskodawcy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c39aed7b-1767-5de7-9e54-222113205371",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_1",
+                  "title": "",
+                  "description": "KLAUZULA INFORMACYJNA\ndotycząca przetwarzania danych osobowych\nosób wnioskujących o udostępnienie informacji publicznej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c4a5772d-d2b5-5091-aebd-99d3de4ccbdc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_2",
+                  "title": "",
+                  "description": "Zgodnie z art. 13 ust. 1 i 2 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz. Urz. UE L 119 z 04.05.2016, str. 1, ze zm.), dalej RODO, Administrator informuje:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e733da8d-d537-5939-b046-117878bb26d9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_3",
+                  "title": "",
+                  "description": "1.\tTożsamość i dane kontaktowe administratora",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "694b9d61-77fc-5139-9aaa-3d28df1f39a7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_4",
+                  "title": "",
+                  "description": "Administratorem Pani/Pana danych osobowych jest Minister Finansów i Gospodarki, z którym można się kontaktować kierując korespondencję na adres:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d8b717fa-3c75-5564-8378-d67598b199ee",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_5",
+                  "title": "",
+                  "description": "Ministerstwo Finansów, ul. Świętokrzyska 12, 00-916 Warszawa,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b9ed7140-9610-5cb3-856a-ac24ae2c6f60",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_6",
+                  "title": "",
+                  "description": "skrzynki podawczej na platformie ePUAP: /bx1qpt265q/SkrytkaESP,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6c944ab0-1c88-5aa9-a838-0ab61f644129",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_7",
+                  "title": "",
+                  "description": "poczty elektronicznej: kancelaria@mf.gov.pl.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "be0caff6-4ff4-500a-9971-3e5b9f4507c1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_8",
+                  "title": "",
+                  "description": "2.\tDane kontaktowe inspektora ochrony danych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b1b68cf1-5eff-591d-8970-a4cb69f6f8c3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_9",
+                  "title": "",
+                  "description": "Administrator wyznaczył Inspektora Ochrony Danych, z którym można się kontaktować kierując korespondencję na adres e-mail: iod@mf.gov.pl.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a5b4594c-a102-5a1f-891e-8bc4f639f57c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_10",
+                  "title": "",
+                  "description": "3.\tCel przetwarzania danych osobowych i podstawy prawne",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d0581470-3090-5f9d-859f-9c4d2791e91b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_11",
+                  "title": "",
+                  "description": "Administrator przetwarza Pani/Pana dane osobowe w celu rozpatrzenia wniosku o  udostępnienie informacji publicznej, w tym udzielenia odpowiedzi lub wydania decyzji administracyjnych, na podstawie art. 6 ust. 1 lit. c RODO – przetwarzanie danych jest niezbędne do wypełnienia obowiązku prawnego ciążącego na administratorze, w szczególności w związku z:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "75157213-ef1d-5321-88e9-7526f1590975",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_12",
+                  "title": "",
+                  "description": "Ustawą z dnia 6 września 2001 r. o dostępie do informacji publicznej (Dz. U.\nz 2022 r. poz. 902),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "52fb66a8-b43e-5436-a419-ae3a5c6fdc65",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_13",
+                  "title": "",
+                  "description": "Ustawą z dnia 14 czerwca 1960 r. Kodeks postępowania administracyjnego (Dz. U. z 2024 r. poz. 572).",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cc8bcdb5-ccc5-5ae8-ae69-c480774df31e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_14",
+                  "title": "",
+                  "description": "4.\tInformacja o odbiorcach danych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "19f234db-9839-5ccb-9888-67815d21f9b0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_15",
+                  "title": "",
+                  "description": "Odbiorcami danych osobowych mogą być podmioty uprawnione do ich otrzymania na podstawie obowiązujących przepisów prawa. Odrębną kategorię odbiorców stanowią podmioty przetwarzające dane osobowe na zlecenie Administratora, w szczególności te, z którymi zawarto umowy na świadczenie usług serwisowych dla użytkowanych systemów informatycznych.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9e42d8c2-1142-52f5-a7ec-cc97de93904b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_16",
+                  "title": "",
+                  "description": "5.\tOkres przechowywania danych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "40d5ae85-02c3-5b5c-ab80-4a5b20a092dc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_17",
+                  "title": "",
+                  "description": "Dane osobowe będą przechowywane przez okres niezbędny do realizacji celów przetwarzania określonych w pkt. 3 lub do momentu wygaśnięcia obowiązków ciążących na Administratorze, a po upływie tego okresu będą archiwizowane zgodnie z okresem przewidzianym w przepisach prawa.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "596a20ae-a5a4-5c91-ad9d-0df97f004c1b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_18",
+                  "title": "",
+                  "description": "6.\tPrawa osób, których dane dotyczą",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "899870ee-3e04-58ac-9436-b0367d884ee1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_19",
+                  "title": "",
+                  "description": "Osobie, której dane dotyczą przysługuje prawo do:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "dfeeb778-d7c0-5015-b7e4-e97d38764e96",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_20",
+                  "title": "",
+                  "description": "dostępu do swoich danych osobowych (art. 15 RODO),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "189b1afb-58aa-5845-aff6-d72a881190dc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_21",
+                  "title": "",
+                  "description": "sprostowania danych osobowych (art. 16 RODO),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5c09f9ca-56f7-5383-9330-a2a5e9e63f34",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_22",
+                  "title": "",
+                  "description": "usunięcia danych, jeżeli zachodzi jedna z okoliczności określonych w art. 17 RODO,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9501ef03-4f2b-5179-93af-61d3008f668c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_23",
+                  "title": "",
+                  "description": "ograniczenia przetwarzania danych osobowych (art. 18 RODO), z zastrzeżeniem przypadków, o których mowa w art. 18 ust. 2 RODO.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ff6a90f8-b679-5816-83e9-dbcdd7dc2270",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_24",
+                  "title": "",
+                  "description": "W przypadku uznania, że przetwarzanie danych osobowych narusza przepisy prawa osobom, których dane dotyczą przysługuje prawo wniesienia skargi do organu nadzorczego - Prezesa Urzędu Ochrony Danych Osobowych.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 25,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "100d894a-0a6e-5364-85e1-bfcfc01f3eab",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_25",
+                  "title": "",
+                  "description": "7.\tInformacja o obowiązku lub dobrowolności podania danych osobowych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "02fd8162-e836-5ab3-b5af-8e4d9752d8b5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_26",
+                  "title": "",
+                  "description": "Podanie danych osobowych wnioskodawcy w ramach dostępu do informacji publicznej jest dobrowolne. Podmiot wnioskujący o udostępnienie informacji publicznej musi podać adresatowi wniosku jedynie takie dane, które są niezbędne do prawidłowego rozpoznania i załatwienia wniosku w zależności od wybranej przez wnioskodawcę formy i sposobu doręczenia wnioskowanych informacji. Podanie pełnych danych może być jednak niezbędne, w  przypadku odmowy udostępnienia informacji publicznej w formie decyzji administracyjnej. W takim przypadku brak wymaganych danych osobowych wnioskodawcy spowoduje pozostawienie wniosku bez rozpoznania.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 27,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e6ce49ea-94fc-539c-bec3-8a83b084a4bd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_27",
+                  "title": "",
+                  "description": "8.\tInformacja o zautomatyzowanym podejmowaniu, w tym profilowaniu",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 28,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f11a01ed-079f-507d-858f-78ff1ade5449",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_28",
+                  "title": "",
+                  "description": "Przetwarzane przez Administratora dane osobowe nie będą wykorzystywane do podejmowania zautomatyzowanych decyzji w indywidualnych przypadkach, w tym do profilowania, o którym mowa w art. 22 RODO.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 29,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "94aba1a2-794e-5fcd-a2e9-3d8e284dfbbb",
+                  "type": "CHECKBOX",
+                  "techName": "przeslanie_poczta_elektroniczna_na_wskazany_w_naglowku_adres_e_mail_93ab3f7fce",
+                  "title": "przesłanie pocztą elektroniczną na wskazany w nagłówku adres e-mail",
+                  "description": "",
+                  "options": [
+                    {
+                      "id": "przesłanie pocztą elektroniczną na wskazany w nagłówku adres e-mail",
+                      "name": "przesłanie pocztą elektroniczną na wskazany w nagłówku adres e-mail",
+                      "techName": "przeslanie_poczta_elektroniczna_na_wskazany_w_naglowku_adres_e_mail_0"
+                    }
+                  ],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 29,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 30,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3bae83fc-9262-558b-b6a5-b0d3af6e3a76",
+                  "type": "CHECKBOX",
+                  "techName": "przeslanie_poczta_na_adres_wskazany_w_naglowku_w_formie_wydruku_kserokopii_b831e319ee",
+                  "title": "przesłanie pocztą na adres wskazany w nagłówku w formie wydruku/kserokopii",
+                  "description": "",
+                  "options": [
+                    {
+                      "id": "przesłanie pocztą na adres wskazany w nagłówku w formie wydruku/kserokopii",
+                      "name": "przesłanie pocztą na adres wskazany w nagłówku w formie wydruku/kserokopii",
+                      "techName": "przeslanie_poczta_na_adres_wskazany_w_naglowku_w_formie_wydruku_kserokopii_0"
+                    }
+                  ],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 30,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 31,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f06e5933-4be0-5532-a7b6-ec82109cb6ce",
+                  "type": "CHECKBOX",
+                  "techName": "przeslanie_poczta_na_adres_wskazany_w_naglowku_w_formie_zapisu_na_dysku_cd_dvd_93b4f0081a",
+                  "title": "przesłanie pocztą na adres wskazany w nagłówku w formie zapisu na dysku CD/DVD",
+                  "description": "",
+                  "options": [
+                    {
+                      "id": "przesłanie pocztą na adres wskazany w nagłówku w formie zapisu na dysku CD/DVD",
+                      "name": "przesłanie pocztą na adres wskazany w nagłówku w formie zapisu na dysku CD/DVD",
+                      "techName": "przeslanie_poczta_na_adres_wskazany_w_naglowku_w_formie_zapisu_na_dysku_cd_dvd_0"
+                    }
+                  ],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 31,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 32,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fb36a438-c62d-58bf-a999-0e14ef2db59f",
+                  "type": "CHECKBOX",
+                  "techName": "przeslanie_na_wskazana_w_naglowku_skrzynke_na_platformie_e_puap_a87d3cbfef",
+                  "title": "przesłanie na wskazaną w nagłówku skrzynkę na platformie e-PUAP",
+                  "description": "",
+                  "options": [
+                    {
+                      "id": "przesłanie na wskazaną w nagłówku skrzynkę na platformie e-PUAP",
+                      "name": "przesłanie na wskazaną w nagłówku skrzynkę na platformie e-PUAP",
+                      "techName": "przeslanie_na_wskazana_w_naglowku_skrzynke_na_platformie_e_puap_0"
+                    }
+                  ],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 32,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 33,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7f74068b-5b82-5f02-9a17-939ef22b69eb",
+                  "type": "CHECKBOX",
+                  "techName": "do_wgladu_w_urzedzie_niezbedne_jest_podanie_numeru_telefonu_kontaktowego_do_uzgodnienia_szczegolow_w_aa0a705fb1",
+                  "title": "do wglądu w urzędzie (niezbędne jest podanie numeru telefonu kontaktowego do uzgodnienia szczegółów wizyty w urzędzie)",
+                  "description": "",
+                  "options": [
+                    {
+                      "id": "do wglądu w urzędzie (niezbędne jest podanie numeru telefonu kontaktowego do uzgodnienia szczegółów wizyty w urzędzie)",
+                      "name": "do wglądu w urzędzie (niezbędne jest podanie numeru telefonu kontaktowego do uzgodnienia szczegółów wizyty w urzędzie)",
+                      "techName": "do_wgladu_w_urzedzie_niezbedne_jest_podanie_numeru_telefonu_kontaktowego_do_uzgodnienia_szczegolow_w_0"
+                    }
+                  ],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 33,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 34,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5b8cb3c8-e197-57e4-bb17-68bc48d6dbd8",
+                  "type": "TEXT_FIELD",
+                  "techName": "albo_w_nastepujacy_sposob_876fd5a2ae",
+                  "title": "albo w następujący sposób",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 34,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 3,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "a08055e8-e3dd-50a2-babf-c920233d0add",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "d56f3337-5c85-5c55-b4f7-5f1c88aacd3c",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "8a21391f-7390-5a79-a09f-706a6b47b971",
+        "source": "41b35810-e221-5c13-a9a1-2a96ad084450",
+        "target": "a08055e8-e3dd-50a2-babf-c920233d0add"
+      }
+    ]
+  }
+}

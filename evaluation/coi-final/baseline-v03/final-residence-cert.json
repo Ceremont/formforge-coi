@@ -1,0 +1,5816 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_ab805bc119b0f0aa",
+    "title": "WNIOSEK",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Milejczyce, dnia ..................................202 ...",
+          "Urząd Gminy Milejczyce",
+          "a) O zameldowaniu na pobyt stały / czasowy *,",
+          "b) O wymeldowaniu z pobytu stałego / czasowego *,",
+          "c) O ilości (liczbie) osób zameldowanych (na wniosek właściciela /najemcy po okazaniu tytułu prawnego do",
+          "lokalu),",
+          "d) O okresach zameldowania.",
+          "(imię i nazwisko)",
+          "(stopień pokrewieństwa)",
+          "(imię i nazwisko pełnomocnika)",
+          "(nazwa dokumentu, seria i numer)",
+          "(podpis wnioskodawcy)",
+          "(podpisodbierającego)",
+          "*niepotrzebne skreślić",
+          "na konto Urzędu Gminy Milejczyce.",
+          "listopada 2006 r. o opłacie skarbowej",
+          "( Dz. U. z 2016 r. poz. 1827, z późn. zm.)",
+          "Pouczenie:",
+          "- Wydanie zaświadczenia oraz złożenie pełnomocnictwa podlegają opłacie skarbowej w wysokości 17 zł. każde. Obowiązek zapłaty opłaty",
+          "skarbowej powstaje z chwilą złożenia wniosku i pełnomocnictwa (dowód wniesienia opłaty stanowi załącznikdo' wniosku),",
+          "- Ubiegając się o zaświadczenie o zameldowaniu na pobyt stały lub czasowy innej osoby wnioskodawca jest obowiązany wskazać przepis,",
+          "którygo upoważnia do żądania wydania takiego dokumentu,",
+          "- Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną",
+          "potrzebę posiadania zaświadczenia lub dołączenia dokumentu z którego wynika obowiązek złożenia w/w zaświadczenia(np. wezwanie",
+          "sądowe czypostanowienia lub decyzji innych organów)."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_9c240ad9d92c",
+        "label": "USC.5345",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b1",
+          "text": "USC.5345. .... . 202...",
+          "bbox": [
+            436.8470458984375,
+            6.551025390625,
+            576.6600952148438,
+            20.8033447265625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            436.8470458984375,
+            6.551025390625,
+            576.6600952148438,
+            20.8033447265625
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_106e157214ac",
+        "label": "(imię i nazwisko)",
+        "field_type": "text",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "(imię i nazwisko)",
+          "bbox": [
+            84.98410034179688,
+            57.4281005859375,
+            154.84353637695312,
+            66.59130859375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            14.1600341796875,
+            43.64398193359375,
+            254.1600341796875,
+            54.55194091796875
+          ],
+          "label_bbox": [
+            84.98410034179688,
+            57.4281005859375,
+            154.84353637695312,
+            66.59130859375
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_5305a634704f",
+        "label": "(adres zamieszkania)",
+        "field_type": "address",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "(adres zamieszkania)",
+          "bbox": [
+            84.98408508300781,
+            94.38775634765625,
+            168.87716674804688,
+            103.45135498046875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            14.160079956054688,
+            80.9639892578125,
+            260.2100830078125,
+            131.011962890625
+          ],
+          "label_bbox": [
+            84.98408508300781,
+            94.38775634765625,
+            168.87716674804688,
+            103.45135498046875
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_bd73bd62a90e",
+        "label": "Proszę o wydanie zaświadczenia z akt ewidencji ludności",
+        "field_type": "text",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b10",
+          "text": "Proszę o wydanie zaświadczenia z akt ewidencji ludności:",
+          "bbox": [
+            49.56024169921875,
+            223.39990234375,
+            328.9922180175781,
+            234.451904296875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            49.56024169921875,
+            223.39990234375,
+            328.9922180175781,
+            234.451904296875
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_b280f489e88c",
+        "label": "dotyczącego",
+        "field_type": "text",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "dotyczącego ................................................................................ ..........................................................................",
+          "bbox": [
+            14.160202026367188,
+            313.33392333984375,
+            544.2501831054688,
+            324.24188232421875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160202026367188,
+            313.33392333984375,
+            544.2501831054688,
+            324.24188232421875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_88f16fb66f2f",
+        "label": "na terenie",
+        "field_type": "text",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+          "bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_c6dafee0556f",
+        "label": "w lokalu przy ulicy",
+        "field_type": "text",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+          "bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0b1d72d5ee24",
+        "label": "nr domu",
+        "field_type": "text",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "nr domu ............ nr mieszkania ...............................",
+          "bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f57d84f3f226",
+        "label": "nr mieszkania",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "nr domu ............ nr mieszkania ...............................",
+          "bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_72f5dce6809e",
+        "label": "Zaświadczenie potrzebnejest w celu / przedłożenia w",
+        "field_type": "text",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b21",
+          "text": "Zaświadczenie potrzebnejest w celu / przedłożenia w ....................................................................................................",
+          "bbox": [
+            14.160202026367188,
+            400.5499267578125,
+            575.5001831054688,
+            411.6019287109375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160202026367188,
+            400.5499267578125,
+            575.5001831054688,
+            411.6019287109375
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_97022239c38a",
+        "label": "Do odebrania zaświadczenia upoważniam Panią/Pana",
+        "field_type": "text",
+        "required": false,
+        "order": 10,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "Do odebrania zaświadczenia upoważniam Panią/Pana ......................................................................................................",
+          "bbox": [
+            14.1602783203125,
+            455.7619323730469,
+            581.2802734375,
+            466.80194091796875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.1602783203125,
+            455.7619323730469,
+            581.2802734375,
+            466.80194091796875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_99e589f51411",
+        "label": "legitymującą/-ego się dokumentem tożsamości",
+        "field_type": "text",
+        "required": false,
+        "order": 11,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b25",
+          "text": "legitymującą/-ego się dokumentem tożsamości .............................................................................................................",
+          "bbox": [
+            14.1602783203125,
+            503.4049377441406,
+            569.230224609375,
+            514.4569396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.1602783203125,
+            503.4049377441406,
+            569.230224609375,
+            514.4569396972656
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ab85800ea5de",
+        "label": "Otrzymałam/-em dnia",
+        "field_type": "text",
+        "required": false,
+        "order": 12,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b29",
+          "text": "Otrzymałam/-em dnia .................................... 202 .... ..........................................................................",
+          "bbox": [
+            14.160400390625,
+            619.2339324951172,
+            515.8604125976562,
+            632.8549346923828
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160400390625,
+            619.2339324951172,
+            515.8604125976562,
+            632.8549346923828
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_8da9b51723e2",
+        "label": "Opłatę skarbową w wysokości",
+        "field_type": "text",
+        "required": false,
+        "order": 13,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b32",
+          "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+          "bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_16b0f1c4a750",
+        "label": "zł 2. nie podlega opłacie skarbowej art",
+        "field_type": "text",
+        "required": false,
+        "order": 14,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b32",
+          "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+          "bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_9d6cf6d464e4",
+        "label": "dokonano dnia",
+        "field_type": "text",
+        "required": false,
+        "order": 15,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_dbe942fe5719",
+        "label": ", , ust",
+        "field_type": "text",
+        "required": false,
+        "order": 16,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_9ad975411613",
+        "label": "pkt",
+        "field_type": "text",
+        "required": false,
+        "order": 17,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_6dc4fbe548c3",
+        "label": "lit",
+        "field_type": "text",
+        "required": false,
+        "order": 18,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Potencjalna zależność wymaga weryfikacji: - Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną"
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": true
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_ab805bc119b0f0aa",
+    "title": "WNIOSEK",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Milejczyce, dnia ..................................202 ...",
+          "Urząd Gminy Milejczyce",
+          "a) O zameldowaniu na pobyt stały / czasowy *,",
+          "b) O wymeldowaniu z pobytu stałego / czasowego *,",
+          "c) O ilości (liczbie) osób zameldowanych (na wniosek właściciela /najemcy po okazaniu tytułu prawnego do",
+          "lokalu),",
+          "d) O okresach zameldowania.",
+          "(imię i nazwisko)",
+          "(stopień pokrewieństwa)",
+          "(imię i nazwisko pełnomocnika)",
+          "(nazwa dokumentu, seria i numer)",
+          "(podpis wnioskodawcy)",
+          "(podpisodbierającego)",
+          "*niepotrzebne skreślić",
+          "na konto Urzędu Gminy Milejczyce.",
+          "listopada 2006 r. o opłacie skarbowej",
+          "( Dz. U. z 2016 r. poz. 1827, z późn. zm.)",
+          "Pouczenie:",
+          "- Wydanie zaświadczenia oraz złożenie pełnomocnictwa podlegają opłacie skarbowej w wysokości 17 zł. każde. Obowiązek zapłaty opłaty",
+          "skarbowej powstaje z chwilą złożenia wniosku i pełnomocnictwa (dowód wniesienia opłaty stanowi załącznikdo' wniosku),",
+          "- Ubiegając się o zaświadczenie o zameldowaniu na pobyt stały lub czasowy innej osoby wnioskodawca jest obowiązany wskazać przepis,",
+          "którygo upoważnia do żądania wydania takiego dokumentu,",
+          "- Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną",
+          "potrzebę posiadania zaświadczenia lub dołączenia dokumentu z którego wynika obowiązek złożenia w/w zaświadczenia(np. wezwanie",
+          "sądowe czypostanowienia lub decyzji innych organów)."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_9c240ad9d92c",
+        "label": "USC.5345",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b1",
+          "text": "USC.5345. .... . 202...",
+          "bbox": [
+            436.8470458984375,
+            6.551025390625,
+            576.6600952148438,
+            20.8033447265625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            436.8470458984375,
+            6.551025390625,
+            576.6600952148438,
+            20.8033447265625
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_106e157214ac",
+        "label": "(imię i nazwisko)",
+        "field_type": "text",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "(imię i nazwisko)",
+          "bbox": [
+            84.98410034179688,
+            57.4281005859375,
+            154.84353637695312,
+            66.59130859375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            14.1600341796875,
+            43.64398193359375,
+            254.1600341796875,
+            54.55194091796875
+          ],
+          "label_bbox": [
+            84.98410034179688,
+            57.4281005859375,
+            154.84353637695312,
+            66.59130859375
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_5305a634704f",
+        "label": "(adres zamieszkania)",
+        "field_type": "address",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "(adres zamieszkania)",
+          "bbox": [
+            84.98408508300781,
+            94.38775634765625,
+            168.87716674804688,
+            103.45135498046875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            14.160079956054688,
+            80.9639892578125,
+            260.2100830078125,
+            131.011962890625
+          ],
+          "label_bbox": [
+            84.98408508300781,
+            94.38775634765625,
+            168.87716674804688,
+            103.45135498046875
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_bd73bd62a90e",
+        "label": "Proszę o wydanie zaświadczenia z akt ewidencji ludności",
+        "field_type": "text",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b10",
+          "text": "Proszę o wydanie zaświadczenia z akt ewidencji ludności:",
+          "bbox": [
+            49.56024169921875,
+            223.39990234375,
+            328.9922180175781,
+            234.451904296875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            49.56024169921875,
+            223.39990234375,
+            328.9922180175781,
+            234.451904296875
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_b280f489e88c",
+        "label": "dotyczącego",
+        "field_type": "text",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "dotyczącego ................................................................................ ..........................................................................",
+          "bbox": [
+            14.160202026367188,
+            313.33392333984375,
+            544.2501831054688,
+            324.24188232421875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160202026367188,
+            313.33392333984375,
+            544.2501831054688,
+            324.24188232421875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_88f16fb66f2f",
+        "label": "na terenie",
+        "field_type": "text",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+          "bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_c6dafee0556f",
+        "label": "w lokalu przy ulicy",
+        "field_type": "text",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+          "bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0b1d72d5ee24",
+        "label": "nr domu",
+        "field_type": "text",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "nr domu ............ nr mieszkania ...............................",
+          "bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f57d84f3f226",
+        "label": "nr mieszkania",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "nr domu ............ nr mieszkania ...............................",
+          "bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_72f5dce6809e",
+        "label": "Zaświadczenie potrzebnejest w celu / przedłożenia w",
+        "field_type": "text",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b21",
+          "text": "Zaświadczenie potrzebnejest w celu / przedłożenia w ....................................................................................................",
+          "bbox": [
+            14.160202026367188,
+            400.5499267578125,
+            575.5001831054688,
+            411.6019287109375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160202026367188,
+            400.5499267578125,
+            575.5001831054688,
+            411.6019287109375
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_97022239c38a",
+        "label": "Do odebrania zaświadczenia upoważniam Panią/Pana",
+        "field_type": "text",
+        "required": false,
+        "order": 10,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "Do odebrania zaświadczenia upoważniam Panią/Pana ......................................................................................................",
+          "bbox": [
+            14.1602783203125,
+            455.7619323730469,
+            581.2802734375,
+            466.80194091796875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.1602783203125,
+            455.7619323730469,
+            581.2802734375,
+            466.80194091796875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_99e589f51411",
+        "label": "legitymującą/-ego się dokumentem tożsamości",
+        "field_type": "text",
+        "required": false,
+        "order": 11,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b25",
+          "text": "legitymującą/-ego się dokumentem tożsamości .............................................................................................................",
+          "bbox": [
+            14.1602783203125,
+            503.4049377441406,
+            569.230224609375,
+            514.4569396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.1602783203125,
+            503.4049377441406,
+            569.230224609375,
+            514.4569396972656
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ab85800ea5de",
+        "label": "Otrzymałam/-em dnia",
+        "field_type": "text",
+        "required": false,
+        "order": 12,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b29",
+          "text": "Otrzymałam/-em dnia .................................... 202 .... ..........................................................................",
+          "bbox": [
+            14.160400390625,
+            619.2339324951172,
+            515.8604125976562,
+            632.8549346923828
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160400390625,
+            619.2339324951172,
+            515.8604125976562,
+            632.8549346923828
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_8da9b51723e2",
+        "label": "Opłatę skarbową w wysokości",
+        "field_type": "text",
+        "required": false,
+        "order": 13,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b32",
+          "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+          "bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_16b0f1c4a750",
+        "label": "zł 2. nie podlega opłacie skarbowej art",
+        "field_type": "text",
+        "required": false,
+        "order": 14,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b32",
+          "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+          "bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_9d6cf6d464e4",
+        "label": "dokonano dnia",
+        "field_type": "text",
+        "required": false,
+        "order": 15,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_dbe942fe5719",
+        "label": ", , ust",
+        "field_type": "text",
+        "required": false,
+        "order": 16,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_9ad975411613",
+        "label": "pkt",
+        "field_type": "text",
+        "required": false,
+        "order": 17,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_6dc4fbe548c3",
+        "label": "lit",
+        "field_type": "text",
+        "required": false,
+        "order": 18,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Potencjalna zależność wymaga weryfikacji: - Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną"
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "WNIOSEK",
+    "tabs": [
+      {
+        "id": "59e3b09e-5254-5943-befd-1bed49f4ca73",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 45,
+            "cols": 3,
+            "field": {
+              "id": "ff2fa655-aa62-5f79-8336-741d3eea9c46",
+              "type": "SECTION",
+              "techName": "dane_formularza_section_s1",
+              "title": "Dane formularza",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "81ae1803-9025-5c33-b490-af593ef459bf",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_0",
+                    "title": "",
+                    "description": "Milejczyce, dnia ..................................202 ...",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "963bc6a9-0328-52f8-8f12-ffdd45d20168",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_1",
+                    "title": "",
+                    "description": "Urząd Gminy Milejczyce",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "526f07aa-3a7c-508f-897d-f51abf3111e0",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_2",
+                    "title": "",
+                    "description": "a) O zameldowaniu na pobyt stały / czasowy *,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "131a6cb4-5cef-5fe7-842a-ed936ecc2dd9",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_3",
+                    "title": "",
+                    "description": "b) O wymeldowaniu z pobytu stałego / czasowego *,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "110b86d4-f29f-5065-99f4-b9dc46dab44e",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_4",
+                    "title": "",
+                    "description": "c) O ilości (liczbie) osób zameldowanych (na wniosek właściciela /najemcy po okazaniu tytułu prawnego do",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ece06748-144d-5902-8428-200ce2ad39a9",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_5",
+                    "title": "",
+                    "description": "lokalu),",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "6f391be3-6c1b-5143-9f7f-642ca3785214",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_6",
+                    "title": "",
+                    "description": "d) O okresach zameldowania.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "3e69d723-5cdd-5429-aac9-d8cc25720bb2",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_7",
+                    "title": "",
+                    "description": "(imię i nazwisko)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8a709aa8-fa43-5f03-a971-480bd547b2b7",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_8",
+                    "title": "",
+                    "description": "(stopień pokrewieństwa)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "3a18daa7-bbba-5f8e-9d8c-68b6fec521d7",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_9",
+                    "title": "",
+                    "description": "(imię i nazwisko pełnomocnika)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a5acead5-da6e-5809-a38a-a79e2291bfb9",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_10",
+                    "title": "",
+                    "description": "(nazwa dokumentu, seria i numer)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a2ff9b0c-55f1-5f12-a82c-fd5d14340404",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_11",
+                    "title": "",
+                    "description": "(podpis wnioskodawcy)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "28826d5d-ae0e-57a0-999f-ac1a5e72033d",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_12",
+                    "title": "",
+                    "description": "(podpisodbierającego)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a8c2b70c-61a9-5c9d-bd60-d96ae61add91",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_13",
+                    "title": "",
+                    "description": "*niepotrzebne skreślić",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 14,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e8d4b602-3890-54ba-9ca7-211d5d765f18",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_14",
+                    "title": "",
+                    "description": "na konto Urzędu Gminy Milejczyce.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 15,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "84459079-a635-57cc-81fc-6c14ae7f40d5",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_15",
+                    "title": "",
+                    "description": "listopada 2006 r. o opłacie skarbowej",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 16,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e9ccedd8-0e54-5d2c-a983-4e0a582b0cd0",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_16",
+                    "title": "",
+                    "description": "( Dz. U. z 2016 r. poz. 1827, z późn. zm.)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 17,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c5b4263a-a3fb-5303-bc9e-0861537919dc",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_17",
+                    "title": "",
+                    "description": "Pouczenie:",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 18,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "7866e67b-1473-5cd7-a182-fde8f876b15b",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_18",
+                    "title": "",
+                    "description": "- Wydanie zaświadczenia oraz złożenie pełnomocnictwa podlegają opłacie skarbowej w wysokości 17 zł. każde. Obowiązek zapłaty opłaty",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 19,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d1b0469c-a621-5342-a580-2ae353aecad6",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_19",
+                    "title": "",
+                    "description": "skarbowej powstaje z chwilą złożenia wniosku i pełnomocnictwa (dowód wniesienia opłaty stanowi załącznikdo' wniosku),",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 20,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d33eca2b-418f-5a8b-a030-18acc062d595",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_20",
+                    "title": "",
+                    "description": "- Ubiegając się o zaświadczenie o zameldowaniu na pobyt stały lub czasowy innej osoby wnioskodawca jest obowiązany wskazać przepis,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 21,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "10da9dee-350c-57f3-8636-02f104060c14",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_21",
+                    "title": "",
+                    "description": "którygo upoważnia do żądania wydania takiego dokumentu,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 22,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b8aeea06-4e30-50d6-bab1-d428cb0ebbdc",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_22",
+                    "title": "",
+                    "description": "- Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 23,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a946cd22-ad50-5949-bc8c-93c3240f4a42",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_23",
+                    "title": "",
+                    "description": "potrzebę posiadania zaświadczenia lub dołączenia dokumentu z którego wynika obowiązek złożenia w/w zaświadczenia(np. wezwanie",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 24,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "54739d42-c4dd-5c3a-a0b2-64ef7e8ca87e",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_24",
+                    "title": "",
+                    "description": "sądowe czypostanowienia lub decyzji innych organów).",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 25,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b9aefe53-8356-56cd-9732-406ece4cf902",
+                    "type": "TEXT_FIELD",
+                    "techName": "usc_5345_240ad9d92c",
+                    "title": "USC.5345",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 25,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 26,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b30a1033-444b-5a84-ab99-d8b2638efaf8",
+                    "type": "TEXT_FIELD",
+                    "techName": "imie_i_nazwisko_6e157214ac",
+                    "title": "(imię i nazwisko)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 26,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 27,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "724c2e0e-d9a8-5563-9ca1-bc7edbd5f106",
+                    "type": "TEXT_FIELD",
+                    "techName": "adres_zamieszkania_05a634704f",
+                    "title": "(adres zamieszkania)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 27,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 28,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f69f383c-6e72-58ce-9cf2-a6867c31ddc2",
+                    "type": "TEXT_FIELD",
+                    "techName": "prosze_o_wydanie_zaswiadczenia_z_akt_ewidencji_ludnosci_73bd62a90e",
+                    "title": "Proszę o wydanie zaświadczenia z akt ewidencji ludności",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 28,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 29,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a6a34807-d8b6-5a7c-9a2a-7267a8f46af8",
+                    "type": "TEXT_FIELD",
+                    "techName": "dotyczacego_80f489e88c",
+                    "title": "dotyczącego",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 29,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 30,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "6f39f754-6e24-5829-a90a-a81dcc89859e",
+                    "type": "TEXT_FIELD",
+                    "techName": "na_terenie_f16fb66f2f",
+                    "title": "na terenie",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 30,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 31,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f0c1e4f4-4324-570a-afa2-85032e709259",
+                    "type": "TEXT_FIELD",
+                    "techName": "w_lokalu_przy_ulicy_dafee0556f",
+                    "title": "w lokalu przy ulicy",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 31,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 32,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "662c932d-aaf7-5cb1-bfc8-81dca981a683",
+                    "type": "TEXT_FIELD",
+                    "techName": "nr_domu_1d72d5ee24",
+                    "title": "nr domu",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 32,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 33,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "acb1cac5-a480-5211-92a6-6e7ac03f0aa5",
+                    "type": "TEXT_FIELD",
+                    "techName": "nr_mieszkania_7d84f3f226",
+                    "title": "nr mieszkania",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 33,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 34,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "65037fdd-077f-5e72-92c1-2cd216692809",
+                    "type": "TEXT_FIELD",
+                    "techName": "zaswiadczenie_potrzebnejest_w_celu_przedlozenia_w_f5dce6809e",
+                    "title": "Zaświadczenie potrzebnejest w celu / przedłożenia w",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 34,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 35,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "04d5a6b0-0c20-5b7e-8d47-2ae960347531",
+                    "type": "TEXT_FIELD",
+                    "techName": "do_odebrania_zaswiadczenia_upowazniam_pania_pana_022239c38a",
+                    "title": "Do odebrania zaświadczenia upoważniam Panią/Pana",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 35,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 36,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "bd9d8ac3-a1a4-5695-a1d7-a7aa6be2bc03",
+                    "type": "TEXT_FIELD",
+                    "techName": "legitymujaca_ego_sie_dokumentem_tozsamosci_e589f51411",
+                    "title": "legitymującą/-ego się dokumentem tożsamości",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 36,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 37,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4d952df5-0547-518e-97bf-443b1d530594",
+                    "type": "TEXT_FIELD",
+                    "techName": "otrzymalam_em_dnia_85800ea5de",
+                    "title": "Otrzymałam/-em dnia",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 37,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 38,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f68c93c9-9321-5ba0-8b6c-6b259dbc1bf3",
+                    "type": "TEXT_FIELD",
+                    "techName": "oplate_skarbowa_w_wysokosci_a9b51723e2",
+                    "title": "Opłatę skarbową w wysokości",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 38,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 39,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "311a95bc-b97c-59cd-a487-c671df9676e8",
+                    "type": "TEXT_FIELD",
+                    "techName": "zl_2_nie_podlega_oplacie_skarbowej_art_b0f1c4a750",
+                    "title": "zł 2. nie podlega opłacie skarbowej art",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 39,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 40,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "00a0a624-466c-567a-aeaf-246ecf015c0f",
+                    "type": "TEXT_FIELD",
+                    "techName": "dokonano_dnia_6cf6d464e4",
+                    "title": "dokonano dnia",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 40,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 41,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8a20c47a-4894-5403-87e1-0e5e9a203e28",
+                    "type": "TEXT_FIELD",
+                    "techName": "ust_e942fe5719",
+                    "title": ", , ust",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 41,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 42,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "dcca33be-3ab3-5a67-ace7-664152bc2a1f",
+                    "type": "TEXT_FIELD",
+                    "techName": "pkt_d975411613",
+                    "title": "pkt",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 42,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 43,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "52c1cc9a-4d5e-53c5-89eb-fd2c4b27a1f9",
+                    "type": "TEXT_FIELD",
+                    "techName": "lit_c4fbe548c3",
+                    "title": "lit",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 43,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "651b753d-6ac3-5721-8869-cfc2577bb39e",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "3f551959-bd0b-558c-8367-683d3c78200a",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "0d0a70b6-d3e5-5f23-a749-d680eb68c280",
+          "source": "59e3b09e-5254-5943-befd-1bed49f4ca73",
+          "target": "651b753d-6ac3-5721-8869-cfc2577bb39e"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_ab805bc119b0f0aa",
+      "title": "WNIOSEK",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": 595.3200073242188,
+          "height": 841.9199829101562,
+          "source": "document"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Dane formularza",
+          "page": 1,
+          "order": 0,
+          "instructions": [
+            "Milejczyce, dnia ..................................202 ...",
+            "Urząd Gminy Milejczyce",
+            "a) O zameldowaniu na pobyt stały / czasowy *,",
+            "b) O wymeldowaniu z pobytu stałego / czasowego *,",
+            "c) O ilości (liczbie) osób zameldowanych (na wniosek właściciela /najemcy po okazaniu tytułu prawnego do",
+            "lokalu),",
+            "d) O okresach zameldowania.",
+            "(imię i nazwisko)",
+            "(stopień pokrewieństwa)",
+            "(imię i nazwisko pełnomocnika)",
+            "(nazwa dokumentu, seria i numer)",
+            "(podpis wnioskodawcy)",
+            "(podpisodbierającego)",
+            "*niepotrzebne skreślić",
+            "na konto Urzędu Gminy Milejczyce.",
+            "listopada 2006 r. o opłacie skarbowej",
+            "( Dz. U. z 2016 r. poz. 1827, z późn. zm.)",
+            "Pouczenie:",
+            "- Wydanie zaświadczenia oraz złożenie pełnomocnictwa podlegają opłacie skarbowej w wysokości 17 zł. każde. Obowiązek zapłaty opłaty",
+            "skarbowej powstaje z chwilą złożenia wniosku i pełnomocnictwa (dowód wniesienia opłaty stanowi załącznikdo' wniosku),",
+            "- Ubiegając się o zaświadczenie o zameldowaniu na pobyt stały lub czasowy innej osoby wnioskodawca jest obowiązany wskazać przepis,",
+            "którygo upoważnia do żądania wydania takiego dokumentu,",
+            "- Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną",
+            "potrzebę posiadania zaświadczenia lub dołączenia dokumentu z którego wynika obowiązek złożenia w/w zaświadczenia(np. wezwanie",
+            "sądowe czypostanowienia lub decyzji innych organów)."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_9c240ad9d92c",
+          "label": "USC.5345",
+          "field_type": "text",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b1",
+            "text": "USC.5345. .... . 202...",
+            "bbox": [
+              436.8470458984375,
+              6.551025390625,
+              576.6600952148438,
+              20.8033447265625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              436.8470458984375,
+              6.551025390625,
+              576.6600952148438,
+              20.8033447265625
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_106e157214ac",
+          "label": "(imię i nazwisko)",
+          "field_type": "text",
+          "required": false,
+          "order": 1,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b4",
+            "text": "(imię i nazwisko)",
+            "bbox": [
+              84.98410034179688,
+              57.4281005859375,
+              154.84353637695312,
+              66.59130859375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              14.1600341796875,
+              43.64398193359375,
+              254.1600341796875,
+              54.55194091796875
+            ],
+            "label_bbox": [
+              84.98410034179688,
+              57.4281005859375,
+              154.84353637695312,
+              66.59130859375
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_5305a634704f",
+          "label": "(adres zamieszkania)",
+          "field_type": "address",
+          "required": false,
+          "order": 2,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b6",
+            "text": "(adres zamieszkania)",
+            "bbox": [
+              84.98408508300781,
+              94.38775634765625,
+              168.87716674804688,
+              103.45135498046875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              14.160079956054688,
+              80.9639892578125,
+              260.2100830078125,
+              131.011962890625
+            ],
+            "label_bbox": [
+              84.98408508300781,
+              94.38775634765625,
+              168.87716674804688,
+              103.45135498046875
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: address"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_bd73bd62a90e",
+          "label": "Proszę o wydanie zaświadczenia z akt ewidencji ludności",
+          "field_type": "text",
+          "required": false,
+          "order": 3,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b10",
+            "text": "Proszę o wydanie zaświadczenia z akt ewidencji ludności:",
+            "bbox": [
+              49.56024169921875,
+              223.39990234375,
+              328.9922180175781,
+              234.451904296875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              49.56024169921875,
+              223.39990234375,
+              328.9922180175781,
+              234.451904296875
+            ]
+          },
+          "confidence": 0.85,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Label/type context",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_b280f489e88c",
+          "label": "dotyczącego",
+          "field_type": "text",
+          "required": false,
+          "order": 4,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "dotyczącego ................................................................................ ..........................................................................",
+            "bbox": [
+              14.160202026367188,
+              313.33392333984375,
+              544.2501831054688,
+              324.24188232421875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.160202026367188,
+              313.33392333984375,
+              544.2501831054688,
+              324.24188232421875
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_88f16fb66f2f",
+          "label": "na terenie",
+          "field_type": "text",
+          "required": false,
+          "order": 5,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b19",
+            "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+            "bbox": [
+              14.160125732421875,
+              359.40191650390625,
+              574.1021728515625,
+              370.3219299316406
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.160125732421875,
+              359.40191650390625,
+              574.1021728515625,
+              370.3219299316406
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_c6dafee0556f",
+          "label": "w lokalu przy ulicy",
+          "field_type": "text",
+          "required": false,
+          "order": 6,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b19",
+            "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+            "bbox": [
+              14.160125732421875,
+              359.40191650390625,
+              574.1021728515625,
+              370.3219299316406
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.160125732421875,
+              359.40191650390625,
+              574.1021728515625,
+              370.3219299316406
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_0b1d72d5ee24",
+          "label": "nr domu",
+          "field_type": "text",
+          "required": false,
+          "order": 7,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b20",
+            "text": "nr domu ............ nr mieszkania ...............................",
+            "bbox": [
+              14.16021728515625,
+              380.16192626953125,
+              259.45220947265625,
+              391.0819396972656
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.16021728515625,
+              380.16192626953125,
+              259.45220947265625,
+              391.0819396972656
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_f57d84f3f226",
+          "label": "nr mieszkania",
+          "field_type": "text",
+          "required": false,
+          "order": 8,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b20",
+            "text": "nr domu ............ nr mieszkania ...............................",
+            "bbox": [
+              14.16021728515625,
+              380.16192626953125,
+              259.45220947265625,
+              391.0819396972656
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.16021728515625,
+              380.16192626953125,
+              259.45220947265625,
+              391.0819396972656
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_72f5dce6809e",
+          "label": "Zaświadczenie potrzebnejest w celu / przedłożenia w",
+          "field_type": "text",
+          "required": false,
+          "order": 9,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b21",
+            "text": "Zaświadczenie potrzebnejest w celu / przedłożenia w ....................................................................................................",
+            "bbox": [
+              14.160202026367188,
+              400.5499267578125,
+              575.5001831054688,
+              411.6019287109375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.160202026367188,
+              400.5499267578125,
+              575.5001831054688,
+              411.6019287109375
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_97022239c38a",
+          "label": "Do odebrania zaświadczenia upoważniam Panią/Pana",
+          "field_type": "text",
+          "required": false,
+          "order": 10,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b23",
+            "text": "Do odebrania zaświadczenia upoważniam Panią/Pana ......................................................................................................",
+            "bbox": [
+              14.1602783203125,
+              455.7619323730469,
+              581.2802734375,
+              466.80194091796875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.1602783203125,
+              455.7619323730469,
+              581.2802734375,
+              466.80194091796875
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_99e589f51411",
+          "label": "legitymującą/-ego się dokumentem tożsamości",
+          "field_type": "text",
+          "required": false,
+          "order": 11,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b25",
+            "text": "legitymującą/-ego się dokumentem tożsamości .............................................................................................................",
+            "bbox": [
+              14.1602783203125,
+              503.4049377441406,
+              569.230224609375,
+              514.4569396972656
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.1602783203125,
+              503.4049377441406,
+              569.230224609375,
+              514.4569396972656
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_ab85800ea5de",
+          "label": "Otrzymałam/-em dnia",
+          "field_type": "text",
+          "required": false,
+          "order": 12,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b29",
+            "text": "Otrzymałam/-em dnia .................................... 202 .... ..........................................................................",
+            "bbox": [
+              14.160400390625,
+              619.2339324951172,
+              515.8604125976562,
+              632.8549346923828
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              14.160400390625,
+              619.2339324951172,
+              515.8604125976562,
+              632.8549346923828
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_8da9b51723e2",
+          "label": "Opłatę skarbową w wysokości",
+          "field_type": "text",
+          "required": false,
+          "order": 13,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b32",
+            "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+            "bbox": [
+              97.58399963378906,
+              653.0895690917969,
+              485.9876708984375,
+              662.5515747070312
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              97.58399963378906,
+              653.0895690917969,
+              485.9876708984375,
+              662.5515747070312
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_16b0f1c4a750",
+          "label": "zł 2. nie podlega opłacie skarbowej art",
+          "field_type": "text",
+          "required": false,
+          "order": 14,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b32",
+            "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+            "bbox": [
+              97.58399963378906,
+              653.0895690917969,
+              485.9876708984375,
+              662.5515747070312
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              97.58399963378906,
+              653.0895690917969,
+              485.9876708984375,
+              662.5515747070312
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_9d6cf6d464e4",
+          "label": "dokonano dnia",
+          "field_type": "text",
+          "required": false,
+          "order": 15,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b33",
+            "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+            "bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_dbe942fe5719",
+          "label": ", , ust",
+          "field_type": "text",
+          "required": false,
+          "order": 16,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b33",
+            "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+            "bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_9ad975411613",
+          "label": "pkt",
+          "field_type": "text",
+          "required": false,
+          "order": 17,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b33",
+            "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+            "bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_6dc4fbe548c3",
+          "label": "lit",
+          "field_type": "text",
+          "required": false,
+          "order": 18,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b33",
+            "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+            "bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              97.05999755859375,
+              664.7290954589844,
+              471.1177978515625,
+              674.0715789794922
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [
+        "Potencjalna zależność wymaga weryfikacji: - Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną"
+      ],
+      "groups": [],
+      "dictionaries": [],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": true
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [],
+    "provenance": {
+      "b9aefe53-8356-56cd-9732-406ece4cf902": {
+        "internal_field_id": "f_9c240ad9d92c",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b1",
+          "text": "USC.5345. .... . 202...",
+          "bbox": [
+            436.8470458984375,
+            6.551025390625,
+            576.6600952148438,
+            20.8033447265625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            436.8470458984375,
+            6.551025390625,
+            576.6600952148438,
+            20.8033447265625
+          ]
+        }
+      },
+      "b30a1033-444b-5a84-ab99-d8b2638efaf8": {
+        "internal_field_id": "f_106e157214ac",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "(imię i nazwisko)",
+          "bbox": [
+            84.98410034179688,
+            57.4281005859375,
+            154.84353637695312,
+            66.59130859375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            14.1600341796875,
+            43.64398193359375,
+            254.1600341796875,
+            54.55194091796875
+          ],
+          "label_bbox": [
+            84.98410034179688,
+            57.4281005859375,
+            154.84353637695312,
+            66.59130859375
+          ]
+        }
+      },
+      "724c2e0e-d9a8-5563-9ca1-bc7edbd5f106": {
+        "internal_field_id": "f_5305a634704f",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "(adres zamieszkania)",
+          "bbox": [
+            84.98408508300781,
+            94.38775634765625,
+            168.87716674804688,
+            103.45135498046875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            14.160079956054688,
+            80.9639892578125,
+            260.2100830078125,
+            131.011962890625
+          ],
+          "label_bbox": [
+            84.98408508300781,
+            94.38775634765625,
+            168.87716674804688,
+            103.45135498046875
+          ]
+        }
+      },
+      "f69f383c-6e72-58ce-9cf2-a6867c31ddc2": {
+        "internal_field_id": "f_bd73bd62a90e",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b10",
+          "text": "Proszę o wydanie zaświadczenia z akt ewidencji ludności:",
+          "bbox": [
+            49.56024169921875,
+            223.39990234375,
+            328.9922180175781,
+            234.451904296875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            49.56024169921875,
+            223.39990234375,
+            328.9922180175781,
+            234.451904296875
+          ]
+        }
+      },
+      "a6a34807-d8b6-5a7c-9a2a-7267a8f46af8": {
+        "internal_field_id": "f_b280f489e88c",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "dotyczącego ................................................................................ ..........................................................................",
+          "bbox": [
+            14.160202026367188,
+            313.33392333984375,
+            544.2501831054688,
+            324.24188232421875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160202026367188,
+            313.33392333984375,
+            544.2501831054688,
+            324.24188232421875
+          ]
+        }
+      },
+      "6f39f754-6e24-5829-a90a-a81dcc89859e": {
+        "internal_field_id": "f_88f16fb66f2f",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+          "bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ]
+        }
+      },
+      "f0c1e4f4-4324-570a-afa2-85032e709259": {
+        "internal_field_id": "f_c6dafee0556f",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+          "bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160125732421875,
+            359.40191650390625,
+            574.1021728515625,
+            370.3219299316406
+          ]
+        }
+      },
+      "662c932d-aaf7-5cb1-bfc8-81dca981a683": {
+        "internal_field_id": "f_0b1d72d5ee24",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "nr domu ............ nr mieszkania ...............................",
+          "bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ]
+        }
+      },
+      "acb1cac5-a480-5211-92a6-6e7ac03f0aa5": {
+        "internal_field_id": "f_f57d84f3f226",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "nr domu ............ nr mieszkania ...............................",
+          "bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.16021728515625,
+            380.16192626953125,
+            259.45220947265625,
+            391.0819396972656
+          ]
+        }
+      },
+      "65037fdd-077f-5e72-92c1-2cd216692809": {
+        "internal_field_id": "f_72f5dce6809e",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b21",
+          "text": "Zaświadczenie potrzebnejest w celu / przedłożenia w ....................................................................................................",
+          "bbox": [
+            14.160202026367188,
+            400.5499267578125,
+            575.5001831054688,
+            411.6019287109375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160202026367188,
+            400.5499267578125,
+            575.5001831054688,
+            411.6019287109375
+          ]
+        }
+      },
+      "04d5a6b0-0c20-5b7e-8d47-2ae960347531": {
+        "internal_field_id": "f_97022239c38a",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "Do odebrania zaświadczenia upoważniam Panią/Pana ......................................................................................................",
+          "bbox": [
+            14.1602783203125,
+            455.7619323730469,
+            581.2802734375,
+            466.80194091796875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.1602783203125,
+            455.7619323730469,
+            581.2802734375,
+            466.80194091796875
+          ]
+        }
+      },
+      "bd9d8ac3-a1a4-5695-a1d7-a7aa6be2bc03": {
+        "internal_field_id": "f_99e589f51411",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b25",
+          "text": "legitymującą/-ego się dokumentem tożsamości .............................................................................................................",
+          "bbox": [
+            14.1602783203125,
+            503.4049377441406,
+            569.230224609375,
+            514.4569396972656
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.1602783203125,
+            503.4049377441406,
+            569.230224609375,
+            514.4569396972656
+          ]
+        }
+      },
+      "4d952df5-0547-518e-97bf-443b1d530594": {
+        "internal_field_id": "f_ab85800ea5de",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b29",
+          "text": "Otrzymałam/-em dnia .................................... 202 .... ..........................................................................",
+          "bbox": [
+            14.160400390625,
+            619.2339324951172,
+            515.8604125976562,
+            632.8549346923828
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            14.160400390625,
+            619.2339324951172,
+            515.8604125976562,
+            632.8549346923828
+          ]
+        }
+      },
+      "f68c93c9-9321-5ba0-8b6c-6b259dbc1bf3": {
+        "internal_field_id": "f_8da9b51723e2",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b32",
+          "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+          "bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ]
+        }
+      },
+      "311a95bc-b97c-59cd-a487-c671df9676e8": {
+        "internal_field_id": "f_16b0f1c4a750",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b32",
+          "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+          "bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.58399963378906,
+            653.0895690917969,
+            485.9876708984375,
+            662.5515747070312
+          ]
+        }
+      },
+      "00a0a624-466c-567a-aeaf-246ecf015c0f": {
+        "internal_field_id": "f_9d6cf6d464e4",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        }
+      },
+      "8a20c47a-4894-5403-87e1-0e5e9a203e28": {
+        "internal_field_id": "f_dbe942fe5719",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        }
+      },
+      "dcca33be-3ab3-5a67-ace7-664152bc2a1f": {
+        "internal_field_id": "f_9ad975411613",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        }
+      },
+      "52c1cc9a-4d5e-53c5-89eb-fd2c4b27a1f9": {
+        "internal_field_id": "f_6dc4fbe548c3",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b33",
+          "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+          "bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            97.05999755859375,
+            664.7290954589844,
+            471.1177978515625,
+            674.0715789794922
+          ]
+        }
+      }
+    },
+    "requires_confirmation": false,
+    "status": "valid_configuration",
+    "unsupported_features": []
+  },
+  "normalization": {
+    "applied": true,
+    "policy": "source-first; no reference workflow profile inferred",
+    "source_fields": 19,
+    "output_fields": 19,
+    "standard_additions": 0,
+    "suppressed": [],
+    "reference_json_used_at_runtime": false
+  },
+  "quality": {
+    "status": "partial",
+    "completeness_verified": false,
+    "unresolved_warnings": [
+      "Potencjalna zależność wymaga weryfikacji: - Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną"
+    ],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: - Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną",
+      "field_id": null
+    }
+  ],
+  "document": {
+    "filename": "unknown.pdf",
+    "format": "pdf",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "USC.5345. .... . 202...",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          436.8470458984375,
+          6.551025390625,
+          576.6600952148438,
+          20.8033447265625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "Milejczyce, dnia ..................................202 ...",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          332.83001708984375,
+          33.0999755859375,
+          562.800048828125,
+          49.4439697265625
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "paper place/date header; electronic completion uses finish page"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          14.1600341796875,
+          43.64398193359375,
+          254.1600341796875,
+          54.55194091796875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b4"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": "(imię i nazwisko)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          84.98410034179688,
+          57.4281005859375,
+          154.84353637695312,
+          66.59130859375
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            14.1600341796875,
+            43.64398193359375,
+            254.1600341796875,
+            54.55194091796875
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "..................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          14.16009521484375,
+          80.9639892578125,
+          260.2100830078125,
+          91.8719482421875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b6"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "(adres zamieszkania)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          84.98408508300781,
+          94.38775634765625,
+          168.87716674804688,
+          103.45135498046875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 2,
+          "input_bbox": [
+            14.160079956054688,
+            80.9639892578125,
+            260.2100830078125,
+            131.011962890625
+          ],
+          "multiline": true
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": "..................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          14.160079956054688,
+          120.10400390625,
+          260.16009521484375,
+          131.011962890625
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b6"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "Urząd Gminy Milejczyce",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          368.2300720214844,
+          176.12042236328125,
+          517.5595703125,
+          188.8126220703125
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "fixed recipient authority"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": "WNIOSEK",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          263.3302001953125,
+          208.43487548828125,
+          332.126220703125,
+          220.97259521484375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "Proszę o wydanie zaświadczenia z akt ewidencji ludności:",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          49.56024169921875,
+          223.39990234375,
+          328.9922180175781,
+          234.451904296875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": "a) O zameldowaniu na pobyt stały / czasowy *,",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          32.16021728515625,
+          237.2119140625,
+          264.1221923828125,
+          248.25189208984375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": "b) O wymeldowaniu z pobytu stałego / czasowego *,",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          32.14818572998047,
+          251.01190185546875,
+          290.6642150878906,
+          262.0518798828125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": "c) O ilości (liczbie) osób zameldowanych (na wniosek właściciela /najemcy po okazaniu tytułu prawnego do",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          32.16021728515625,
+          264.79986572265625,
+          580.6202392578125,
+          275.85186767578125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "lokalu),",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          50.16021728515625,
+          278.76190185546875,
+          87.1202163696289,
+          289.681884765625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "d) O okresach zameldowania.",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          32.16021728515625,
+          292.681884765625,
+          179.12420654296875,
+          303.60186767578125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "dotyczącego ................................................................................ ..........................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.160202026367188,
+          313.33392333984375,
+          544.2501831054688,
+          324.24188232421875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": "(imię i nazwisko)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          191.210205078125,
+          326.6380615234375,
+          261.06964111328125,
+          335.80126953125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b18",
+        "text": "(stopień pokrewieństwa)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          403.66015625,
+          326.6380615234375,
+          502.01513671875,
+          335.80126953125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b19",
+        "text": "na terenie ...................................................................... w lokalu przy ulicy ...................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.160125732421875,
+          359.40191650390625,
+          574.1021728515625,
+          370.3219299316406
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b20",
+        "text": "nr domu ............ nr mieszkania ...............................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.16021728515625,
+          380.16192626953125,
+          259.45220947265625,
+          391.0819396972656
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b21",
+        "text": "Zaświadczenie potrzebnejest w celu / przedłożenia w ....................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.160202026367188,
+          400.5499267578125,
+          575.5001831054688,
+          411.6019287109375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b22",
+        "text": "............................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          14.16021728515625,
+          428.2939147949219,
+          578.26025390625,
+          439.2019348144531
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b23",
+        "text": "Do odebrania zaświadczenia upoważniam Panią/Pana ......................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.1602783203125,
+          455.7619323730469,
+          581.2802734375,
+          466.80194091796875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b24",
+        "text": "(imię i nazwisko pełnomocnika)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          397.1802978515625,
+          471.1380920410156,
+          526.1223754882812,
+          480.3013000488281
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b25",
+        "text": "legitymującą/-ego się dokumentem tożsamości .............................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.1602783203125,
+          503.4049377441406,
+          569.230224609375,
+          514.4569396972656
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b26",
+        "text": "(nazwa dokumentu, seria i numer)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          332.8302001953125,
+          516.9526977539062,
+          469.5710144042969,
+          526.0162963867188
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b27",
+        "text": "...............................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          332.8302001953125,
+          568.2076416015625,
+          569.740234375,
+          577.2612915039062
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b28"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b28",
+        "text": "(podpis wnioskodawcy)",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          403.66046142578125,
+          579.7176818847656,
+          499.3272705078125,
+          588.7812957763672
+        ],
+        "metadata": {
+          "column": 0,
+          "blank_lines": 1,
+          "input_bbox": [
+            332.8302001953125,
+            568.2076416015625,
+            569.740234375,
+            577.2612915039062
+          ],
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b29",
+        "text": "Otrzymałam/-em dnia .................................... 202 .... ..........................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.160400390625,
+          619.2339324951172,
+          515.8604125976562,
+          632.8549346923828
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b30",
+        "text": "(podpisodbierającego)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          368.2304382324219,
+          632.0817260742188,
+          441.65972900390625,
+          639.4865570068359
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b31",
+        "text": "*niepotrzebne skreślić",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.160430908203125,
+          641.7576751708984,
+          103.68667602539062,
+          650.8212890625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b32",
+        "text": "1. Opłatę skarbową w wysokości ...............zł 2. nie podlega opłacie skarbowej art. ....",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          97.58399963378906,
+          653.0895690917969,
+          485.9876708984375,
+          662.5515747070312
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b33",
+        "text": "dokonano dnia ........................................., , ust. ... pkt. .... lit. ... ustawy z dnia 16",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          97.05999755859375,
+          664.7290954589844,
+          471.1177978515625,
+          674.0715789794922
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b34",
+        "text": "na konto Urzędu Gminy Milejczyce.",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          97.58396911621094,
+          676.1395416259766,
+          254.0754852294922,
+          685.5915832519531
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b35",
+        "text": "listopada 2006 r. o opłacie skarbowej",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          310.03009033203125,
+          676.2291870117188,
+          474.3800048828125,
+          685.5915832519531
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b36",
+        "text": "( Dz. U. z 2016 r. poz. 1827, z późn. zm.)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          310.030029296875,
+          687.6595458984375,
+          492.239501953125,
+          697.1115875244141
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b37",
+        "text": "Pouczenie:",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": [
+          14.15999984741211,
+          720.0277404785156,
+          57.96891784667969,
+          729.0913391113281
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "explicit completion instruction"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b38",
+        "text": "- Wydanie zaświadczenia oraz złożenie pełnomocnictwa podlegają opłacie skarbowej w wysokości 17 zł. każde. Obowiązek zapłaty opłaty",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": [
+          14.159996032714844,
+          731.4381790161133,
+          581.3089599609375,
+          740.6113357543945
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b39",
+        "text": "skarbowej powstaje z chwilą złożenia wniosku i pełnomocnictwa (dowód wniesienia opłaty stanowi załącznikdo' wniosku),",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.1597900390625,
+          742.9641342163086,
+          511.52984619140625,
+          752.1273345947266
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b40",
+        "text": "- Ubiegając się o zaświadczenie o zameldowaniu na pobyt stały lub czasowy innej osoby wnioskodawca jest obowiązany wskazać przepis,",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": [
+          14.159881591796875,
+          754.3641357421875,
+          581.0142822265625,
+          763.5273361206055
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b41",
+        "text": "którygo upoważnia do żądania wydania takiego dokumentu,",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.15972900390625,
+          765.8841400146484,
+          257.29974365234375,
+          775.0473403930664
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b42",
+        "text": "- Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.159744262695312,
+          777.493782043457,
+          581.1419067382812,
+          786.5673408508301
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b43",
+        "text": "potrzebę posiadania zaświadczenia lub dołączenia dokumentu z którego wynika obowiązek złożenia w/w zaświadczenia(np. wezwanie",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.139747619628906,
+          788.9241409301758,
+          581.1510620117188,
+          798.0873413085938
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b44",
+        "text": "sądowe czypostanowienia lub decyzji innych organów).",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          14.15972900390625,
+          800.5337829589844,
+          240.3797149658203,
+          809.6073417663574
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [],
+    "analysis": {
+      "ocr": [],
+      "page_text": [
+        {
+          "page": 1,
+          "text": "         \n      \nMilejczyce, dnia ..................................202 ................................................................................... \nUSC.5345. .... . 202... \n(imię i nazwisko) \n.................................................................................. \n(adres zamieszkania) \n.................................................................................. \nUrząd Gminy Milejczyce \nWNIOSEK \nProszę o wydanie zaświadczenia z akt ewidencji ludności: \na) O zameldowaniu na pobyt stały / czasowy *, \nb) O wymeldowaniu z pobytu stałego / czasowego *, \nc) O ilości (liczbie) osób zameldowanych (na wniosek właściciela /najemcy po okazaniu tytułu prawnego do \nlokalu), \nd) O okresach zameldowania. \ndotyczącego ................................................................................ .......................................................................... \n(imię i nazwisko)     (stopień pokrewieństwa) \nna terenie ...................................................................... w lokalu przy ulicy ................................................................... \nnr domu ............ nr mieszkania ............................... \nZaświadczenie potrzebne jest w celu / przedłożenia w .................................................................................................... \n............................................................................................................................................................................................ \nDo odebrania zaświadczenia upoważniam Panią/Pana ...................................................................................................... \n(imię i nazwisko pełnomocnika) \nlegitymującą/-ego się dokumentem tożsamości ............................................................................................................. \n(nazwa dokumentu, seria i numer) \n............................................................................................... \n(podpis wnioskodawcy) \nOtrzymałam/-em dnia .................................... 202 .... .......................................................................... \n(podpis odbierającego) \n*niepotrzebne skreślić \n1. Opłatę skarbową w wysokości ...............zł \ndokonano dnia ........................................., , \nna konto Urzędu Gminy Milejczyce. \n2. nie podlega opłacie skarbowej art. .... \nust. ... pkt. .... lit. ... ustawy z dnia 16 \nlistopada 2006 r. o opłacie skarbowej \n( Dz. U. z 2016 r. poz. 1827, z późn. zm.) \nPouczenie: \n- Wydanie zaświadczenia oraz złożenie pełnomocnictwa podlegają opłacie skarbowej w wysokości 17 zł. każde. Obowiązek zapłaty opłaty \nskarbowej powstaje z chwilą złożenia wniosku i pełnomocnictwa (dowód wniesienia opłaty stanowi załącznik do' wniosku), \n- Ubiegając się o zaświadczenie o zameldowaniu na pobyt stały lub czasowy innej osoby wnioskodawca jest obowiązany wskazać przepis, \nktóry go upoważnia do żądania wydania takiego dokumentu, \n- Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną \npotrzebę posiadania zaświadczenia lub dołączenia dokumentu z którego wynika obowiązek złożenia w/w zaświadczenia(np. wezwanie \nsądowe czy postanowienia lub decyzji innych organów). "
+        }
+      ],
+      "layout": {
+        "geometry_associations": 3,
+        "columns": 1,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "text": 32,
+          "information": 3,
+          "blank": 5,
+          "heading": 1,
+          "instruction": 3
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 115.47
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 2.78
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 2.06
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 1.65
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.01
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 1.06
+    }
+  ]
+}

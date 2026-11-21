@@ -1,0 +1,79 @@
+[
+  {
+    "id": "final-residence-cert",
+    "category": "new_external",
+    "source": "evaluation/coi-final/unknown-documents/residence-cert.pdf",
+    "extension": "pdf",
+    "sha256": "87ae9e013239b122d5ab03d36e5ceb15c231198a794b89831c4eb9592a86afb9",
+    "status": "converted",
+    "canonical_format": "pdf",
+    "fields": 19,
+    "raw_fields": 19,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "partial",
+      "completeness_verified": false,
+      "unresolved_warnings": [
+        "Potencjalna zależność wymaga weryfikacji: - Jeżeli żądanie wydania zaświadczenia o zameldowaniu innej osoby nie wynika wprost z przepisów prawa, należy wskazać wiarygodną"
+      ],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 1,
+    "processing_seconds": 0.333
+  },
+  {
+    "id": "final-civil-record",
+    "category": "new_external",
+    "source": "evaluation/coi-final/unknown-documents/civil-record.pdf",
+    "extension": "pdf",
+    "sha256": "69120c2126e68612c0bb21ab9ea7a266d0e4852d8df9dfce02c5ad0fcd7acbe0",
+    "status": "converted",
+    "canonical_format": "pdf",
+    "fields": 24,
+    "raw_fields": 24,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "partial",
+      "completeness_verified": false,
+      "unresolved_warnings": [
+        "Potencjalna zależność wymaga weryfikacji: - Jeżeli żądanie wydania odpis aktu stanu cywilnego innej osoby nie wynika wprost z przepisów prawa, należy"
+      ],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 2,
+    "processing_seconds": 0.291
+  },
+  {
+    "id": "final-krk-company",
+    "category": "new_external",
+    "source": "evaluation/coi-final/unknown-documents/krk-company.docx",
+    "extension": "docx",
+    "sha256": "b7fc4c7ac61c6deed85775dd454197aedc313f0049a6f50e6f1c2b51479d8be1",
+    "status": "converted",
+    "canonical_format": "docx",
+    "fields": 11,
+    "raw_fields": 11,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "partial",
+      "completeness_verified": false,
+      "unresolved_warnings": [
+        "Potencjalna zależność wymaga weryfikacji: *)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+        "Potencjalna zależność wymaga weryfikacji: **)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu",
+        "Potencjalna zależność wymaga weryfikacji: ***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy."
+      ],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 1,
+    "processing_seconds": 0.184
+  }
+]

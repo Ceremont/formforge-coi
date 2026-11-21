@@ -1,0 +1,333 @@
+{
+  "title": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+  "tabs": [
+    {
+      "id": "2a00f64a-1bd6-59fd-927d-f0c49598da8b",
+      "title": "Strona 1",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 14,
+          "cols": 3,
+          "field": {
+            "id": "990f6cdc-71b3-5800-9d75-6db48422bc15",
+            "type": "SECTION",
+            "techName": "dane_formularza_section_s1",
+            "title": "Dane formularza",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0ee6706d-1037-5348-8908-521e7d1ca415",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_0",
+                  "title": "",
+                  "description": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2eb5c70a-430c-5519-8766-0a3bdee1f10c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_1",
+                  "title": "",
+                  "description": "z wnioskiem o wydanie zaświadczenia z Krajowego Rejestru Karnego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "09c1d98d-312d-518d-b152-161e3f79ee83",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_2",
+                  "title": "",
+                  "description": "podpis osoby uprawnionej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d5f6d43a-b01b-5fd8-829b-112ddbc3567c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_3",
+                  "title": "",
+                  "description": "* Języki urzędowe Unii Europejskiej to: bułgarski, hiszpański, czeski, duński, niemiecki, estoński, grecki, angielski,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c88c9512-85cc-5887-8720-d8f817e661ee",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_4",
+                  "title": "",
+                  "description": "francuski, chorwacki, włoski, łotewski, litewski, węgierski, maltański, niderlandzki, polski, portugalski, rumuński,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f7d3251d-9e10-5a68-8442-b567a5bcba17",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_5",
+                  "title": "",
+                  "description": "słowacki, słoweński, fiński, szwedzki i irlandzki.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4cf62c40-efc2-5e5a-8aa7-6331716c9c81",
+                  "type": "TEXT_FIELD",
+                  "techName": "dane_osoby_ktorej_dotyczy_wniosek_acd6a944c5",
+                  "title": "Dane osoby, której dotyczy wniosek",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 6,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "63d6396e-ecfe-5960-a1f1-1e7005565bc1",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_02ce00bb59",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 7,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ffa0ba33-ac58-54e0-8d0c-4e942f3e050f",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_55442669bc",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 8,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "41a7e052-02af-5cc7-87b0-951079ade74b",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_pesel_jezeli_zostal_nadany_ce1d2ed857",
+                  "title": "Numer PESEL (jeżeli został nadany)",
+                  "description": "",
+                  "options": [],
+                  "validation": [
+                    "PESEL"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 9,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5d311a87-ae99-528b-800a-14c96de82d7d",
+                  "type": "DATEPICKER",
+                  "techName": "data_urodzenia_e3ee3cd0cb",
+                  "title": "Data urodzenia",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 10,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b9f0f315-314a-5b40-a94e-c8bd4be9d976",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_do_korespondencji_opcjonalnie_723da3c9a5",
+                  "title": "Adres do korespondencji (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 11,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "477777a2-6335-580a-b0bf-53703d937afe",
+                  "type": "TEXT_FIELD",
+                  "techName": "jezyk_urzedowy_unii_europejskiej_w_jakim_ma_byc_sporzadzony_wielojezyczny_formularz_de7c93ed65",
+                  "title": "Język urzędowy Unii Europejskiej w jakim ma być sporządzony wielojęzyczny formularz",
+                  "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                  "options": [],
+                  "validation": [
+                    "REQUIRED"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "cba841cb-5d05-5352-ba04-85e049bd9459",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "6a267985-b3ce-513c-8e63-44a4d0701be3",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "68f6ea92-d529-55a0-be8a-93f2b5791384",
+        "source": "2a00f64a-1bd6-59fd-927d-f0c49598da8b",
+        "target": "cba841cb-5d05-5352-ba04-85e049bd9459"
+      }
+    ]
+  }
+}

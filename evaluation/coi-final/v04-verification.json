@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-11-21T22:07:54.113615+00:00",
+  "pytest": {
+    "passed": 191,
+    "seconds": 11.847,
+    "warning": "Starlette HTTPX test-client deprecation"
+  },
+  "ruff": "passed",
+  "browser": {
+    "status": "passed",
+    "scenarios": [
+      "upload",
+      "demo",
+      "field editing",
+      "JSON download",
+      "native required validation",
+      "server validation",
+      "conditional visibility",
+      "responsive mobile layout",
+      "offline Swagger"
+    ],
+    "externalRequests": [],
+    "browserErrors": []
+  },
+  "historical_files_unchanged": 323,
+  "original_source_files_unchanged": 82,
+  "known_conversion": "68/69; 68 locally valid; DOC08 embedded objects rejected",
+  "new_holdout": "R3 only; earlier sets preserved/reclassified",
+  "mapping_hotfix_holdout_identity_verified": true,
+  "target_import_verified": false
+}

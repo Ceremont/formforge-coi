@@ -1,0 +1,2906 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_ec980df860baaefe",
+    "title": "WNIOSEK O WYDANIE ZAŚWIADCZENIA",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      },
+      {
+        "id": 2,
+        "title": "Strona 2",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Młynary, dnia…………………….",
+          "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+          "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+          "okresie posiadania gospodarstwa rolnego",
+          "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+          "/podpis/"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "INFORMACJE:",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "Opłata za wydanie zaświadczenia wynosi 17 zł (od każdego egzemplarza). Obowiązek uiszczenia opłaty skarbowej powstaje z chwilą złożenia wniosku o wydanie zaświadczenia.",
+          "Opłatę skarbową należy wnieść w kasie lub bezgotówkowo na rachunek tut. Urzędu – przed złożeniem wniosku. Konto bankowe Urzędu: Bank PKO BP S.A. 12 1234 1234 1234 1234 1234 1234.",
+          "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.",
+          "o opłacie skarbowej."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "Strona 2",
+        "page": 2,
+        "order": 2,
+        "instructions": [
+          "Urząd Miasta i Gminy Młynary",
+          "ul. Dworcowa 29",
+          "14-420 Młynary"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 2",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_9b39e6e7abaf",
+        "label": "/ imię i nazwisko /",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b3",
+          "text": "/ imię i nazwisko /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_945bd7c2ab94",
+        "label": "/ adres /",
+        "field_type": "address",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "/ adres /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ed26e5e0416c",
+        "label": "/ PESEL /",
+        "field_type": "pesel",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "pesel",
+            "value": null,
+            "message": null
+          },
+          {
+            "kind": "min_length",
+            "value": 11,
+            "message": null
+          },
+          {
+            "kind": "max_length",
+            "value": 11,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "/ PESEL /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: pesel"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_a15bf7d9712a",
+        "label": "/ nr telefonu /",
+        "field_type": "phone",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "phone",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b9",
+          "text": "/ nr telefonu /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: phone"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_2276e6e7560c",
+        "label": "Proszę o wydanie zaświadczenia o",
+        "field_type": "text",
+        "required": true,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "Proszę o wydanie zaświadczenia o:*",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_465e5569a634",
+        "label": "inne",
+        "field_type": "text",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "inne………………………………………………………………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_374ae295177d",
+        "label": "Zaświadczenie potrzebne jest celem przedłożenia w",
+        "field_type": "text",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b18",
+          "text": "Zaświadczenie potrzebne jest celem przedłożenia w ……………………………………….",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał."
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": true
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_ec980df860baaefe",
+    "title": "WNIOSEK O WYDANIE ZAŚWIADCZENIA",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      },
+      {
+        "id": 2,
+        "title": "Strona 2",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Młynary, dnia…………………….",
+          "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+          "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+          "okresie posiadania gospodarstwa rolnego",
+          "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+          "/podpis/"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "INFORMACJE:",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "Opłata za wydanie zaświadczenia wynosi 17 zł (od każdego egzemplarza). Obowiązek uiszczenia opłaty skarbowej powstaje z chwilą złożenia wniosku o wydanie zaświadczenia.",
+          "Opłatę skarbową należy wnieść w kasie lub bezgotówkowo na rachunek tut. Urzędu – przed złożeniem wniosku. Konto bankowe Urzędu: Bank PKO BP S.A. 12 1234 1234 1234 1234 1234 1234.",
+          "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.",
+          "o opłacie skarbowej."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "Strona 2",
+        "page": 2,
+        "order": 2,
+        "instructions": [
+          "Urząd Miasta i Gminy Młynary",
+          "ul. Dworcowa 29",
+          "14-420 Młynary"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_9b39e6e7abaf",
+        "label": "/ imię i nazwisko /",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b3",
+          "text": "/ imię i nazwisko /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_945bd7c2ab94",
+        "label": "/ adres /",
+        "field_type": "address",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "/ adres /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ed26e5e0416c",
+        "label": "/ PESEL /",
+        "field_type": "pesel",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "pesel",
+            "value": null,
+            "message": null
+          },
+          {
+            "kind": "min_length",
+            "value": 11,
+            "message": null
+          },
+          {
+            "kind": "max_length",
+            "value": 11,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "/ PESEL /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: pesel"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_a15bf7d9712a",
+        "label": "/ nr telefonu /",
+        "field_type": "phone",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "phone",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b9",
+          "text": "/ nr telefonu /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: phone"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_2276e6e7560c",
+        "label": "Proszę o wydanie zaświadczenia o",
+        "field_type": "text",
+        "required": true,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "Proszę o wydanie zaświadczenia o:*",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_465e5569a634",
+        "label": "inne",
+        "field_type": "text",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "inne………………………………………………………………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_374ae295177d",
+        "label": "Zaświadczenie potrzebne jest celem przedłożenia w",
+        "field_type": "text",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b18",
+          "text": "Zaświadczenie potrzebne jest celem przedłożenia w ……………………………………….",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał."
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "WNIOSEK O WYDANIE ZAŚWIADCZENIA",
+    "tabs": [
+      {
+        "id": "2f167674-70c7-53b4-823e-604b0ed58549",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 14,
+            "cols": 3,
+            "field": {
+              "id": "effa24eb-4bb2-50ed-9df9-778ee9ecc362",
+              "type": "SECTION",
+              "techName": "dane_formularza_section_s1",
+              "title": "Dane formularza",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c7b3c458-47a9-5226-95a4-50bd510fe3e3",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_0",
+                    "title": "",
+                    "description": "Młynary, dnia…………………….",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8f98e1a7-4d4c-5894-8fc2-c574514c88bd",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_1",
+                    "title": "",
+                    "description": "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "81e2587a-a9ff-585d-9770-237bdd042eec",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_2",
+                    "title": "",
+                    "description": "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "68af492d-3270-5c2c-b6f4-079152b65a66",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_3",
+                    "title": "",
+                    "description": "okresie posiadania gospodarstwa rolnego",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d0e3c327-0e98-534a-b77c-5067dff61835",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_4",
+                    "title": "",
+                    "description": "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e770c78e-93a4-555f-b38f-5c7d0c2ec18e",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_5",
+                    "title": "",
+                    "description": "/podpis/",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4e12dc95-e4c1-538a-8d2b-231af0aadc80",
+                    "type": "TEXT_FIELD",
+                    "techName": "imie_i_nazwisko_39e6e7abaf",
+                    "title": "/ imię i nazwisko /",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 6,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "66d8070a-4777-5ff5-98e2-c28beaaf4cc2",
+                    "type": "TEXT_FIELD",
+                    "techName": "adres_5bd7c2ab94",
+                    "title": "/ adres /",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 7,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8aa8051d-212e-53e5-a5be-ae33ca44da2c",
+                    "type": "TEXT_FIELD",
+                    "techName": "pesel_26e5e0416c",
+                    "title": "/ PESEL /",
+                    "description": "",
+                    "options": [],
+                    "validation": [
+                      "PESEL"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 8,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "61be7bb5-e2f9-5e4a-8698-f2adce450f9a",
+                    "type": "TEXT_FIELD",
+                    "techName": "nr_telefonu_5bf7d9712a",
+                    "title": "/ nr telefonu /",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 9,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5661a11c-624d-5ad1-bb95-7b9ab59c1d6d",
+                    "type": "TEXT_FIELD",
+                    "techName": "prosze_o_wydanie_zaswiadczenia_o_76e6e7560c",
+                    "title": "Proszę o wydanie zaświadczenia o",
+                    "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                    "options": [],
+                    "validation": [
+                      "REQUIRED"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 10,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ba3ccd28-b81c-50a3-93e8-64efb5782ae1",
+                    "type": "TEXT_FIELD",
+                    "techName": "inne_5e5569a634",
+                    "title": "inne",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 11,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8a1b82d6-6f53-548f-9aa5-584b4800525f",
+                    "type": "TEXT_FIELD",
+                    "techName": "zaswiadczenie_potrzebne_jest_celem_przedlozenia_w_4ae295177d",
+                    "title": "Zaświadczenie potrzebne jest celem przedłożenia w",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 12,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 14,
+            "rows": 5,
+            "cols": 3,
+            "field": {
+              "id": "32125df4-44fd-5631-a5fc-848bd4670309",
+              "type": "SECTION",
+              "techName": "informacje_section_s2",
+              "title": "INFORMACJE:",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "0e73448e-2614-514a-998f-8dab5312aedd",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_0",
+                    "title": "",
+                    "description": "Opłata za wydanie zaświadczenia wynosi 17 zł (od każdego egzemplarza). Obowiązek uiszczenia opłaty skarbowej powstaje z chwilą złożenia wniosku o wydanie zaświadczenia.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "0a5d8160-4c52-56eb-8a6a-9b370a1467d3",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_1",
+                    "title": "",
+                    "description": "Opłatę skarbową należy wnieść w kasie lub bezgotówkowo na rachunek tut. Urzędu – przed złożeniem wniosku. Konto bankowe Urzędu: Bank PKO BP S.A. 12 1234 1234 1234 1234 1234 1234.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "9d3bbb81-21f3-5ca9-9dd0-73b9f6bd2d00",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_2",
+                    "title": "",
+                    "description": "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5c0df783-2328-503b-939e-62ef9c937b61",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_3",
+                    "title": "",
+                    "description": "o opłacie skarbowej.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 1,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "33ef03a2-857c-5412-9387-ab2aa53c63f6",
+        "title": "Strona 2",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 4,
+            "cols": 3,
+            "field": {
+              "id": "16f78300-6d58-53bb-96d8-e1582e889cb5",
+              "type": "SECTION",
+              "techName": "strona_2_section_s3",
+              "title": "Strona 2",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "14dbb5ad-ee5e-5c34-b057-a4614ce781dc",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_0",
+                    "title": "",
+                    "description": "Urząd Miasta i Gminy Młynary",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "eb21c1ee-95cd-5865-80e5-857a3678babb",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_1",
+                    "title": "",
+                    "description": "ul. Dworcowa 29",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "6122506e-839c-50bc-84d2-e69035f04587",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_2",
+                    "title": "",
+                    "description": "14-420 Młynary",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "f2f2a449-3439-5e0e-8fc2-50f50a4f93da",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "fc6a4122-b706-5815-b82a-1604df83f0dd",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "d05e633b-5cb4-5c44-b49f-2f0de74f268c",
+          "source": "2f167674-70c7-53b4-823e-604b0ed58549",
+          "target": "33ef03a2-857c-5412-9387-ab2aa53c63f6"
+        },
+        {
+          "id": "e348dc5c-4e4c-5d21-9fe9-da649fd003c0",
+          "source": "33ef03a2-857c-5412-9387-ab2aa53c63f6",
+          "target": "f2f2a449-3439-5e0e-8fc2-50f50a4f93da"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_ec980df860baaefe",
+      "title": "WNIOSEK O WYDANIE ZAŚWIADCZENIA",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": null,
+          "height": null,
+          "source": "doc_logical"
+        },
+        {
+          "id": 2,
+          "title": "Strona 2",
+          "width": null,
+          "height": null,
+          "source": "doc_logical"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Dane formularza",
+          "page": 1,
+          "order": 0,
+          "instructions": [
+            "Młynary, dnia…………………….",
+            "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+            "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+            "okresie posiadania gospodarstwa rolnego",
+            "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+            "/podpis/"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s2",
+          "title": "INFORMACJE:",
+          "page": 1,
+          "order": 1,
+          "instructions": [
+            "Opłata za wydanie zaświadczenia wynosi 17 zł (od każdego egzemplarza). Obowiązek uiszczenia opłaty skarbowej powstaje z chwilą złożenia wniosku o wydanie zaświadczenia.",
+            "Opłatę skarbową należy wnieść w kasie lub bezgotówkowo na rachunek tut. Urzędu – przed złożeniem wniosku. Konto bankowe Urzędu: Bank PKO BP S.A. 12 1234 1234 1234 1234 1234 1234.",
+            "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.",
+            "o opłacie skarbowej."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s3",
+          "title": "Strona 2",
+          "page": 2,
+          "order": 2,
+          "instructions": [
+            "Urząd Miasta i Gminy Młynary",
+            "ul. Dworcowa 29",
+            "14-420 Młynary"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 2",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_9b39e6e7abaf",
+          "label": "/ imię i nazwisko /",
+          "field_type": "text",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b3",
+            "text": "/ imię i nazwisko /",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Spatial label/answer association",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_945bd7c2ab94",
+          "label": "/ adres /",
+          "field_type": "address",
+          "required": false,
+          "order": 1,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b5",
+            "text": "/ adres /",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Spatial label/answer association",
+            "Semantic type: address"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_ed26e5e0416c",
+          "label": "/ PESEL /",
+          "field_type": "pesel",
+          "required": false,
+          "order": 2,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "pesel",
+              "value": null,
+              "message": null
+            },
+            {
+              "kind": "min_length",
+              "value": 11,
+              "message": null
+            },
+            {
+              "kind": "max_length",
+              "value": 11,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b7",
+            "text": "/ PESEL /",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Spatial label/answer association",
+            "Semantic type: pesel"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_a15bf7d9712a",
+          "label": "/ nr telefonu /",
+          "field_type": "phone",
+          "required": false,
+          "order": 3,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "phone",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b9",
+            "text": "/ nr telefonu /",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Spatial label/answer association",
+            "Semantic type: phone"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_2276e6e7560c",
+          "label": "Proszę o wydanie zaświadczenia o",
+          "field_type": "text",
+          "required": true,
+          "order": 4,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b11",
+            "text": "Proszę o wydanie zaświadczenia o:*",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.85,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Label/type context",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_465e5569a634",
+          "label": "inne",
+          "field_type": "text",
+          "required": false,
+          "order": 5,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "inne………………………………………………………………………………………",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_374ae295177d",
+          "label": "Zaświadczenie potrzebne jest celem przedłożenia w",
+          "field_type": "text",
+          "required": false,
+          "order": 6,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b18",
+            "text": "Zaświadczenie potrzebne jest celem przedłożenia w ……………………………………….",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [
+        "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał."
+      ],
+      "groups": [],
+      "dictionaries": [],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": true
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a15bf7d9712a"
+      }
+    ],
+    "provenance": {
+      "4e12dc95-e4c1-538a-8d2b-231af0aadc80": {
+        "internal_field_id": "f_9b39e6e7abaf",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b3",
+          "text": "/ imię i nazwisko /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "66d8070a-4777-5ff5-98e2-c28beaaf4cc2": {
+        "internal_field_id": "f_945bd7c2ab94",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "/ adres /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "8aa8051d-212e-53e5-a5be-ae33ca44da2c": {
+        "internal_field_id": "f_ed26e5e0416c",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "/ PESEL /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "61be7bb5-e2f9-5e4a-8698-f2adce450f9a": {
+        "internal_field_id": "f_a15bf7d9712a",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b9",
+          "text": "/ nr telefonu /",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "5661a11c-624d-5ad1-bb95-7b9ab59c1d6d": {
+        "internal_field_id": "f_2276e6e7560c",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "Proszę o wydanie zaświadczenia o:*",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "ba3ccd28-b81c-50a3-93e8-64efb5782ae1": {
+        "internal_field_id": "f_465e5569a634",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "inne………………………………………………………………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "8a1b82d6-6f53-548f-9aa5-584b4800525f": {
+        "internal_field_id": "f_374ae295177d",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b18",
+          "text": "Zaświadczenie potrzebne jest celem przedłożenia w ……………………………………….",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      }
+    },
+    "requires_confirmation": true,
+    "status": "valid_requires_review",
+    "unsupported_features": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a15bf7d9712a"
+      }
+    ]
+  },
+  "normalization": {
+    "applied": true,
+    "policy": "source-first; no reference workflow profile inferred",
+    "source_fields": 7,
+    "output_fields": 7,
+    "standard_additions": 0,
+    "suppressed": [],
+    "reference_json_used_at_runtime": false
+  },
+  "quality_review": {
+    "counts": {
+      "fields": 7,
+      "sections": 3,
+      "pages": 2,
+      "dependencies": 0,
+      "dictionaries": 0,
+      "review_fields": 7,
+      "error": 0,
+      "warning": 10,
+      "info": 1
+    },
+    "checks": {
+      "schema_valid": true,
+      "business_rules_valid": true,
+      "compatibility_profile_valid": true,
+      "actual_import_verified": false,
+      "completeness_verified": false
+    },
+    "diagnostics": [
+      {
+        "severity": "WARNING",
+        "code": "coi_review",
+        "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "WARNING",
+        "code": "document_review",
+        "message": "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_9b39e6e7abaf",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_945bd7c2ab94",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_ed26e5e0416c",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_a15bf7d9712a",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_2276e6e7560c",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_465e5569a634",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_374ae295177d",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a15bf7d9712a",
+        "category": "business",
+        "severity": "WARNING",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "INFO",
+        "code": "import_unverified",
+        "message": "Nie przeprowadzono importu na rzeczywistej platformie COI.",
+        "category": "platform",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      }
+    ],
+    "unsupported_features": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a15bf7d9712a"
+      }
+    ],
+    "score_semantics": "Nie skalibrowano prawdopodobieństwa poprawności. Liczby opisują elementy i kontrole, a nie procent dokładności."
+  },
+  "quality": {
+    "status": "partial",
+    "completeness_verified": false,
+    "unresolved_warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał."
+    ],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_9b39e6e7abaf"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_945bd7c2ab94"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_ed26e5e0416c"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_a15bf7d9712a"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_2276e6e7560c"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_465e5569a634"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_374ae295177d"
+    }
+  ],
+  "document": {
+    "filename": "unknown.doc",
+    "format": "doc",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      },
+      {
+        "id": 2,
+        "title": "Strona 2",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "Młynary, dnia…………………….",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 1,
+          "column": 9,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "paper place/date header; electronic completion uses finish page"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "………………………………..",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 2,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b3"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "/ imię i nazwisko /",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 3,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": "………………………………..",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 5,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b5"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "/ adres /",
+        "page": 1,
+        "kind": "cell",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 6,
+          "column": 1,
+          "paired_blank": true,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "……………………………….",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 8,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b7"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": "/ PESEL /",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 9,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "……………………………….",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 11,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b9"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": "/ nr telefonu /",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 12,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "WNIOSEK O WYDANIE ZAŚWIADCZENIA",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 15,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": "Proszę o wydanie zaświadczenia o:*",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 17,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 19,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 20,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "okresie posiadania gospodarstwa rolnego",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 21,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 22,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "inne………………………………………………………………………………………",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 23,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": "…………………………………………………………………………………………...",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 24,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b16"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b18",
+        "text": "Zaświadczenie potrzebne jest celem przedłożenia w ……………………………………….",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 26,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b19",
+        "text": "……………………………………………………………………………………………….",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 27,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b18"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b20",
+        "text": "………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 30,
+          "column": 9,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b21"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b21",
+        "text": "/podpis/",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 31,
+          "column": 10,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "blank_lines": 1,
+          "input_bbox": null,
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b22",
+        "text": "INFORMACJE:",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 32,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "static information heading"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b23",
+        "text": "Opłata za wydanie zaświadczenia wynosi 17 zł (od każdego egzemplarza). Obowiązek uiszczenia opłaty skarbowej powstaje z chwilą złożenia wniosku o wydanie zaświadczenia.",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 33,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b24",
+        "text": "Opłatę skarbową należy wnieść w kasie lub bezgotówkowo na rachunek tut. Urzędu – przed złożeniem wniosku. Konto bankowe Urzędu: Bank PKO BP S.A. 12 1234 1234 1234 1234 1234 1234.",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 34,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b25",
+        "text": "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 35,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b26",
+        "text": "o opłacie skarbowej.",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 36,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b27",
+        "text": "Urząd Miasta i Gminy Młynary",
+        "page": 2,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "textbox",
+          "table_id": "doc_2",
+          "row": 1,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "fixed recipient authority"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b28",
+        "text": "ul. Dworcowa 29",
+        "page": 2,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "textbox",
+          "table_id": "doc_2",
+          "row": 2,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b29",
+        "text": "14-420 Młynary",
+        "page": 2,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "textbox",
+          "table_id": "doc_2",
+          "row": 3,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał."
+    ],
+    "analysis": {
+      "ocr": [],
+      "legacy_doc": {
+        "format": "Word97-2003",
+        "main_characters": 1239,
+        "textbox_characters": 62,
+        "geometry_available": false
+      },
+      "layout": {
+        "geometry_associations": 7,
+        "columns": 4,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "information": 5,
+          "blank": 7,
+          "text": 12,
+          "cell": 1,
+          "heading": 2,
+          "instruction": 2
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 1.08
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 3.31
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 0.93
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 0.65
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.02
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 0.69
+    }
+  ]
+}

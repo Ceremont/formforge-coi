@@ -44,6 +44,8 @@ def convert(path: Path, filename: str, extension: str, settings: Settings) -> di
     issues = run("validation", lambda: FormValidator().inspect(form))
     export, coi_report = run("json_mapping", lambda: export_bundle(form, settings.export_format))
     unresolved = [w for w in form.warnings if "Potencjalna zależność" in w or "Częściowy" in w or "Pominięto" in w]
+    from .quality_review import review
+
     return {
         "form": form.model_dump(mode="json"),
         "detected_form": detected_form,
@@ -51,6 +53,7 @@ def convert(path: Path, filename: str, extension: str, settings: Settings) -> di
         "preview_export": COIJsonMapper().export(form),
         "coi_validation": coi_report,
         "normalization": normalization,
+        "quality_review": review(form, issues, coi_report),
         "quality": {
             "status": "no_fields" if not form.fields else "partial" if unresolved else "review_required",
             "completeness_verified": False,

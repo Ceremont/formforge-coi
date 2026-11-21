@@ -1,0 +1,5141 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_04369518d92a1744",
+    "title": "WNIOSEK O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "DANE WNIOSKODAWCY *",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "(pole nieobowiązkowe)"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "Na podstawie art. 2 ust. 1 ustawy o dostępie do informacji publicznej z dnia 6 września 2001 r. (Dz. U. z 2018 r."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "SPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI:* *",
+        "page": 1,
+        "order": 2,
+        "instructions": [
+          "– odbiór osobisty",
+          "– wysyłka pocztą",
+          "Miejscowość, data",
+          "podpis wnioskodawcy",
+          "* W zależności od wybranej formy udostępnienia informacji, należy podać: adres pocztowy, adres e-mail",
+          "lub telefon.",
+          "* * Należy zaznaczyć symbolem „X” / wypełnić właściwe pole."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_4e6de49fb61b",
+        "label": "Imię i Nazwisko / Nazwa instytucji/firmy",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b2",
+          "text": "Imię i Nazwisko / Nazwa instytucji/firmy: .............................................................",
+          "bbox": [
+            70.94400024414062,
+            69.13616943359375,
+            388.7452087402344,
+            80.51220703125
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            69.13616943359375,
+            388.7452087402344,
+            80.51220703125
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0e581bb7b4fa",
+        "label": "Adres",
+        "field_type": "address",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "Adres:",
+          "bbox": [
+            70.94400024414062,
+            97.95623779296875,
+            97.55435943603516,
+            109.33221435546875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            141.74000549316406,
+            97.95623779296875,
+            388.02520751953125,
+            109.33221435546875
+          ],
+          "label_bbox": [
+            70.94400024414062,
+            97.95623779296875,
+            97.55435943603516,
+            109.33221435546875
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_7fdba4884c4d",
+        "label": "Adres e-mail",
+        "field_type": "email",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "email",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "Adres e-mail: ............................................................................................................",
+          "bbox": [
+            70.94400024414062,
+            132.75616455078125,
+            388.02520751953125,
+            144.1322021484375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            132.75616455078125,
+            388.02520751953125,
+            144.1322021484375
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: email"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_24b36d71da7d",
+        "label": "Nr telefonu",
+        "field_type": "phone",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "phone",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "Nr telefonu: ............................................................................................................",
+          "bbox": [
+            70.94400024414062,
+            167.55621337890625,
+            388.02520751953125,
+            178.93218994140625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            167.55621337890625,
+            388.02520751953125,
+            178.93218994140625
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: phone"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_86fa363f08b8",
+        "label": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie",
+        "field_type": "textarea",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s2",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie:",
+          "bbox": [
+            70.94400024414062,
+            241.23614501953125,
+            463.015625,
+            252.6121826171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.94400024414062,
+            266.58624267578125,
+            538.4151611328125,
+            277.96221923828125
+          ],
+          "label_bbox": [
+            70.94400024414062,
+            241.23614501953125,
+            463.015625,
+            252.6121826171875
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_2e8598306ee6",
+        "label": "na podany adres e-mail",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": "na podany adres e-mail",
+          "bbox": [
+            117.0199966430664,
+            393.6661682128906,
+            219.52674865722656,
+            405.04217529296875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            80.725,
+            393.54998291015625,
+            99.475,
+            411.54998291015625
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            393.6661682128906,
+            219.52674865722656,
+            405.04217529296875
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_59a298fd2aba",
+        "label": "na miejscu w Urzędzie",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b18",
+          "text": "na miejscu w Urzędzie",
+          "bbox": [
+            117.0199966430664,
+            424.5061950683594,
+            212.2750244140625,
+            435.8822021484375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            425.34998291015626,
+            101.05000000000001,
+            443.34998291015626
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            424.5061950683594,
+            212.2750244140625,
+            435.8822021484375
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_c089c9c32b86",
+        "label": "kserokopia – odbiór osobisty",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "kserokopia – odbiór osobisty",
+          "bbox": [
+            117.0199966430664,
+            456.326171875,
+            242.26458740234375,
+            467.7021789550781
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            457.14998291015627,
+            101.05,
+            475.14998291015627
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            456.326171875,
+            242.26458740234375,
+            467.7021789550781
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_00df9f003143",
+        "label": "kserokopia – wysyłka pocztą",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "kserokopia – wysyłka pocztą",
+          "bbox": [
+            117.0199966430664,
+            488.1261901855469,
+            239.1456756591797,
+            499.502197265625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            488.9499829101562,
+            101.05,
+            506.9499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            488.1261901855469,
+            239.1456756591797,
+            499.502197265625
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_092db44a57e4",
+        "label": "plik(i) na płycie CD – odbiór osobisty",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b21",
+          "text": "plik(i) na płycie CD – odbiór osobisty",
+          "bbox": [
+            117.0199966430664,
+            519.9261779785156,
+            274.9045715332031,
+            531.3021850585938
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            520.7499829101562,
+            100.7,
+            538.7499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            519.9261779785156,
+            274.9045715332031,
+            531.3021850585938
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e93a017c4574",
+        "label": "plik(i) na płycie CD – wysyłka pocztą",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 10,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b22",
+          "text": "plik(i) na płycie CD – wysyłka pocztą",
+          "bbox": [
+            117.0199966430664,
+            551.7261962890625,
+            271.8994140625,
+            563.1022033691406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            552.5499829101562,
+            101.05,
+            570.5499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            551.7261962890625,
+            271.8994140625,
+            563.1022033691406
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f49d834c0c36",
+        "label": "plik(i) na innym nośniku (jakim?)",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 11,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "plik(i) na innym nośniku (jakim?)",
+          "bbox": [
+            117.0199966430664,
+            583.5261840820312,
+            259.8172302246094,
+            594.9021911621094
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            584.3499829101563,
+            101.05,
+            602.3499829101563
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            583.5261840820312,
+            259.8172302246094,
+            594.9021911621094
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_69200bfcba13",
+        "label": "plik(i) na innym nośniku (jakim?)",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 12,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b25",
+          "text": "plik(i) na innym nośniku (jakim?)",
+          "bbox": [
+            117.0199966430664,
+            615.3261871337891,
+            259.8172302246094,
+            626.7021942138672
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            616.1499829101563,
+            100.7,
+            634.1499829101563
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            615.3261871337891,
+            259.8172302246094,
+            626.7021942138672
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_cc6da008c8f1",
+        "label": "Uwagi",
+        "field_type": "textarea",
+        "required": false,
+        "order": 13,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b31",
+          "text": "Uwagi:",
+          "bbox": [
+            70.94400024414062,
+            723.3561859130859,
+            99.7157974243164,
+            734.7321853637695
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            723.3561859130859,
+            99.7157974243164,
+            734.7321853637695
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_04369518d92a1744",
+    "title": "WNIOSEK O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "DANE WNIOSKODAWCY *",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "(pole nieobowiązkowe)"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "Na podstawie art. 2 ust. 1 ustawy o dostępie do informacji publicznej z dnia 6 września 2001 r. (Dz. U. z 2018 r."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "SPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI:* *",
+        "page": 1,
+        "order": 2,
+        "instructions": [
+          "– odbiór osobisty",
+          "– wysyłka pocztą",
+          "Miejscowość, data",
+          "podpis wnioskodawcy",
+          "* W zależności od wybranej formy udostępnienia informacji, należy podać: adres pocztowy, adres e-mail",
+          "lub telefon.",
+          "* * Należy zaznaczyć symbolem „X” / wypełnić właściwe pole."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_4e6de49fb61b",
+        "label": "Imię i Nazwisko / Nazwa instytucji/firmy",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b2",
+          "text": "Imię i Nazwisko / Nazwa instytucji/firmy: .............................................................",
+          "bbox": [
+            70.94400024414062,
+            69.13616943359375,
+            388.7452087402344,
+            80.51220703125
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            69.13616943359375,
+            388.7452087402344,
+            80.51220703125
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0e581bb7b4fa",
+        "label": "Adres",
+        "field_type": "address",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "Adres:",
+          "bbox": [
+            70.94400024414062,
+            97.95623779296875,
+            97.55435943603516,
+            109.33221435546875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            141.74000549316406,
+            97.95623779296875,
+            388.02520751953125,
+            109.33221435546875
+          ],
+          "label_bbox": [
+            70.94400024414062,
+            97.95623779296875,
+            97.55435943603516,
+            109.33221435546875
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_7fdba4884c4d",
+        "label": "Adres e-mail",
+        "field_type": "email",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "email",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "Adres e-mail: ............................................................................................................",
+          "bbox": [
+            70.94400024414062,
+            132.75616455078125,
+            388.02520751953125,
+            144.1322021484375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            132.75616455078125,
+            388.02520751953125,
+            144.1322021484375
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: email"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_24b36d71da7d",
+        "label": "Nr telefonu",
+        "field_type": "phone",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "phone",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "Nr telefonu: ............................................................................................................",
+          "bbox": [
+            70.94400024414062,
+            167.55621337890625,
+            388.02520751953125,
+            178.93218994140625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            167.55621337890625,
+            388.02520751953125,
+            178.93218994140625
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: phone"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_86fa363f08b8",
+        "label": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie",
+        "field_type": "textarea",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s2",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie:",
+          "bbox": [
+            70.94400024414062,
+            241.23614501953125,
+            463.015625,
+            252.6121826171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.94400024414062,
+            266.58624267578125,
+            538.4151611328125,
+            277.96221923828125
+          ],
+          "label_bbox": [
+            70.94400024414062,
+            241.23614501953125,
+            463.015625,
+            252.6121826171875
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_2e8598306ee6",
+        "label": "na podany adres e-mail",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": "na podany adres e-mail",
+          "bbox": [
+            117.0199966430664,
+            393.6661682128906,
+            219.52674865722656,
+            405.04217529296875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            80.725,
+            393.54998291015625,
+            99.475,
+            411.54998291015625
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            393.6661682128906,
+            219.52674865722656,
+            405.04217529296875
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_59a298fd2aba",
+        "label": "na miejscu w Urzędzie",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b18",
+          "text": "na miejscu w Urzędzie",
+          "bbox": [
+            117.0199966430664,
+            424.5061950683594,
+            212.2750244140625,
+            435.8822021484375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            425.34998291015626,
+            101.05000000000001,
+            443.34998291015626
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            424.5061950683594,
+            212.2750244140625,
+            435.8822021484375
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_c089c9c32b86",
+        "label": "kserokopia – odbiór osobisty",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "kserokopia – odbiór osobisty",
+          "bbox": [
+            117.0199966430664,
+            456.326171875,
+            242.26458740234375,
+            467.7021789550781
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            457.14998291015627,
+            101.05,
+            475.14998291015627
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            456.326171875,
+            242.26458740234375,
+            467.7021789550781
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_00df9f003143",
+        "label": "kserokopia – wysyłka pocztą",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "kserokopia – wysyłka pocztą",
+          "bbox": [
+            117.0199966430664,
+            488.1261901855469,
+            239.1456756591797,
+            499.502197265625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            488.9499829101562,
+            101.05,
+            506.9499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            488.1261901855469,
+            239.1456756591797,
+            499.502197265625
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_092db44a57e4",
+        "label": "plik(i) na płycie CD – odbiór osobisty",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b21",
+          "text": "plik(i) na płycie CD – odbiór osobisty",
+          "bbox": [
+            117.0199966430664,
+            519.9261779785156,
+            274.9045715332031,
+            531.3021850585938
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            520.7499829101562,
+            100.7,
+            538.7499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            519.9261779785156,
+            274.9045715332031,
+            531.3021850585938
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e93a017c4574",
+        "label": "plik(i) na płycie CD – wysyłka pocztą",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 10,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b22",
+          "text": "plik(i) na płycie CD – wysyłka pocztą",
+          "bbox": [
+            117.0199966430664,
+            551.7261962890625,
+            271.8994140625,
+            563.1022033691406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            552.5499829101562,
+            101.05,
+            570.5499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            551.7261962890625,
+            271.8994140625,
+            563.1022033691406
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f49d834c0c36",
+        "label": "plik(i) na innym nośniku (jakim?)",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 11,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "plik(i) na innym nośniku (jakim?)",
+          "bbox": [
+            117.0199966430664,
+            583.5261840820312,
+            259.8172302246094,
+            594.9021911621094
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            584.3499829101563,
+            101.05,
+            602.3499829101563
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            583.5261840820312,
+            259.8172302246094,
+            594.9021911621094
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_69200bfcba13",
+        "label": "plik(i) na innym nośniku (jakim?)",
+        "field_type": "checkbox",
+        "required": false,
+        "order": 12,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b25",
+          "text": "plik(i) na innym nośniku (jakim?)",
+          "bbox": [
+            117.0199966430664,
+            615.3261871337891,
+            259.8172302246094,
+            626.7021942138672
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            616.1499829101563,
+            100.7,
+            634.1499829101563
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            615.3261871337891,
+            259.8172302246094,
+            626.7021942138672
+          ]
+        },
+        "confidence": 0.98,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Isolated square directly left of source label",
+          "Native form control",
+          "Semantic type: checkbox"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_cc6da008c8f1",
+        "label": "Uwagi",
+        "field_type": "textarea",
+        "required": false,
+        "order": 13,
+        "page": 1,
+        "section": "s3",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b31",
+          "text": "Uwagi:",
+          "bbox": [
+            70.94400024414062,
+            723.3561859130859,
+            99.7157974243164,
+            734.7321853637695
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            723.3561859130859,
+            99.7157974243164,
+            734.7321853637695
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "WNIOSEK O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+    "tabs": [
+      {
+        "id": "c4a755df-a74b-5fb7-ad7b-e2b53b77214e",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 6,
+            "cols": 3,
+            "field": {
+              "id": "07620f5c-7093-583b-9205-7d9a80fa0257",
+              "type": "SECTION",
+              "techName": "dane_wnioskodawcy_section_s1",
+              "title": "DANE WNIOSKODAWCY *",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b37a76cd-acc0-56a7-a299-38a50c03b0e5",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_0",
+                    "title": "",
+                    "description": "(pole nieobowiązkowe)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "2206df21-2150-5dfc-ad45-b561ea12cbee",
+                    "type": "TEXT_FIELD",
+                    "techName": "imie_i_nazwisko_nazwa_instytucji_firmy_6de49fb61b",
+                    "title": "Imię i Nazwisko / Nazwa instytucji/firmy",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 1,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "75aa2442-f69c-5f4e-b20d-bf817ff6f362",
+                    "type": "TEXT_FIELD",
+                    "techName": "adres_581bb7b4fa",
+                    "title": "Adres",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 2,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "00d760ce-c53a-544b-8c43-6ba25e34a9b2",
+                    "type": "TEXT_FIELD",
+                    "techName": "adres_e_mail_dba4884c4d",
+                    "title": "Adres e-mail",
+                    "description": "",
+                    "options": [],
+                    "validation": [
+                      "EMAIL"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 3,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "349b7d09-07b0-5de4-9dcf-8b6353c80ab0",
+                    "type": "TEXT_FIELD",
+                    "techName": "nr_telefonu_b36d71da7d",
+                    "title": "Nr telefonu",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 4,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 6,
+            "rows": 5,
+            "cols": 3,
+            "field": {
+              "id": "6a31980e-97ad-56d3-922e-0f328a47f0d5",
+              "type": "SECTION",
+              "techName": "o_udostepnienie_informacji_publicznej_section_s2",
+              "title": "O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8068fb23-5f7f-5989-a7eb-62ba17455cc9",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_0",
+                    "title": "",
+                    "description": "Na podstawie art. 2 ust. 1 ustawy o dostępie do informacji publicznej z dnia 6 września 2001 r. (Dz. U. z 2018 r.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 3,
+                  "cols": 3,
+                  "field": {
+                    "id": "be0712f0-9e43-568b-b448-8a8bf5fce3c6",
+                    "type": "TEXTAREA",
+                    "techName": "poz_1330_1669_zwracam_sie_z_prosba_o_udostepnienie_informacji_w_nastepujacym_zakresie_fa363f08b8",
+                    "title": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 1,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 1,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 11,
+            "rows": 19,
+            "cols": 3,
+            "field": {
+              "id": "31deaaf2-09e6-53b8-879e-7b9cd5f81b16",
+              "type": "SECTION",
+              "techName": "sposob_i_forma_udostepnienia_informacji_section_s3",
+              "title": "SPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI:* *",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "2d46253a-6bf5-59a1-98a4-9ba6c82616b1",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_0",
+                    "title": "",
+                    "description": "– odbiór osobisty",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d8dfc2a2-ecfb-5856-ac30-ae3ffc26c46a",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_1",
+                    "title": "",
+                    "description": "– wysyłka pocztą",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "14cedbf7-dcb4-562b-8abb-39fdab9cf1a8",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_2",
+                    "title": "",
+                    "description": "Miejscowość, data",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "77dcc022-4912-5bbd-9cf5-142b587ebadd",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_3",
+                    "title": "",
+                    "description": "podpis wnioskodawcy",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "cd871065-3452-5cbd-bab2-d1ce22bca653",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_4",
+                    "title": "",
+                    "description": "* W zależności od wybranej formy udostępnienia informacji, należy podać: adres pocztowy, adres e-mail",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "246fe2c4-8425-5625-a29a-2f017c6d43b4",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_5",
+                    "title": "",
+                    "description": "lub telefon.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "09b10beb-8eee-5f1b-a529-99d2fa23fe4d",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_6",
+                    "title": "",
+                    "description": "* * Należy zaznaczyć symbolem „X” / wypełnić właściwe pole.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d8480ab3-54d9-5b0d-9105-9d031ec2c2af",
+                    "type": "CHECKBOX",
+                    "techName": "na_podany_adres_e_mail_8598306ee6",
+                    "title": "na podany adres e-mail",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "na podany adres e-mail",
+                        "name": "na podany adres e-mail",
+                        "techName": "na_podany_adres_e_mail_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 7,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "aa9ce7ad-e620-530a-89fd-0f857a6d2701",
+                    "type": "CHECKBOX",
+                    "techName": "na_miejscu_w_urzedzie_a298fd2aba",
+                    "title": "na miejscu w Urzędzie",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "na miejscu w Urzędzie",
+                        "name": "na miejscu w Urzędzie",
+                        "techName": "na_miejscu_w_urzedzie_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 8,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4cb5f892-ee7a-5db3-b057-1909a8e34b99",
+                    "type": "CHECKBOX",
+                    "techName": "kserokopia_odbior_osobisty_89c9c32b86",
+                    "title": "kserokopia – odbiór osobisty",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "kserokopia – odbiór osobisty",
+                        "name": "kserokopia – odbiór osobisty",
+                        "techName": "kserokopia_odbior_osobisty_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 9,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a7c3c760-34ba-56ba-b4ec-c6610b1d5630",
+                    "type": "CHECKBOX",
+                    "techName": "kserokopia_wysylka_poczta_df9f003143",
+                    "title": "kserokopia – wysyłka pocztą",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "kserokopia – wysyłka pocztą",
+                        "name": "kserokopia – wysyłka pocztą",
+                        "techName": "kserokopia_wysylka_poczta_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 10,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ef70b3ae-5139-5f79-b691-7acd0eeccd6c",
+                    "type": "CHECKBOX",
+                    "techName": "plik_i_na_plycie_cd_odbior_osobisty_2db44a57e4",
+                    "title": "plik(i) na płycie CD – odbiór osobisty",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "plik(i) na płycie CD – odbiór osobisty",
+                        "name": "plik(i) na płycie CD – odbiór osobisty",
+                        "techName": "plik_i_na_plycie_cd_odbior_osobisty_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 11,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "9c418da9-1000-54e8-9cbf-0795f2e5c255",
+                    "type": "CHECKBOX",
+                    "techName": "plik_i_na_plycie_cd_wysylka_poczta_3a017c4574",
+                    "title": "plik(i) na płycie CD – wysyłka pocztą",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "plik(i) na płycie CD – wysyłka pocztą",
+                        "name": "plik(i) na płycie CD – wysyłka pocztą",
+                        "techName": "plik_i_na_plycie_cd_wysylka_poczta_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 12,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "1de29031-1a6b-5c69-a97d-dc8804598bf7",
+                    "type": "CHECKBOX",
+                    "techName": "plik_i_na_innym_nosniku_jakim_9d834c0c36",
+                    "title": "plik(i) na innym nośniku (jakim?)",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "plik(i) na innym nośniku (jakim?)",
+                        "name": "plik(i) na innym nośniku (jakim?)",
+                        "techName": "plik_i_na_innym_nosniku_jakim_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 13,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 14,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c589f049-23ee-589e-a234-ec9830e486d0",
+                    "type": "CHECKBOX",
+                    "techName": "plik_i_na_innym_nosniku_jakim_200bfcba13",
+                    "title": "plik(i) na innym nośniku (jakim?)",
+                    "description": "",
+                    "options": [
+                      {
+                        "id": "plik(i) na innym nośniku (jakim?)",
+                        "name": "plik(i) na innym nośniku (jakim?)",
+                        "techName": "plik_i_na_innym_nosniku_jakim_0"
+                      }
+                    ],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 14,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 15,
+                  "rows": 3,
+                  "cols": 3,
+                  "field": {
+                    "id": "5c6748b5-b7c0-5702-86eb-e76f05d09ead",
+                    "type": "TEXTAREA",
+                    "techName": "uwagi_6da008c8f1",
+                    "title": "Uwagi",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 15,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 2,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "cbf7e2d5-1668-5241-8ae1-c3381b2044d7",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "16701262-30ea-5386-b225-a6b4f1fee4d1",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "3ddb5317-55c9-55c7-bbae-bc20c0dac832",
+          "source": "c4a755df-a74b-5fb7-ad7b-e2b53b77214e",
+          "target": "cbf7e2d5-1668-5241-8ae1-c3381b2044d7"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_04369518d92a1744",
+      "title": "WNIOSEK O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": 595.3200073242188,
+          "height": 841.9199829101562,
+          "source": "document"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "DANE WNIOSKODAWCY *",
+          "page": 1,
+          "order": 0,
+          "instructions": [
+            "(pole nieobowiązkowe)"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s2",
+          "title": "O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+          "page": 1,
+          "order": 1,
+          "instructions": [
+            "Na podstawie art. 2 ust. 1 ustawy o dostępie do informacji publicznej z dnia 6 września 2001 r. (Dz. U. z 2018 r."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s3",
+          "title": "SPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI:* *",
+          "page": 1,
+          "order": 2,
+          "instructions": [
+            "– odbiór osobisty",
+            "– wysyłka pocztą",
+            "Miejscowość, data",
+            "podpis wnioskodawcy",
+            "* W zależności od wybranej formy udostępnienia informacji, należy podać: adres pocztowy, adres e-mail",
+            "lub telefon.",
+            "* * Należy zaznaczyć symbolem „X” / wypełnić właściwe pole."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_4e6de49fb61b",
+          "label": "Imię i Nazwisko / Nazwa instytucji/firmy",
+          "field_type": "text",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b2",
+            "text": "Imię i Nazwisko / Nazwa instytucji/firmy: .............................................................",
+            "bbox": [
+              70.94400024414062,
+              69.13616943359375,
+              388.7452087402344,
+              80.51220703125
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.94400024414062,
+              69.13616943359375,
+              388.7452087402344,
+              80.51220703125
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_0e581bb7b4fa",
+          "label": "Adres",
+          "field_type": "address",
+          "required": false,
+          "order": 1,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b4",
+            "text": "Adres:",
+            "bbox": [
+              70.94400024414062,
+              97.95623779296875,
+              97.55435943603516,
+              109.33221435546875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              141.74000549316406,
+              97.95623779296875,
+              388.02520751953125,
+              109.33221435546875
+            ],
+            "label_bbox": [
+              70.94400024414062,
+              97.95623779296875,
+              97.55435943603516,
+              109.33221435546875
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: address"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_7fdba4884c4d",
+          "label": "Adres e-mail",
+          "field_type": "email",
+          "required": false,
+          "order": 2,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "email",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b6",
+            "text": "Adres e-mail: ............................................................................................................",
+            "bbox": [
+              70.94400024414062,
+              132.75616455078125,
+              388.02520751953125,
+              144.1322021484375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.94400024414062,
+              132.75616455078125,
+              388.02520751953125,
+              144.1322021484375
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: email"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_24b36d71da7d",
+          "label": "Nr telefonu",
+          "field_type": "phone",
+          "required": false,
+          "order": 3,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "phone",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b7",
+            "text": "Nr telefonu: ............................................................................................................",
+            "bbox": [
+              70.94400024414062,
+              167.55621337890625,
+              388.02520751953125,
+              178.93218994140625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.94400024414062,
+              167.55621337890625,
+              388.02520751953125,
+              178.93218994140625
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: phone"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_86fa363f08b8",
+          "label": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie",
+          "field_type": "textarea",
+          "required": false,
+          "order": 4,
+          "page": 1,
+          "section": "s2",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b11",
+            "text": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie:",
+            "bbox": [
+              70.94400024414062,
+              241.23614501953125,
+              463.015625,
+              252.6121826171875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              70.94400024414062,
+              266.58624267578125,
+              538.4151611328125,
+              277.96221923828125
+            ],
+            "label_bbox": [
+              70.94400024414062,
+              241.23614501953125,
+              463.015625,
+              252.6121826171875
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: textarea"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_2e8598306ee6",
+          "label": "na podany adres e-mail",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 5,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b17",
+            "text": "na podany adres e-mail",
+            "bbox": [
+              117.0199966430664,
+              393.6661682128906,
+              219.52674865722656,
+              405.04217529296875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              80.725,
+              393.54998291015625,
+              99.475,
+              411.54998291015625
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              393.6661682128906,
+              219.52674865722656,
+              405.04217529296875
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_59a298fd2aba",
+          "label": "na miejscu w Urzędzie",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 6,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b18",
+            "text": "na miejscu w Urzędzie",
+            "bbox": [
+              117.0199966430664,
+              424.5061950683594,
+              212.2750244140625,
+              435.8822021484375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              81.95,
+              425.34998291015626,
+              101.05000000000001,
+              443.34998291015626
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              424.5061950683594,
+              212.2750244140625,
+              435.8822021484375
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_c089c9c32b86",
+          "label": "kserokopia – odbiór osobisty",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 7,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b19",
+            "text": "kserokopia – odbiór osobisty",
+            "bbox": [
+              117.0199966430664,
+              456.326171875,
+              242.26458740234375,
+              467.7021789550781
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              82.3,
+              457.14998291015627,
+              101.05,
+              475.14998291015627
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              456.326171875,
+              242.26458740234375,
+              467.7021789550781
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_00df9f003143",
+          "label": "kserokopia – wysyłka pocztą",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 8,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b20",
+            "text": "kserokopia – wysyłka pocztą",
+            "bbox": [
+              117.0199966430664,
+              488.1261901855469,
+              239.1456756591797,
+              499.502197265625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              82.3,
+              488.9499829101562,
+              101.05,
+              506.9499829101562
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              488.1261901855469,
+              239.1456756591797,
+              499.502197265625
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_092db44a57e4",
+          "label": "plik(i) na płycie CD – odbiór osobisty",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 9,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b21",
+            "text": "plik(i) na płycie CD – odbiór osobisty",
+            "bbox": [
+              117.0199966430664,
+              519.9261779785156,
+              274.9045715332031,
+              531.3021850585938
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              81.95,
+              520.7499829101562,
+              100.7,
+              538.7499829101562
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              519.9261779785156,
+              274.9045715332031,
+              531.3021850585938
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_e93a017c4574",
+          "label": "plik(i) na płycie CD – wysyłka pocztą",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 10,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b22",
+            "text": "plik(i) na płycie CD – wysyłka pocztą",
+            "bbox": [
+              117.0199966430664,
+              551.7261962890625,
+              271.8994140625,
+              563.1022033691406
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              82.3,
+              552.5499829101562,
+              101.05,
+              570.5499829101562
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              551.7261962890625,
+              271.8994140625,
+              563.1022033691406
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_f49d834c0c36",
+          "label": "plik(i) na innym nośniku (jakim?)",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 11,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b23",
+            "text": "plik(i) na innym nośniku (jakim?)",
+            "bbox": [
+              117.0199966430664,
+              583.5261840820312,
+              259.8172302246094,
+              594.9021911621094
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              82.3,
+              584.3499829101563,
+              101.05,
+              602.3499829101563
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              583.5261840820312,
+              259.8172302246094,
+              594.9021911621094
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_69200bfcba13",
+          "label": "plik(i) na innym nośniku (jakim?)",
+          "field_type": "checkbox",
+          "required": false,
+          "order": 12,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b25",
+            "text": "plik(i) na innym nośniku (jakim?)",
+            "bbox": [
+              117.0199966430664,
+              615.3261871337891,
+              259.8172302246094,
+              626.7021942138672
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              81.95,
+              616.1499829101563,
+              100.7,
+              634.1499829101563
+            ],
+            "label_bbox": [
+              117.0199966430664,
+              615.3261871337891,
+              259.8172302246094,
+              626.7021942138672
+            ]
+          },
+          "confidence": 0.98,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Isolated square directly left of source label",
+            "Native form control",
+            "Semantic type: checkbox"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_cc6da008c8f1",
+          "label": "Uwagi",
+          "field_type": "textarea",
+          "required": false,
+          "order": 13,
+          "page": 1,
+          "section": "s3",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b31",
+            "text": "Uwagi:",
+            "bbox": [
+              70.94400024414062,
+              723.3561859130859,
+              99.7157974243164,
+              734.7321853637695
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.94400024414062,
+              723.3561859130859,
+              99.7157974243164,
+              734.7321853637695
+            ]
+          },
+          "confidence": 0.85,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Label/type context",
+            "Semantic type: textarea"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [],
+      "groups": [],
+      "dictionaries": [],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": false
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_24b36d71da7d"
+      }
+    ],
+    "provenance": {
+      "2206df21-2150-5dfc-ad45-b561ea12cbee": {
+        "internal_field_id": "f_4e6de49fb61b",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b2",
+          "text": "Imię i Nazwisko / Nazwa instytucji/firmy: .............................................................",
+          "bbox": [
+            70.94400024414062,
+            69.13616943359375,
+            388.7452087402344,
+            80.51220703125
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            69.13616943359375,
+            388.7452087402344,
+            80.51220703125
+          ]
+        }
+      },
+      "75aa2442-f69c-5f4e-b20d-bf817ff6f362": {
+        "internal_field_id": "f_0e581bb7b4fa",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "Adres:",
+          "bbox": [
+            70.94400024414062,
+            97.95623779296875,
+            97.55435943603516,
+            109.33221435546875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            141.74000549316406,
+            97.95623779296875,
+            388.02520751953125,
+            109.33221435546875
+          ],
+          "label_bbox": [
+            70.94400024414062,
+            97.95623779296875,
+            97.55435943603516,
+            109.33221435546875
+          ]
+        }
+      },
+      "00d760ce-c53a-544b-8c43-6ba25e34a9b2": {
+        "internal_field_id": "f_7fdba4884c4d",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "Adres e-mail: ............................................................................................................",
+          "bbox": [
+            70.94400024414062,
+            132.75616455078125,
+            388.02520751953125,
+            144.1322021484375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            132.75616455078125,
+            388.02520751953125,
+            144.1322021484375
+          ]
+        }
+      },
+      "349b7d09-07b0-5de4-9dcf-8b6353c80ab0": {
+        "internal_field_id": "f_24b36d71da7d",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "Nr telefonu: ............................................................................................................",
+          "bbox": [
+            70.94400024414062,
+            167.55621337890625,
+            388.02520751953125,
+            178.93218994140625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            167.55621337890625,
+            388.02520751953125,
+            178.93218994140625
+          ]
+        }
+      },
+      "be0712f0-9e43-568b-b448-8a8bf5fce3c6": {
+        "internal_field_id": "f_86fa363f08b8",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie:",
+          "bbox": [
+            70.94400024414062,
+            241.23614501953125,
+            463.015625,
+            252.6121826171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.94400024414062,
+            266.58624267578125,
+            538.4151611328125,
+            277.96221923828125
+          ],
+          "label_bbox": [
+            70.94400024414062,
+            241.23614501953125,
+            463.015625,
+            252.6121826171875
+          ]
+        }
+      },
+      "d8480ab3-54d9-5b0d-9105-9d031ec2c2af": {
+        "internal_field_id": "f_2e8598306ee6",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": "na podany adres e-mail",
+          "bbox": [
+            117.0199966430664,
+            393.6661682128906,
+            219.52674865722656,
+            405.04217529296875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            80.725,
+            393.54998291015625,
+            99.475,
+            411.54998291015625
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            393.6661682128906,
+            219.52674865722656,
+            405.04217529296875
+          ]
+        }
+      },
+      "aa9ce7ad-e620-530a-89fd-0f857a6d2701": {
+        "internal_field_id": "f_59a298fd2aba",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b18",
+          "text": "na miejscu w Urzędzie",
+          "bbox": [
+            117.0199966430664,
+            424.5061950683594,
+            212.2750244140625,
+            435.8822021484375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            425.34998291015626,
+            101.05000000000001,
+            443.34998291015626
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            424.5061950683594,
+            212.2750244140625,
+            435.8822021484375
+          ]
+        }
+      },
+      "4cb5f892-ee7a-5db3-b057-1909a8e34b99": {
+        "internal_field_id": "f_c089c9c32b86",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "kserokopia – odbiór osobisty",
+          "bbox": [
+            117.0199966430664,
+            456.326171875,
+            242.26458740234375,
+            467.7021789550781
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            457.14998291015627,
+            101.05,
+            475.14998291015627
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            456.326171875,
+            242.26458740234375,
+            467.7021789550781
+          ]
+        }
+      },
+      "a7c3c760-34ba-56ba-b4ec-c6610b1d5630": {
+        "internal_field_id": "f_00df9f003143",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "kserokopia – wysyłka pocztą",
+          "bbox": [
+            117.0199966430664,
+            488.1261901855469,
+            239.1456756591797,
+            499.502197265625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            488.9499829101562,
+            101.05,
+            506.9499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            488.1261901855469,
+            239.1456756591797,
+            499.502197265625
+          ]
+        }
+      },
+      "ef70b3ae-5139-5f79-b691-7acd0eeccd6c": {
+        "internal_field_id": "f_092db44a57e4",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b21",
+          "text": "plik(i) na płycie CD – odbiór osobisty",
+          "bbox": [
+            117.0199966430664,
+            519.9261779785156,
+            274.9045715332031,
+            531.3021850585938
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            520.7499829101562,
+            100.7,
+            538.7499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            519.9261779785156,
+            274.9045715332031,
+            531.3021850585938
+          ]
+        }
+      },
+      "9c418da9-1000-54e8-9cbf-0795f2e5c255": {
+        "internal_field_id": "f_e93a017c4574",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b22",
+          "text": "plik(i) na płycie CD – wysyłka pocztą",
+          "bbox": [
+            117.0199966430664,
+            551.7261962890625,
+            271.8994140625,
+            563.1022033691406
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            552.5499829101562,
+            101.05,
+            570.5499829101562
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            551.7261962890625,
+            271.8994140625,
+            563.1022033691406
+          ]
+        }
+      },
+      "1de29031-1a6b-5c69-a97d-dc8804598bf7": {
+        "internal_field_id": "f_f49d834c0c36",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "plik(i) na innym nośniku (jakim?)",
+          "bbox": [
+            117.0199966430664,
+            583.5261840820312,
+            259.8172302246094,
+            594.9021911621094
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            82.3,
+            584.3499829101563,
+            101.05,
+            602.3499829101563
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            583.5261840820312,
+            259.8172302246094,
+            594.9021911621094
+          ]
+        }
+      },
+      "c589f049-23ee-589e-a234-ec9830e486d0": {
+        "internal_field_id": "f_69200bfcba13",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b25",
+          "text": "plik(i) na innym nośniku (jakim?)",
+          "bbox": [
+            117.0199966430664,
+            615.3261871337891,
+            259.8172302246094,
+            626.7021942138672
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            81.95,
+            616.1499829101563,
+            100.7,
+            634.1499829101563
+          ],
+          "label_bbox": [
+            117.0199966430664,
+            615.3261871337891,
+            259.8172302246094,
+            626.7021942138672
+          ]
+        }
+      },
+      "5c6748b5-b7c0-5702-86eb-e76f05d09ead": {
+        "internal_field_id": "f_cc6da008c8f1",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b31",
+          "text": "Uwagi:",
+          "bbox": [
+            70.94400024414062,
+            723.3561859130859,
+            99.7157974243164,
+            734.7321853637695
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.94400024414062,
+            723.3561859130859,
+            99.7157974243164,
+            734.7321853637695
+          ]
+        }
+      }
+    },
+    "requires_confirmation": true,
+    "status": "valid_requires_review",
+    "unsupported_features": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_24b36d71da7d"
+      }
+    ]
+  },
+  "normalization": {
+    "applied": false,
+    "reason": "No government-applicant context; preserved source structure"
+  },
+  "quality_review": {
+    "counts": {
+      "fields": 14,
+      "sections": 3,
+      "pages": 1,
+      "dependencies": 0,
+      "dictionaries": 0,
+      "review_fields": 0,
+      "error": 0,
+      "warning": 2,
+      "info": 1
+    },
+    "checks": {
+      "schema_valid": true,
+      "business_rules_valid": true,
+      "compatibility_profile_valid": true,
+      "actual_import_verified": false,
+      "completeness_verified": false
+    },
+    "diagnostics": [
+      {
+        "severity": "WARNING",
+        "code": "coi_review",
+        "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_24b36d71da7d",
+        "category": "business",
+        "severity": "WARNING",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "INFO",
+        "code": "import_unverified",
+        "message": "Nie przeprowadzono importu na rzeczywistej platformie COI.",
+        "category": "platform",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      }
+    ],
+    "unsupported_features": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_24b36d71da7d"
+      }
+    ],
+    "score_semantics": "Nie skalibrowano prawdopodobieństwa poprawności. Liczby opisują elementy i kontrole, a nie procent dokładności."
+  },
+  "quality": {
+    "status": "review_required",
+    "completeness_verified": false,
+    "unresolved_warnings": [],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    }
+  ],
+  "document": {
+    "filename": "unknown.pdf",
+    "format": "pdf",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "DANE WNIOSKODAWCY *",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          70.94400024414062,
+          34.33624267578125,
+          174.38287353515625,
+          45.71221923828125
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "Thematic caption without an answer marker"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "Imię i Nazwisko / Nazwa instytucji/firmy: .............................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          69.13616943359375,
+          388.7452087402344,
+          80.51220703125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "(pole nieobowiązkowe)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          80.55621337890625,
+          170.11427307128906,
+          91.93218994140625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": "Adres:",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          97.95623779296875,
+          97.55435943603516,
+          109.33221435546875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            141.74000549316406,
+            97.95623779296875,
+            388.02520751953125,
+            109.33221435546875
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "............................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          141.74000549316406,
+          97.95623779296875,
+          388.02520751953125,
+          109.33221435546875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b4"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "Adres e-mail: ............................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          132.75616455078125,
+          388.02520751953125,
+          144.1322021484375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": "Nr telefonu: ............................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          167.55621337890625,
+          388.02520751953125,
+          178.93218994140625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "WNIOSEK",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          284.92999267578125,
+          192.99615478515625,
+          325.09674072265625,
+          204.3721923828125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": "O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          213.64999389648438,
+          204.39617919921875,
+          395.9314270019531,
+          215.772216796875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "Na podstawie art. 2 ust. 1 ustawy o dostępie do informacji publicznej z dnia 6 września 2001 r. (Dz. U. z 2018 r.",
+        "page": 1,
+        "kind": "legal",
+        "bbox": [
+          70.94400024414062,
+          229.83624267578125,
+          544.6698608398438,
+          241.21221923828125
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie:",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          241.23614501953125,
+          463.015625,
+          252.6121826171875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            70.94400024414062,
+            266.58624267578125,
+            538.4151611328125,
+            277.96221923828125
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": ".............................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.94400024414062,
+          266.58624267578125,
+          538.4151611328125,
+          277.96221923828125
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b11"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": "............................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.94400024414062,
+          292.02618408203125,
+          536.1351928710938,
+          303.40216064453125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "...........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.94400024414062,
+          317.46612548828125,
+          533.8751831054688,
+          328.8421630859375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "............................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.94400024414062,
+          342.78619384765625,
+          536.1351928710938,
+          354.1622009277344
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "SPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI:* *",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          70.94400024414062,
+          368.0271301269531,
+          280.9065246582031,
+          379.6022033691406
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "Thematic caption without an answer marker"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b35",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          80.725,
+          393.54998291015625,
+          99.475,
+          411.54998291015625
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b36",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          80.725,
+          393.54998291015625,
+          99.475,
+          411.54998291015625
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": "na podany adres e-mail",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          393.6661682128906,
+          219.52674865722656,
+          405.04217529296875
+        ],
+        "metadata": {
+          "column": 0,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label",
+          "input_bbox": [
+            80.725,
+            393.54998291015625,
+            99.475,
+            411.54998291015625
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b37",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          81.95,
+          425.34998291015626,
+          101.05000000000001,
+          443.34998291015626
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b38",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          81.95,
+          425.34998291015626,
+          101.05000000000001,
+          443.34998291015626
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b18",
+        "text": "na miejscu w Urzędzie",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          424.5061950683594,
+          212.2750244140625,
+          435.8822021484375
+        ],
+        "metadata": {
+          "column": 0,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label",
+          "input_bbox": [
+            81.95,
+            425.34998291015626,
+            101.05000000000001,
+            443.34998291015626
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b39",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          457.14998291015627,
+          101.05,
+          475.14998291015627
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b40",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          457.14998291015627,
+          101.05,
+          475.14998291015627
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b19",
+        "text": "kserokopia – odbiór osobisty",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          456.326171875,
+          242.26458740234375,
+          467.7021789550781
+        ],
+        "metadata": {
+          "column": 0,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label",
+          "input_bbox": [
+            82.3,
+            457.14998291015627,
+            101.05,
+            475.14998291015627
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b41",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          488.9499829101562,
+          101.05,
+          506.9499829101562
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b42",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          488.9499829101562,
+          101.05,
+          506.9499829101562
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b20",
+        "text": "kserokopia – wysyłka pocztą",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          488.1261901855469,
+          239.1456756591797,
+          499.502197265625
+        ],
+        "metadata": {
+          "column": 0,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label",
+          "input_bbox": [
+            82.3,
+            488.9499829101562,
+            101.05,
+            506.9499829101562
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b21",
+        "text": "plik(i) na płycie CD – odbiór osobisty",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          519.9261779785156,
+          274.9045715332031,
+          531.3021850585938
+        ],
+        "metadata": {
+          "column": 0,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label",
+          "input_bbox": [
+            81.95,
+            520.7499829101562,
+            100.7,
+            538.7499829101562
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b43",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          81.95,
+          520.7499829101562,
+          100.7,
+          538.7499829101562
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b44",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          81.95,
+          520.7499829101562,
+          100.7,
+          538.7499829101562
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b45",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          552.5499829101562,
+          101.05,
+          570.5499829101562
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b46",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          552.5499829101562,
+          101.05,
+          570.5499829101562
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b22",
+        "text": "plik(i) na płycie CD – wysyłka pocztą",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          551.7261962890625,
+          271.8994140625,
+          563.1022033691406
+        ],
+        "metadata": {
+          "column": 0,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label",
+          "input_bbox": [
+            82.3,
+            552.5499829101562,
+            101.05,
+            570.5499829101562
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b47",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          584.3499829101563,
+          101.05,
+          602.3499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b48",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          82.3,
+          584.3499829101563,
+          101.05,
+          602.3499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b23",
+        "text": "plik(i) na innym nośniku (jakim?)",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          583.5261840820312,
+          259.8172302246094,
+          594.9021911621094
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 2,
+          "input_bbox": [
+            82.3,
+            584.3499829101563,
+            101.05,
+            602.3499829101563
+          ],
+          "multiline": true,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b51",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          290.2,
+          584.3499829101563,
+          386.95,
+          602.3499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": false,
+          "column": 0,
+          "label_block_id": "b23"
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b52",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          290.2,
+          584.3499829101563,
+          386.95,
+          602.3499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": false,
+          "column": 0,
+          "label_block_id": "b23"
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b24",
+        "text": "– odbiór osobisty",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          398.2300109863281,
+          583.5261840820312,
+          473.29083251953125,
+          594.9021911621094
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b49",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          81.95,
+          616.1499829101563,
+          100.7,
+          634.1499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b50",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          81.95,
+          616.1499829101563,
+          100.7,
+          634.1499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": true,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b25",
+        "text": "plik(i) na innym nośniku (jakim?)",
+        "page": 1,
+        "kind": "form_field",
+        "bbox": [
+          117.0199966430664,
+          615.3261871337891,
+          259.8172302246094,
+          626.7021942138672
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 2,
+          "input_bbox": [
+            81.95,
+            616.1499829101563,
+            100.7,
+            634.1499829101563
+          ],
+          "multiline": true,
+          "native_type": "checkbox",
+          "choice_evidence": "Isolated square directly left of source label"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b53",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          290.2,
+          616.1499829101563,
+          386.95,
+          634.1499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": false,
+          "column": 0,
+          "label_block_id": "b25"
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b54",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          290.2,
+          616.1499829101563,
+          386.95,
+          634.1499829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": false,
+          "column": 0,
+          "label_block_id": "b25"
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b26",
+        "text": "– wysyłka pocztą",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          398.2300109863281,
+          615.3261871337891,
+          470.28570556640625,
+          626.7021942138672
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b27",
+        "text": ".....................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.94400024414062,
+          672.5961761474609,
+          191.7791748046875,
+          683.9721832275391
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b28",
+        "text": "........................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          354.19000244140625,
+          672.5961761474609,
+          504.545166015625,
+          683.9721832275391
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b29",
+        "text": "Miejscowość, data",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          697.9161834716797,
+          159.10296630859375,
+          709.2921905517578
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b30",
+        "text": "podpis wnioskodawcy",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          386.4700012207031,
+          697.9161834716797,
+          480.8338928222656,
+          709.2921905517578
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b31",
+        "text": "Uwagi:",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          723.3561859130859,
+          99.7157974243164,
+          734.7321853637695
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b32",
+        "text": "* W zależności od wybranej formy udostępnienia informacji, należy podać: adres pocztowy, adres e-mail",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          740.7521820068359,
+          526.942626953125,
+          752.1281814575195
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b33",
+        "text": "lub telefon.",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          752.1521835327148,
+          119.45315551757812,
+          763.5281829833984
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b34",
+        "text": "* * Należy zaznaczyć symbolem „X” / wypełnić właściwe pole.",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.94400024414062,
+          769.5521850585938,
+          329.7052001953125,
+          780.9281806945801
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [],
+    "analysis": {
+      "ocr": [],
+      "page_text": [
+        {
+          "page": 1,
+          "text": "DANE WNIOSKODAWCY * \n \nImię i Nazwisko / Nazwa instytucji/firmy: ............................................................. \n(pole nieobowiązkowe) \nAdres:  ............................................................................................................ \n \nAdres e-mail: ............................................................................................................ \n \nNr telefonu: ............................................................................................................ \nWNIOSEK \nO UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ \nNa podstawie art. 2 ust. 1 ustawy o dostępie do informacji publicznej z dnia 6 września 2001 r.  (Dz. U. z 2018 r. \npoz. 1330,1669)  zwracam się z prośbą o udostępnienie informacji w następującym zakresie:  \n............................................................................................................................................................................................................. \n............................................................................................................................................................................................................ \n........................................................................................................................................................................................................... \n............................................................................................................................................................................................................ \nSPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI:* * \n \nna podany adres e-mail \n \nna miejscu w Urzędzie \n \nkserokopia – odbiór osobisty \n \nkserokopia – wysyłka pocztą \n \nplik(i) na płycie CD – odbiór osobisty \n \nplik(i) na płycie CD – wysyłka pocztą \n \nplik(i) na innym nośniku (jakim?)                    – odbiór osobisty \n \nplik(i) na innym nośniku (jakim?)                    – wysyłka pocztą \n \n.....................................................           ........................................................ \n   Miejscowość, data                                                           podpis wnioskodawcy \nUwagi:  \n* W zależności od wybranej formy udostępnienia informacji, należy podać: adres pocztowy, adres e-mail \nlub telefon. \n* * Należy zaznaczyć symbolem „X” / wypełnić właściwe pole. \n \n \n \n \n \n \n \n \n \n "
+        }
+      ],
+      "layout": {
+        "geometry_associations": 4,
+        "columns": 1,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "heading": 4,
+          "text": 13,
+          "blank": 27,
+          "legal": 1,
+          "form_field": 8,
+          "information": 1
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 137.92
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 3.77
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 1.35
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 1.02
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.02
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 0.82
+    }
+  ]
+}

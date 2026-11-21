@@ -1,0 +1,32 @@
+{
+  "protocol": "Final R2 holdout. Sources selected/acquired AFTER R2 freeze. First R1 sources explicitly promoted to development; no tuning on this R2 holdout. Raw originals excluded from release.",
+  "cases": [
+    {
+      "id": "krk-language",
+      "file": "krk-language.pdf",
+      "url": "https://www.gov.pl/attachment/093983de-1cbb-4778-a125-226f8c837807",
+      "page_url": "https://www.gov.pl/web/krajowy-rejestr-karny/materialy-do-pobrania2",
+      "sha256": "46cf2bc2fc1120adbac6a8bca7085c919c56a5ed53443d6b12217e440505b5e9",
+      "bytes": 61701,
+      "retrieved_utc": "2026-11-21T21:45:00.419398+00:00"
+    },
+    {
+      "id": "pesel-request",
+      "file": "pesel-request.docx",
+      "url": "https://www.gov.pl/attachment/b1f8cfee-db85-40ac-86e3-e4da474e79ee",
+      "page_url": "https://www.gov.pl/web/gov/uzyskaj-dane-innej-osoby-z-rejestru-pesel",
+      "sha256": "dea0f616a74c0207cd618dd9ff83731906060fdd2b0bab37e06d8e291a16b423",
+      "bytes": 296401,
+      "retrieved_utc": "2026-11-21T21:45:00.787538+00:00"
+    },
+    {
+      "id": "fishing-card",
+      "file": "fishing-card.docx",
+      "url": "https://bip.bialystok.pl/resource/74305/Wniosek%2Bo%2Bwydanie%2Bkarty%2Bw%25C4%2599dkarskiej%2B-%2B2025.docx",
+      "page_url": "https://bip.bialystok.pl/urzad_miejski/poradnik_interesanta/jak_zalatwic_sprawe_wyszukiwarka_uslug/wydawanie-kart-wedkarskich-i-kart-lowiectwa-podwodnego.html",
+      "sha256": "803574d240a689c72cf415de117346960b8f9cdb7046ae2e5d283ee5bce2a5d8",
+      "bytes": 18231,
+      "retrieved_utc": "2026-11-21T21:45:01.116646+00:00"
+    }
+  ]
+}

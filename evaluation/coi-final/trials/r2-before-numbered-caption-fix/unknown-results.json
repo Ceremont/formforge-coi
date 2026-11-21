@@ -1,0 +1,76 @@
+[
+  {
+    "id": "final-krk-language",
+    "category": "new_external",
+    "source": "evaluation/coi-final/unknown-documents/krk-language.pdf",
+    "extension": "pdf",
+    "sha256": "46cf2bc2fc1120adbac6a8bca7085c919c56a5ed53443d6b12217e440505b5e9",
+    "status": "converted",
+    "canonical_format": "pdf",
+    "fields": 6,
+    "raw_fields": 6,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "partial",
+      "completeness_verified": false,
+      "unresolved_warnings": [
+        "Potencjalna zależność wymaga weryfikacji: 3. Numer PESEL (jeżeli został nadany) ............................................."
+      ],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 1,
+    "processing_seconds": 0.246
+  },
+  {
+    "id": "final-pesel-request",
+    "category": "new_external",
+    "source": "evaluation/coi-final/unknown-documents/pesel-request.docx",
+    "extension": "docx",
+    "sha256": "dea0f616a74c0207cd618dd9ff83731906060fdd2b0bab37e06d8e291a16b423",
+    "status": "converted",
+    "canonical_format": "docx",
+    "fields": 40,
+    "raw_fields": 40,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "partial",
+      "completeness_verified": false,
+      "unresolved_warnings": [
+        "Potencjalna zależność wymaga weryfikacji: Potrzeba uzyskania danych może wynikać z interesu faktycznego lub interesu prawnego. W przypadku powołania się na interes prawny wnioskodawca jest zobowiązany wskazać podstawę prawną, z której wywodzi",
+        "Potencjalna zależność wymaga weryfikacji: Sekcję wypełnia się tylko w przypadku złożenia wniosku na piśmie utrwalonym w postaci papierowej."
+      ],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 1,
+    "processing_seconds": 0.306
+  },
+  {
+    "id": "final-fishing-card",
+    "category": "new_external",
+    "source": "evaluation/coi-final/unknown-documents/fishing-card.docx",
+    "extension": "docx",
+    "sha256": "803574d240a689c72cf415de117346960b8f9cdb7046ae2e5d283ee5bce2a5d8",
+    "status": "converted",
+    "canonical_format": "docx",
+    "fields": 7,
+    "raw_fields": 7,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "review_required",
+      "completeness_verified": false,
+      "unresolved_warnings": [],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 1,
+    "processing_seconds": 0.183
+  }
+]

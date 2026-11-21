@@ -1,0 +1,1432 @@
+{
+  "expected_interactive_fields": 50,
+  "generated_interactive_fields": 52,
+  "matched_fields": 50,
+  "field_precision": 0.9615384615384616,
+  "field_recall": 1.0,
+  "field_f1": 0.9803921568627451,
+  "field_type_accuracy": 1.0,
+  "structural_similarity": 1.0,
+  "structural_components": {
+    "section_f1": 1.0,
+    "within_section_order": 1.0,
+    "tab_types": 1.0,
+    "flow_edges": 1.0
+  },
+  "conditional_rules_coverage": 1.0,
+  "conditions": [
+    {
+      "field": "Wybierz, jako kto wnioskujesz",
+      "section": "podmiot wniosku",
+      "type": "SHOW",
+      "reference_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 4,
+      "differing_answers": []
+    },
+    {
+      "field": "Dane innej osoby",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Innej osoby\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)\r\n",
+      "generated_query": "(\"Innej osoby\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 4,
+      "differing_answers": []
+    },
+    {
+      "field": "Potwierdzenie, że jesteś reprezentantem",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)\r\nand\r\n(\"Reprezentant\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_jako_kto_wnioskujesz' in field.techName].field.__userAnswer)",
+      "generated_query": "((\"Osoby prawnej lub jednostki organizacyjnej\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer) and (\"Reprezentant\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_jako_kto_wnioskujesz_46464ba6e1\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 12,
+      "differing_answers": []
+    },
+    {
+      "field": "Ulica",
+      "section": "adres siedziby",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_siedziby' in field.techName].field.repeatingSectionGrid['kraj_siedziba' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_siedziby_oi_3e55551b36f1\" in field.techName].field.repeatingSectionGrid[\"kraj_e6d40fa169\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Kod pocztowy",
+      "section": "adres siedziby",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_siedziby' in field.techName].field.repeatingSectionGrid['kraj_siedziba' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_siedziby_oi_3e55551b36f1\" in field.techName].field.repeatingSectionGrid[\"kraj_e6d40fa169\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "TERYT_4G_DOWODOWY",
+      "section": "adres siedziby",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_siedziby' in field.techName].field.repeatingSectionGrid['kraj_siedziba' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_siedziby_oi_3e55551b36f1\" in field.techName].field.repeatingSectionGrid[\"kraj_e6d40fa169\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Ulica",
+      "section": "adres siedziby",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_siedziby' in field.techName].field.repeatingSectionGrid['kraj_siedziba' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_siedziby_oi_3e55551b36f1\" in field.techName].field.repeatingSectionGrid[\"kraj_e6d40fa169\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Kod pocztowy",
+      "section": "adres siedziby",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_siedziby' in field.techName].field.repeatingSectionGrid['kraj_siedziba' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_siedziby_oi_3e55551b36f1\" in field.techName].field.repeatingSectionGrid[\"kraj_e6d40fa169\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Miejscowość",
+      "section": "adres siedziby",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_siedziby' in field.techName].field.repeatingSectionGrid['kraj_siedziba' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_siedziby_oi_3e55551b36f1\" in field.techName].field.repeatingSectionGrid[\"kraj_e6d40fa169\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Adres siedziby",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 4,
+      "differing_answers": []
+    },
+    {
+      "field": "Dane podmiotu",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 4,
+      "differing_answers": []
+    },
+    {
+      "field": "Ulica",
+      "section": "adres zamieszkania",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania' in field.techName].field.repeatingSectionGrid['kraj' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_oi_c29cb6bfbe9c\" in field.techName].field.repeatingSectionGrid[\"kraj_ec3b84b79c\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Kod pocztowy",
+      "section": "adres zamieszkania",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania' in field.techName].field.repeatingSectionGrid['kraj' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_oi_c29cb6bfbe9c\" in field.techName].field.repeatingSectionGrid[\"kraj_ec3b84b79c\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "TERYT_DOWODOWY",
+      "section": "adres zamieszkania",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania' in field.techName].field.repeatingSectionGrid['kraj' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_oi_c29cb6bfbe9c\" in field.techName].field.repeatingSectionGrid[\"kraj_ec3b84b79c\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Ulica",
+      "section": "adres zamieszkania",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania' in field.techName].field.repeatingSectionGrid['kraj' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_oi_c29cb6bfbe9c\" in field.techName].field.repeatingSectionGrid[\"kraj_ec3b84b79c\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Kod pocztowy",
+      "section": "adres zamieszkania",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania' in field.techName].field.repeatingSectionGrid['kraj' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_oi_c29cb6bfbe9c\" in field.techName].field.repeatingSectionGrid[\"kraj_ec3b84b79c\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Miejscowość",
+      "section": "adres zamieszkania",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania' in field.techName].field.repeatingSectionGrid['kraj' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_oi_c29cb6bfbe9c\" in field.techName].field.repeatingSectionGrid[\"kraj_ec3b84b79c\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Opłata skarbowa za pełnomonictwo",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)\r\n\r\nand \r\n\r\n(\"Pełnomocnik\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_jako_kto_wnioskujesz' in field.techName].field.__userAnswer)",
+      "generated_query": "((\"Osoby prawnej lub jednostki organizacyjnej\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer) and (\"Pełnomocnik\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_jako_kto_wnioskujesz_46464ba6e1\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 12,
+      "differing_answers": []
+    },
+    {
+      "field": "Opłata skarbowa",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Innej osoby\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)\r\n",
+      "generated_query": "(\"Innej osoby\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 4,
+      "differing_answers": []
+    },
+    {
+      "field": "Pełnomocnictwo",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Innej osoby\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)\r\n\r\nor \r\n\r\n(\r\n\r\n(\"Osoby prawnej lub jednostki organizacyjnej\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)\r\n\r\nand \r\n\r\n(\"Pełnomocnik\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_jako_kto_wnioskujesz' in field.techName].field.__userAnswer)\r\n\r\n\r\n)",
+      "generated_query": "((\"Innej osoby\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer) or ((\"Osoby prawnej lub jednostki organizacyjnej\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer) and (\"Pełnomocnik\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_jako_kto_wnioskujesz_46464ba6e1\" in field.techName].field.__userAnswer)))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 12,
+      "differing_answers": []
+    },
+    {
+      "field": "Ulica",
+      "section": "adres zamieszkania innej osoby",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania_osoby_ktorej_jestes_pelnomocnikiem' in field.techName].field.repeatingSectionGrid['kraj_inna_osoba' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_innej_osoby_oi_5ef0768b7529\" in field.techName].field.repeatingSectionGrid[\"kraj_32c4e1176a\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Kod pocztowy",
+      "section": "adres zamieszkania innej osoby",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania_osoby_ktorej_jestes_pelnomocnikiem' in field.techName].field.repeatingSectionGrid['kraj_inna_osoba' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_innej_osoby_oi_5ef0768b7529\" in field.techName].field.repeatingSectionGrid[\"kraj_32c4e1176a\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "TERYT_4G_DOWODOWY",
+      "section": "adres zamieszkania innej osoby",
+      "type": "SHOW",
+      "reference_query": "(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania_osoby_ktorej_jestes_pelnomocnikiem' in field.techName].field.repeatingSectionGrid['kraj_inna_osoba' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_innej_osoby_oi_5ef0768b7529\" in field.techName].field.repeatingSectionGrid[\"kraj_32c4e1176a\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Ulica",
+      "section": "adres zamieszkania innej osoby",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania_osoby_ktorej_jestes_pelnomocnikiem' in field.techName].field.repeatingSectionGrid['kraj_inna_osoba' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_innej_osoby_oi_5ef0768b7529\" in field.techName].field.repeatingSectionGrid[\"kraj_32c4e1176a\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Kod pocztowy",
+      "section": "adres zamieszkania innej osoby",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania_osoby_ktorej_jestes_pelnomocnikiem' in field.techName].field.repeatingSectionGrid['kraj_inna_osoba' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_innej_osoby_oi_5ef0768b7529\" in field.techName].field.repeatingSectionGrid[\"kraj_32c4e1176a\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Miejscowość",
+      "section": "adres zamieszkania innej osoby",
+      "type": "SHOW",
+      "reference_query": "$not(\"Polska\" in tabs['Dane' in title].questions['adres_zamieszkania_osoby_ktorej_jestes_pelnomocnikiem' in field.techName].field.repeatingSectionGrid['kraj_inna_osoba' in field.techName].field.__userAnswer)",
+      "generated_query": "($not(\"Polska\" in tabs[\"Dane\" in title].questions[\"adres_zamieszkania_innej_osoby_oi_5ef0768b7529\" in field.techName].field.repeatingSectionGrid[\"kraj_32c4e1176a\" in field.techName].field.__userAnswer))",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "Adres zamieszkania innej osoby",
+      "section": "",
+      "type": "SHOW",
+      "reference_query": "(\"Innej osoby\" in tabs['Dane' in title].questions['podmiot_wniosku' in field.techName].field.repeatingSectionGrid['wybierz_w_czyim_imieniu_wnioskujesz' in field.techName].field.__userAnswer)\r\n",
+      "generated_query": "(\"Innej osoby\" in tabs[\"Dane\" in title].questions[\"podmiot_wniosku_oi_3bd70a9d6e74\" in field.techName].field.repeatingSectionGrid[\"wybierz_w_czyim_imieniu_wnioskujesz_ed6fb40df6\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 4,
+      "differing_answers": []
+    },
+    {
+      "field": "Potwierdzenie przelewu",
+      "section": "oplata skarbowa",
+      "type": "SHOW",
+      "reference_query": "(\"Tak\" in tabs['Dane' in title].questions['oplata_skarbowa_pelnomocnictwo_1' in field.techName].field.repeatingSectionGrid['czy_zlozenie_pelnomocnictwa_wymaga_oplaty_skarbowej' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Tak\" in tabs[\"Dane\" in title].questions[\"oplata_skarbowa_oi_4154a21bcc5a\" in field.techName].field.repeatingSectionGrid[\"czy_zlozenie_pelnomocnictwa_wymaga_oplaty_skarbowej_7a09c44ba1\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    },
+    {
+      "field": "",
+      "section": "oplata skarbowa",
+      "type": "SHOW",
+      "reference_query": "(\"Tak\" in tabs['Dane' in title].questions['oplata_skarbowa_pelnomocnictwo_1' in field.techName].field.repeatingSectionGrid['czy_zlozenie_pelnomocnictwa_wymaga_oplaty_skarbowej' in field.techName].field.__userAnswer)",
+      "generated_query": "(\"Tak\" in tabs[\"Dane\" in title].questions[\"oplata_skarbowa_oi_4154a21bcc5a\" in field.techName].field.repeatingSectionGrid[\"czy_zlozenie_pelnomocnictwa_wymaga_oplaty_skarbowej_7a09c44ba1\" in field.techName].field.__userAnswer)",
+      "status": "equivalent_on_choice_domains",
+      "scenarios": 3,
+      "differing_answers": []
+    }
+  ],
+  "missing": [],
+  "extra": [
+    {
+      "section": "twoje dane",
+      "title": "Numer PESEL",
+      "type": "TEXT_FIELD"
+    },
+    {
+      "section": "dane innej osoby",
+      "title": "Numer PESEL",
+      "type": "TEXT_FIELD"
+    }
+  ],
+  "matches": [
+    {
+      "reference": {
+        "section": "twoje dane",
+        "title": "Nazwisko",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "twoje dane",
+        "title": "Nazwisko",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "twoje dane",
+        "title": "Imię",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "twoje dane",
+        "title": "Imię",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "podmiot wniosku",
+        "title": "Wybierz, jako kto wnioskujesz",
+        "type": "RADIO"
+      },
+      "generated": {
+        "section": "podmiot wniosku",
+        "title": "Wybierz, jako kto wnioskujesz",
+        "type": "RADIO"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "podmiot wniosku",
+        "title": "Wybierz, w czyim imieniu wnioskujesz",
+        "type": "RADIO"
+      },
+      "generated": {
+        "section": "podmiot wniosku",
+        "title": "Wybierz, w czyim imieniu wnioskujesz",
+        "type": "RADIO"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "organ do ktorego jest skladany wniosek",
+        "title": "Nazwa organu",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "organ do ktorego jest skladany wniosek",
+        "title": "Nazwa organu",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {},
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane innej osoby",
+        "title": "Nazwisko",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane innej osoby",
+        "title": "Nazwisko",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": {},
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane innej osoby",
+        "title": "Imię",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane innej osoby",
+        "title": "Imię",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "potwierdzenie ze jestes reprezentantem",
+        "title": "Plik z odpisem danych",
+        "type": "FILE_UPLOADER"
+      },
+      "generated": {
+        "section": "potwierdzenie ze jestes reprezentantem",
+        "title": "Plik z odpisem danych",
+        "type": "FILE_UPLOADER"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Numer lokalu",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Numer lokalu",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {},
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Numer budynku",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Numer budynku",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        },
+        "defaultValue": {
+          "expected": "",
+          "actual": null
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED",
+            "ZIP_CODE"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "TERYT_4G_DOWODOWY",
+        "type": "SELECT"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "TERYT_4G_DOWODOWY",
+        "type": "SELECT"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        },
+        "defaultValue": {
+          "expected": [],
+          "actual": null
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": {},
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres siedziby",
+        "title": "Kraj",
+        "type": "SELECT"
+      },
+      "generated": {
+        "section": "adres siedziby",
+        "title": "Kraj",
+        "type": "SELECT"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane podmiotu",
+        "title": "Numer KRS",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane podmiotu",
+        "title": "Numer KRS",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": {},
+          "actual": []
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane podmiotu",
+        "title": "REGON",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane podmiotu",
+        "title": "REGON",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED",
+            "REGON"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane podmiotu",
+        "title": "NIP",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane podmiotu",
+        "title": "NIP",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED",
+            "NIP"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane podmiotu",
+        "title": "Nazwa",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane podmiotu",
+        "title": "Nazwa",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Numer lokalu",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Numer lokalu",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "readOnly": {
+          "expected": false,
+          "actual": true
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Numer budynku",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Numer budynku",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        },
+        "readOnly": {
+          "expected": false,
+          "actual": true
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        },
+        "readOnly": {
+          "expected": false,
+          "actual": true
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED",
+            "ZIP_CODE"
+          ]
+        },
+        "readOnly": {
+          "expected": false,
+          "actual": true
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "TERYT_DOWODOWY",
+        "type": "SELECT"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "TERYT_4G_DOWODOWY",
+        "type": "SELECT"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        },
+        "dictionaryName": {
+          "expected": "TERYT_DOWODOWY",
+          "actual": "TERYT_4G_DOWODOWY"
+        },
+        "defaultValue": {
+          "expected": [],
+          "actual": null
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania",
+        "title": "Kraj",
+        "type": "SELECT"
+      },
+      "generated": {
+        "section": "adres zamieszkania",
+        "title": "Kraj",
+        "type": "SELECT"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane do kontaktu",
+        "title": "Adres e-mail",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane do kontaktu",
+        "title": "Adres e-mail",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "EMAIL"
+          ]
+        },
+        "readOnly": {
+          "expected": false,
+          "actual": true
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "dane do kontaktu",
+        "title": "Numer telefonu",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "dane do kontaktu",
+        "title": "Numer telefonu",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "readOnly": {
+          "expected": false,
+          "actual": true
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "lokalizacja budynku",
+        "title": "Obręb",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "lokalizacja budynku",
+        "title": "Obręb",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "lokalizacja budynku",
+        "title": "Numer ewidencyjny działki",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "lokalizacja budynku",
+        "title": "Numer ewidencyjny działki",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "lokalizacja budynku",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "lokalizacja budynku",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "lokalizacja budynku",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "lokalizacja budynku",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "oplata skarbowa",
+        "title": "Czy złożenie pełnomocnictwa wymaga opłaty skarbowej?",
+        "type": "RADIO"
+      },
+      "generated": {
+        "section": "oplata skarbowa",
+        "title": "Czy złożenie pełnomocnictwa wymaga opłaty skarbowej?",
+        "type": "RADIO"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Numer lokalu",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Numer lokalu",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {},
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Numer budynku",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Numer budynku",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED",
+            "ZIP_CODE"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "TERYT_4G_DOWODOWY",
+        "type": "SELECT"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "TERYT_4G_DOWODOWY",
+        "type": "SELECT"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        },
+        "defaultValue": {
+          "expected": [],
+          "actual": null
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Ulica",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Kod pocztowy",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Miejscowość",
+        "type": "TEXT_FIELD"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Kraj",
+        "type": "SELECT"
+      },
+      "generated": {
+        "section": "adres zamieszkania innej osoby",
+        "title": "Kraj",
+        "type": "SELECT"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "oplata skarbowa za pelnomocnictwo",
+        "title": "Potwierdzenie przelewu",
+        "type": "FILE_UPLOADER"
+      },
+      "generated": {
+        "section": "oplata skarbowa za pelnomocnictwo",
+        "title": "Plik z potwierdzeniem przelewu",
+        "type": "FILE_UPLOADER"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "oplata skarbowa",
+        "title": "Potwierdzenie przelewu",
+        "type": "FILE_UPLOADER"
+      },
+      "generated": {
+        "section": "oplata skarbowa",
+        "title": "Plik z potwierdzeniem przelewu",
+        "type": "FILE_UPLOADER"
+      },
+      "match_score": 1,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "zgoda",
+        "title": "",
+        "type": "CONSENT_SECTION"
+      },
+      "generated": {
+        "section": "zgoda",
+        "title": "Zgoda",
+        "type": "CONSENT_SECTION"
+      },
+      "match_score": 0.9,
+      "differences": {},
+      "options_equal": true
+    },
+    {
+      "reference": {
+        "section": "pelnomocnictwo",
+        "title": "Dokument z potwierdzeniem, podpisany elektronicznie",
+        "type": "FILE_UPLOADER"
+      },
+      "generated": {
+        "section": "pelnomocnictwo",
+        "title": "Plik dokumentu z pełnomocnictwem",
+        "type": "FILE_UPLOADER"
+      },
+      "match_score": 0.9,
+      "differences": {
+        "validation": {
+          "expected": [],
+          "actual": [
+            "REQUIRED"
+          ]
+        }
+      },
+      "options_equal": true
+    }
+  ],
+  "uuid_comparison": false
+}

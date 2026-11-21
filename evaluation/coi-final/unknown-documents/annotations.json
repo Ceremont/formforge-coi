@@ -1,0 +1,279 @@
+{
+  "created_utc": "2026-11-21T21:56:20.275403+00:00",
+  "protocol": "Prospective final R3 single-annotator source inventory before predictions. Fixed label patterns, accent folding and one-to-one type matching. New documents acquired after R3 freeze; no subsequent recognition tuning. Three documents from two publishers; full legal/workflow equivalence and condition coverage unmeasured.",
+  "cases": [
+    {
+      "id": "residence-cert",
+      "scope": "Fourteen citizen controls including implicit certificate/stay choices. Excludes document date, USC number, receipt/date/signature and office fee annotation. Preferred digital types; not an official workflow truth.",
+      "expected": [
+        {
+          "key": "applicant",
+          "pattern": "imie i nazwisko|dotyczacego",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "address",
+          "pattern": "adres zamieszkania",
+          "type": "address",
+          "page": null
+        },
+        {
+          "key": "certificate_kind",
+          "pattern": "rodzaj zaswiadczenia|zaswiadczeni.*(?:zameldowaniu|wymeldowaniu)",
+          "type": "select",
+          "page": null
+        },
+        {
+          "key": "registration_stay",
+          "pattern": "zameldowaniu.*staly.*czasowy",
+          "type": "radio",
+          "page": null
+        },
+        {
+          "key": "deregistration_stay",
+          "pattern": "wymeldowaniu.*stalego.*czasowego",
+          "type": "radio",
+          "page": null
+        },
+        {
+          "key": "subject",
+          "pattern": "imie i nazwisko|dotyczacego",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "relationship",
+          "pattern": "stopien pokrewienstwa",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "town",
+          "pattern": "na terenie|miejscowosc",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "street",
+          "pattern": "przy ulicy|ulicy",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "home",
+          "pattern": "nr domu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "flat",
+          "pattern": "nr mieszkania",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "purpose",
+          "pattern": "celu|przedlozenia",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "representative",
+          "pattern": "upowazniam|nazwisko pelnomocnika",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "identity",
+          "pattern": "dokument.*tozsamosci|nazwa dokumentu",
+          "type": "text",
+          "page": null
+        }
+      ],
+      "expected_sections": null
+    },
+    {
+      "id": "civil-record",
+      "scope": "Fifteen citizen controls: three personal, three underlining choices, four name/date rows, purpose. Excludes ADNOTACJE, office fee/issuance, receipt and paper signatures. Source typography retained in fixed patterns.",
+      "expected": [
+        {
+          "key": "applicant",
+          "pattern": "imie i nazwisko wnioskodawcy",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "address",
+          "pattern": "adres do korespondencji",
+          "type": "address",
+          "page": null
+        },
+        {
+          "key": "phone",
+          "pattern": "nr telefonu",
+          "type": "phone",
+          "page": null
+        },
+        {
+          "key": "copy_kind",
+          "pattern": "skrocon.*zupeln.*wielojezycz",
+          "type": "radio",
+          "page": null
+        },
+        {
+          "key": "act_kind",
+          "pattern": "urodzenia.*malzenstwa.*zgonu",
+          "type": "radio",
+          "page": null
+        },
+        {
+          "key": "relationship",
+          "pattern": "wlasnego.*meza.*zony",
+          "type": "radio",
+          "page": null
+        },
+        {
+          "key": "person1",
+          "pattern": "imi(?:e)? i nazwisko osoby",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "event1",
+          "pattern": "data zdarzenia",
+          "type": "date",
+          "page": null
+        },
+        {
+          "key": "person2",
+          "pattern": "imi(?:e)? i nazwisko osoby",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "event2",
+          "pattern": "data zdarzenia",
+          "type": "date",
+          "page": null
+        },
+        {
+          "key": "person3",
+          "pattern": "imi(?:e)? i nazwisko osoby",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "event3",
+          "pattern": "data zdarzenia",
+          "type": "date",
+          "page": null
+        },
+        {
+          "key": "person4",
+          "pattern": "imi(?:e)? i nazwisko osoby",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "event4",
+          "pattern": "data zdarzenia",
+          "type": "date",
+          "page": null
+        },
+        {
+          "key": "purpose",
+          "pattern": "cel wydania odpisu",
+          "type": "textarea",
+          "page": null
+        }
+      ],
+      "expected_sections": null
+    },
+    {
+      "id": "krk-company",
+      "scope": "Twelve query/requester/company controls, including compound requester box; excludes paper dates, fee stamps and signature. Plain country/street inputs retain raw source text type. DOCX page/row alignment not scored.",
+      "expected": [
+        {
+          "key": "requesting_org",
+          "pattern": "nazwa i siedziba podmiotu",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "krs",
+          "pattern": "krajowego rejestru sadowego|^krs$",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "other_registry",
+          "pattern": "nazwa oraz numer.*rejestru",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "company",
+          "pattern": "nazwa\\s*/\\s*firma",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "country",
+          "pattern": "^kraj",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "town",
+          "pattern": "miejscowosc",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "street",
+          "pattern": "^ul\\.?$|^ulica",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "province",
+          "pattern": "wojewodztwo",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "county",
+          "pattern": "powiat",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "proceeding",
+          "pattern": "wskazanie.*postepowania",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "kind",
+          "pattern": "rodzaj danych",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "scope",
+          "pattern": "zakres danych",
+          "type": "textarea",
+          "page": null
+        }
+      ],
+      "expected_sections": [
+        "Oznaczenie podmiotu zbiorowego",
+        "Siedziba podmiotu zbiorowego",
+        "Wskazanie postępowania",
+        "Rodzaj danych",
+        "Zakres danych"
+      ]
+    }
+  ]
+}

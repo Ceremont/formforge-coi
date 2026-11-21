@@ -1,0 +1,1 @@
+Exploratory frozen R1 run. The three new sources exposed a generic DOCX blank-table defect and are now DEVELOPMENT data. Preserve their original annotation lock and outputs. They are not the final independent holdout. A new R2 freeze and new sources are required.

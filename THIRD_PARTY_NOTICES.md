@@ -1,6 +1,6 @@
 # Third-party notices and license decisions
 
-Project code: MIT (`LICENSE`). Runtime Python dependency closure: 37 packages,
+Project code: existing MIT (`LICENSE`). Runtime Python dependency closure: 38 packages,
 all pinned in `requirements.lock`, enumerated with installed metadata in
 `docs/runtime-licenses.json`. The licenses below apply to application libraries;
 this is not a claim that every operating-system utility in a Python/Debian image
@@ -21,6 +21,7 @@ has a permissive license. Preserve upstream license/notice files when distributi
 | Other transitive Python packages | MIT / BSD / Apache / PSF; see generated manifest |
 | jsonata-python 0.7.1 | Apache-2.0; local parsing and finite-scenario evaluation, no external runtime |
 | jsonschema 4.26.0, jsonschema-specifications, referencing, rpds-py, attrs | MIT; added for local schema validation |
+| olefile 0.47 | BSD-2-Clause plus retained legacy PIL permissive notices; read-only OLE container access |
 
 The optional Naive Bayes implementation, development training text and generated
 `formforge/data/block_roles.json` are self-authored MIT project assets. No model
@@ -49,9 +50,12 @@ embedded inside the Swagger distribution are limited to the documentation page.
   the Docker image installs packaged `pol`/`eng` data at build time.
 - [LibreOffice licenses](https://www.libreoffice.org/licenses/): MPL/LGPL.
   **Excluded** under the requested permissive-only policy. No verified permissive
-  DOC converter is included; binary OLE DOC deliberately returns 415. Two supplied
-  `.DOC` files are verified OOXML packages and are processed as DOCX. OpenOffice is not
-  claimed as supported because no real DOC conversion has been verified.
+  full Word converter is included. `legacy_doc.py` implements a bounded text subset
+  of Word 97–2003 using BSD olefile, based on Microsoft MS-DOC, without running
+  macros, field instructions or embedded objects. Encrypted/macro/embedded-object
+  files and unsupported earlier versions are rejected. It is not a rendering
+  engine. Two supplied `.DOC` files are verified OOXML packages and read as DOCX.
+  OpenOffice is not claimed as supported.
 
 ## Native runtime boundary
 
@@ -102,7 +106,7 @@ licenses again before submission; metadata alone is not a full binary audit.
 
 ## Organizer reference materials
 
-Files under `reference/coi-official/` are user-supplied third-party organizer materials, preserved byte-for-byte for this project and evaluation. They are not relicensed under the project MIT license. Their original ownership and competition terms continue to apply. Runtime contains only the supplied schema copy; it never loads paired reference configurations. The full source archive includes the supplied reference pack for the requested review workflow; this does not grant broader redistribution rights.
+Files under `reference/coi-official/` are user-supplied third-party organizer materials, preserved byte-for-byte for this project and evaluation. They are not relicensed under the project MIT license. Their original ownership and competition terms continue to apply. Runtime contains only the supplied schema copy; it never loads paired reference configurations. The clean 1.0 review package excludes raw reference packs and separately acquired originals. The bundled runtime schema retains organizer rights; confirm permission before wider public redistribution.
 
 ## Additional evaluation sources
 
@@ -111,3 +115,11 @@ retain their original rights. Their primary-source URLs, acquisition timestamps
 and SHA256 hashes are recorded in `manifest.json`. They are evaluation inputs,
 not product templates or MIT-licensed project assets. The small ingress gateway
 uses only Python's standard library and adds no third-party runtime dependency.
+
+Final upgrade adds only olefile to the Python closure. Preserve its LICENSE.txt
+and legacy PIL notices. Primary sources:
+[olefile license](https://olefile.readthedocs.io/en/stable/License.html),
+[Microsoft MS-DOC](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-doc/).
+The specification is used for interoperability, not relicensed as project code.
+Final native/license verification status is recorded in docs/LICENSE_COMPLIANCE.md;
+the V03 container evidence above remains historical.

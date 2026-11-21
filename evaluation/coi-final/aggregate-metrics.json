@@ -1,0 +1,102 @@
+{
+  "known_scoped": {
+    "v03": {
+      "expected": 45,
+      "predicted": 44,
+      "matched": 44,
+      "precision": 1.0,
+      "recall": 0.9777777777777777,
+      "f1": 0.9887640449438202,
+      "type_accuracy": 1.0
+    },
+    "final": {
+      "expected": 45,
+      "predicted": 44,
+      "matched": 44,
+      "precision": 1.0,
+      "recall": 0.9777777777777777,
+      "f1": 0.9887640449438202,
+      "type_accuracy": 1.0
+    }
+  },
+  "development_after_v03": {
+    "v03": {
+      "expected": 32,
+      "predicted": 35,
+      "matched": 24,
+      "precision": 0.6857142857142857,
+      "recall": 0.75,
+      "f1": 0.7164179104477612,
+      "type_accuracy": 0.875
+    },
+    "final": {
+      "expected": 32,
+      "predicted": 32,
+      "matched": 28,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875,
+      "type_accuracy": 1.0
+    }
+  },
+  "promoted_development": {
+    "v03": {
+      "expected": 114,
+      "predicted": 73,
+      "matched": 35,
+      "precision": 0.4794520547945205,
+      "recall": 0.30701754385964913,
+      "f1": 0.37433155080213903,
+      "type_accuracy": 0.42857142857142855
+    },
+    "final": {
+      "expected": 114,
+      "predicted": 120,
+      "matched": 82,
+      "precision": 0.6833333333333333,
+      "recall": 0.7192982456140351,
+      "f1": 0.7008547008547008,
+      "type_accuracy": 0.7560975609756098
+    }
+  },
+  "secondary_audit": {
+    "v03": {
+      "expected": 63,
+      "predicted": 55,
+      "matched": 34,
+      "precision": 0.6181818181818182,
+      "recall": 0.5396825396825397,
+      "f1": 0.576271186440678,
+      "type_accuracy": 0.7941176470588235
+    },
+    "final": {
+      "expected": 63,
+      "predicted": 54,
+      "matched": 35,
+      "precision": 0.6481481481481481,
+      "recall": 0.5555555555555556,
+      "f1": 0.5982905982905983,
+      "type_accuracy": 0.7714285714285715
+    }
+  },
+  "prospective_r3_holdout": {
+    "v03": {
+      "expected": 41,
+      "predicted": 54,
+      "matched": 25,
+      "precision": 0.46296296296296297,
+      "recall": 0.6097560975609756,
+      "f1": 0.5263157894736842,
+      "type_accuracy": 0.84
+    },
+    "final": {
+      "expected": 41,
+      "predicted": 54,
+      "matched": 28,
+      "precision": 0.5185185185185185,
+      "recall": 0.6829268292682927,
+      "f1": 0.5894736842105263,
+      "type_accuracy": 0.8571428571428571
+    }
+  }
+}

@@ -40,7 +40,7 @@ async def lifespan(app):
 
 app = FastAPI(
     title="FormForge COI",
-    version="0.3.0",
+    version="0.4.0",
     description="Lokalne przetwarzanie formularzy i eksport COI FormDefinition. Walidacja schematu, reguł technicznych i jawne uwagi do potwierdzenia.",
     docs_url=None,
     redoc_url=None,
@@ -176,7 +176,7 @@ async def health():
             pass
     return {
         "status": "ok",
-        "version": "0.3.0",
+        "version": "0.4.0",
         "python": sys.version.split()[0],
         "offline": True,
         "ocr": {"available": bool(languages), "languages": languages},
@@ -191,7 +191,8 @@ async def health():
 async def formats():
     return {
         "supported": [{"extension": ext, "mime": mime, "requires_ocr": ext in ("jpg", "jpeg", "jpe", "png")} for ext, mime in MIMES.items()],
-        "unsupported": [{"extension": "doc", "reason": "Brak zweryfikowanego konwertera na licencji permisywnej."}],
+        "limitations": [{"extension": "doc", "reason": "Tekst Word 97–2003 bez renderowania. Odrzucane: szyfrowanie, makra, osadzone obiekty i starsze wersje."}],
+        "unsupported": [],
     }
 
 
@@ -290,6 +291,8 @@ async def validate_form(request: ValidateRequest):
     issues = validator.inspect(request.form)
     value_issues = validator.values(request.form, request.values) if request.values is not None else []
     export, coi_report = export_bundle(request.form, request.export_format)
+    from .quality_review import review
+
     return {
         "valid": not any(i.severity == "error" for i in issues + value_issues) and (request.export_format == "preview" or coi_report["valid"]),
         "form": request.form.model_dump(mode="json"),
@@ -297,6 +300,7 @@ async def validate_form(request: ValidateRequest):
         "value_issues": [i.model_dump() for i in value_issues],
         "export": export,
         "coi_validation": coi_report,
+        "quality_review": review(request.form, issues, coi_report),
     }
 
 

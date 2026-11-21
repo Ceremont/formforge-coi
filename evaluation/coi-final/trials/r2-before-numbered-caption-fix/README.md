@@ -1,0 +1,1 @@
+R2 audit preserved. A regression found on the already-promoted R1 parking source exposed numbered field labels being classified as headings after proper space recovery. Corrected generically in R3. R2 external files are retained as a secondary audit, not the final independent holdout.

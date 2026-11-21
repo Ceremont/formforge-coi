@@ -1,0 +1,1862 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_d3191a17825ef4cc",
+    "title": "ZGŁOSZENIE",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "docx_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "………………………………………… (imię i nazwisko właściciela)",
+          "…………………………………………. (adres zamieszkania/korespondencyjny)",
+          "…………………………………………. (numer telefonu)",
+          "Miejscowość, data",
+          "Burmistrz Miasta Chrzanowa",
+          "al. Henryka 20",
+          "32-500 Chrzanów"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "zamiaru usunięcia drzew/a",
+        "page": 1,
+        "order": 1,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "Zgłaszam zamiar usunięcia drzew/a wskazanych/ego w poniższej tabeli",
+        "page": 1,
+        "order": 2,
+        "instructions": [
+          "Nr",
+          "Gatunek",
+          "Obwód pnia na wysokości 130 cm",
+          "Obwód pnia na wysokości 5 cm",
+          "Nr działki i obręb",
+          "Uwagi"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s4",
+        "title": "W załączeniu przedkładam szkic sytuacyjny/mapkę określającą usytuowanie drzew/a na nieruchomości.",
+        "page": 1,
+        "order": 3,
+        "instructions": [
+          "(podpis wnioskodawcy)",
+          "*- informacje niewymagane, uzupełnione w celu usprawnienia przeprowadzenia oględzin drzew w terenie,",
+          "1.rysunek/mapa",
+          "POUCZENIE",
+          "Art. 83f. [Wyjątki od obowiązku uzyskania zezwolenia na usunięcie drzew lub krzewów]",
+          "ust. 1. pkt. 3a. Przepisów art. 83 ust. 1 nie stosuje się do drzew lub krzewów, które rosną na nieruchomościach stanowiących własność osób fizycznych i są usuwane na cele niezwiązane z prowadzeniem działalności gospodarczej.",
+          "ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia drzewa mierzonego na wysokości 5 cm przekracza:",
+          "80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+          "65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+          "50 cm - w przypadku pozostałych gatunków drzew.",
+          "ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+          "ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowadzeniem działalności gospodarczej i będzie realizowana na części nieruchomości, na której rosło usunięte drzewo, organ, o którym mowa w art. 83a ust. 1, uwzględniając dane ustalone na podstawie oględzin, nakłada na właściciela nieruchomości, w drodze decyzji administracyjnej, obowiązek uiszczenia opłaty za usunięcie drzewa.",
+          "Wymagane podpisy wszystkich właścicieli nieruchomości."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_67fc98215616",
+        "label": "Załącznik",
+        "field_type": "attachment",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s4",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b22",
+          "text": "Załącznik:",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: attachment"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+      "Potencjalna zależność wymaga weryfikacji: ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia ",
+      "Potencjalna zależność wymaga weryfikacji: 80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+      "Potencjalna zależność wymaga weryfikacji: 65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+      "Potencjalna zależność wymaga weryfikacji: 50 cm - w przypadku pozostałych gatunków drzew.",
+      "Potencjalna zależność wymaga weryfikacji: ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+      "Potencjalna zależność wymaga weryfikacji: ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowad"
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": true
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_d3191a17825ef4cc",
+    "title": "ZGŁOSZENIE",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "docx_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "………………………………………… (imię i nazwisko właściciela)",
+          "…………………………………………. (adres zamieszkania/korespondencyjny)",
+          "…………………………………………. (numer telefonu)",
+          "Miejscowość, data",
+          "Burmistrz Miasta Chrzanowa",
+          "al. Henryka 20",
+          "32-500 Chrzanów"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "zamiaru usunięcia drzew/a",
+        "page": 1,
+        "order": 1,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "Zgłaszam zamiar usunięcia drzew/a wskazanych/ego w poniższej tabeli",
+        "page": 1,
+        "order": 2,
+        "instructions": [
+          "Nr",
+          "Gatunek",
+          "Obwód pnia na wysokości 130 cm",
+          "Obwód pnia na wysokości 5 cm",
+          "Nr działki i obręb",
+          "Uwagi"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s4",
+        "title": "W załączeniu przedkładam szkic sytuacyjny/mapkę określającą usytuowanie drzew/a na nieruchomości.",
+        "page": 1,
+        "order": 3,
+        "instructions": [
+          "(podpis wnioskodawcy)",
+          "*- informacje niewymagane, uzupełnione w celu usprawnienia przeprowadzenia oględzin drzew w terenie,",
+          "1.rysunek/mapa",
+          "POUCZENIE",
+          "Art. 83f. [Wyjątki od obowiązku uzyskania zezwolenia na usunięcie drzew lub krzewów]",
+          "ust. 1. pkt. 3a. Przepisów art. 83 ust. 1 nie stosuje się do drzew lub krzewów, które rosną na nieruchomościach stanowiących własność osób fizycznych i są usuwane na cele niezwiązane z prowadzeniem działalności gospodarczej.",
+          "ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia drzewa mierzonego na wysokości 5 cm przekracza:",
+          "80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+          "65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+          "50 cm - w przypadku pozostałych gatunków drzew.",
+          "ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+          "ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowadzeniem działalności gospodarczej i będzie realizowana na części nieruchomości, na której rosło usunięte drzewo, organ, o którym mowa w art. 83a ust. 1, uwzględniając dane ustalone na podstawie oględzin, nakłada na właściciela nieruchomości, w drodze decyzji administracyjnej, obowiązek uiszczenia opłaty za usunięcie drzewa.",
+          "Wymagane podpisy wszystkich właścicieli nieruchomości."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_67fc98215616",
+        "label": "Załącznik",
+        "field_type": "attachment",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s4",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b22",
+          "text": "Załącznik:",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: attachment"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+      "Potencjalna zależność wymaga weryfikacji: ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia ",
+      "Potencjalna zależność wymaga weryfikacji: 80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+      "Potencjalna zależność wymaga weryfikacji: 65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+      "Potencjalna zależność wymaga weryfikacji: 50 cm - w przypadku pozostałych gatunków drzew.",
+      "Potencjalna zależność wymaga weryfikacji: ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+      "Potencjalna zależność wymaga weryfikacji: ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowad"
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "ZGŁOSZENIE",
+    "tabs": [
+      {
+        "id": "513deb8c-64d3-517c-a0b9-1e5c71d3acae",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 8,
+            "cols": 3,
+            "field": {
+              "id": "bc1db08c-48d7-54e3-87d5-8e9f43356b15",
+              "type": "SECTION",
+              "techName": "dane_formularza_section_s1",
+              "title": "Dane formularza",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "7f2ff2a8-5be1-5c59-a0eb-aafa7f7f1dc8",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_0",
+                    "title": "",
+                    "description": "………………………………………… (imię i nazwisko właściciela)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "27e8dabd-d7cf-5c6b-bea2-869e7ca0e584",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_1",
+                    "title": "",
+                    "description": "…………………………………………. (adres zamieszkania/korespondencyjny)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "972c797e-0566-5670-a9ae-c798c239e9d2",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_2",
+                    "title": "",
+                    "description": "…………………………………………. (numer telefonu)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e2e1e971-a41b-5ee3-8fab-2ceae0fe59a1",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_3",
+                    "title": "",
+                    "description": "Miejscowość, data",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "0c555e2b-811b-52f8-81af-f369a5a523b0",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_4",
+                    "title": "",
+                    "description": "Burmistrz Miasta Chrzanowa",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "7c13357c-437b-5746-96b6-0d5db54e648e",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_5",
+                    "title": "",
+                    "description": "al. Henryka 20",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c403d583-d22c-5010-bc96-d02289c1f8a7",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_6",
+                    "title": "",
+                    "description": "32-500 Chrzanów",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 8,
+            "rows": 7,
+            "cols": 3,
+            "field": {
+              "id": "e829b106-0cff-5151-9c31-17e76b0f1e2a",
+              "type": "SECTION",
+              "techName": "zglaszam_zamiar_usuniecia_drzew_a_wskazanych_ego_w_ponizszej_tabeli_section_s3",
+              "title": "Zgłaszam zamiar usunięcia drzew/a wskazanych/ego w poniższej tabeli",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "be5f4a1d-2e63-5591-8946-18761abc414e",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_0",
+                    "title": "",
+                    "description": "Nr",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "3587a1bc-6ea8-5b45-8d0c-dbfc7425a4b5",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_1",
+                    "title": "",
+                    "description": "Gatunek",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "96541a06-fce7-5b03-beaf-d2f0f420854c",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_2",
+                    "title": "",
+                    "description": "Obwód pnia na wysokości 130 cm",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "3a737375-01ce-5ade-a6f2-44b519623b85",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_3",
+                    "title": "",
+                    "description": "Obwód pnia na wysokości 5 cm",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b4119e46-832c-5775-9cf0-e6a518802a73",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_4",
+                    "title": "",
+                    "description": "Nr działki i obręb",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "0fd43de5-40f4-5bfd-bc4f-89f2bf40b23d",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s3_5",
+                    "title": "",
+                    "description": "Uwagi",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 1,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 15,
+            "rows": 15,
+            "cols": 3,
+            "field": {
+              "id": "125899fb-f199-54a2-9171-566b425c634b",
+              "type": "SECTION",
+              "techName": "w_zalaczeniu_przedkladam_szkic_sytuacyjny_mapke_okreslajaca_usytuowanie_drzew_a_na_nieruchomosci_section_s4",
+              "title": "W załączeniu przedkładam szkic sytuacyjny/mapkę określającą usytuowanie drzew/a na nieruchomości.",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "fcbd72fc-4025-5b06-99ba-c76a086a0a35",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_0",
+                    "title": "",
+                    "description": "(podpis wnioskodawcy)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e266643d-60f7-5f6b-b15e-69f48ec0863a",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_1",
+                    "title": "",
+                    "description": "*- informacje niewymagane, uzupełnione w celu usprawnienia przeprowadzenia oględzin drzew w terenie,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4536f081-57f9-5886-b3a0-8b88ca33b22d",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_2",
+                    "title": "",
+                    "description": "1.rysunek/mapa",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ea816d2d-c916-538d-b3cc-e22d039bc25f",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_3",
+                    "title": "",
+                    "description": "POUCZENIE",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "dca19017-7584-5b59-90c5-155ad06d9e64",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_4",
+                    "title": "",
+                    "description": "Art. 83f. [Wyjątki od obowiązku uzyskania zezwolenia na usunięcie drzew lub krzewów]",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c40f8943-20b8-5ee1-bf34-f8c8a3ace4f3",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_5",
+                    "title": "",
+                    "description": "ust. 1. pkt. 3a. Przepisów art. 83 ust. 1 nie stosuje się do drzew lub krzewów, które rosną na nieruchomościach stanowiących własność osób fizycznych i są usuwane na cele niezwiązane z prowadzeniem działalności gospodarczej.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "80448ed1-874e-51ac-82be-a1fddcb23634",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_6",
+                    "title": "",
+                    "description": "ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia drzewa mierzonego na wysokości 5 cm przekracza:",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "1e30c574-0d8d-5440-a3ed-18ec84fdc16c",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_7",
+                    "title": "",
+                    "description": "80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "23a5cf05-8f05-5214-869c-931b93a7283c",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_8",
+                    "title": "",
+                    "description": "65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c8a39f5f-aafa-560a-95fd-8106cb7d0281",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_9",
+                    "title": "",
+                    "description": "50 cm - w przypadku pozostałych gatunków drzew.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d9220f71-a3b9-5ba0-a5c8-e643a9f6337f",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_10",
+                    "title": "",
+                    "description": "ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "9e04fcf1-56dd-5648-93ab-979149f3bf1d",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_11",
+                    "title": "",
+                    "description": "ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowadzeniem działalności gospodarczej i będzie realizowana na części nieruchomości, na której rosło usunięte drzewo, organ, o którym mowa w art. 83a ust. 1, uwzględniając dane ustalone na podstawie oględzin, nakłada na właściciela nieruchomości, w drodze decyzji administracyjnej, obowiązek uiszczenia opłaty za usunięcie drzewa.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e9cbd980-72a1-542b-8948-183ad2837558",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s4_12",
+                    "title": "",
+                    "description": "Wymagane podpisy wszystkich właścicieli nieruchomości.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "7b1c1176-ed22-5b2a-95b2-212a50f9f2fe",
+                    "type": "FILE_UPLOADER",
+                    "techName": "zalacznik_fc98215616",
+                    "title": "Załącznik",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 13,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 2,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "cc992e7e-1212-5fd5-a875-64527d7c60c5",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "29e3aac8-f3ce-5704-a720-07a124bef49d",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "574dd6a8-4578-5c71-9dbd-81903445878a",
+          "source": "513deb8c-64d3-517c-a0b9-1e5c71d3acae",
+          "target": "cc992e7e-1212-5fd5-a875-64527d7c60c5"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_d3191a17825ef4cc",
+      "title": "ZGŁOSZENIE",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": null,
+          "height": null,
+          "source": "docx_logical"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Dane formularza",
+          "page": 1,
+          "order": 0,
+          "instructions": [
+            "………………………………………… (imię i nazwisko właściciela)",
+            "…………………………………………. (adres zamieszkania/korespondencyjny)",
+            "…………………………………………. (numer telefonu)",
+            "Miejscowość, data",
+            "Burmistrz Miasta Chrzanowa",
+            "al. Henryka 20",
+            "32-500 Chrzanów"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s2",
+          "title": "zamiaru usunięcia drzew/a",
+          "page": 1,
+          "order": 1,
+          "instructions": [],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s3",
+          "title": "Zgłaszam zamiar usunięcia drzew/a wskazanych/ego w poniższej tabeli",
+          "page": 1,
+          "order": 2,
+          "instructions": [
+            "Nr",
+            "Gatunek",
+            "Obwód pnia na wysokości 130 cm",
+            "Obwód pnia na wysokości 5 cm",
+            "Nr działki i obręb",
+            "Uwagi"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s4",
+          "title": "W załączeniu przedkładam szkic sytuacyjny/mapkę określającą usytuowanie drzew/a na nieruchomości.",
+          "page": 1,
+          "order": 3,
+          "instructions": [
+            "(podpis wnioskodawcy)",
+            "*- informacje niewymagane, uzupełnione w celu usprawnienia przeprowadzenia oględzin drzew w terenie,",
+            "1.rysunek/mapa",
+            "POUCZENIE",
+            "Art. 83f. [Wyjątki od obowiązku uzyskania zezwolenia na usunięcie drzew lub krzewów]",
+            "ust. 1. pkt. 3a. Przepisów art. 83 ust. 1 nie stosuje się do drzew lub krzewów, które rosną na nieruchomościach stanowiących własność osób fizycznych i są usuwane na cele niezwiązane z prowadzeniem działalności gospodarczej.",
+            "ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia drzewa mierzonego na wysokości 5 cm przekracza:",
+            "80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+            "65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+            "50 cm - w przypadku pozostałych gatunków drzew.",
+            "ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+            "ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowadzeniem działalności gospodarczej i będzie realizowana na części nieruchomości, na której rosło usunięte drzewo, organ, o którym mowa w art. 83a ust. 1, uwzględniając dane ustalone na podstawie oględzin, nakłada na właściciela nieruchomości, w drodze decyzji administracyjnej, obowiązek uiszczenia opłaty za usunięcie drzewa.",
+            "Wymagane podpisy wszystkich właścicieli nieruchomości."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_67fc98215616",
+          "label": "Załącznik",
+          "field_type": "attachment",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s4",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b22",
+            "text": "Załącznik:",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.85,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Label/type context",
+            "Semantic type: attachment"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [
+        "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+        "Potencjalna zależność wymaga weryfikacji: ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia ",
+        "Potencjalna zależność wymaga weryfikacji: 80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+        "Potencjalna zależność wymaga weryfikacji: 65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+        "Potencjalna zależność wymaga weryfikacji: 50 cm - w przypadku pozostałych gatunków drzew.",
+        "Potencjalna zależność wymaga weryfikacji: ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+        "Potencjalna zależność wymaga weryfikacji: ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowad"
+      ],
+      "groups": [],
+      "dictionaries": [],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": true
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [],
+    "provenance": {
+      "7b1c1176-ed22-5b2a-95b2-212a50f9f2fe": {
+        "internal_field_id": "f_67fc98215616",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b22",
+          "text": "Załącznik:",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      }
+    },
+    "requires_confirmation": false,
+    "status": "valid_configuration",
+    "unsupported_features": []
+  },
+  "normalization": {
+    "applied": true,
+    "policy": "source-first; no reference workflow profile inferred",
+    "source_fields": 1,
+    "output_fields": 1,
+    "standard_additions": 0,
+    "suppressed": [],
+    "reference_json_used_at_runtime": false
+  },
+  "quality": {
+    "status": "partial",
+    "completeness_verified": false,
+    "unresolved_warnings": [
+      "Potencjalna zależność wymaga weryfikacji: ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia ",
+      "Potencjalna zależność wymaga weryfikacji: 80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+      "Potencjalna zależność wymaga weryfikacji: 65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+      "Potencjalna zależność wymaga weryfikacji: 50 cm - w przypadku pozostałych gatunków drzew.",
+      "Potencjalna zależność wymaga weryfikacji: ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+      "Potencjalna zależność wymaga weryfikacji: ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowad"
+    ],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia ",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: 80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: 65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: 50 cm - w przypadku pozostałych gatunków drzew.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowad",
+      "field_id": null
+    }
+  ],
+  "document": {
+    "filename": "unknown.docx",
+    "format": "docx",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "docx_logical"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "………………………………………… (imię i nazwisko właściciela)",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "…………………………………………. (adres zamieszkania/korespondencyjny)",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "…………………………………………. (numer telefonu)",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": "………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "label_block_id": "b3"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "Miejscowość, data",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "Burmistrz Miasta Chrzanowa",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "fixed recipient authority"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": "al. Henryka 20",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "32-500 Chrzanów",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "bold": true,
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": "ZGŁOSZENIE",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "zamiaru usunięcia drzew/a",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": "Zgłaszam zamiar usunięcia drzew/a wskazanych/ego w poniższej tabeli",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": "Nr",
+        "page": 1,
+        "kind": "cell",
+        "bbox": null,
+        "metadata": {
+          "table_id": "body/t30",
+          "row": 1,
+          "column": 1,
+          "paired_blank": false,
+          "nested_depth": 0,
+          "bold": false
+        },
+        "method": "docx_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": "Gatunek",
+        "page": 1,
+        "kind": "cell",
+        "bbox": null,
+        "metadata": {
+          "table_id": "body/t30",
+          "row": 1,
+          "column": 2,
+          "paired_blank": false,
+          "nested_depth": 0,
+          "bold": false
+        },
+        "method": "docx_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "Obwód pnia na wysokości 130 cm",
+        "page": 1,
+        "kind": "cell",
+        "bbox": null,
+        "metadata": {
+          "table_id": "body/t30",
+          "row": 1,
+          "column": 3,
+          "paired_blank": false,
+          "nested_depth": 0,
+          "bold": false
+        },
+        "method": "docx_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "Obwód pnia na wysokości 5 cm",
+        "page": 1,
+        "kind": "cell",
+        "bbox": null,
+        "metadata": {
+          "table_id": "body/t30",
+          "row": 1,
+          "column": 4,
+          "paired_blank": false,
+          "nested_depth": 0,
+          "bold": false
+        },
+        "method": "docx_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "Nr działki i obręb",
+        "page": 1,
+        "kind": "cell",
+        "bbox": null,
+        "metadata": {
+          "table_id": "body/t30",
+          "row": 1,
+          "column": 5,
+          "paired_blank": false,
+          "nested_depth": 0,
+          "bold": false
+        },
+        "method": "docx_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": "Uwagi",
+        "page": 1,
+        "kind": "cell",
+        "bbox": null,
+        "metadata": {
+          "table_id": "body/t30",
+          "row": 1,
+          "column": 6,
+          "paired_blank": false,
+          "nested_depth": 0,
+          "bold": false
+        },
+        "method": "docx_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b18",
+        "text": "W załączeniu przedkładam szkic sytuacyjny/mapkę określającą usytuowanie drzew/a na nieruchomości.",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b19",
+        "text": "………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "label_block_id": "b20"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b20",
+        "text": "(podpis wnioskodawcy)",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "blank_lines": 1,
+          "input_bbox": null,
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b21",
+        "text": "*- informacje niewymagane, uzupełnione w celu usprawnienia przeprowadzenia oględzin drzew w terenie,",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b22",
+        "text": "Załącznik:",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b23",
+        "text": "1.rysunek/mapa",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b24",
+        "text": "POUCZENIE",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "explicit completion instruction"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b25",
+        "text": "Art. 83f. [Wyjątki od obowiązku uzyskania zezwolenia na usunięcie drzew lub krzewów]",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "legal reference or printed rate/unit, not empty answer"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b26",
+        "text": "ust. 1. pkt. 3a. Przepisów art. 83 ust. 1 nie stosuje się do drzew lub krzewów, które rosną na nieruchomościach stanowiących własność osób fizycznych i są usuwane na cele niezwiązane z prowadzeniem działalności gospodarczej.",
+        "page": 1,
+        "kind": "legal",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b27",
+        "text": "ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia drzewa mierzonego na wysokości 5 cm przekracza:",
+        "page": 1,
+        "kind": "legal",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b28",
+        "text": "80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b29",
+        "text": "65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b30",
+        "text": "50 cm - w przypadku pozostałych gatunków drzew.",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b31",
+        "text": "ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b32",
+        "text": "ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowadzeniem działalności gospodarczej i będzie realizowana na części nieruchomości, na której rosło usunięte drzewo, organ, o którym mowa w art. 83a ust. 1, uwzględniając dane ustalone na podstawie oględzin, nakłada na właściciela nieruchomości, w drodze decyzji administracyjnej, obowiązek uiszczenia opłaty za usunięcie drzewa.",
+        "page": 1,
+        "kind": "legal",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b33",
+        "text": "Wymagane podpisy wszystkich właścicieli nieruchomości.",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [
+      "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word."
+    ],
+    "analysis": {
+      "ocr": [],
+      "layout": {
+        "geometry_associations": 2,
+        "columns": 7,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "text": 11,
+          "blank": 2,
+          "information": 5,
+          "heading": 4,
+          "cell": 6,
+          "instruction": 2,
+          "legal": 3
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 47.29
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 2.36
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 0.77
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 0.86
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.01
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 0.83
+    }
+  ]
+}

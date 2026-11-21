@@ -1,0 +1,3349 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_d5a3d2ac989c82e5",
+    "title": "WNIOSEK",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Załącznik nr 2 do Regulaminu korzystania ze świetlic wiejskich stanowiących własność Gminy Płoskinia",
+          "(miejscowość i data)",
+          "WÓJT GMINY PŁOSKINIA",
+          "Płoskinia 8",
+          "14-526 Płoskinia",
+          "o",
+          "wynajęcie/użyczenie* świetlicy wiejskiej",
+          "( rodzaj uroczystości, np. wesele, urodziny, zabawa itp.)",
+          "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "zapoznałem/am się z warunkami wynajmu świetlicy wiejskiej,",
+          "w czasie najmu odpowiadam za ład i porządek w świetlicy oraz na ternie przyległym do świetlicy,",
+          "zobowiązuję się do przestrzegania przepisów sanitarnych, BHP i p.poż. w czasie trwania przedsięwzięcia,",
+          "na okres wynajmu ponoszę pełną odpowiedzialność za powierzone mienie.",
+          "(czytelny podpis wnioskodawcy)"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "Strona 1",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_218c86efee3e",
+        "label": "(imię i nazwisko wnioskodawcy)",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "(imię i nazwisko wnioskodawcy)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_1a00d9b83070",
+        "label": "(adres zamieszkania)",
+        "field_type": "address",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "(adres zamieszkania)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_a6da891b4704",
+        "label": "(nr telefonu)",
+        "field_type": "phone",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "phone",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b9",
+          "text": "(nr telefonu)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: phone"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_78f097df145c",
+        "label": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+        "field_type": "text",
+        "required": true,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": "g_s1_0",
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_468b001bef01",
+        "label": "wraz z wyposażeniem w terminie od",
+        "field_type": "date",
+        "required": true,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": "g_s1_0",
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_008ca87c3927",
+        "label": "do (koniec terminu)",
+        "field_type": "date",
+        "required": true,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": "g_s1_0",
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_81b724e150df",
+        "label": "Cel wynajęcia świetlicy",
+        "field_type": "text",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": "Cel wynajęcia świetlicy: ……………………………………………………………………………….",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_4d3ebf278a96",
+        "label": "Przewidywana ilość uczestników",
+        "field_type": "number",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "Przewidywana ilość uczestników :……………………………………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: number"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f7a7f6d5a678",
+        "label": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "3. Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa:",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_dfeff5c7e40a",
+        "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+        "field_type": "text",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+      "Potencjalna zależność wymaga weryfikacji: ( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+      "Potencjalna zależność wymaga weryfikacji: 4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):"
+    ],
+    "groups": [
+      {
+        "id": "g_s1_0",
+        "title": "Wiersz 24",
+        "section": "s1",
+        "parent_id": null,
+        "repeat_key": null
+      }
+    ],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": true
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_d5a3d2ac989c82e5",
+    "title": "WNIOSEK",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Załącznik nr 2 do Regulaminu korzystania ze świetlic wiejskich stanowiących własność Gminy Płoskinia",
+          "(miejscowość i data)",
+          "WÓJT GMINY PŁOSKINIA",
+          "Płoskinia 8",
+          "14-526 Płoskinia",
+          "o",
+          "wynajęcie/użyczenie* świetlicy wiejskiej",
+          "( rodzaj uroczystości, np. wesele, urodziny, zabawa itp.)",
+          "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "zapoznałem/am się z warunkami wynajmu świetlicy wiejskiej,",
+          "w czasie najmu odpowiadam za ład i porządek w świetlicy oraz na ternie przyległym do świetlicy,",
+          "zobowiązuję się do przestrzegania przepisów sanitarnych, BHP i p.poż. w czasie trwania przedsięwzięcia,",
+          "na okres wynajmu ponoszę pełną odpowiedzialność za powierzone mienie.",
+          "(czytelny podpis wnioskodawcy)"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_218c86efee3e",
+        "label": "(imię i nazwisko wnioskodawcy)",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "(imię i nazwisko wnioskodawcy)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_1a00d9b83070",
+        "label": "(adres zamieszkania)",
+        "field_type": "address",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "(adres zamieszkania)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_a6da891b4704",
+        "label": "(nr telefonu)",
+        "field_type": "phone",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "phone",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b9",
+          "text": "(nr telefonu)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Spatial label/answer association",
+          "Semantic type: phone"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_78f097df145c",
+        "label": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+        "field_type": "text",
+        "required": true,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": "g_s1_0",
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_468b001bef01",
+        "label": "wraz z wyposażeniem w terminie od",
+        "field_type": "date",
+        "required": true,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": "g_s1_0",
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_008ca87c3927",
+        "label": "do (koniec terminu)",
+        "field_type": "date",
+        "required": true,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": "g_s1_0",
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_81b724e150df",
+        "label": "Cel wynajęcia świetlicy",
+        "field_type": "text",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": "Cel wynajęcia świetlicy: ……………………………………………………………………………….",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_4d3ebf278a96",
+        "label": "Przewidywana ilość uczestników",
+        "field_type": "number",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "Przewidywana ilość uczestników :……………………………………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Explicit answer marker",
+          "Semantic type: number"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f7a7f6d5a678",
+        "label": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "3. Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa:",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_dfeff5c7e40a",
+        "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+        "field_type": "text",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.85,
+        "detection_method": "doc_piece_table+rules",
+        "decision_reasons": [
+          "Tekst źródła DOC; granice komórek bez geometrii",
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+      "Potencjalna zależność wymaga weryfikacji: ( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+      "Potencjalna zależność wymaga weryfikacji: 4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):"
+    ],
+    "groups": [
+      {
+        "id": "g_s1_0",
+        "title": "Wiersz 24",
+        "section": "s1",
+        "parent_id": null,
+        "repeat_key": null
+      }
+    ],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "WNIOSEK",
+    "tabs": [
+      {
+        "id": "86f0d3ff-a458-5619-acdb-dd8214e3345b",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 22,
+            "cols": 3,
+            "field": {
+              "id": "d2db1753-fe56-50cd-99a7-cbc950167504",
+              "type": "SECTION",
+              "techName": "dane_formularza_section_s1",
+              "title": "Dane formularza",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "71a91097-b853-5a8a-8019-f0d4207ff366",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_0",
+                    "title": "",
+                    "description": "Załącznik nr 2 do Regulaminu korzystania ze świetlic wiejskich stanowiących własność Gminy Płoskinia",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "197055dd-ce0d-5103-87c8-87a651458a43",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_1",
+                    "title": "",
+                    "description": "(miejscowość i data)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "6c282f02-a746-5e43-9b55-9f3d0f3d78c0",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_2",
+                    "title": "",
+                    "description": "WÓJT GMINY PŁOSKINIA",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c0e11999-4efc-5371-bdae-c78bca008821",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_3",
+                    "title": "",
+                    "description": "Płoskinia 8",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c0bf926f-2f77-5067-b990-02acc444f35f",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_4",
+                    "title": "",
+                    "description": "14-526 Płoskinia",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "3d2a36ba-d773-5931-bc52-44daa88d7343",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_5",
+                    "title": "",
+                    "description": "o",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c3304098-547c-5113-aa62-c10fabc9ebb6",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_6",
+                    "title": "",
+                    "description": "wynajęcie/użyczenie* świetlicy wiejskiej",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "0b945a38-2adb-5abb-aebf-7fa3011a6839",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_7",
+                    "title": "",
+                    "description": "( rodzaj uroczystości, np. wesele, urodziny, zabawa itp.)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "914c0eed-9abd-5153-a61d-1ddc6e1b3a41",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_8",
+                    "title": "",
+                    "description": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d6b6cd03-79a0-5f94-8d45-306802b952f4",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_9",
+                    "title": "",
+                    "description": "zapoznałem/am się z warunkami wynajmu świetlicy wiejskiej,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "547ed6ce-a0d1-5d91-8e96-e0d2454504ab",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_10",
+                    "title": "",
+                    "description": "w czasie najmu odpowiadam za ład i porządek w świetlicy oraz na ternie przyległym do świetlicy,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "33fc81ab-1b87-53fc-b44a-3535c1a6b89b",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_11",
+                    "title": "",
+                    "description": "zobowiązuję się do przestrzegania przepisów sanitarnych, BHP i p.poż. w czasie trwania przedsięwzięcia,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f7c654c2-04b7-5f51-a064-3b560878a84a",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_12",
+                    "title": "",
+                    "description": "na okres wynajmu ponoszę pełną odpowiedzialność za powierzone mienie.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4b2b61b0-a3e8-518d-8408-b97b86fea6bb",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_13",
+                    "title": "",
+                    "description": "(czytelny podpis wnioskodawcy)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 14,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "34dd20b0-8593-5387-8328-62fceeffbf94",
+                    "type": "TEXT_FIELD",
+                    "techName": "imie_i_nazwisko_wnioskodawcy_8c86efee3e",
+                    "title": "(imię i nazwisko wnioskodawcy)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 14,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 15,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "1516938f-0944-5de9-a82f-3761a15890cc",
+                    "type": "TEXT_FIELD",
+                    "techName": "adres_zamieszkania_00d9b83070",
+                    "title": "(adres zamieszkania)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 15,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 16,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c398777d-63a0-5aaa-b0b3-3b48cef5bad5",
+                    "type": "TEXT_FIELD",
+                    "techName": "nr_telefonu_da891b4704",
+                    "title": "(nr telefonu)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 16,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 17,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ef7582b5-350a-5f45-8265-2d3c4748eea2",
+                    "type": "TEXT_FIELD",
+                    "techName": "cel_wynajecia_swietlicy_b724e150df",
+                    "title": "Cel wynajęcia świetlicy",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 17,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 18,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "22e95e57-9aa6-5917-95e6-a737d14201aa",
+                    "type": "NUMBER",
+                    "techName": "przewidywana_ilosc_uczestnikow_3ebf278a96",
+                    "title": "Przewidywana ilość uczestników",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 18,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 19,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5e2ce0d4-394e-56f2-889d-3cdb9dd981d6",
+                    "type": "TEXT_FIELD",
+                    "techName": "osoba_odpowiedzialna_pelnoletnia_za_utrzymanie_porzadku_i_bezpieczenstwa_a7f6d5a678",
+                    "title": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 19,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 20,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "1361a1c0-8e80-5200-8987-881fd66e7db5",
+                    "type": "TEXT_FIELD",
+                    "techName": "jednoczesnie_oswiadczam_ze_w_przypadku_innej_osoby_niz_wnioskodawca_zbiorcze_oswiadczenie_tej_osoby__eff5c7e40a",
+                    "title": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 20,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 22,
+            "rows": 4,
+            "cols": 3,
+            "field": {
+              "id": "db675323-f637-5ed0-897e-37b96f44151f",
+              "type": "SECTION",
+              "techName": "wiersz_24_section_g_s1_0",
+              "title": "Wiersz 24",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "cfa9978e-80f7-5362-bd21-a4cd77a6f5ea",
+                    "type": "TEXT_FIELD",
+                    "techName": "prosze_o_wynajem_uzyczenie_swietlicy_wiejskiej_w_f097df145c",
+                    "title": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+                    "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                    "options": [],
+                    "validation": [
+                      "REQUIRED"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "72e31676-0013-5850-944d-e8898604efd2",
+                    "type": "DATEPICKER",
+                    "techName": "wraz_z_wyposazeniem_w_terminie_od_8b001bef01",
+                    "title": "wraz z wyposażeniem w terminie od",
+                    "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                    "options": [],
+                    "validation": [
+                      "REQUIRED"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 1,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f04dce1a-b2a5-52da-b9b3-16747fd9317e",
+                    "type": "DATEPICKER",
+                    "techName": "do_koniec_terminu_8ca87c3927",
+                    "title": "do (koniec terminu)",
+                    "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                    "options": [],
+                    "validation": [
+                      "REQUIRED"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 2,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 1,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "16f6ad9c-791a-59ef-95f4-4592e40d71ce",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "fc4cafbe-9157-5de8-adc6-120548235384",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "c40c75d8-74d9-5c1d-8d28-36f82aed6a93",
+          "source": "86f0d3ff-a458-5619-acdb-dd8214e3345b",
+          "target": "16f6ad9c-791a-59ef-95f4-4592e40d71ce"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_d5a3d2ac989c82e5",
+      "title": "WNIOSEK",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": null,
+          "height": null,
+          "source": "doc_logical"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Dane formularza",
+          "page": 1,
+          "order": 0,
+          "instructions": [
+            "Załącznik nr 2 do Regulaminu korzystania ze świetlic wiejskich stanowiących własność Gminy Płoskinia",
+            "(miejscowość i data)",
+            "WÓJT GMINY PŁOSKINIA",
+            "Płoskinia 8",
+            "14-526 Płoskinia",
+            "o",
+            "wynajęcie/użyczenie* świetlicy wiejskiej",
+            "( rodzaj uroczystości, np. wesele, urodziny, zabawa itp.)",
+            "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+            "zapoznałem/am się z warunkami wynajmu świetlicy wiejskiej,",
+            "w czasie najmu odpowiadam za ład i porządek w świetlicy oraz na ternie przyległym do świetlicy,",
+            "zobowiązuję się do przestrzegania przepisów sanitarnych, BHP i p.poż. w czasie trwania przedsięwzięcia,",
+            "na okres wynajmu ponoszę pełną odpowiedzialność za powierzone mienie.",
+            "(czytelny podpis wnioskodawcy)"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "Strona 1",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_218c86efee3e",
+          "label": "(imię i nazwisko wnioskodawcy)",
+          "field_type": "text",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b5",
+            "text": "(imię i nazwisko wnioskodawcy)",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Spatial label/answer association",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_1a00d9b83070",
+          "label": "(adres zamieszkania)",
+          "field_type": "address",
+          "required": false,
+          "order": 1,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b7",
+            "text": "(adres zamieszkania)",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Spatial label/answer association",
+            "Semantic type: address"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_a6da891b4704",
+          "label": "(nr telefonu)",
+          "field_type": "phone",
+          "required": false,
+          "order": 2,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "phone",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b9",
+            "text": "(nr telefonu)",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Spatial label/answer association",
+            "Semantic type: phone"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_78f097df145c",
+          "label": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+          "field_type": "text",
+          "required": true,
+          "order": 3,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+          "group_id": "g_s1_0",
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_468b001bef01",
+          "label": "wraz z wyposażeniem w terminie od",
+          "field_type": "date",
+          "required": true,
+          "order": 4,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "date",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Explicit answer marker",
+            "Semantic type: date"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+          "group_id": "g_s1_0",
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_008ca87c3927",
+          "label": "do (koniec terminu)",
+          "field_type": "date",
+          "required": true,
+          "order": 5,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "date",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Explicit answer marker",
+            "Semantic type: date"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+          "group_id": "g_s1_0",
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_81b724e150df",
+          "label": "Cel wynajęcia świetlicy",
+          "field_type": "text",
+          "required": false,
+          "order": 6,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b17",
+            "text": "Cel wynajęcia świetlicy: ……………………………………………………………………………….",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_4d3ebf278a96",
+          "label": "Przewidywana ilość uczestników",
+          "field_type": "number",
+          "required": false,
+          "order": 7,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b19",
+            "text": "Przewidywana ilość uczestników :……………………………………………………………",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Explicit answer marker",
+            "Semantic type: number"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_f7a7f6d5a678",
+          "label": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+          "field_type": "text",
+          "required": false,
+          "order": 8,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b20",
+            "text": "3. Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa:",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.85,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Label/type context",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_dfeff5c7e40a",
+          "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+          "field_type": "text",
+          "required": false,
+          "order": 9,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b23",
+            "text": "4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.85,
+          "detection_method": "doc_piece_table+rules",
+          "decision_reasons": [
+            "Tekst źródła DOC; granice komórek bez geometrii",
+            "Label/type context",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [
+        "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+        "Potencjalna zależność wymaga weryfikacji: ( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+        "Potencjalna zależność wymaga weryfikacji: 4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):"
+      ],
+      "groups": [
+        {
+          "id": "g_s1_0",
+          "title": "Wiersz 24",
+          "section": "s1",
+          "parent_id": null,
+          "repeat_key": null
+        }
+      ],
+      "dictionaries": [],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": true
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a6da891b4704"
+      }
+    ],
+    "provenance": {
+      "34dd20b0-8593-5387-8328-62fceeffbf94": {
+        "internal_field_id": "f_218c86efee3e",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "(imię i nazwisko wnioskodawcy)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "1516938f-0944-5de9-a82f-3761a15890cc": {
+        "internal_field_id": "f_1a00d9b83070",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b7",
+          "text": "(adres zamieszkania)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "c398777d-63a0-5aaa-b0b3-3b48cef5bad5": {
+        "internal_field_id": "f_a6da891b4704",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b9",
+          "text": "(nr telefonu)",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "ef7582b5-350a-5f45-8265-2d3c4748eea2": {
+        "internal_field_id": "f_81b724e150df",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": "Cel wynajęcia świetlicy: ……………………………………………………………………………….",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "22e95e57-9aa6-5917-95e6-a737d14201aa": {
+        "internal_field_id": "f_4d3ebf278a96",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b19",
+          "text": "Przewidywana ilość uczestników :……………………………………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "5e2ce0d4-394e-56f2-889d-3cdb9dd981d6": {
+        "internal_field_id": "f_f7a7f6d5a678",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "3. Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa:",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "1361a1c0-8e80-5200-8987-881fd66e7db5": {
+        "internal_field_id": "f_dfeff5c7e40a",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "cfa9978e-80f7-5362-bd21-a4cd77a6f5ea": {
+        "internal_field_id": "f_78f097df145c",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "72e31676-0013-5850-944d-e8898604efd2": {
+        "internal_field_id": "f_468b001bef01",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "f04dce1a-b2a5-52da-b9b3-16747fd9317e": {
+        "internal_field_id": "f_008ca87c3927",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      }
+    },
+    "requires_confirmation": true,
+    "status": "valid_requires_review",
+    "unsupported_features": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a6da891b4704"
+      }
+    ]
+  },
+  "normalization": {
+    "applied": true,
+    "policy": "source-first; no reference workflow profile inferred",
+    "source_fields": 10,
+    "output_fields": 10,
+    "standard_additions": 0,
+    "suppressed": [],
+    "reference_json_used_at_runtime": false
+  },
+  "quality_review": {
+    "counts": {
+      "fields": 10,
+      "sections": 1,
+      "pages": 1,
+      "dependencies": 0,
+      "dictionaries": 0,
+      "review_fields": 10,
+      "error": 0,
+      "warning": 15,
+      "info": 1
+    },
+    "checks": {
+      "schema_valid": true,
+      "business_rules_valid": true,
+      "compatibility_profile_valid": true,
+      "actual_import_verified": false,
+      "completeness_verified": false
+    },
+    "diagnostics": [
+      {
+        "severity": "WARNING",
+        "code": "coi_review",
+        "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "WARNING",
+        "code": "document_review",
+        "message": "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "WARNING",
+        "code": "document_review",
+        "message": "Potencjalna zależność wymaga weryfikacji: ( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "WARNING",
+        "code": "document_review",
+        "message": "Potencjalna zależność wymaga weryfikacji: 4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_218c86efee3e",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_1a00d9b83070",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_a6da891b4704",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_78f097df145c",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_468b001bef01",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_008ca87c3927",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_81b724e150df",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_4d3ebf278a96",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_f7a7f6d5a678",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "severity": "WARNING",
+        "code": "requires_review",
+        "message": "Sprawdź etykietę, typ i reguły pola.",
+        "field_id": "f_dfeff5c7e40a",
+        "category": "recognition",
+        "recommendation": "Porównaj etykietę, typ i reguły ze wskazanym fragmentem źródła; popraw je w edytorze."
+      },
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a6da891b4704",
+        "category": "business",
+        "severity": "WARNING",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "INFO",
+        "code": "import_unverified",
+        "message": "Nie przeprowadzono importu na rzeczywistej platformie COI.",
+        "category": "platform",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      }
+    ],
+    "unsupported_features": [
+      {
+        "code": "unsupported_validation",
+        "message": "COI nie określa serializacji reguły phone=None. Zachowano ją w modelu wewnętrznym.",
+        "field_id": "f_a6da891b4704"
+      }
+    ],
+    "score_semantics": "Nie skalibrowano prawdopodobieństwa poprawności. Liczby opisują elementy i kontrole, a nie procent dokładności."
+  },
+  "quality": {
+    "status": "partial",
+    "completeness_verified": false,
+    "unresolved_warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+      "Potencjalna zależność wymaga weryfikacji: ( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+      "Potencjalna zależność wymaga weryfikacji: 4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):"
+    ],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: ( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: 4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_218c86efee3e"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_1a00d9b83070"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_a6da891b4704"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_78f097df145c"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_468b001bef01"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_008ca87c3927"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_81b724e150df"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_4d3ebf278a96"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_f7a7f6d5a678"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_dfeff5c7e40a"
+    }
+  ],
+  "document": {
+    "filename": "unknown.doc",
+    "format": "doc",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "doc_logical"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "Załącznik nr 2 do Regulaminu korzystania ze świetlic wiejskich stanowiących własność Gminy Płoskinia",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 1,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "…………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 4,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b3"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "(miejscowość i data)",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 5,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "blank_lines": 1,
+          "input_bbox": null,
+          "role_reason": "paper place/date header; electronic completion uses finish page"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": "……………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 6,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b5"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "(imię i nazwisko wnioskodawcy)",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 7,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "……………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 9,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b7"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": "(adres zamieszkania)",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 10,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "……………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 12,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b9"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": "(nr telefonu)",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 13,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "WÓJT GMINY PŁOSKINIA",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 14,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "fixed recipient authority"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": "Płoskinia 8",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 15,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": "14-526 Płoskinia",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 16,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": "WNIOSEK",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 19,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "o",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 20,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "wynajęcie/użyczenie* świetlicy wiejskiej",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 21,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w ………………………….…………………….…. wraz z wyposażeniem w terminie od ………………………..… do ……………………………………",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 24,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": "Cel wynajęcia świetlicy: ……………………………………………………………………………….",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 25,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b18",
+        "text": "( rodzaj uroczystości, np. wesele, urodziny, zabawa itp.)",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 26,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b19",
+        "text": "Przewidywana ilość uczestników :……………………………………………………………",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 28,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b20",
+        "text": "3. Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa:",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 29,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b21",
+        "text": "…………………………………………………………………………………………..………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 31,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b22"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b22",
+        "text": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 32,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "blank_lines": 1,
+          "input_bbox": null,
+          "role_reason": "parenthetical guidance"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b23",
+        "text": "4. Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku):",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 34,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b24",
+        "text": "zapoznałem/am się z warunkami wynajmu świetlicy wiejskiej,",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 35,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b25",
+        "text": "w czasie najmu odpowiadam za ład i porządek w świetlicy oraz na ternie przyległym do świetlicy,",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 36,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b26",
+        "text": "zobowiązuję się do przestrzegania przepisów sanitarnych, BHP i p.poż. w czasie trwania przedsięwzięcia,",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 37,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b27",
+        "text": "na okres wynajmu ponoszę pełną odpowiedzialność za powierzone mienie.",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 38,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b28",
+        "text": "………………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 41,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "label_block_id": "b29"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      },
+      {
+        "id": "b29",
+        "text": "(czytelny podpis wnioskodawcy)",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "story": "main",
+          "table_id": "doc_1",
+          "row": 42,
+          "column": 1,
+          "paired_blank": false,
+          "requires_review": true,
+          "choice_evidence": "Tekst źródła DOC; granice komórek bez geometrii",
+          "blank_lines": 1,
+          "input_bbox": null,
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "doc_piece_table",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [
+      "Częściowy model DOC: tekst i granice komórek; bez składu Word, geometrii, obrazów i pełnych właściwości tabel. Sprawdź oryginał."
+    ],
+    "analysis": {
+      "ocr": [],
+      "legacy_doc": {
+        "format": "Word97-2003",
+        "main_characters": 1942,
+        "textbox_characters": 0,
+        "geometry_available": false
+      },
+      "layout": {
+        "geometry_associations": 6,
+        "columns": 1,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "text": 17,
+          "blank": 6,
+          "information": 4,
+          "heading": 1,
+          "instruction": 1
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 0.99
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 4.0
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 1.26
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 0.74
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.02
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 0.72
+    }
+  ]
+}

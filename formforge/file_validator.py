@@ -11,6 +11,7 @@ from .errors import DocumentError
 
 MIMES = {
     "pdf": "application/pdf",
+    "doc": "application/msword",
     "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     "xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "ods": "application/vnd.oasis.opendocument.spreadsheet",
@@ -42,9 +43,12 @@ class FileValidator:
                 if len(data) > self.settings.max_upload_mb * 1024 * 1024:
                     raise DocumentError("Plik przekracza dopuszczalny rozmiar.", 413, "file_too_large")
                 return "docx"
-            raise DocumentError(
-                "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF.", 415, "doc_not_supported"
-            )
+            if mime.partition(";")[0].strip().lower() not in (MIMES["doc"], "application/octet-stream", ""):
+                raise DocumentError("Typ MIME nie odpowiada dokumentowi Word.", 415, "mime_mismatch")
+            from .legacy_doc import inspect_doc
+
+            inspect_doc(data, self.settings.max_uncompressed_mb * 1024 * 1024)
+            return "doc"
         if extension not in MIMES:
             raise DocumentError("Niedozwolony format pliku.", 415, "unsupported_format")
         if not data:

@@ -50,6 +50,18 @@ class FormValidator:
         for warning in form.warnings:
             issues.append(Issue(severity="warning", code="document_review", message=warning))
         for field in form.fields:
+            for rules in [field.conditions, field.required_conditions]:
+                equals = {}
+                for rule in rules:
+                    if rule.operator == "equals":
+                        equals.setdefault(rule.field_id, set()).add(str(rule.value))
+                conflict = any(len(v) > 1 for v in equals.values()) or any(r.operator == "not_equals" and str(r.value) in equals.get(r.field_id, set()) for r in rules)
+                if conflict:
+                    issues.append(
+                        Issue(
+                            severity="error", code="conflicting_conditions", message="Sprzeczne warunki tego samego pola źródłowego. Popraw reguły w edytorze.", field_id=field.id
+                        )
+                    )
             if field.requires_review or field.confidence < 0.8:
                 issues.append(Issue(severity="warning", code="requires_review", message="Sprawdź etykietę, typ i reguły pola.", field_id=field.id))
             if field.field_type in (FieldType.RADIO, FieldType.SELECT) and not field.options and not field.coi.dictionary_name:
