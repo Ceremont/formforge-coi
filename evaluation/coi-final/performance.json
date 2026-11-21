@@ -1,0 +1,58 @@
+{
+  "protocol": "One warm-installed separate Python process per own synthetic document. No optimization or accuracy tuning. OCR is a subset of extraction, not an additional duration. RSS includes Python/PDFium but not concurrent Tesseract child peak; not combined system peak. Import time precedes total timer; no HTTP/queue/browser included. No production throughput claim.",
+  "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.5",
+  "cases": [
+    {
+      "file": "zaswiadczenie.pdf",
+      "fields": 9,
+      "extraction_s": 0.10955,
+      "ocr_s": 0,
+      "analysis_s": 0.0038,
+      "total_s": 0.1158,
+      "python_peak_rss_mib": 72.52,
+      "json_valid": true
+    },
+    {
+      "file": "zezwolenie.docx",
+      "fields": 11,
+      "extraction_s": 0.04406,
+      "ocr_s": 0,
+      "analysis_s": 0.0034,
+      "total_s": 0.0507,
+      "python_peak_rss_mib": 62.98,
+      "json_valid": true
+    },
+    {
+      "file": "zgloszenie.xlsx",
+      "fields": 9,
+      "extraction_s": 0.05091,
+      "ocr_s": 0,
+      "analysis_s": 0.0033,
+      "total_s": 0.0557,
+      "python_peak_rss_mib": 59.44,
+      "json_valid": true
+    },
+    {
+      "file": "zaswiadczenie.png",
+      "fields": 9,
+      "extraction_s": 1.0351,
+      "ocr_s": 0.9652,
+      "analysis_s": 0.004,
+      "total_s": 1.0412,
+      "python_peak_rss_mib": 93.14,
+      "json_valid": true
+    },
+    {
+      "file": "wielostronicowy.pdf",
+      "fields": 17,
+      "extraction_s": 0.05017,
+      "ocr_s": 0,
+      "analysis_s": 0.0121,
+      "total_s": 0.0644,
+      "python_peak_rss_mib": 74.23,
+      "json_valid": true
+    }
+  ]
+}

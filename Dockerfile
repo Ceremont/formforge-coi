@@ -1,5 +1,5 @@
 # Official image, explicit version; no PyMuPDF, LibreOffice, Poppler or LLM APIs.
-FROM python:3.14.5-slim-trixie AS ocr-builder
+FROM python:3.14.5-slim-trixie@sha256:c845af9399020c7e562969a13689e929074a10fd057acd1b1fad06a2fb068e97 AS ocr-builder
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends cmake g++ make pkg-config libpng-dev libjpeg62-turbo-dev zlib1g-dev curl ca-certificates \
@@ -29,7 +29,7 @@ RUN curl --fail --location https://github.com/tesseract-ocr/tesseract/archive/re
     && mkdir -p /opt/ocr/share/licenses/tesseract \
     && cp tesseract-5.5.1/LICENSE /opt/ocr/share/licenses/tesseract/LICENSE
 
-FROM python:3.14.5-slim-trixie
+FROM python:3.14.5-slim-trixie@sha256:c845af9399020c7e562969a13689e929074a10fd057acd1b1fad06a2fb068e97
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \

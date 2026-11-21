@@ -27,7 +27,7 @@ The optional Naive Bayes implementation, development training text and generated
 `formforge/data/block_roles.json` are self-authored MIT project assets. No model
 weights or OCR service are downloaded at runtime. The upgrade adds no OpenCV,
 LLM endpoint or mandatory external inference dependency. Package metadata was
-rechecked after locking. The V03 image was built and run; a complete audited
+rechecked after locking. The 1.0 image was built and run; a complete audited
 native OCI SBOM remains outstanding.
 
 References checked during implementation:
@@ -123,3 +123,5 @@ and legacy PIL notices. Primary sources:
 The specification is used for interoperability, not relicensed as project code.
 Final native/license verification status is recorded in docs/LICENSE_COMPLIANCE.md;
 the V03 container evidence above remains historical.
+
+Final 1.0: real Compose, offline network-none integration and native package/linkage inventories are recorded in evaluation/coi-final. Python core image is pinned by digest. PDF presentation embeds DejaVu Sans under its permissive notice (docs/assets/fonts/LICENSE.txt). Full native license audit and competition rights transfer remain unresolved; see docs/LICENSE_COMPLIANCE.md.

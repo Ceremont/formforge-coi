@@ -1,3 +1,5 @@
+> **1.0:** aktualna macierz: [COI_REQUIREMENTS_MATRIX.md](COI_REQUIREMENTS_MATRIX.md), [FINAL_COMPETITION_REPORT.md](FINAL_COMPETITION_REPORT.md). 68/69 konwersji lokalnie poprawnych, importer niezweryfikowany, DOC/warunki/słowniki częściowe. Poniżej zachowany opis kontraktu i historyczne wyniki.
+
 # COI compatibility and quality report
 
 > This report preserves the COI-v1 contract and measurements. Current 0.3 engine

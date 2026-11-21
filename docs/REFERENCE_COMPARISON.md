@@ -1,3 +1,5 @@
+> **1.0:** bieżące wyniki 01/05 i pozostałych źródeł: [FINAL_ACCURACY_REPORT.md](FINAL_ACCURACY_REPORT.md). 15/15 referencji konwertuje; PDF/DOCX F1 workflow 98,04% / 97,20%, z jawnymi uzupełnieniami standardu. To development, nie niezależny test. Poniżej zachowany historyczny protokół COI-v1.
+
 # Reference comparison: official development scenarios 01 and 05
 
 > COI-v1 comparison protocol and historical results. Version 0.3 reruns and

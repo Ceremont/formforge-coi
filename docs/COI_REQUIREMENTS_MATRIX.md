@@ -1,8 +1,10 @@
 # Macierz wymagań COI
 
-Stan roboczy etapu 0.4; kontrolki deployment/formalne zostaną ponownie ocenione
-na rzeczywistym wydaniu 1.0. PASS oznacza wskazany kod i wykonaną kontrolę,
-nie sam opis funkcji. PARTIAL nie znika po przejściu JSON Schema.
+Wydanie 1.0. PASS oznacza wskazany kod i wykonaną kontrolę, nie sam opis funkcji.
+PARTIAL nie znika po przejściu JSON Schema. Dowody finalne: pytest 196,
+`evaluation/coi-final/{docker,offline}-verification.json`, `release-verification.json`,
+`browser-verification.json` i 10-stronicowy PDF. SKIP źródeł w czystej paczce
+jest jawny; pełny benchmark wykonano w checkout z legalnym pakietem.
 
 Źródła: **Z** = „COI - Pełna treść zadania konkursowego.pdf”, wskazana strona
 i punkt; **R** = „COI - Regulamin zadania konkursowego.pdf”, paragraf;
@@ -36,22 +38,22 @@ Pełne nazwy i SHA256 oryginałów: `docs/coi-source-manifest.json`.
 | S01 security | „weryfikacją MIME type” | Z s.4 | `FileValidator`, magic/container; `test_files.py`, błędny MIME | PASS |
 | S02 security | „nie może przekraczać 250 znaków” i lista zakazanych znaków | Z s.4 | regex/limit nazwy; parametryzowane `test_files.py` | PASS |
 | S03 security | „Maksymalny rozmiar ... konfigurowalny” | Z s.4–5 | settings/env + limity requestu/pliku i bramy; pytest | PASS |
-| S04 security | „wyłącznie tymczasowe przetwarzanie pliku” | Z s.5 | request-scoped temp, grupy procesów/cleanup; `test_api.py`, Docker cleanup 0.3; ponowna kontrola 1.0 | PASS |
+| S04 security | „wyłącznie tymczasowe przetwarzanie pliku” | Z s.5 | request-scoped temp, grupy procesów/cleanup i source-page; pytest oraz realny Docker 1.0: temp directories=0 | PASS |
 | S05 security | „parametrów związanych z uwierzytelnianiem JWT” | Z s.5 | HS256, secret>=32, exp/iat/sub/iss/aud, runtime env; auth testy | PASS |
 | S06 security | ochrona parserów i zasobów (realizacja wymagań powyżej) | Z s.4–5 | DTD/entity/macros/ZIP bomb/path checks; time/memory/semaphore; pytest. To nie pełny pentest | PASS |
 | L01 licensing | „wyłącznie rozwiązania open source, nie oparte na licencjach typu copyleft” | Z s.4 | 38 przypiętych bibliotek runtime, wybrane licencje; `runtime-licenses.json`, notices. Pełny natywny audyt obrazu osobno | PARTIAL |
-| L02 licensing | „Brak użycia ... zewnętrzne API, MCP, SaaS” | Z s.4 | brak usług w runtime, lokalne dane OCR/ML/Swagger; browser external requests=[]; integration offline 1.0 do powtórzenia | PARTIAL |
+| L02 licensing | „Brak użycia ... zewnętrzne API, MCP, SaaS” | Z s.4 | brak usług w runtime; realny network none PDF/DOC/OCR/model lokalny, browser external requests=[] | PASS |
 | L03 licensing | „brak wymogu zakupu licencji komercyjnych” | Z s.4 | brak PyMuPDF/LibreOffice/komercyjnego modelu; dependency/license inventory | PASS |
 | L04 licensing | „przysługują mu pełne autorskie prawa majątkowe do tego wkładu” | R §4.1–4.4 | istniejąca MIT zachowana, nie obejmuje materiałów organizatora. Oświadczenia zespołu i wzór umowy niezweryfikowane | UNVERIFIED |
 | D01 deployment | „Python 3.14 lub nowszy” | Z s.4 | Python 3.14.5, pyproject, wykonany pytest | PASS |
-| D02 deployment | „kompletną konfiguracją Docker” | Z s.5 | Dockerfile/Compose i testowany obraz 0.3; obraz finalny wymaga build/run | UNVERIFIED |
+| D02 deployment | „kompletną konfiguracją Docker” | Z s.5 | realne compose build/up/ps/logs, HTTP wszystkie formaty i browser E2E 1.0; Buildx Unicode obejście ASCII opisane w README | PASS |
 | D03 deployment | „oficjalne obrazy bazowe”, „jawne wersjonowanie”, „nie używać tagu latest” | Z s.5 | oficjalny python:3.14.5-slim-trixie, brak latest; przegląd Dockerfile | PASS |
-| D04 deployment | „dedykowanym użytkowniku ... ograniczone uprawnienia” | Z s.5 | UID10001, read-only/tmpfs/cap_drop/limity; realny Docker 0.3, powtórzenie finalne | UNVERIFIED |
+| D04 deployment | „dedykowanym użytkowniku ... ograniczone uprawnienia” | Z s.5 | realnie UID10001/read-only/internal/temp=0, limits i no-new-privileges; docker-verification.json | PASS |
 | D05 deployment | „udostępniać wyłącznie porty wymagane” | Z s.5 | jedyny port localhost bramy; procesor internal, brak portu hosta | PASS |
-| D06 deployment | „sekrety ... wyłącznie ... runtime” | Z s.5 | env JWT, brak .env w Git/ZIP/obrazie; testy auth i przegląd paczki finalnej | PARTIAL |
-| D07 deployment | „README.md ... budowania ... uruchomienia ... konfiguracji ... REST API” | Z s.5 | istniejący README; wersja finalna i quick start do aktualizacji | PARTIAL |
-| F01 formal | „szczegółowy opis i tytuł projektu” | Z s.3, pkt 4 | README i raport finalny; aktualizacja wydania | PARTIAL |
-| F02 formal | „prezentację w formacie PDF (maksymalnie 10 slajdów)” | Z s.3, pkt 4 | materiały historyczne; finalny PDF musi być wygenerowany i sprawdzony | UNVERIFIED |
+| D06 deployment | „sekrety ... wyłącznie ... runtime” | Z s.5 | sekrety env runtime, JWT testy; .env/klucze/cache wykluczone przez allowlist paczki i manifest SHA | PASS |
+| D07 deployment | „README.md ... budowania ... uruchomienia ... konfiguracji ... REST API” | Z s.5 | README/QUICK_START_PL: uruchomione Docker i lokalny Python, UI/API/konfiguracja/ograniczenia | PASS |
+| F01 formal | „szczegółowy opis i tytuł projektu” | Z s.3, pkt 4 | README, FINAL_COMPETITION_REPORT i opis/pomiary; przegląd dokumentacji | PASS |
+| F02 formal | „prezentację w formacie PDF (maksymalnie 10 slajdów)” | Z s.3, pkt 4 | docs/FormForge_COI_1.0_Presentation_PL.pdf: 10 slajdów, tekst i render zweryfikowane | PASS |
 | F03 formal | „wynikowe pliki JSON” | Z s.3, pkt 4 | `evaluation/coi-final/exports`, dynamiczna konwersja i walidacja | PASS |
 | F04 formal | „film ... maksymalnie 3 minuty” i dostępny link | Z s.3, pkt 4 | scenariusz będzie dostarczony; brak nagrania/publikacji | FAIL |
 | F05 formal | „repozytorium kodu” | Z s.3, pkt 4 | lokalny Git; dostęp jury/URL i uprawnienia niepotwierdzone | UNVERIFIED |

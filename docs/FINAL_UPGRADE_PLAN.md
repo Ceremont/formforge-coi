@@ -53,3 +53,7 @@ poprawne. R1/R2 zachowane jako development/audyt; R3 ma zablokowane adnotacje
 i brak strojenia na jego wynikach. Umiarkowana poprawa niezależnego F1, istotne
 braki pozostają jawne w FINAL_ACCURACY_REPORT. Jeden mapping-only crash guard
 ma osobny zapis SHA i dowód niezmienności predykcji/eksportów holdoutu.
+
+## Zamknięcie implementacji
+
+0.4 zapisany w b9d723a (191 testów), 0.5 w bd2d754 (194 testy). Wydanie 1.0 ma 196 testów, rzeczywisty Docker/offline i materiały jury. Szczegółowe wyniki oraz pozostające częściowe/niezweryfikowane wymagania są w FINAL_COMPETITION_REPORT i COI_REQUIREMENTS_MATRIX. Tag lokalny v1.0.0, bez merge/push.

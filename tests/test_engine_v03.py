@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def source(group, ext):
     directory = ROOT / "reference/coi-official/forms" / group
     if not directory.is_dir():
-        pytest.skip("Organizer source pack is separately supplied; included in the full review ZIP")
+        pytest.skip("Organizer source pack is separately supplied; excluded from clean release pending redistribution permission")
     return next(p for p in directory.iterdir() if p.suffix.lower() == "." + ext and "wizualizac" not in p.name)
 
 

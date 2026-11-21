@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "pytest": {
+    "passed": 196,
+    "failed": 0,
+    "seconds": 12.49,
+    "warning": "Starlette HTTPX client deprecation; dev only"
+  },
+  "ruff": "passed",
+  "historical_files_unchanged": 323,
+  "organizer_files_unchanged": 82,
+  "recognition_freeze": "unchanged with documented mapping-only guard",
+  "native_browser_suites": [
+    "smoke",
+    "review",
+    "official_05",
+    "large_image_61.9MP"
+  ],
+  "docker_browser_suites": [
+    "smoke",
+    "professional_final_with_three_prospective_review_journeys"
+  ],
+  "external_browser_requests": [],
+  "browser_errors": [],
+  "docker": "passed actual build/up/ps/API/frontend",
+  "offline": "passed --network none; PDF/DOC/OCR/model local",
+  "target_import_verified": false,
+  "complete_native_license_audit": false,
+  "video_published": false,
+  "repository_visibility_changed": false,
+  "main_merged": false,
+  "clean_unpacked_package": {
+    "pytest_passed": 181,
+    "pytest_skipped_external_sources": 15,
+    "ui_api_conversion": "passed"
+  },
+  "matrix": {
+    "PASS": 37,
+    "PARTIAL": 12,
+    "UNVERIFIED": 3,
+    "FAIL": 1
+  }
+}
