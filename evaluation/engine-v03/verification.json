@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-11-21T19:23:39.564532+00:00",
+  "branch": "feature/engine-upgrade",
+  "baseline_commit": "744fc19",
+  "pytest": {
+    "passed": 178,
+    "failures": 0,
+    "errors": 0,
+    "warnings": 1,
+    "seconds": 10.381,
+    "warning": "Starlette HTTPX development TestClient deprecation"
+  },
+  "ruff": "passed: formforge deploy scripts tests",
+  "git_diff_check": "passed",
+  "integrity": {
+    "frozen_coi_v1_files_unchanged": 140,
+    "official_source_files_unchanged": 82,
+    "active_engine_files_match_freeze": 32,
+    "annotation_and_freeze_lock": "passed",
+    "new_source_hashes": "3/3 passed"
+  },
+  "known_forms": {
+    "total": 69,
+    "converted": 62,
+    "schema_valid": 62,
+    "business_valid": 62,
+    "previous_53_successes_preserved": true,
+    "quality_status": {
+      "partial": 47,
+      "review_required": 15
+    }
+  },
+  "new_external_forms": {
+    "total": 3,
+    "converted": 3,
+    "local_valid": 3,
+    "micro_metrics": [
+      {
+        "version": "baseline",
+        "matched": 10,
+        "predicted": 25,
+        "expected": 32,
+        "precision": 0.4,
+        "recall": 0.3125,
+        "f1": 0.3508771929824561,
+        "type_accuracy": 0.6
+      },
+      {
+        "version": "v03",
+        "matched": 24,
+        "predicted": 35,
+        "expected": 32,
+        "precision": 0.6857142857142857,
+        "recall": 0.75,
+        "f1": 0.7164179104477612,
+        "type_accuracy": 0.875
+      }
+    ],
+    "scope": "Small single-annotator pre-prediction inventory; three forms, two genres. Section quality not consistently improved."
+  },
+  "browser": "Four native suites and original smoke through actual Docker gateway passed; zero external requests and uncaught errors. See browser-verification.json.",
+  "docker": {
+    "status": "passed",
+    "image": "formforge-coi:0.3.0",
+    "api_scenarios": 7,
+    "test_project_removed": true,
+    "full_audited_native_sbom": false
+  },
+  "target_coi_import_verified": false,
+  "competition_ready": false
+}

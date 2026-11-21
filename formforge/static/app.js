@@ -29,7 +29,7 @@
       result=await request('/api/v1/forms/convert?analysis_mode='+($('analysis-mode')?.value||'deterministic'),{method:'POST',body});sourceFile=file;
       if(sourceUrl)URL.revokeObjectURL(sourceUrl);sourceUrl=URL.createObjectURL(file);
       exportData=result.export;showStages(result.stages);spinner.classList.add('done');spinner.textContent='✓';
-      $('process-title').textContent='Analiza zakończona';$('process-note').textContent='Oryginalny plik został usunięty z serwera. Podgląd źródła korzysta z pliku w tej karcie.';
+      $('process-title').textContent=result.quality?.status==='no_fields'?'Nie rozpoznano pól — sprawdź źródło':result.quality?.status==='partial'?'Analiza częściowa — sprawdź ostrzeżenia':'Analiza zakończona — wynik wymaga przeglądu';$('process-note').textContent='Oryginalny plik został usunięty z serwera. Podgląd źródła korzysta z pliku w tej karcie.';
       render();selectTab('document');$('results').hidden=false;
       $('results').scrollIntoView({behavior:'smooth',block:'start'});
     }catch(e){error(e.message);$('upload-card').hidden=false;$('welcome').hidden=false;$('process-card').hidden=true;}
@@ -46,7 +46,7 @@
   }
   function renderSource(){
     const view=$('source-view');view.replaceChildren();const ext=result.document.format;
-    if(['png','jpg','jpeg'].includes(ext)){const img=make('img','source-image');img.src=sourceUrl;img.alt='Przesłany dokument';view.append(img);$('source-caption').textContent='Oryginał · tylko w pamięci przeglądarki';}
+    if(['png','jpg','jpeg','jpe'].includes(ext)){const img=make('img','source-image'+(result.document.analysis?.image_tiles?.length?' source-tiled':''));img.src=sourceUrl;img.alt='Przesłany dokument';view.append(img);$('source-caption').textContent='Oryginał · tylko w pamięci przeglądarki';}
     else if(ext==='pdf'){const iframe=make('iframe','source-pdf');iframe.src=sourceUrl;iframe.title='Oryginalny dokument PDF';view.append(iframe);$('source-caption').textContent='Oryginalny PDF · lokalny podgląd przeglądarki';}
     else{
       $('source-caption').textContent='Odtworzony tekst i tabele · bez składu Word / Excel';

@@ -5,17 +5,17 @@ from .layout_analyzer import fold
 from .models import Block, DictionaryReference, ExtractedDocument, FieldType, FormField, SourceReference, ValidationRule
 
 
-CHOICE = re.compile(r"(?:\[\s*[xX]?\s*\]|[☐□☑○◯]|\(\s*\))\s*([^\[☐□☑○◯]+?)(?=(?:\[\s*[xX]?\s*\]|[☐□☑○◯]|\(\s*\))|$)")
+CHOICE = re.compile(r"(?:\[\s*[xX]?\s*\]|[☐□☑○◯❑\uf0f0\uf092]|\(\s*\))\s*([^\[☐□☑○◯❑\uf0f0\uf092]+?)(?=(?:\[\s*[xX]?\s*\]|[☐□☑○◯❑\uf0f0\uf092]|\(\s*\))|$)")
 MARKER = re.compile(r"[.·…]{3,}|_{3,}|…|\[\s*\]")
 TYPE_RULES = [
     (r"\bpesel\b", FieldType.PESEL),
     (r"\bnip\b", FieldType.NIP),
     (r"\bregon\b", FieldType.REGON),
-    (r"\b(e-?mail|poczta elektroniczna)\b", FieldType.EMAIL),
+    (r"\b(e-?mail|poczt[ay] elektroniczn[ae]j?)\b", FieldType.EMAIL),
     (r"\b(telefon(?:u|iczny|icznego)?|tel\.?|phone)\b", FieldType.PHONE),
     (r"\b(kod pocztowy|postal code)\b", FieldType.POSTAL_CODE),
-    (r"\b(data|date|termin)\b|(?:rrrr|yyyy)[-/.](?:mm)[-/.](?:dd)|(?:dd)[-/.](?:mm)[-/.](?:rrrr|yyyy)", FieldType.DATE),
-    (r"\b(liczba|ilosc|kwota|powierzchnia|number|amount)\b", FieldType.NUMBER),
+    (r"\b(data|date|termin(?:ie|u)?)\b|(?:od|do) dnia|(?:rrrr|yyyy)[-/.](?:mm)[-/.](?:dd)|(?:dd)[-/.](?:mm)[-/.](?:rrrr|yyyy)", FieldType.DATE),
+    (r"\b(liczba|ilosc|kwota|wysokosc oplaty|powierzchnia|dlugosc|szerokosc|razem|number|amount)\b", FieldType.NUMBER),
     (r"\b(uzasadnienie|opis|uwagi|description)\b", FieldType.TEXTAREA),
     (r"\b(zalacznik|zalaczniki|attachment)\b", FieldType.ATTACHMENT),
     (r"\b(adres|address)\b", FieldType.ADDRESS),
@@ -35,7 +35,7 @@ class FieldDetector:
             for label, kind, options, confidence in candidates:
                 label = re.sub(r"^\s*\d+[.)]\s*", "", label)
                 label = MARKER.sub("", label).strip(" .…:_;-*\t\n")
-                if not label or len(label) > 400:
+                if not label or len(label) > 400 or len(re.sub(r"[^\w]", "", label)) < 2 or not any(c.isalpha() for c in label):
                     continue
 
                 # Native fields supersede matching printed labels on the same page.
@@ -46,6 +46,11 @@ class FieldDetector:
                     if ref.cell and block.metadata.get("cell"):
                         return ref.cell == block.metadata["cell"] and ref.sheet == block.metadata.get("sheet")
                     a, b = ref.input_bbox or ref.bbox, block.metadata.get("input_bbox") or block.bbox
+                    if ref.label_bbox and block.bbox:
+                        x, y = ref.label_bbox, block.bbox
+                        overlap = max(0, min(x[2], y[2]) - max(x[0], y[0])) * max(0, min(x[3], y[3]) - max(x[1], y[1]))
+                        if overlap > 0.5 * max(1, min((x[2] - x[0]) * (x[3] - x[1]), (y[2] - y[0]) * (y[3] - y[1]))):
+                            return True
                     if a and b:
                         overlap = max(0, min(a[2], b[2]) - max(a[0], b[0])) * max(0, min(a[3], b[3]) - max(a[1], b[1]))
                         return overlap > 0.2 * max(1, min((a[2] - a[0]) * (a[3] - a[1]), (b[2] - b[0]) * (b[3] - b[1])))
@@ -59,12 +64,22 @@ class FieldDetector:
                 normalized = fold(label)
                 if kind == FieldType.TEXT:
                     kind = next((field_type for pattern, field_type in TYPE_RULES if re.search(pattern, normalized)), FieldType.TEXT)
-                    if kind == FieldType.TEXT and block.metadata.get("multiline"):
+                    simple_text = re.search(r"imie|nazwisk|miejscowosc|ulica|nr domu|nr lokalu|numer (?:domu|lokalu|rachunku)|rasa psa", normalized)
+                    if kind == FieldType.TEXT and block.metadata.get("multiline") and not simple_text:
                         kind = FieldType.TEXTAREA
+                if label.lower() == "do" and fields and fields[-1].field_type == FieldType.DATE:
+                    kind = FieldType.DATE
+                    label = "do (koniec terminu)"
                 required = bool(block.metadata.get("required")) or bool(re.search(r"\*|\bobowiazkow[eya]\b|\bwymagan[eya]\b", fold(text)))
+                if re.search(r"opcjonaln|nie (?:są|sa) (?:obowiązkowe|obowiazkowe)|nieobowiazk", fold(text)):
+                    required = False
                 validation = self._rules(kind, text)
                 field_id = "f_" + sha256(f"{block.page}:{block.id}:{label}".encode()).hexdigest()[:12]
-                review = min(confidence, block.confidence) < 0.8 or bool(re.search(r"\b(jezeli|jesli|w przypadku|o ile|when|if)\b", fold(text)))
+                review = (
+                    min(confidence, block.confidence) < 0.8
+                    or bool(block.metadata.get("requires_review"))
+                    or bool(re.search(r"\b(jezeli|jesli|w przypadku|o ile|when|if)\b", fold(text)))
+                )
                 fields.append(
                     FormField(
                         id=field_id,
@@ -78,7 +93,7 @@ class FieldDetector:
                         source_reference=SourceReference(
                             page=block.page,
                             block_id=block.id,
-                            text=text,
+                            text=block.metadata.get("source_text", text),
                             bbox=block.bbox,
                             sheet=block.metadata.get("sheet"),
                             cell=block.metadata.get("cell"),
@@ -87,20 +102,46 @@ class FieldDetector:
                         ),
                         confidence=round(min(confidence, block.confidence), 3),
                         detection_method=block.method + "+rules",
+                        decision_reasons=[
+                            r
+                            for r in [
+                                block.metadata.get("choice_evidence"),
+                                "Explicit answer marker"
+                                if MARKER.search(text)
+                                else "Native form control"
+                                if block.kind == "form_field"
+                                else "Spatial label/answer association"
+                                if block.metadata.get("label_input_pair")
+                                else "Label/type context",
+                                f"Semantic type: {kind.value}",
+                            ]
+                            if r
+                        ],
                         options=options,
                         dictionary=DictionaryReference(id=f"dict_{field_id}", source="document", values=options) if options else None,
                         requires_review=review,
                         help_text="Wymagane zgodnie z oznaczeniem w dokumencie." if required else "",
                     )
                 )
+        from .models import ConditionalRule
+
+        source_map = {f.source_reference.block_id: f for f in fields}
+        for field in fields:
+            block = next(b for b in document.blocks if b.id == field.source_reference.block_id)
+            parent = source_map.get(block.metadata.get("show_if_block"))
+            if parent:
+                field.conditions.append(
+                    ConditionalRule(field_id=parent.id, value=block.metadata["show_if_value"], evidence=block.metadata.get("source_text", block.text), requires_review=True)
+                )
+                field.requires_review = True
         return fields
 
     def _candidates(self, block: Block):
         text = block.text
-        if block.metadata.get("label_input_pair") and not MARKER.search(text) and not CHOICE.search(text):
-            return [(text, FieldType.TEXT, [], 0.84)]
         if block.kind == "form_field":
             return [(text, FieldType(block.metadata.get("native_type", "text")), block.metadata.get("options", []), 0.98 if "candidate" not in block.method else 0.55)]
+        if block.metadata.get("label_input_pair") and not MARKER.search(text) and not CHOICE.search(text):
+            return [(text, FieldType.TEXT, [], 0.84)]
         choices = [m.group(1).strip(" ;:.") for m in CHOICE.finditer(text)]
         if choices:
             first = CHOICE.search(text)

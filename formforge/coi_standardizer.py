@@ -24,7 +24,9 @@ def all_of(*rules):
 
 def source_text(document):
     pages = document.analysis.get("page_text", [])
-    return "\n".join(p["text"] for p in pages) if pages else "\n".join(b.text for b in document.blocks if b.kind != "blank")
+    if pages:
+        return "\n".join(p["text"] if len(p["text"].strip()) >= 100 else "\n".join(b.text for b in document.blocks if b.page == p["page"] and b.kind != "blank") for p in pages)
+    return "\n".join(b.text for b in document.blocks if b.kind != "blank")
 
 
 def recipient(text):
@@ -49,6 +51,13 @@ def standardize(form, document):
     if not eligible:
         return form, {"applied": False, "reason": "No government-applicant context; preserved source structure"}
     raw = list(form.fields)
+    # A general document is not evidence for the reference applicant workflow.
+    # Preserve its source sections/roles rather than manufacturing 40+ fields.
+    # The two established redesign profiles are triggered by request semantics,
+    # never source names, arbitrary occurrences in legal text, or expected JSON.
+    known_profile = bool(re.search(r"numeru porzadkowego|stwierdzenie nadplaty podatku", fold(form.title)))
+    if not known_profile:
+        return source_structure(form, document)
     fields = []
     sections = []
     used = set()
@@ -89,6 +98,7 @@ def standardize(form, document):
             validation=[ValidationRule(kind=kind)] if kind in ("email", "pesel", "nip", "regon", "postal_code") else [],
             confidence=min(source.confidence, 0.85) if source else 0.65,
             detection_method="source+coi_semantic" if source else "coi_standard_policy",
+            decision_reasons=(source.decision_reasons if source else []) + [rule],
             options=options or [],
             requires_review=True if not source else source.requires_review,
             help_text=source.help_text if source else "",
@@ -224,8 +234,8 @@ def standardize(form, document):
             add(sec, "Plik z potwierdzeniem przelewu", "attachment", required=True)
     # Subject fields are inferred from source phrases, not reference filenames.
     subject = "Informacje dotyczące wniosku"
-    building = bool(re.search(r"budynk|numeru porzadkowego", normalized))
-    refund = bool(re.search(r"nadplat", normalized))
+    building = bool(re.search(r"numeru porzadkowego", fold(form.title)))
+    refund = bool(re.search(r"stwierdzenie nadplaty podatku", fold(form.title)))
     if building:
         subject = "Informacje o budynku"
     elif refund:
@@ -319,3 +329,28 @@ def standardize(form, document):
 
 def slug_rule(text):
     return re.sub(r"[^a-z0-9]+", "_", fold(text))[:90]
+
+
+def source_structure(form, document):
+    """Source-first fallback; no invented persons, fees, consents or conditions."""
+    for section in form.sections:
+        section.coi.tab = next(p.title for p in form.pages if p.id == section.page)
+    for field in form.fields:
+        field.coi.origin = "source"
+        label = fold(field.label).strip(" *:().0123456789")
+        if label in {"kraj", "panstwo"} and field.field_type in {"text", "select"}:
+            field.field_type = FieldType.SELECT
+            field.coi.dictionary_name = "Kraje"
+            field.options = []
+            field.requires_review = True
+            field.decision_reasons.append("Exact country input label matches supplied COI dictionary catalog; values resolved by target platform")
+    form.coi_standardized = True
+    return form, {
+        "applied": True,
+        "policy": "source-first; no reference workflow profile inferred",
+        "source_fields": len(form.fields),
+        "output_fields": len(form.fields),
+        "standard_additions": 0,
+        "suppressed": [],
+        "reference_json_used_at_runtime": False,
+    }

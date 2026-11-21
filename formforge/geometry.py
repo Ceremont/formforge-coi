@@ -62,3 +62,34 @@ def raster_lines(image):
             if len(boxes) >= 500:
                 return boxes
     return boxes
+
+
+def raster_dotted_lines(image):
+    """Regular small-dot runs, not arbitrary horizontal text density."""
+    import statistics
+    from PIL import Image, ImageOps
+
+    gray = ImageOps.grayscale(image)
+    ratio = min(1, 1400 / gray.width)
+    if ratio < 1:
+        gray = gray.resize((int(gray.width * ratio), int(gray.height * ratio)), Image.Resampling.BOX)
+    data = gray.point(lambda p: 0 if p < 150 else 255).tobytes()
+    found = []
+    for y in range(0, gray.height, 2):
+        runs = [m.span() for m in re.finditer(b"\x00+", data[y * gray.width : (y + 1) * gray.width])]
+        group = []
+        for start, end in runs + [(gray.width + 20, gray.width + 40)]:
+            if end - start > 6 or group and start - group[-1][1] > 14:
+                if len(group) >= 9 and group[-1][1] - group[0][0] > 65:
+                    pitch = [b[0] - a[0] for a, b in zip(group, group[1:])]
+                    median = statistics.median(pitch)
+                    if median >= 5 and statistics.pstdev(pitch) / median < 0.3:
+                        box = (group[0][0] / ratio, y / ratio, group[-1][1] / ratio, (y + 2) / ratio)
+                        if not any(abs(box[1] - b[1]) < 5 and abs(box[0] - b[0]) < 12 for b in found):
+                            found.append(box)
+                group = []
+            if end - start <= 6:
+                group.append((start, end))
+        if len(found) > 500:
+            break
+    return found

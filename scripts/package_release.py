@@ -3,6 +3,7 @@
 import hashlib
 import json
 import os
+import subprocess
 import zipfile
 from pathlib import Path
 
@@ -10,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    target = ROOT / "FormForge-COI-Official-full.zip"
+    target = ROOT / "FormForge-COI-v0.3-full.zip"
     excluded = {".venv", ".git", ".pytest_cache", ".ruff_cache", "__pycache__", ".codex", ".agents", ".aws", "node_modules", "tmp"}
     files = []
     for current, dirs, names in os.walk(ROOT):
@@ -24,7 +25,10 @@ def main():
                 continue
             files.append((path, relative))
     manifest = {
-        "project": "FormForge official COI adapter and evaluation",
+        "project": "FormForge COI 0.3 — Engine Upgrade",
+        "version": "0.3.0",
+        "git_commit": subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, check=True, capture_output=True, text=True).stdout.strip(),
+        "git_branch": subprocess.run(["git", "branch", "--show-current"], cwd=ROOT, check=True, capture_output=True, text=True).stdout.strip(),
         "dependencies_included": False,
         "setup": "See README.md and requirements*.lock; install dependencies before offline use.",
         "files": [{"path": rel.as_posix(), "bytes": path.stat().st_size, "sha256": hashlib.sha256(path.read_bytes()).hexdigest()} for path, rel in files],
@@ -41,6 +45,21 @@ def main():
         assert "FormForge-COI/docs/COI_COMPATIBILITY_REPORT.md" in archive.namelist()
         assert "FormForge-COI/evaluation/coi-v1/independent-results.json" in archive.namelist()
         assert "FormForge-COI/formforge/data/coi_schema.json" in archive.namelist()
+        for required in [
+            "docs/ENGINE_V03_REPORT.md",
+            "docs/REMAINING_COMPETITION_GAPS.md",
+            "evaluation/engine-v03/engine-freeze.json",
+            "evaluation/engine-v03/known-results.json",
+            "evaluation/engine-v03/new-results.json",
+            "evaluation/engine-v03/verification.json",
+            "evaluation/engine-v03/docker-verification.json",
+            "deploy/gateway.py",
+        ]:
+            assert "FormForge-COI/" + required in archive.namelist()
+        for entry in manifest["files"]:
+            data = archive.read("FormForge-COI/" + entry["path"])
+            assert len(data) == entry["bytes"]
+            assert hashlib.sha256(data).hexdigest() == entry["sha256"], entry["path"]
     temporary.replace(target)
     print(
         json.dumps(

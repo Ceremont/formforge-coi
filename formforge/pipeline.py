@@ -20,7 +20,9 @@ def convert(path: Path, filename: str, extension: str, settings: Settings) -> di
         return result
 
     document = run("extraction", lambda: DocumentExtractor(settings).extract(path, filename, extension))
-    analyzed = run("layout", lambda: LayoutAnalyzer().analyze(document))
+    from .document_understanding import understand
+
+    analyzed = run("layout", lambda: understand(LayoutAnalyzer().analyze(document)))
     if settings.analysis_mode == "local-ai-assisted":
         from .local_ai import assist
 
@@ -41,6 +43,7 @@ def convert(path: Path, filename: str, extension: str, settings: Settings) -> di
         form.warnings.append("Nie udało się załadować lokalnego rejestru słowników; zachowano opcje z dokumentu.")
     issues = run("validation", lambda: FormValidator().inspect(form))
     export, coi_report = run("json_mapping", lambda: export_bundle(form, settings.export_format))
+    unresolved = [w for w in form.warnings if "Potencjalna zależność" in w or "Częściowy" in w or "Pominięto" in w]
     return {
         "form": form.model_dump(mode="json"),
         "detected_form": detected_form,
@@ -48,6 +51,12 @@ def convert(path: Path, filename: str, extension: str, settings: Settings) -> di
         "preview_export": COIJsonMapper().export(form),
         "coi_validation": coi_report,
         "normalization": normalization,
+        "quality": {
+            "status": "no_fields" if not form.fields else "partial" if unresolved else "review_required",
+            "completeness_verified": False,
+            "unresolved_warnings": unresolved,
+            "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola.",
+        },
         "issues": [i.model_dump() for i in issues],
         "document": analyzed.model_dump(mode="json"),
         "stages": stages,

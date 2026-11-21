@@ -17,6 +17,7 @@ MIMES = {
     "png": "image/png",
     "jpg": "image/jpeg",
     "jpeg": "image/jpeg",
+    "jpe": "image/jpeg",
 }
 FORBIDDEN = re.compile(r"[;:></\\|'*%$\x00-\x1f\x7f]")
 
@@ -29,7 +30,18 @@ class FileValidator:
         if not filename or len(filename) > 250 or FORBIDDEN.search(filename) or filename.strip() != filename:
             raise DocumentError("Nieprawidłowa nazwa pliku (maks. 250 znaków, bez znaków specjalnych).", 400, "invalid_filename")
         extension = Path(filename).suffix.lower().lstrip(".")
+        if len(data) > self.settings.max_upload_mb * 1024 * 1024:
+            raise DocumentError("Plik przekracza dopuszczalny rozmiar.", 413, "file_too_large")
         if extension == "doc":
+            # Some organizer .DOC files are actually valid OOXML packages.
+            # Accept that verified container, not unsupported legacy binaries.
+            if data.startswith(b"PK"):
+                self._validate_archive(data, "docx")
+                if mime.partition(";")[0].lower() not in ("application/msword", MIMES["docx"], "application/octet-stream", ""):
+                    raise DocumentError("Typ MIME nie odpowiada dokumentowi Word.", 415, "mime_mismatch")
+                if len(data) > self.settings.max_upload_mb * 1024 * 1024:
+                    raise DocumentError("Plik przekracza dopuszczalny rozmiar.", 413, "file_too_large")
+                return "docx"
             raise DocumentError(
                 "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF.", 415, "doc_not_supported"
             )
@@ -42,7 +54,7 @@ class FileValidator:
         supplied_mime = mime.partition(";")[0].strip().lower()
         if supplied_mime not in (MIMES[extension], "application/octet-stream", ""):
             raise DocumentError("Typ MIME nie odpowiada rozszerzeniu pliku.", 415, "mime_mismatch")
-        signatures = {"pdf": b"%PDF-", "png": b"\x89PNG\r\n\x1a\n", "jpg": b"\xff\xd8\xff", "jpeg": b"\xff\xd8\xff"}
+        signatures = {"pdf": b"%PDF-", "png": b"\x89PNG\r\n\x1a\n", "jpg": b"\xff\xd8\xff", "jpeg": b"\xff\xd8\xff", "jpe": b"\xff\xd8\xff"}
         if extension in signatures and not data.startswith(signatures[extension]):
             raise DocumentError("Zawartość pliku nie odpowiada jego rozszerzeniu.", 415, "content_mismatch")
         if extension in ("docx", "xlsx", "ods"):

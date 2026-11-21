@@ -1,5 +1,9 @@
 # COI compatibility and quality report
 
+> This report preserves the COI-v1 contract and measurements. Current 0.3 engine
+> metrics, container verification and remaining gaps are in
+> [ENGINE_V03_REPORT.md](ENGINE_V03_REPORT.md). The frozen coi-v1 data is unchanged.
+
 Current status: **official-format proposal, review required; platform import
 unverified; not competition-ready**. This extends the existing project rather
 than replacing it. No external AI API, model download or runtime network lookup

@@ -4,6 +4,7 @@
   window.FormForgeCompatibility=(root,result)=>{
     root.replaceChildren();const r=result.coi_validation||{};
     const row=(title,value,good)=>{const n=el('div','issue '+(good?'info':'warning'));n.append(el('strong','',title),el('p','',value));root.append(n);};
+    if(result.quality)row('Jakość odczytu',result.quality.status+' · '+result.quality.message,false);
     row('JSON Schema organizatora',r.schema_valid?'Poprawny':'Błędy schematu',r.schema_valid);
     row('Rekurencyjny profil zgodności',r.compatibility_profile_valid?'Poprawny':'Niepoprawny',r.compatibility_profile_valid);
     row('Reguły techniczne i biznesowe',r.business_rules_valid?'Poprawne':'Wykryto błędy',r.business_rules_valid);

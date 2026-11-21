@@ -26,6 +26,7 @@ class LayoutAnalyzer:
             source = [b.model_copy(deep=True) for b in document.blocks if b.page == page.id]
             heights = [b.bbox[3] - b.bbox[1] for b in source if b.bbox and b.kind != "blank" and b.bbox[3] > b.bbox[1]]
             median = statistics.median(heights) if heights else 12
+            source = self._columns(source, page.width, median)
             for block in source:
                 text = block.text.strip()
                 normalized = fold(text)
@@ -45,7 +46,7 @@ class LayoutAnalyzer:
                     block.kind = "instruction"
                 elif re.match(r"^(podstawa prawna|pouczenie|rodo|administratorem danych|zgodnie z art)", normalized):
                     block.kind = "legal"
-                elif not LABEL.fullmatch(normalized):
+                elif not LABEL.fullmatch(normalized.strip(" /*:()")):
                     numbered = re.match(r"^(?:[IVX]{1,5}|\d{1,2})[.)]\s+[A-ZĄĆĘŁŃÓŚŹŻ]", text)
                     upper = text.isupper() and 3 < len(text) < 90 and not re.search(r"[:*]|[_:.]{2,}", text)
                     large = block.bbox and block.bbox[3] - block.bbox[1] > median * 1.35
@@ -91,7 +92,7 @@ class LayoutAnalyzer:
                         candidates.append((above * 2 + abs(a[0] - b[0]) * 0.2 + 10, label))
                 elif not blank.bbox and blocks.index(blank) == blocks.index(label) + 1:
                     candidates.append((10, label))
-                caption = label.text.strip().startswith("(") or bool(re.match(r"^(nazwisko|imie|adres|rodzaj|nr telefonu)", fold(label.text)))
+                caption = label.text.strip().startswith(("(", "/")) or bool(re.match(r"^(nazwisko|imie|adres|rodzaj|nr telefonu)", fold(label.text)))
                 if caption and blank.bbox and label.bbox:
                     a, b = label.bbox, blank.bbox
                     below = a[1] - b[3]

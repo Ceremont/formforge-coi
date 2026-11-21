@@ -205,6 +205,7 @@ def main():
             bitmap.close()
     image.save(OUT / "zaswiadczenie.png")
     image.save(OUT / "zaswiadczenie.jpg", quality=94)
+    image.save(OUT / "zaswiadczenie.jpe", format="JPEG", quality=94)
     # A genuinely image-only PDF exercises fallback OCR.
     image.convert("RGB").save(OUT / "skan.pdf", "PDF", resolution=144)
     # Separate geometric checkbox fixture.

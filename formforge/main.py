@@ -40,7 +40,7 @@ async def lifespan(app):
 
 app = FastAPI(
     title="FormForge COI",
-    version="0.1.0",
+    version="0.3.0",
     description="Lokalne przetwarzanie formularzy i eksport COI FormDefinition. Walidacja schematu, reguł technicznych i jawne uwagi do potwierdzenia.",
     docs_url=None,
     redoc_url=None,
@@ -176,7 +176,7 @@ async def health():
             pass
     return {
         "status": "ok",
-        "version": "0.1.0",
+        "version": "0.3.0",
         "python": sys.version.split()[0],
         "offline": True,
         "ocr": {"available": bool(languages), "languages": languages},
@@ -190,7 +190,7 @@ async def health():
 @app.get("/api/v1/formats")
 async def formats():
     return {
-        "supported": [{"extension": ext, "mime": mime, "requires_ocr": ext in ("jpg", "jpeg", "png")} for ext, mime in MIMES.items()],
+        "supported": [{"extension": ext, "mime": mime, "requires_ocr": ext in ("jpg", "jpeg", "jpe", "png")} for ext, mime in MIMES.items()],
         "unsupported": [{"extension": "doc", "reason": "Brak zweryfikowanego konwertera na licencji permisywnej."}],
     }
 
@@ -312,6 +312,13 @@ async def coi_schema():
     from .coi_validation import schema
 
     return schema()
+
+
+@app.get("/api/v1/dictionaries")
+async def dictionaries(q: str = ""):
+    from .dictionaries import search_catalog
+
+    return {"items": search_catalog(q[:200]), "values_available": False, "source": "supplied COI catalog descriptions; target platform resolves values"}
 
 
 @app.post("/api/v1/forms/coi-validate", dependencies=[Depends(authenticate)])

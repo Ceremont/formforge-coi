@@ -1,39 +1,36 @@
-# FormForge COI
+# FormForge COI 0.3 — Engine Upgrade
 
-Istniejący projekt Document AI rozszerzony o **oficjalny COI FormDefinition**.
-Domyślny eksport zawiera tylko `title`, `tabs`, `flow`. Własny model FormForge
-pozostaje modelem edycji, a dawny JSON jest dostępny jako jawny tryb `preview`.
+Offline Document AI dla istniejącego projektu HackNation 2026. Python 3.14,
+FastAPI, lokalny OCR, edytor i oficjalny COI `title/tabs/flow`.
 
-Adapter obsługuje MAIN/FINISH, UUID, SECTION/REPEATING_SECTION, siatkę,
-typy pól COI, walidatory, opcje/słowniki, dane inicjalne, SHOW/READ_ONLY,
-JSONata oraz połączenia stron. FINISH zawiera INFO_SECTION. Osobno sprawdzane są:
-niezmieniona schema organizatora, rekurencyjny profil oraz reguły techniczne.
-Eksport używa `repeatingSectionGrid`; wejście akceptuje również oficjalną literówkę
-`repetingSectionGrid`. Oryginalne materiały pozostają niezmienione.
+**Stan: propozycja wymagająca przeglądu; nie potwierdzono importu na platformie COI.**
+Poprawny JSON nie oznacza pełnego odczytu dokumentu. UI pokazuje partial,
+no_fields/review_required, źródła i reguły wymagające potwierdzenia.
 
-**Status: konfiguracje wymagające przeglądu; import w platformie COI niezweryfikowany.**
-Poprawny JSON nie dowodzi pełnego odczytu dokumentu. Niezależna kontrola ujawniła
-istotne braki w tabelach, checkboxach, zależnościach i długich dokumentach.
-DOC jest nieobsługiwany. Nie deklarujemy gotowości konkursowej.
+Aktualne wyniki: **62/69** plików organizatorów przetworzonych (wcześniej 53/69),
+62/62 lokalnie poprawne COI, **178 pytest**, zachowane wcześniejsze API/UI.
+Siedem binarnych DOC nadal nie jest obsługiwanych. Trzy nowe zewnętrzne dokumenty
+oceniono oddzielnie, z oznaczeniami zapisanymi przed predykcją. Dokładny zakres
+metryk, słabe punkty sekcji oraz wyniki before/after:
 
-Aktualne raporty:
+- [ENGINE_V03_REPORT](docs/ENGINE_V03_REPORT.md)
+- [REMAINING_COMPETITION_GAPS](docs/REMAINING_COMPETITION_GAPS.md)
+- [Kontrakt i sprzeczności COI](docs/OFFICIAL_COI_ANALYSIS.md)
+- `evaluation/engine-v03/README.md` i pełne wyniki/eksporty
 
-- [Analiza źródeł i sprzeczności](docs/OFFICIAL_COI_ANALYSIS.md)
-- [Porównanie z wzorcami 01/05](docs/REFERENCE_COMPARISON.md)
-- [Zgodność, niezależne testy i ograniczenia](docs/COI_COMPATIBILITY_REPORT.md)
-- Pełne wyniki, eksporty i pomiary: `evaluation/coi-v1/`
+Starsze raporty opisują fazę preview/COI-v1. Zamrożone `coi-v1` i syntetyczny
+holdout pozostają historycznymi wynikami; nie przedstawiamy ich jako nowego
+niezależnego testu po rozwoju silnika.
 
-Raporty z poprzedniej fazy preview są historyczne. Syntetyczny holdout v1
-zachowuje poprzednie wyniki; nowy rozwój według materiałów COI zmienił silnik,
-więc dawnych wyników nie przedstawiamy jako aktualnego niezależnego testu.
+## Instalacja i start natywny
 
-## Uruchomienie
+Wymagane Python 3.14 oraz Tesseract z `pol` i `eng`.
+macOS: `brew install tesseract tesseract-lang`.
+Debian/Ubuntu: `sudo apt-get install tesseract-ocr tesseract-ocr-pol tesseract-ocr-eng`.
+Instalacja wymaga sieci; działający produkt nie używa zewnętrznych AI API,
+usług OCR, CDN ani pobierania modeli/słowników.
 
-Python 3.14 oraz Tesseract z `pol` i `eng`. Na macOS:
-`brew install tesseract tesseract-lang`. Na Debian/Ubuntu:
-`sudo apt-get install tesseract-ocr tesseract-ocr-pol tesseract-ocr-eng`.
-Instalacja wymaga sieci; działający produkt nie korzysta z zewnętrznych AI API,
-CDN, pobierania modeli ani usług OCR.
+Z katalogu czystej instalacji:
 
 ```bash
 python3.14 -m venv .venv
@@ -44,106 +41,125 @@ python -m uvicorn formforge.main:app --host 127.0.0.1 --port 8765 --no-access-lo
 ```
 
 UI: http://127.0.0.1:8765/ · Swagger: http://127.0.0.1:8765/docs.
-Tylko runtime: `python -m pip install -r requirements.lock`.
-Przykłady syntetyczne są już w `demo_samples/`.
+Runtime bez narzędzi testowych: `python -m pip install -r requirements.lock`.
+
+## Docker
 
 ```bash
-docker compose config --quiet
-docker compose up --build
+docker build -t formforge-coi:0.3.0 .
+FORMFORGE_HTTP_PORT=8766 docker compose up -d --no-build
+docker compose logs --tail=30
+docker compose down
 ```
 
-Docker publikuje port 8000. Konfiguracja Compose jest sprawdzona, ale budowa
-i uruchomienie obrazu pozostają **niesprawdzone: brak działającego daemon Docker**.
-Obraz buduje Tesseract 5.5.1 i Leptonica bez problematycznych opcjonalnych zależności;
-lokalne testy używały Tesseract 5.5.4. Pełny native SBOM nadal jest potrzebny.
+UI kontenera: http://127.0.0.1:8766/. Domyślny port Compose to 8000;
+`FORMFORGE_HTTP_PORT` pozwala uniknąć zajętego portu. Bezpośredni build omija
+problem Compose Bake z przyznawaniem dostępu do ścieżki Unicode na tym hoście.
+Compose config: `docker compose config --quiet`.
 
-## Praca w UI
+Obraz: `python:3.14.5-slim-trixie`; dedykowany użytkownik 10001, read-only root,
+tmpfs, limity CPU/RAM/PID, brak capabilities. Procesor dokumentów ma wyłącznie
+sieć `internal`; mała brama na standardowej bibliotece Python udostępnia lokalny
+port i przekazuje żądania tylko do tego procesora. Oddzielna sieć wejściowa omija
+ograniczenie publikacji portów Docker 29 dla sieci wyłącznie wewnętrznej.
+Tesseract 5.5.1
+budowany bez OpenMP/curl/archive; Leptonica z JPEG/PNG. Zależności instaluje się
+podczas budowy. Aktualny stan rzeczywistego build/run:
+`evaluation/engine-v03/docker-verification.json` oraz ENGINE_V03_REPORT.
+Pełny natywny SBOM i testy obciążeniowe pozostają osobnym wymaganiem.
 
-Prześlij PDF, DOCX, XLSX, ODS, JPG/JPEG lub PNG. Analiza tworzy model edycji,
-oficjalny JSON i raport. Zakładka **Zgodność z COI** pokazuje trzy walidacje,
-błędy sekcji/powiązań, cechy nieobsługiwane, źródła ustaleń oraz pola wymagające
-potwierdzenia. Sekcje dodawane według standardów COI mają oddzielne pochodzenie;
-nie są przedstawiane jako pola odczytane z papieru.
+## Obsługiwane wejścia
 
-Edytuj etykiety, typy, opcje, walidację, sekcje, grupy i kolejność. W ustawieniach
-pola można zmienić właściwości COI: słownik, readOnly, binding danych inicjalnych,
-drzewo warunków i potwierdzenie. Warunki sekcji są dostępne pod tabelą.
-Grupę można oznaczyć jako powtarzalną; lokalny podgląd nie implementuje pełnego
-cyklu dodawania/usuwania jej wierszy. Usunięcie pola sterującego wymaga najpierw
-poprawienia zależności.
+PDF tekstowy, skanowany i mieszany; DOCX z textbox/drawing i tabelami zagnieżdżonymi;
+XLSX/ODS z metadanymi scaleń; PNG/JPG/JPEG/JPE. Rozszerzenie/MIME/sygnatura i
+archiwa są sprawdzane. Dwa pliki `.DOC` z materiałów są naprawdę DOCX i tak są
+czytane po weryfikacji pakietu. **Binarne legacy DOC zwracają 415**.
 
-Po „Zastosuj zmiany” walidacja i JSON są przeliczane. Pobierany
-`formforge-coi.json` jest samym FormDefinition, bez metadanych FormForge.
-Brak błędów technicznych umożliwia eksport; ostrzeżenia i niepotwierdzone decyzje
-nadal wymagają przeglądu przed publikacją.
+Duże skany: limit źródła 80 mln pikseli i budżet 25 mln pikseli na fragment OCR.
+Pionowe pasy są dzielone bez pominiętych pikseli, z logicznymi stronami i
+współrzędnymi źródła. Po wyczerpaniu budżetu OCR zachowuje wcześniejszy odczyt
+z ostrzeżeniem; nie deklaruje kompletności. Granice stron wymagają sprawdzenia.
+DOCX ma logiczne strony/kotwice, nie wierny skład silnika Word.
 
-Podgląd jest lokalnym przybliżeniem eForm, nie silnikiem COI. Rejestry nie są
-podłączone; pola EXTERNAL_SYSTEM są zablokowane i opisane bindingiem. Pełne
-wartości słowników TERYT/Kraje udostępnia platforma, nie ten pakiet. Nie ma wysyłki
-do urzędu. Wpisane dane i wybrane załączniki nie są utrwalane.
+## Praca i API
 
-## API
+Upload → odczyt → model → COI → walidacja → eForm → edycja → eksport.
+Zakładka **Zgodność z COI** rozdziela schemat organizatora, rekurencyjny profil,
+reguły techniczne i jakość odczytu. Pole zawiera źródło, współrzędne, metodę,
+score, przyczyny i requires_review. Score nie jest skalibrowanym prawdopodobieństwem.
 
-| Metoda i ścieżka | Znaczenie |
+Edytor pozwala poprawiać pola, opcje, sekcje, grupy, słowniki i reguły. Źródła są
+widoczne obok modelu; duży obraz ma poprawne przesunięcia fragmentów. Oficjalny
+JSON nie zawiera metadanych FormForge. Powtarzalne sekcje są eksportowane, ale
+podgląd nie implementuje pełnego dodawania/usuwania dynamicznych wierszy COI.
+Rejestry nie są podłączone; EXTERNAL_SYSTEM opisuje binding, bez wymyślonych danych.
+
+| Endpoint | Znaczenie |
 |---|---|
-| GET `/api/health` | Python, OCR, offline, status zgodności |
-| GET `/api/v1/formats` | Format/MIME i ograniczenia |
-| POST `/api/v1/forms/convert` | Multipart `file`; model, surowe wykrycie, dokument, etapy, eksport i raport |
-| POST `/api/v1/forms/validate` | `form`, opcjonalnie `values`, `export_format`; walidacja i ponowny eksport |
-| POST `/api/v1/forms/preview` | `form`; HTML podglądu i eksport |
-| GET `/api/v1/coi/schema` | Niezmieniona schema organizatora |
-| POST `/api/v1/forms/coi-validate` | Surowy FormDefinition → raport zgodności |
+| GET `/api/health` | wersja, OCR, limity i status zgodności |
+| GET `/api/v1/formats` | MIME i obsługa formatów |
+| POST `/api/v1/forms/convert` | multipart `file`; model, detected_form, dokument, eksport, jakość i raport |
+| POST `/api/v1/forms/validate` | `form`, opcjonalnie `values` i `export_format`; walidacja i eksport |
+| POST `/api/v1/forms/preview` | HTML podglądu i eksport modelu |
+| GET `/api/v1/coi/schema` | niezmieniona schema organizatora |
+| POST `/api/v1/forms/coi-validate` | surowy FormDefinition → raport |
+| GET `/api/v1/dictionaries?q=Kraj` | wyszukiwanie opisów oficjalnego katalogu |
 
 ```bash
 curl -F 'file=@demo_samples/zaswiadczenie.pdf;type=application/pdf' \
-  'http://127.0.0.1:8765/api/v1/forms/convert?export_format=official' > result.json
+  http://127.0.0.1:8765/api/v1/forms/convert > result.json
 python -c 'import json; x=json.load(open("result.json")); print(json.dumps(x["export"],ensure_ascii=False,indent=2))' > formforge-coi.json
-curl -H 'Content-Type: application/json' --data-binary @formforge-coi.json \
-  http://127.0.0.1:8765/api/v1/forms/coi-validate
 ```
 
-Wsteczna zgodność: `convert?export_format=preview`; w validate/preview JSON
-`"export_format":"preview"`. Odpowiedź convert zawsze zachowuje `preview_export`.
-Tryb analizy `deterministic` jest domyślny. Opcjonalny `local-ai-assisted` to mały
-lokalny klasyfikator Naive Bayes, nie LLM; nie deklarujemy poprawy jakości dzięki niemu.
+Oficjalny eksport jest domyślny. Dawny format: `?export_format=preview`, a w
+validate/preview `"export_format":"preview"`. `preview_export` jest zachowany.
+`analysis_mode=local-ai-assisted` używa małego lokalnego Naive Bayes; nie LLM.
+Na sprawdzonym podzbiorze nie wykazano dodatkowej poprawy F1, więc tryb pozostaje
+opcjonalny. Pełne wartości słowników są rozwiązywane przez platformę COI;
+lokalny katalog nie udaje kompletnego zbioru wartości.
 
-## Testy i odtwarzanie pomiarów
+## Testy i odtwarzanie
 
 ```bash
 python -m pytest -q
-python -m ruff check formforge scripts tests
-python scripts/evaluate_coi.py references
-python scripts/evaluate_coi.py independent
+python -m ruff check formforge deploy scripts tests
+python scripts/evaluate_v03.py known
+python scripts/evaluate_v03.py new
+python scripts/score_v03.py
+python scripts/report_v03.py
 ```
 
-`evaluation/coi-v1/engine-freeze.json` zawiera hashe silnika sprzed niezależnego
-przetwarzania 02/03/04/06/07/08/09. Polecenie `independent` odmawia działania po
-zmianie silnika. Istniejącego freeze nie nadpisujemy. Dalszy rozwój wymaga nowej
-wersji pomiaru i nowych, wcześniej nieoglądanych dokumentów do niezależnego testu.
-`references` to zbiór rozwojowy, a nie niezależna ocena.
+`known` oznacza development/regression. `new` wymaga niezmienionego finalnego
+freeze i zapisanej przed predykcją adnotacji. Nie nadpisuj freeze dla nowych
+zmian; użyj kolejnej wersji i nowych nieoglądanych formularzy. `coi-v1` chroni się
+przed przeliczeniem zmienionym silnikiem. Metryki bez ground truth pozostają N/A.
+Oficjalne źródła w `reference/coi-official/` są dołączone do pełnego ZIP,
+ale nie są śledzone przez Git. W samym checkout trzeba osobno umieścić paczkę
+organizatora; pełny zestaw pytest wymaga tej paczki.
 
-Opcjonalny Playwright z lokalnym Chrome:
+Playwright/Chrome (opcjonalne narzędzia QA):
 
 ```bash
 node scripts/ui_smoke.cjs
 node scripts/ui_review.cjs
 node scripts/ui_coi.cjs
+node scripts/ui_large_image.cjs
 ```
 
-Zmienne `FORMFORGE_CHROMIUM`, `FORMFORGE_PLAYWRIGHT_MODULE`, `FORMFORGE_BASE_URL`
-pozwalają wskazać istniejącą instalację. Zrzuty i wyniki: `output/qa/`.
+`FORMFORGE_CHROMIUM`, `FORMFORGE_PLAYWRIGHT_MODULE`, `FORMFORGE_BASE_URL` wskazują
+istniejące instalacje. Zrzuty/wyniki: `output/qa/`.
 
-## Bezpieczeństwo i licencje
+## Konfiguracja i licencje
 
-Upload działa w krótkotrwałym procesie, z limitami, kontrolą MIME/sygnatur,
-ZIP/XXE/makr, timeout i czyszczeniem katalogu żądania. Podgląd oryginału korzysta
-z lokalnego Blob URL. Dostępny jest JWT HS256; konfiguracja w `.env.example`.
-Nie ma bazy dokumentów ani zewnętrznej analizy. Docker ogranicza egress;
-instalacja natywna korzysta z izolacji systemu gospodarza.
+Parametry w `.env.example`: upload, strony/bloki/komórki, pamięć, współbieżność,
+timeout/OCR, budżet źródła/fragmentu obrazu, tryb analizy/eksportu, katalog i JWT.
+Pliki są tymczasowe i usuwane po żądaniu; brak bazy dokumentów, logowania treści
+i zewnętrznej analizy. Wybrane załączniki i wartości podglądu nie są utrwalane.
+JWT HS256 jest opcjonalny lokalnie; sekret/issuer/audience podaje się w runtime.
 
-Kod: MIT. 37 przypiętych bibliotek runtime: `requirements.lock`,
-`docs/runtime-licenses.json`, [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md).
-JSONata jest wykonywana lokalnie przez Apache-2.0 `jsonata-python`.
-PyMuPDF i LibreOffice nie są zależnościami. Materiały organizatorów w `reference/`
-zachowują własne prawa i warunki; licencja MIT projektu nie przenosi na nie praw.
-Nie zmieniono ich zawartości. Produkt nie ładuje etalonowych JSON podczas konwersji.
+Kod: MIT. Nadal 37 przypiętych bibliotek runtime; brak nowych zależności.
+Zobacz `requirements.lock`, `docs/runtime-licenses.json`, THIRD_PARTY_NOTICES.md.
+PyMuPDF i LibreOffice nie są zależnościami. Materiały organizatorów i zewnętrznych
+instytucji zachowują własne prawa/warunki. Runtime nie czyta etalonowych JSON ani
+nie pobiera dokumentów z internetu. Ta iteracja nie publikuje filmu i nie scala
+zmian do main.

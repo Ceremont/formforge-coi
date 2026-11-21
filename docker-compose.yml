@@ -1,10 +1,8 @@
 services:
   formforge:
-    image: formforge-coi:0.1.0
+    image: formforge-coi:0.3.0
     build: .
     init: true
-    ports:
-      - "127.0.0.1:8000:8000"
     environment:
       FORMFORGE_MAX_UPLOAD_MB: ${FORMFORGE_MAX_UPLOAD_MB:-20}
       FORMFORGE_PROCESSING_TIMEOUT: ${FORMFORGE_PROCESSING_TIMEOUT:-90}
@@ -13,6 +11,8 @@ services:
       FORMFORGE_MAX_BLOCKS: ${FORMFORGE_MAX_BLOCKS:-12000}
       FORMFORGE_MAX_UNCOMPRESSED_MB: ${FORMFORGE_MAX_UNCOMPRESSED_MB:-80}
       FORMFORGE_MAX_IMAGE_PIXELS: ${FORMFORGE_MAX_IMAGE_PIXELS:-25000000}
+      FORMFORGE_MAX_SOURCE_IMAGE_PIXELS: ${FORMFORGE_MAX_SOURCE_IMAGE_PIXELS:-80000000}
+      FORMFORGE_EXPORT_FORMAT: ${FORMFORGE_EXPORT_FORMAT:-official}
       FORMFORGE_WORKER_MEMORY_MB: ${FORMFORGE_WORKER_MEMORY_MB:-768}
       FORMFORGE_MAX_WORKERS: ${FORMFORGE_MAX_WORKERS:-2}
       FORMFORGE_OCR_LANGUAGES: ${FORMFORGE_OCR_LANGUAGES:-pol+eng}
@@ -36,6 +36,30 @@ services:
     restart: unless-stopped
     networks: [offline]
 
+  gateway:
+    image: formforge-coi:0.3.0
+    init: true
+    entrypoint: ["python", "/app/deploy/gateway.py"]
+    ports:
+      - "127.0.0.1:${FORMFORGE_HTTP_PORT:-8000}:8000"
+    environment:
+      FORMFORGE_MAX_UPLOAD_MB: ${FORMFORGE_MAX_UPLOAD_MB:-20}
+      FORMFORGE_PROCESSING_TIMEOUT: ${FORMFORGE_PROCESSING_TIMEOUT:-90}
+    depends_on:
+      formforge:
+        condition: service_healthy
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=256m,mode=1777
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 64
+    mem_limit: 384m
+    cpus: 0.5
+    restart: unless-stopped
+    networks: [ingress, offline]
+
 networks:
+  ingress:
   offline:
     internal: true

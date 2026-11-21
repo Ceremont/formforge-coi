@@ -1,0 +1,35 @@
+{
+  "protocol": "External government blank forms selected and downloaded AFTER engine freeze. Single-annotator annotations precede predictions. Runtime never downloads these sources. No engine tuning on these documents.",
+  "rights": "Source public institutions retain their rights; not relicensed as project MIT.",
+  "cases": [
+    {
+      "id": "new-gus-info",
+      "file": "gus-info.pdf",
+      "url": "https://bip.stat.gov.pl/files/gfx/bip/pl/defaultstronaopisowa/1231/1/1/5a_wniosek_o_udostepnienie_informacji_publicznej.pdf",
+      "title": "GUS public information request",
+      "sha256": "68c57016a01c4bac7ab5eab2dde2884de9d7488152fdcf31d28e14532ad1169d",
+      "bytes": 174685,
+      "retrieved_utc": "2026-11-21T18:22:19.613388+00:00"
+    },
+    {
+      "id": "new-student-card",
+      "file": "student-card.pdf",
+      "url": "https://www.gov.pl/attachment/0f9ca6d9-5141-4ef3-8133-5d69a1ed2d20",
+      "page_url": "https://www.gov.pl/web/plastykbydgoszcz/duplikat-legitymacji-szkolnej2",
+      "title": "PLSP Bydgoszcz duplicate student card",
+      "sha256": "37698b86143b7dc1e6e15637a5a26ae6f9a975bbd45e7600a15353fd0afeb053",
+      "bytes": 191033,
+      "retrieved_utc": "2026-11-21T18:22:20.622920+00:00"
+    },
+    {
+      "id": "new-finance-info",
+      "file": "finance-info.docx",
+      "url": "https://www.gov.pl/attachment/ee6de182-05f3-4713-a1c9-7305ad04d2dd",
+      "page_url": "https://www.gov.pl/web/finanse/uzyskaj-informacje-publiczna",
+      "title": "Ministry of Finance public information request 20260924",
+      "sha256": "b20d3337000cdaac6793a34891378023cd3aba8c7ab3735c5fde34ad245b4fae",
+      "bytes": 26676,
+      "retrieved_utc": "2026-11-21T18:22:20.906993+00:00"
+    }
+  ]
+}

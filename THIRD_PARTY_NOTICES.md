@@ -26,7 +26,8 @@ The optional Naive Bayes implementation, development training text and generated
 `formforge/data/block_roles.json` are self-authored MIT project assets. No model
 weights or OCR service are downloaded at runtime. The upgrade adds no OpenCV,
 LLM endpoint or mandatory external inference dependency. Package metadata was
-rechecked after locking; full native OCI SBOM remains unverified without Docker.
+rechecked after locking. The V03 image was built and run; a complete audited
+native OCI SBOM remains outstanding.
 
 References checked during implementation:
 
@@ -48,7 +49,8 @@ embedded inside the Swagger distribution are limited to the documentation page.
   the Docker image installs packaged `pol`/`eng` data at build time.
 - [LibreOffice licenses](https://www.libreoffice.org/licenses/): MPL/LGPL.
   **Excluded** under the requested permissive-only policy. No verified permissive
-  DOC converter is included; DOC deliberately returns 415. OpenOffice is not
+  DOC converter is included; binary OLE DOC deliberately returns 415. Two supplied
+  `.DOC` files are verified OOXML packages and are processed as DOCX. OpenOffice is not
   claimed as supported because no real DOC conversion has been verified.
 
 ## Native runtime boundary
@@ -71,13 +73,16 @@ and [Leptonica build options](https://github.com/DanBloomberg/leptonica/blob/1.8
 Python/glibc/standard C++ runtime and Debian OS
 components retain their upstream licenses; a blanket ban on copyleft OS code
 would be incompatible with the requested standard Linux/Python image itself.
-The container build and full native dependency audit remain unverified while
-the Docker daemon is unavailable.
+The V03 container build and actual PDF/DOCX/XLSX/OCR/JPE/large-image API scenarios
+passed. `evaluation/engine-v03/container-ocr-linkage.txt` records the real image's
+Tesseract linkage and confirms those excluded optional libraries are absent.
+`container-python-inventory.json` records installed Python distributions. These
+inventories are evidence, not a complete audited native SBOM.
 
 The local Homebrew installation used for verification has its own toolchain and
 optional training utilities. Those utilities (including optional text-layout
 libraries) are not imported or redistributed by this repository. Local Tesseract
-was tested at 5.5.4; the container build pins 5.5.1 and must be separately tested.
+was tested at 5.5.4; the separate container verification passed with pinned 5.5.1.
 
 ## Development tooling
 
@@ -98,3 +103,11 @@ licenses again before submission; metadata alone is not a full binary audit.
 ## Organizer reference materials
 
 Files under `reference/coi-official/` are user-supplied third-party organizer materials, preserved byte-for-byte for this project and evaluation. They are not relicensed under the project MIT license. Their original ownership and competition terms continue to apply. Runtime contains only the supplied schema copy; it never loads paired reference configurations. The full source archive includes the supplied reference pack for the requested review workflow; this does not grant broader redistribution rights.
+
+## Additional evaluation sources
+
+The three blank government documents in `evaluation/engine-v03/new-documents/`
+retain their original rights. Their primary-source URLs, acquisition timestamps
+and SHA256 hashes are recorded in `manifest.json`. They are evaluation inputs,
+not product templates or MIT-licensed project assets. The small ingress gateway
+uses only Python's standard library and adds no third-party runtime dependency.

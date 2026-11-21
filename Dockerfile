@@ -54,6 +54,7 @@ RUN pip install --no-cache-dir -r requirements.lock
 COPY --chown=formforge:formforge formforge ./formforge
 COPY --chown=formforge:formforge demo_samples ./demo_samples
 COPY --chown=formforge:formforge config ./config
+COPY --chown=formforge:formforge deploy ./deploy
 COPY LICENSE THIRD_PARTY_NOTICES.md ./
 USER 10001:10001
 EXPOSE 8000

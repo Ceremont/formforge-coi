@@ -1,5 +1,36 @@
 > Current official COI extension: `coi_standardizer.py` -> `coi_mapper.export_bundle()` -> `COIFormAdapter` -> published schema + recursive compatibility + business validation. The original editable model and explicit preview path are preserved. See `docs/OFFICIAL_COI_ANALYSIS.md` and `docs/COI_COMPATIBILITY_REPORT.md`; preview-only statements in the original architecture below are historical.
 
+> Version 0.3 adds `docx_reader.py`, `pdf_text.py`, `image_tiles.py` and
+> `document_understanding.py` to the existing pipeline. Unknown workflows retain
+> source fields and sections; the reference redesign profiles are selected only
+> by request semantics. Current measured behavior and gaps are in
+> `docs/ENGINE_V03_REPORT.md`; older completeness statements below are historical.
+
+The document model preserves source blocks, input/label geometry, rejected-label
+evidence, uncalibrated confidence, decision reasons and review state. OCR runs
+under the existing request deadline, preserving earlier pages after a bounded
+failure. Large raster strips use sequential tiles and original-image offsets.
+Catalog descriptions are bundled without fabricated complete dictionary values.
+
+In Compose, `deploy/gateway.py` publishes the localhost port and forwards only
+to `formforge:8000`. The processing service belongs solely to the internal
+network, keeping document/OCR processing isolated from external services. Both
+services use the same image, run as uid 10001 with read-only roots and ephemeral
+tmpfs, and introduce no additional runtime package. This handles Docker 29's
+internal-only network port-publication limitation. The gateway bounds uploads,
+preserves auth headers and does not log documents or offer arbitrary proxying.
+
+```mermaid
+flowchart LR
+  Browser[Local browser] --> Gateway[Localhost ingress gateway]
+  Gateway --> API[FormForge on internal network]
+  API --> Worker[Isolated conversion worker]
+  Worker --> Extract[Format extraction and bounded OCR]
+  Extract --> Understand[Geometry and source-role understanding]
+  Understand --> Model[Editable form with evidence]
+  Model --> COI[Official adapter and local validators]
+```
+
 # FormForge — architecture
 
 ## Document AI upgrade

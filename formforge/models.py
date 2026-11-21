@@ -87,6 +87,8 @@ class ConditionalRule(Model):
     operator: Literal["equals", "not_equals"] = "equals"
     value: str | bool
     action: Literal["show", "require"] = "show"
+    evidence: str = ""
+    requires_review: bool = False
 
 
 class DictionaryReference(Model):
@@ -141,6 +143,7 @@ class FormField(Model):
     source_reference: SourceReference
     confidence: float = PydanticField(ge=0, le=1)
     detection_method: str
+    decision_reasons: list[str] = PydanticField(default_factory=list, max_length=30)
     options: list[str] = PydanticField(default_factory=list, max_length=500)
     conditions: list[ConditionalRule] = PydanticField(default_factory=list, max_length=10)
     dictionary: DictionaryReference | None = None
