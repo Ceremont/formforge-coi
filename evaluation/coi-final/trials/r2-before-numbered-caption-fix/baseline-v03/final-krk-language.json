@@ -1,0 +1,2222 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_b5b919030cf5ff4e",
+    "title": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+          "z wnioskiem o wydanie zaświadczenia z Krajowego Rejestru Karnego"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "1. Język urzędowy Unii Europejskiej w jakim ma być sporządzony wielojęzyczny formularz*",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "podpis osoby uprawnionej",
+          "* Języki urzędowe Unii Europejskiej to: bułgarski, hiszpański, czeski, duński, niemiecki, estoński, grecki, angielski,",
+          "francuski, chorwacki, włoski, łotewski, litewski, węgierski, maltański, niderlandzki, polski, portugalski, rumuński,",
+          "słowacki, słoweński, fiński, szwedzki i irlandzki."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_40acd6a944c5",
+        "label": "Dane osoby, której dotyczy wniosek",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b1",
+          "text": "Dane osoby, której dotyczy wniosek:",
+          "bbox": [
+            70.8239974975586,
+            102.01995849609375,
+            233.8467254638672,
+            113.05999755859375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.8239974975586,
+            102.01995849609375,
+            233.8467254638672,
+            113.05999755859375
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0a02ce00bb59",
+        "label": "Imię",
+        "field_type": "text",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b2",
+          "text": "1. Imię ..................................................................................................",
+          "bbox": [
+            77.66400146484375,
+            130.93994140625,
+            358.2599182128906,
+            141.97998046875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            130.93994140625,
+            358.2599182128906,
+            141.97998046875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_fb55442669bc",
+        "label": "Nazwisko",
+        "field_type": "text",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b3",
+          "text": "2. Nazwisko .........................................................................................",
+          "bbox": [
+            77.66400146484375,
+            157.8199462890625,
+            358.1462707519531,
+            168.8599853515625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            157.8199462890625,
+            358.1462707519531,
+            168.8599853515625
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e8ce1d2ed857",
+        "label": "Numer PESEL (jeżeli został nadany)",
+        "field_type": "pesel",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "pesel",
+            "value": null,
+            "message": null
+          },
+          {
+            "kind": "min_length",
+            "value": 11,
+            "message": null
+          },
+          {
+            "kind": "max_length",
+            "value": 11,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "3. Numer PESEL (jeżeli został nadany) .............................................",
+          "bbox": [
+            77.66400146484375,
+            184.699951171875,
+            360.5575866699219,
+            195.739990234375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            184.699951171875,
+            360.5575866699219,
+            195.739990234375
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: pesel"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e3e3ee3cd0cb",
+        "label": "Data urodzenia",
+        "field_type": "date",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "4. Data urodzenia ……………………………………………………..…………………….",
+          "bbox": [
+            77.66400146484375,
+            211.5799560546875,
+            360.1487731933594,
+            222.6199951171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            211.5799560546875,
+            360.1487731933594,
+            222.6199951171875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_c9723da3c9a5",
+        "label": "Adres do korespondencji (opcjonalnie)",
+        "field_type": "address",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "5. Adres do korespondencji (opcjonalnie) .......................................",
+          "bbox": [
+            76.8239974975586,
+            238.48992919921875,
+            361.84039306640625,
+            249.52996826171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            76.8239974975586,
+            238.48992919921875,
+            361.84039306640625,
+            249.52996826171875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Potencjalna zależność wymaga weryfikacji: 3. Numer PESEL (jeżeli został nadany) ............................................."
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_b5b919030cf5ff4e",
+    "title": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+          "z wnioskiem o wydanie zaświadczenia z Krajowego Rejestru Karnego"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "1. Język urzędowy Unii Europejskiej w jakim ma być sporządzony wielojęzyczny formularz*",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "podpis osoby uprawnionej",
+          "* Języki urzędowe Unii Europejskiej to: bułgarski, hiszpański, czeski, duński, niemiecki, estoński, grecki, angielski,",
+          "francuski, chorwacki, włoski, łotewski, litewski, węgierski, maltański, niderlandzki, polski, portugalski, rumuński,",
+          "słowacki, słoweński, fiński, szwedzki i irlandzki."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_40acd6a944c5",
+        "label": "Dane osoby, której dotyczy wniosek",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b1",
+          "text": "Dane osoby, której dotyczy wniosek:",
+          "bbox": [
+            70.8239974975586,
+            102.01995849609375,
+            233.8467254638672,
+            113.05999755859375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.8239974975586,
+            102.01995849609375,
+            233.8467254638672,
+            113.05999755859375
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0a02ce00bb59",
+        "label": "Imię",
+        "field_type": "text",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b2",
+          "text": "1. Imię ..................................................................................................",
+          "bbox": [
+            77.66400146484375,
+            130.93994140625,
+            358.2599182128906,
+            141.97998046875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            130.93994140625,
+            358.2599182128906,
+            141.97998046875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_fb55442669bc",
+        "label": "Nazwisko",
+        "field_type": "text",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b3",
+          "text": "2. Nazwisko .........................................................................................",
+          "bbox": [
+            77.66400146484375,
+            157.8199462890625,
+            358.1462707519531,
+            168.8599853515625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            157.8199462890625,
+            358.1462707519531,
+            168.8599853515625
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e8ce1d2ed857",
+        "label": "Numer PESEL (jeżeli został nadany)",
+        "field_type": "pesel",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "pesel",
+            "value": null,
+            "message": null
+          },
+          {
+            "kind": "min_length",
+            "value": 11,
+            "message": null
+          },
+          {
+            "kind": "max_length",
+            "value": 11,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "3. Numer PESEL (jeżeli został nadany) .............................................",
+          "bbox": [
+            77.66400146484375,
+            184.699951171875,
+            360.5575866699219,
+            195.739990234375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            184.699951171875,
+            360.5575866699219,
+            195.739990234375
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: pesel"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e3e3ee3cd0cb",
+        "label": "Data urodzenia",
+        "field_type": "date",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "4. Data urodzenia ……………………………………………………..…………………….",
+          "bbox": [
+            77.66400146484375,
+            211.5799560546875,
+            360.1487731933594,
+            222.6199951171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            211.5799560546875,
+            360.1487731933594,
+            222.6199951171875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_c9723da3c9a5",
+        "label": "Adres do korespondencji (opcjonalnie)",
+        "field_type": "address",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "5. Adres do korespondencji (opcjonalnie) .......................................",
+          "bbox": [
+            76.8239974975586,
+            238.48992919921875,
+            361.84039306640625,
+            249.52996826171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            76.8239974975586,
+            238.48992919921875,
+            361.84039306640625,
+            249.52996826171875
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "Potencjalna zależność wymaga weryfikacji: 3. Numer PESEL (jeżeli został nadany) ............................................."
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+    "tabs": [
+      {
+        "id": "2a00f64a-1bd6-59fd-927d-f0c49598da8b",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 9,
+            "cols": 3,
+            "field": {
+              "id": "990f6cdc-71b3-5800-9d75-6db48422bc15",
+              "type": "SECTION",
+              "techName": "dane_formularza_section_s1",
+              "title": "Dane formularza",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "0ee6706d-1037-5348-8908-521e7d1ca415",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_0",
+                    "title": "",
+                    "description": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "2eb5c70a-430c-5519-8766-0a3bdee1f10c",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_1",
+                    "title": "",
+                    "description": "z wnioskiem o wydanie zaświadczenia z Krajowego Rejestru Karnego",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4cf62c40-efc2-5e5a-8aa7-6331716c9c81",
+                    "type": "TEXT_FIELD",
+                    "techName": "dane_osoby_ktorej_dotyczy_wniosek_acd6a944c5",
+                    "title": "Dane osoby, której dotyczy wniosek",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 2,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "63d6396e-ecfe-5960-a1f1-1e7005565bc1",
+                    "type": "TEXT_FIELD",
+                    "techName": "imie_02ce00bb59",
+                    "title": "Imię",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 3,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ffa0ba33-ac58-54e0-8d0c-4e942f3e050f",
+                    "type": "TEXT_FIELD",
+                    "techName": "nazwisko_55442669bc",
+                    "title": "Nazwisko",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 4,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "41a7e052-02af-5cc7-87b0-951079ade74b",
+                    "type": "TEXT_FIELD",
+                    "techName": "numer_pesel_jezeli_zostal_nadany_ce1d2ed857",
+                    "title": "Numer PESEL (jeżeli został nadany)",
+                    "description": "",
+                    "options": [],
+                    "validation": [
+                      "PESEL"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 5,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5d311a87-ae99-528b-800a-14c96de82d7d",
+                    "type": "DATEPICKER",
+                    "techName": "data_urodzenia_e3ee3cd0cb",
+                    "title": "Data urodzenia",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 6,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b9f0f315-314a-5b40-a94e-c8bd4be9d976",
+                    "type": "TEXT_FIELD",
+                    "techName": "adres_do_korespondencji_opcjonalnie_723da3c9a5",
+                    "title": "Adres do korespondencji (opcjonalnie)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 7,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 9,
+            "rows": 5,
+            "cols": 3,
+            "field": {
+              "id": "e8f2cc21-ecbf-5b6e-84d8-01afc4f4955e",
+              "type": "SECTION",
+              "techName": "1_jezyk_urzedowy_unii_europejskiej_w_jakim_ma_byc_sporzadzony_wielojezyczny_formularz_section_s2",
+              "title": "1. Język urzędowy Unii Europejskiej w jakim ma być sporządzony wielojęzyczny formularz*",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5df7a2b4-6953-5d65-ae38-98169e7c6026",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_0",
+                    "title": "",
+                    "description": "podpis osoby uprawnionej",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f07c0d78-d75c-590d-b42b-f45561d79b78",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_1",
+                    "title": "",
+                    "description": "* Języki urzędowe Unii Europejskiej to: bułgarski, hiszpański, czeski, duński, niemiecki, estoński, grecki, angielski,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "362ead5a-1aa2-5899-b173-fd798b38b163",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_2",
+                    "title": "",
+                    "description": "francuski, chorwacki, włoski, łotewski, litewski, węgierski, maltański, niderlandzki, polski, portugalski, rumuński,",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "7e6351f9-163d-5781-895b-9f1ad2b142bf",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_3",
+                    "title": "",
+                    "description": "słowacki, słoweński, fiński, szwedzki i irlandzki.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 1,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "cba841cb-5d05-5352-ba04-85e049bd9459",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "6a267985-b3ce-513c-8e63-44a4d0701be3",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "68f6ea92-d529-55a0-be8a-93f2b5791384",
+          "source": "2a00f64a-1bd6-59fd-927d-f0c49598da8b",
+          "target": "cba841cb-5d05-5352-ba04-85e049bd9459"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_b5b919030cf5ff4e",
+      "title": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": 595.3200073242188,
+          "height": 841.9199829101562,
+          "source": "document"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Dane formularza",
+          "page": 1,
+          "order": 0,
+          "instructions": [
+            "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+            "z wnioskiem o wydanie zaświadczenia z Krajowego Rejestru Karnego"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s2",
+          "title": "1. Język urzędowy Unii Europejskiej w jakim ma być sporządzony wielojęzyczny formularz*",
+          "page": 1,
+          "order": 1,
+          "instructions": [
+            "podpis osoby uprawnionej",
+            "* Języki urzędowe Unii Europejskiej to: bułgarski, hiszpański, czeski, duński, niemiecki, estoński, grecki, angielski,",
+            "francuski, chorwacki, włoski, łotewski, litewski, węgierski, maltański, niderlandzki, polski, portugalski, rumuński,",
+            "słowacki, słoweński, fiński, szwedzki i irlandzki."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_40acd6a944c5",
+          "label": "Dane osoby, której dotyczy wniosek",
+          "field_type": "text",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b1",
+            "text": "Dane osoby, której dotyczy wniosek:",
+            "bbox": [
+              70.8239974975586,
+              102.01995849609375,
+              233.8467254638672,
+              113.05999755859375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.8239974975586,
+              102.01995849609375,
+              233.8467254638672,
+              113.05999755859375
+            ]
+          },
+          "confidence": 0.85,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Label/type context",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_0a02ce00bb59",
+          "label": "Imię",
+          "field_type": "text",
+          "required": false,
+          "order": 1,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b2",
+            "text": "1. Imię ..................................................................................................",
+            "bbox": [
+              77.66400146484375,
+              130.93994140625,
+              358.2599182128906,
+              141.97998046875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              77.66400146484375,
+              130.93994140625,
+              358.2599182128906,
+              141.97998046875
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_fb55442669bc",
+          "label": "Nazwisko",
+          "field_type": "text",
+          "required": false,
+          "order": 2,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b3",
+            "text": "2. Nazwisko .........................................................................................",
+            "bbox": [
+              77.66400146484375,
+              157.8199462890625,
+              358.1462707519531,
+              168.8599853515625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              77.66400146484375,
+              157.8199462890625,
+              358.1462707519531,
+              168.8599853515625
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_e8ce1d2ed857",
+          "label": "Numer PESEL (jeżeli został nadany)",
+          "field_type": "pesel",
+          "required": false,
+          "order": 3,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "pesel",
+              "value": null,
+              "message": null
+            },
+            {
+              "kind": "min_length",
+              "value": 11,
+              "message": null
+            },
+            {
+              "kind": "max_length",
+              "value": 11,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b4",
+            "text": "3. Numer PESEL (jeżeli został nadany) .............................................",
+            "bbox": [
+              77.66400146484375,
+              184.699951171875,
+              360.5575866699219,
+              195.739990234375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              77.66400146484375,
+              184.699951171875,
+              360.5575866699219,
+              195.739990234375
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: pesel"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_e3e3ee3cd0cb",
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "required": false,
+          "order": 4,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "date",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b5",
+            "text": "4. Data urodzenia ……………………………………………………..…………………….",
+            "bbox": [
+              77.66400146484375,
+              211.5799560546875,
+              360.1487731933594,
+              222.6199951171875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              77.66400146484375,
+              211.5799560546875,
+              360.1487731933594,
+              222.6199951171875
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: date"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_c9723da3c9a5",
+          "label": "Adres do korespondencji (opcjonalnie)",
+          "field_type": "address",
+          "required": false,
+          "order": 5,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b6",
+            "text": "5. Adres do korespondencji (opcjonalnie) .......................................",
+            "bbox": [
+              76.8239974975586,
+              238.48992919921875,
+              361.84039306640625,
+              249.52996826171875
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              76.8239974975586,
+              238.48992919921875,
+              361.84039306640625,
+              249.52996826171875
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: address"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [
+        "Potencjalna zależność wymaga weryfikacji: 3. Numer PESEL (jeżeli został nadany) ............................................."
+      ],
+      "groups": [],
+      "dictionaries": [],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": false
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [],
+    "provenance": {
+      "4cf62c40-efc2-5e5a-8aa7-6331716c9c81": {
+        "internal_field_id": "f_40acd6a944c5",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b1",
+          "text": "Dane osoby, której dotyczy wniosek:",
+          "bbox": [
+            70.8239974975586,
+            102.01995849609375,
+            233.8467254638672,
+            113.05999755859375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.8239974975586,
+            102.01995849609375,
+            233.8467254638672,
+            113.05999755859375
+          ]
+        }
+      },
+      "63d6396e-ecfe-5960-a1f1-1e7005565bc1": {
+        "internal_field_id": "f_0a02ce00bb59",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b2",
+          "text": "1. Imię ..................................................................................................",
+          "bbox": [
+            77.66400146484375,
+            130.93994140625,
+            358.2599182128906,
+            141.97998046875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            130.93994140625,
+            358.2599182128906,
+            141.97998046875
+          ]
+        }
+      },
+      "ffa0ba33-ac58-54e0-8d0c-4e942f3e050f": {
+        "internal_field_id": "f_fb55442669bc",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b3",
+          "text": "2. Nazwisko .........................................................................................",
+          "bbox": [
+            77.66400146484375,
+            157.8199462890625,
+            358.1462707519531,
+            168.8599853515625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            157.8199462890625,
+            358.1462707519531,
+            168.8599853515625
+          ]
+        }
+      },
+      "41a7e052-02af-5cc7-87b0-951079ade74b": {
+        "internal_field_id": "f_e8ce1d2ed857",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b4",
+          "text": "3. Numer PESEL (jeżeli został nadany) .............................................",
+          "bbox": [
+            77.66400146484375,
+            184.699951171875,
+            360.5575866699219,
+            195.739990234375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            184.699951171875,
+            360.5575866699219,
+            195.739990234375
+          ]
+        }
+      },
+      "5d311a87-ae99-528b-800a-14c96de82d7d": {
+        "internal_field_id": "f_e3e3ee3cd0cb",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "4. Data urodzenia ……………………………………………………..…………………….",
+          "bbox": [
+            77.66400146484375,
+            211.5799560546875,
+            360.1487731933594,
+            222.6199951171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            77.66400146484375,
+            211.5799560546875,
+            360.1487731933594,
+            222.6199951171875
+          ]
+        }
+      },
+      "b9f0f315-314a-5b40-a94e-c8bd4be9d976": {
+        "internal_field_id": "f_c9723da3c9a5",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "5. Adres do korespondencji (opcjonalnie) .......................................",
+          "bbox": [
+            76.8239974975586,
+            238.48992919921875,
+            361.84039306640625,
+            249.52996826171875
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            76.8239974975586,
+            238.48992919921875,
+            361.84039306640625,
+            249.52996826171875
+          ]
+        }
+      }
+    },
+    "requires_confirmation": true,
+    "status": "valid_requires_review",
+    "unsupported_features": []
+  },
+  "normalization": {
+    "applied": false,
+    "reason": "No government-applicant context; preserved source structure"
+  },
+  "quality": {
+    "status": "partial",
+    "completeness_verified": false,
+    "unresolved_warnings": [
+      "Potencjalna zależność wymaga weryfikacji: 3. Numer PESEL (jeżeli został nadany) ............................................."
+    ],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: 3. Numer PESEL (jeżeli został nadany) .............................................",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_e8ce1d2ed857"
+    }
+  ],
+  "document": {
+    "filename": "unknown.pdf",
+    "format": "pdf",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "Dane osoby, której dotyczy wniosek:",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.8239974975586,
+          102.01995849609375,
+          233.8467254638672,
+          113.05999755859375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "1. Imię ..................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          77.66400146484375,
+          130.93994140625,
+          358.2599182128906,
+          141.97998046875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "2. Nazwisko .........................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          77.66400146484375,
+          157.8199462890625,
+          358.1462707519531,
+          168.8599853515625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": "3. Numer PESEL (jeżeli został nadany) .............................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          77.66400146484375,
+          184.699951171875,
+          360.5575866699219,
+          195.739990234375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "4. Data urodzenia ……………………………………………………..…………………….",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          77.66400146484375,
+          211.5799560546875,
+          360.1487731933594,
+          222.6199951171875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "5. Adres do korespondencji (opcjonalnie) .......................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          76.8239974975586,
+          238.48992919921875,
+          361.84039306640625,
+          249.52996826171875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": "……………………………………………………………………………………………………….",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          88.8239974975586,
+          265.10003662109375,
+          360.53704833984375,
+          275.05999755859375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "Wniosek o wydanie wielojęzycznego formularza składany jednocześnie",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          101.18000030517578,
+          343.9999694824219,
+          515.1050415039062,
+          358.03997802734375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": "z wnioskiem o wydanie zaświadczenia z Krajowego Rejestru Karnego",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          106.98979949951172,
+          361.15997314453125,
+          506.3137512207031,
+          375.1999816894531
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "1. Język urzędowy Unii Europejskiej w jakim ma być sporządzony wielojęzyczny formularz*",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          88.8239974975586,
+          420.72998046875,
+          497.3660888671875,
+          432.66998291015625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": "…………………………………………………………………………………………………………………………………..………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          88.8239974975586,
+          448.239990234375,
+          514.8887329101562,
+          458.1999816894531
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": "……………………………………………………………..",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          345.30999755859375,
+          593.1099853515625,
+          476.439208984375,
+          601.1499786376953
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": "podpis osoby uprawnionej",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          357.19000244140625,
+          603.4299774169922,
+          464.4776611328125,
+          613.3899841308594
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": "___",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.824,
+          728.7600129101562,
+          214.844,
+          729.4799829101562
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": false,
+          "column": 0
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "* Języki urzędowe Unii Europejskiej to: bułgarski, hiszpański, czeski, duński, niemiecki, estoński, grecki, angielski,",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.8239974975586,
+          735.7799835205078,
+          526.52001953125,
+          746.609977722168
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "francuski, chorwacki, włoski, łotewski, litewski, węgierski, maltański, niderlandzki, polski, portugalski, rumuński,",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.8239974975586,
+          748.8899841308594,
+          526.2249145507812,
+          758.849983215332
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "słowacki, słoweński, fiński, szwedzki i irlandzki.",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.8239974975586,
+          761.0099792480469,
+          260.2532958984375,
+          770.9699783325195
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [],
+    "analysis": {
+      "ocr": [],
+      "page_text": [
+        {
+          "page": 1,
+          "text": " \n \nDane osoby, której dotyczy wniosek: \n \n1. Imię .................................................................................................. \n2. Nazwisko ......................................................................................... \n3. Numer PESEL (jeżeli został nadany) ............................................. \n4. Data urodzenia ……………………………………………………..……………………. \n5. Adres do korespondencji (opcjonalnie) ....................................... \n………………………………………………………………………………………………………. \n \n \n \n \nWniosek o wydanie wielojęzycznego formularza składany jednocześnie  \nz wnioskiem o wydanie zaświadczenia z Krajowego Rejestru Karnego \n \n \n \n1. Język urzędowy Unii Europejskiej w jakim ma być sporządzony wielojęzyczny formularz* \n…………………………………………………………………………………………………………………………………..……………………………… \n \n \n \n \n \n…………………………………………………………….. \npodpis osoby uprawnionej \n \n \n   \n                                                           \n* Języki urzędowe Unii Europejskiej to: bułgarski, hiszpański, czeski, duński, niemiecki, estoński, grecki, angielski, \nfrancuski, chorwacki, włoski, łotewski, litewski, węgierski, maltański, niderlandzki, polski, portugalski, rumuński, \nsłowacki, słoweński, fiński, szwedzki i irlandzki. "
+        }
+      ],
+      "layout": {
+        "geometry_associations": 0,
+        "columns": 1,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "text": 11,
+          "blank": 4,
+          "heading": 1,
+          "information": 1
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 63.14
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 1.67
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 0.97
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 1.29
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.01
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 0.57
+    }
+  ]
+}

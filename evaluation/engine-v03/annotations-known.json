@@ -1,0 +1,31 @@
+{
+  "protocol": "Single-annotator source-based development regression labels, authored after inspecting failures. Not independent or organizer-issued ground truth. Evaluate RAW detected fields, not policy-expanded digital workflows. Signatures/place-date headers/static text excluded. Choice marks count as separate checkbox fields unless source explicitly requires a single choice.",
+  "cases": [
+    {"id":"03-pdf","scope":"all visible citizen answer regions and purpose choices on the one-page paper form","expected":[
+      {"key":"name","pattern":"imie i nazwisko","type":"text"},
+      {"key":"address","pattern":"^/?\\s*adres\\s*/?$","type":"address"},
+      {"key":"pesel","pattern":"pesel","type":"pesel"},
+      {"key":"phone","pattern":"telefon","type":"phone"},
+      {"key":"owned_land","pattern":"^ilosci posiadanych","type":"checkbox"},
+      {"key":"rented_land","pattern":"^ilosci dzierzawionych","type":"checkbox"},
+      {"key":"ownership_period","pattern":"^okresie posiadania","type":"checkbox"},
+      {"key":"no_land","pattern":"^nieposiadaniu","type":"checkbox"},
+      {"key":"other_choice","pattern":"^inne$","type":"checkbox"},
+      {"key":"other_text","pattern":"inne.*doprecyzowanie|^inne$","type":"text"},
+      {"key":"purpose","pattern":"zaswiadczenie potrzebne","type":"text"}
+    ]},
+    {"id":"04-pdf","scope":"all visible citizen inputs; rental/loan strikeout alternatives count as one source choice; date/signature header excluded","expected":[
+      {"key":"name","pattern":"imie i nazwisko wnioskodawcy","type":"text"},
+      {"key":"address","pattern":"adres zamieszkania","type":"address"},
+      {"key":"phone","pattern":"telefon","type":"phone"},
+      {"key":"rental_mode","pattern":"^(?:tryb|rodzaj).*(?:wynaj|uzycz)|^wynajecie/uzyczenie","type":"radio"},
+      {"key":"village","pattern":"prosze o wynajem|swietlicy wiejskiej w$","type":"text"},
+      {"key":"start","pattern":"w terminie od|termin rozpoczecia","type":"date"},
+      {"key":"end","pattern":"^do\\b|termin zakonczenia","type":"date"},
+      {"key":"purpose","pattern":"cel wynajecia","type":"text"},
+      {"key":"participants","pattern":"ilosc uczestnikow","type":"number"},
+      {"key":"responsible_person","pattern":"^osoba odpowiedzialna","type":"text"}
+    ]},
+    {"id":"06-pdf","scope":"only the entire repeated dimensions table: four road categories, two printed rows each, length/width/area per row; 24 explicit cells","predicted_filter":"^(dlugosc|szerokosc|razem)$","repeated_expected":[{"pattern":"^dlugosc$","type":"number","count":8},{"pattern":"^szerokosc$","type":"number","count":8},{"pattern":"^razem$","type":"number","count":8}]}
+  ]
+}

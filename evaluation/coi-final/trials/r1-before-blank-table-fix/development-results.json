@@ -1,0 +1,74 @@
+[
+  {
+    "id": "new-gus-info",
+    "category": "development_after_v03",
+    "source": "evaluation/engine-v03/new-documents/gus-info.pdf",
+    "extension": "pdf",
+    "sha256": "68c57016a01c4bac7ab5eab2dde2884de9d7488152fdcf31d28e14532ad1169d",
+    "status": "converted",
+    "canonical_format": "pdf",
+    "fields": 14,
+    "raw_fields": 14,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "review_required",
+      "completeness_verified": false,
+      "unresolved_warnings": [],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 1,
+    "processing_seconds": 0.26
+  },
+  {
+    "id": "new-student-card",
+    "category": "development_after_v03",
+    "source": "evaluation/engine-v03/new-documents/student-card.pdf",
+    "extension": "pdf",
+    "sha256": "37698b86143b7dc1e6e15637a5a26ae6f9a975bbd45e7600a15353fd0afeb053",
+    "status": "converted",
+    "canonical_format": "pdf",
+    "fields": 8,
+    "raw_fields": 8,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "review_required",
+      "completeness_verified": false,
+      "unresolved_warnings": [],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 2,
+    "processing_seconds": 0.207
+  },
+  {
+    "id": "new-finance-info",
+    "category": "development_after_v03",
+    "source": "evaluation/engine-v03/new-documents/finance-info.docx",
+    "extension": "docx",
+    "sha256": "b20d3337000cdaac6793a34891378023cd3aba8c7ab3735c5fde34ad245b4fae",
+    "status": "converted",
+    "canonical_format": "docx",
+    "fields": 10,
+    "raw_fields": 10,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "quality": {
+      "status": "partial",
+      "completeness_verified": false,
+      "unresolved_warnings": [
+        "Potencjalna zależność wymaga weryfikacji: usunięcia danych, jeżeli zachodzi jedna z okoliczności określonych w art. 17 RODO,",
+        "Potencjalna zależność wymaga weryfikacji: W przypadku uznania, że przetwarzanie danych osobowych narusza przepisy prawa osobom, których dane dotyczą przysługuje prawo wniesienia skargi do organu nadzorczego - Prezesa Urzędu Ochrony Danych Oso"
+      ],
+      "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+    },
+    "ocr": false,
+    "pages": 1,
+    "processing_seconds": 0.183
+  }
+]

@@ -231,7 +231,17 @@ class COIFormAdapter:
         value = condition.value
         if isinstance(value, bool):
             field = self.locations[condition.field_id]["field"]
-            option = field.get("options", [{"id": field["title"]}])[0]["id"]
+            options = field.get("options") or []
+            if not options:
+                self.review.append(
+                    {
+                        "code": "boolean_condition_unsupported",
+                        "message": "Warunek logiczny odwołuje się do pola bez jawnej opcji wyboru. Zachowano regułę w modelu; popraw typ, słownik lub wartość warunku w edytorze.",
+                        "field_id": condition.field_id,
+                    }
+                )
+                return ""
+            option = options[0]["id"]
             query = json.dumps(option, ensure_ascii=False) + " in " + self.answer_path(condition.field_id)
             return query if (value == (condition.operator == "equals")) else "$not(" + query + ")"
         query = json.dumps(value, ensure_ascii=False) + " in " + self.answer_path(condition.field_id)

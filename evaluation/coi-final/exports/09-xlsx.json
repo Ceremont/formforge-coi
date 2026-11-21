@@ -1,0 +1,5362 @@
+{
+  "title": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+  "tabs": [
+    {
+      "id": "82f635eb-6c06-5c1a-b2ee-2a3560e5a51e",
+      "title": "Rodzaje wniosków",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "c56919c4-7e99-507e-9fb7-3fc53f4518d3",
+            "type": "SECTION",
+            "techName": "dane_formularza_section_s1",
+            "title": "Dane formularza",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f8a9f785-6360-569f-99f4-35d179590612",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_0",
+                  "title": "",
+                  "description": "Załącznik Nr 3 do zarządzenia",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "006c28e1-1e9f-537d-961a-74df5d67d54b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_1",
+                  "title": "",
+                  "description": "Nr 245/IX/2024",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c0545f12-8e50-542a-9567-2373e0284f46",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_2",
+                  "title": "",
+                  "description": "Prezydenta Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1c09e15e-bb3b-5dd6-a0a7-927e5b8f9288",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_3",
+                  "title": "",
+                  "description": "z dnia 26 listopada 2024 r.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "7b5c8524-e7b0-584e-bc40-d3e338df71c9",
+            "type": "SECTION",
+            "techName": "rodzaje_wnioskow_section_s2",
+            "title": "Rodzaje wniosków:",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "64e3257d-3a70-59c2-893c-b14779984c0e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_0",
+                  "title": "",
+                  "description": "I.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "03403f1c-bd67-5c44-b4c5-60811e9b62b3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_1",
+                  "title": "",
+                  "description": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "50a5c383-942b-57ab-a33b-c4bfa71f8ab6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_2",
+                  "title": "",
+                  "description": "Wniosek o przyznanie nagrody sportowej Rady Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c513c149-5d4b-5094-a35b-6bd802717c85",
+                  "type": "TEXT_FIELD",
+                  "techName": "ii_55d11a29c9",
+                  "title": "II",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 10,
+          "rows": 2,
+          "cols": 3,
+          "field": {
+            "id": "19116585-d841-5494-b872-fd75da263a20",
+            "type": "SECTION",
+            "techName": "iii_section_s3",
+            "title": "III.",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "09363b12-fb15-50a1-a15a-711bf2238273",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_0",
+                  "title": "",
+                  "description": "Wniosek o przyznanie wyróżnienia sportowego Rady Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "2a4a590e-737b-5b99-8b98-7fb4f3ea5a19",
+      "title": "I. Stypendium",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 3,
+          "cols": 3,
+          "field": {
+            "id": "8e7c3e70-ec66-514d-8c3d-3051dd64de58",
+            "type": "SECTION",
+            "techName": "i_stypendium_section_s4",
+            "title": "I. Stypendium",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "38c01dd3-45ef-5890-a1f1-ed09d2647fd0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_0",
+                  "title": "",
+                  "description": "I.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c6f4aa79-7d41-581f-a953-bcfa3ce81be9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_1",
+                  "title": "",
+                  "description": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "rows": 26,
+          "cols": 3,
+          "field": {
+            "id": "35f42b85-7e2f-5bae-ad2d-f49d2e572bdb",
+            "type": "SECTION",
+            "techName": "1_wnioskodawca_section_s5",
+            "title": "1. Wnioskodawca",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b73385d5-257d-5a28-9312-a7905cfdd604",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_0",
+                  "title": "",
+                  "description": "Prezydent Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f021b358-d68f-50ef-a7b6-34a3eb6d9297",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_1",
+                  "title": "",
+                  "description": "Klub sportowy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3f76bd4c-82ac-5814-8fd3-80713d2e4196",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_2",
+                  "title": "",
+                  "description": "Należy wypełnić w przypadku Wnioskodawcy – Klubu sportowego.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "16741bb0-d2b0-5e1d-ac93-1b5e3e771472",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_3",
+                  "title": "",
+                  "description": "Dane reprezentanta klubu sportowego z KRS lub innego właściwego rejestru",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "11c1dbcd-9679-55c0-8666-70b098f1b58b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_4",
+                  "title": "",
+                  "description": "Dane pełnomocnika klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8b069bdc-de1f-57fa-85ec-7bf7ff366c9f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_5",
+                  "title": "",
+                  "description": "Do wniosku należy dołączyć pełnomocnictwo potwierdzające uprawnienia do działania w imieniu klubu wraz z potwierdzeniem uiszczenia opłaty skarbowej (opłata skarbowa jest niezbędna w związku z udzielonym pełnomocnictwem).",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e3537cdc-b5ee-5adb-9631-ced3136e5aaa",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_6",
+                  "title": "",
+                  "description": "Dane klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "81c8ced3-86f7-5f43-aec5-4f37acc21b52",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_7",
+                  "title": "",
+                  "description": "Korespondencja z urzędem (wybierz preferowany sposób korespondencji z urzędem)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cf5d547a-fde0-599c-8391-d9311efba082",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_8",
+                  "title": "",
+                  "description": "Poczta tradycyjna - na który adres kierować korespondencję",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "bdfc3b4c-6372-57a5-a065-7d6b1b145043",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_9",
+                  "title": "",
+                  "description": "adres siedziby klubu",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "87269d06-f5c7-5197-9425-56f71f9de634",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_10",
+                  "title": "",
+                  "description": "Odpis danych z KRS lub innego właściwego rejestru",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a67a7f2c-ba33-5bf4-b26c-a19ec9285bb3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s5_11",
+                  "title": "",
+                  "description": "Do wniosku należy dołączyć aktualny odpis danych o klubie z Krajowego Rejestru Sądowego lub innego właściwego rejestru, zgodny z bieżącym stanem faktycznym i prawnym.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d174fb31-58d9-5df0-af60-a30405c9d7df",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_5c79b05551",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2f5a4836-a4e6-58d9-9886-cef0c06ec603",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_db5ff350c9",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 13,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fae64e67-aa45-5fab-af97-cb8e50f94f8d",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_telefonu_opcjonalnie_bec2e1a3c3",
+                  "title": "Numer telefonu (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 14,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c4a747c1-b8e3-5e3c-ba4b-790435686712",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_7e1a2f4907",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 15,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7c5926a1-1dee-5d6a-b3ea-5d2e82c492fb",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_85c1dbff9d",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 16,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1012f78d-b99c-5ad7-948a-19d91cc2a961",
+                  "type": "TEXT_FIELD",
+                  "techName": "seria_i_numer_dowodu_osobistego_20b1f8c8ed",
+                  "title": "Seria i numer dowodu osobistego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 17,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d5b76bbc-cc72-5383-9f64-bfbfc31998bc",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_telefonu_opcjonalnie_e5507c4ea8",
+                  "title": "Numer telefonu (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 18,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1511ef02-faf2-5877-9bf8-48452e64e3e4",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwa_klubu_sportowego_f61871a454",
+                  "title": "Nazwa klubu sportowego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 19,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b24306ff-1453-551a-adc2-611e6e19c940",
+                  "type": "TEXT_FIELD",
+                  "techName": "telefon_kontaktowy_opcjonalnie_6533fbe035",
+                  "title": "Telefon kontaktowy (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 20,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e153dfb3-0522-581c-ae8b-772163796d4d",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_siedziby_e50e37fc4c",
+                  "title": "Adres siedziby",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 21,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ed9bd791-13b4-5652-bc69-2cc500de7466",
+                  "type": "TEXT_FIELD",
+                  "techName": "inny_adres_korespondencyjny_45f221ba6e",
+                  "title": "inny adres korespondencyjny",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 22,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0435cb8f-bd9a-5cd4-96ca-0ab18362cd4d",
+                  "type": "TEXT_FIELD",
+                  "techName": "skrzynka_epuap_adres_skrzynki_3cf31f00ce",
+                  "title": "Skrzynka ePUAP - adres skrzynki",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 23,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "49e496b1-4672-5c2e-9b91-7a663e05ef3f",
+                  "type": "TEXT_FIELD",
+                  "techName": "edoreczenia_adres_skrzynki_e5e9cf8a1c",
+                  "title": "eDoręczenia - adres skrzynki",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 24,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 29,
+          "rows": 43,
+          "cols": 3,
+          "field": {
+            "id": "bba69f4f-1003-561c-adef-a049e602b49f",
+            "type": "SECTION",
+            "techName": "dane_kandydatki_kandydata_do_stypendium_section_s7",
+            "title": "Dane kandydatki/kandydata do stypendium:",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d7e572b7-a13e-585d-a490-19a91acd71ef",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_0",
+                  "title": "",
+                  "description": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7740901a-d173-5bc4-8d72-4d7447ca7a12",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_1",
+                  "title": "",
+                  "description": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2c392c5a-29dd-5a92-985e-5071277a4aab",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_2",
+                  "title": "",
+                  "description": "Dyscypliny sportowe",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d1e0b191-eb63-5988-9fa3-1767b27c3050",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_3",
+                  "title": "",
+                  "description": "Wskaż rodzaje dyscyplin sportowych, w których bierze udział osoba objęta wnioskiem,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9217ff63-b07f-534a-be08-8452cdb7ca65",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_4",
+                  "title": "",
+                  "description": "zespołowa",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4f212a34-cb03-5082-a105-a66a2cb98bd9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_5",
+                  "title": "",
+                  "description": "indywidualna – inna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0ad4992f-2a1a-54a8-b52e-20353803cbf1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_6",
+                  "title": "",
+                  "description": "indywidualna – lekkoatletyka",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5662a9b7-8498-58b2-955b-a2335c3ffb25",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_7",
+                  "title": "",
+                  "description": "gimnastyka artystyczna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1893f146-8ebf-57e2-85e9-7b00e2e9661c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_8",
+                  "title": "",
+                  "description": "hokej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "831f35c2-4c90-599a-8db1-3eee23a556b8",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_9",
+                  "title": "",
+                  "description": "karate",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "66734bdf-15ee-59e6-a0dc-8e1ac451c394",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_10",
+                  "title": "",
+                  "description": "kolarstwo",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8a88238b-bafb-5fbc-9940-9d2e9632061a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_11",
+                  "title": "",
+                  "description": "koszykówka",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "828f2c3c-bea4-5d50-9058-882c5240fa56",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_12",
+                  "title": "",
+                  "description": "lekkoatletyka",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ad2125ea-3e3b-5446-a752-17d3fe6baf65",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_13",
+                  "title": "",
+                  "description": "łucznictwo",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "25ceda70-b21e-5371-bb65-cac2abd9ba29",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_14",
+                  "title": "",
+                  "description": "łyżwiarstwo",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5b8b01af-2237-512f-ae2d-b8f6d065e231",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_15",
+                  "title": "",
+                  "description": "narciarstwo klasyczne",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "514978b0-f4d1-5700-b7e3-92f585a6fb7e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_16",
+                  "title": "",
+                  "description": "piłka nożna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "95965ec2-9d52-51b9-9ae9-8334c6f63d23",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_17",
+                  "title": "",
+                  "description": "piłka ręczna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "024f66b5-8651-5273-8b3c-98c026ee20e7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_18",
+                  "title": "",
+                  "description": "piłka siatkowa",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f80b1350-9d7d-53fb-a679-5990c8255d6f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_19",
+                  "title": "",
+                  "description": "piłka wodna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4aae9368-1efb-58fb-aaa2-84546904a948",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_20",
+                  "title": "",
+                  "description": "sport motocyklowy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e3a0271b-ec65-5a55-9d1b-093085ba5401",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_21",
+                  "title": "",
+                  "description": "sporty walki",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0f069b4e-c96d-5a25-aca3-8f9d65a64d30",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_22",
+                  "title": "",
+                  "description": "sporty wodne",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "234f58b1-d023-5c17-8837-101c7996c333",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_23",
+                  "title": "",
+                  "description": "tenis stołowy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0e5fee28-8f6a-5ae6-928f-57da6063668c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_24",
+                  "title": "",
+                  "description": "tenis ziemny",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 25,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6eea6cfb-a9d3-56a9-8020-c9b48f3f9ce0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_25",
+                  "title": "",
+                  "description": "unihokej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "303da327-04a9-57cc-82d8-3a8c6b08f917",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_26",
+                  "title": "",
+                  "description": "zapasy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 27,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "85646653-bb1a-5475-aae1-d26fd3f40fb1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_27",
+                  "title": "",
+                  "description": "Inna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 28,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0282925c-8255-57f9-b140-b0e2f2dbbf91",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_28",
+                  "title": "",
+                  "description": "3. Osiągnięcia sportowe",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 29,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f45371dc-e921-5e1a-a96f-36012e294985",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_29",
+                  "title": "",
+                  "description": "Opisz najważniejsze osiągnięcia sportowe kandydata, które będą brane pod uwagę przy ocenie wniosku",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 30,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ff9e43a6-94b8-5401-9889-e3a0d3eff22c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_30",
+                  "title": "",
+                  "description": "Do wniosku można dołączyć dyplomy lub inne dokumenty potwierdzające opisane osiągnięcia sportowe.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 31,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "924e14bc-4c73-5ea0-87be-1315aa1e20cc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_31",
+                  "title": "",
+                  "description": "Opinia macierzystego klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 32,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "818207de-37ef-5509-aed6-20fd70f50a6c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_32",
+                  "title": "",
+                  "description": "Opinia macierzystego klubu sportowego, potwierdzająca nienaganną postawę etyczną\ni  moralną sportowca",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 33,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "49ce4003-3f42-5060-9ae7-a2cf6b30a91d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_33",
+                  "title": "",
+                  "description": "Do wniosku można dołączyć dokument z opinią klubu.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 34,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fd874e32-9759-5df5-adb2-c5c21d9c8b3d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_34",
+                  "title": "",
+                  "description": "Wymagane zaświadczenia",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 35,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3c84fa34-1fc1-5184-aa35-48ad62583926",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_35",
+                  "title": "",
+                  "description": "Do wniosku należy załączyć zaświadczenia wydane przez Polski Związek Sportowy odpowiedni dla danej dyscypliny sportowej lub inne oficjalne dokumenty (np. komunikaty z zawodów), które potwierdzają osiągnięcia sportowe.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 36,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "68671ab0-41fb-5840-9e4b-1e364cde9f3c",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_61f5430c93",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 36,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 37,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4a14a20d-c327-5cee-9eba-6ff05a8915a1",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_7b5576da76",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 37,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 38,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5c4be0dd-44b4-5422-ae60-daba41ef1c6d",
+                  "type": "DATEPICKER",
+                  "techName": "data_urodzenia_2ab8e52da3",
+                  "title": "Data urodzenia",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 38,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 39,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a72ae2eb-7d2d-5fe1-be12-751f4529f0ae",
+                  "type": "TEXT_FIELD",
+                  "techName": "a_nastepnie_wybierz_konkretne_dyscypliny_z_listy_21beeb1278",
+                  "title": "a  następnie wybierz konkretne dyscypliny z listy",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 39,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 40,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6b5df62c-38fc-5be3-b462-2feecbbba8cd",
+                  "type": "TEXT_FIELD",
+                  "techName": "dyscypliny_sportowe_929c15fb64",
+                  "title": "Dyscypliny sportowe",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 40,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 41,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fef46738-389a-5b3b-9c79-e95729decc7f",
+                  "type": "TEXT_FIELD",
+                  "techName": "dyscyplina_8c465c4267",
+                  "title": "dyscyplina",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 41,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 72,
+          "rows": 24,
+          "cols": 3,
+          "field": {
+            "id": "d6c75cf1-6f38-5d0d-bcfe-9133a1fd5c25",
+            "type": "SECTION",
+            "techName": "dodatkowe_informacje_o_osiagnieciach_sportowych_section_s8",
+            "title": "Dodatkowe informacje o osiągnieciach sportowych",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5e7ab089-4757-5ac8-9862-4f703d336ceb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_0",
+                  "title": "",
+                  "description": "Ewentualne dodatkowe informacje o kandydatce/kandydacie do stypendium",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7c70a1f6-ef90-5710-b1c7-0e266ca043eb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_1",
+                  "title": "",
+                  "description": "Podpis i pieczątka wnioskodawcy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0b2ff4e7-6f85-57c3-909a-e46f332a8e44",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_2",
+                  "title": "",
+                  "description": "4. Klauzula informacyjna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "aafae39a-0535-5da6-806d-c8e3454fe1ca",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_3",
+                  "title": "",
+                  "description": "Informacje na temat ochrony danych osobowych stosowanych przez administratora danych, którymi są wnioskujący:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "136c3532-4d35-5b0e-a669-602a5a7245c5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_4",
+                  "title": "",
+                  "description": "a) klub sportowy – znajdują się na jego stronie internetowej lub w wersji papierowej w jego siedzibie oraz wymagane zgody z pkt. 5;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3f4d120e-6c58-5741-b5f7-62408d6834f1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_5",
+                  "title": "",
+                  "description": "b) Prezydent Miasta Zgierza – znajdują się na stronie podmiotowej BIP Urzędu Miasta Zgierza pod adresem: www.bip.zgierz.pl lub w siedzibie Urzędu Miasta Zgierza oraz wymagane zgody z pkt. 5.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d626fd0d-bdad-5bf5-a7df-fd9d324d2b99",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_6",
+                  "title": "",
+                  "description": "5. Zgody",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "44552be3-f802-5948-bb64-f663fe05ef91",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_7",
+                  "title": "",
+                  "description": "5.1. Zgoda kandydata pełnoletniego do stypendium",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f482c483-3d1e-51a8-960b-4017063b1f00",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_8",
+                  "title": "",
+                  "description": "1) Wyrażam zgodę na przetwarzanie moich danych osobowych zwartych we wniosku w celu przekazania go do dalszego procedowania przez Komisję stypendialną ds. stypendiów sportowych Rady Miasta Zgierza.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a053c2c7-0e69-5fd6-9946-15e1087c813e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_9",
+                  "title": "",
+                  "description": "2) Oświadczam, że zapoznałem się z regulaminem przyznawania stypendiów sportowych Rady Miasta Zgierza i akceptuję wszystkie jego postanowienia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d832778d-1985-5f5d-8816-d4759eb33313",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_10",
+                  "title": "",
+                  "description": "Podpis kandydata",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b7b4c64b-7dcc-5927-bfae-044cb7249dfb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_11",
+                  "title": "",
+                  "description": "5.2. Zgoda w imieniu kandydata nieletniego do stypendium",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "df92ecf1-7126-5570-bb4f-8a8415a07b78",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_12",
+                  "title": "",
+                  "description": "(rodzic/opiekun prawny)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f3214d9d-e934-51bf-aa32-ff4703ac4a92",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_13",
+                  "title": "",
+                  "description": "wyrażam zgodę na przetwarzanie danych osobowych mojego dziecka/podopiecznego zawartych we wniosku w celu przekazania go do dalszego procedowania przez Komisję stypendialną ds. stypendiów sportowych Rady Miasta Zgierza.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4dac431f-ab45-5d92-9e16-66c4a883ab8e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_14",
+                  "title": "",
+                  "description": "2) Oświadczam, że zapoznałem się z regulaminem przyznawania stypendiów sportowych Rady Miasta Zgierza i akceptuję wszystkie jego postanowienia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f01ec4e3-2496-500a-85eb-5bf1dfe6b9a8",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_15",
+                  "title": "",
+                  "description": "Podpis rodzica/opiekuna prawnego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "53fd4379-c9d4-5485-afd2-c4f1a8886da5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_16",
+                  "title": "",
+                  "description": "Wypełniony formularz zgody przechowuje właściwy administrator danych osobowych.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f475fd21-3123-585c-bb23-cd8814b9689f",
+                  "type": "DATEPICKER",
+                  "techName": "data_sporzadzenia_wniosku_256c0a1f7d",
+                  "title": "Data sporządzenia wniosku",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 17,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b6f90bd3-dbf1-5401-8ba3-1e7a302d40f6",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_kandydata_5c69f8de64",
+                  "title": "Imię i nazwisko kandydata",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 18,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "04917c39-2de6-5b2d-8db3-43bc83ce3b2c",
+                  "type": "DATEPICKER",
+                  "techName": "data_94fb410338",
+                  "title": "Data",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 19,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "87e0f7aa-ba6c-5a57-9b48-2a7d48b20f99",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_kandydata_75066a9ba9",
+                  "title": "Imię i nazwisko kandydata",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 20,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ba29eb50-065d-5802-bbac-1bab8b5203f4",
+                  "type": "TEXT_FIELD",
+                  "techName": "ja_nizej_podpisany_9f272d4b6f",
+                  "title": "Ja niżej podpisany",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 21,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2cff13ef-eeb2-5ecd-aa67-e02771daecf6",
+                  "type": "DATEPICKER",
+                  "techName": "data_743c88a5e7",
+                  "title": "Data",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 22,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 3,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "f1f13a76-a02c-5660-bc2a-fd7d72cffa41",
+      "title": "II. Nagroda",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 3,
+          "cols": 3,
+          "field": {
+            "id": "3e537b3d-4f80-55cf-9a03-63bcf9d8ebb5",
+            "type": "SECTION",
+            "techName": "ii_nagroda_section_s9",
+            "title": "II. Nagroda",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0b94ed28-43a0-5c8e-bf25-58d09c1e24c9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s9_0",
+                  "title": "",
+                  "description": "II.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c53c7be4-7653-5fd6-acc6-b5c95b494c69",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s9_1",
+                  "title": "",
+                  "description": "Wniosek o przyznanie nagrody sportowej Rady Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "rows": 26,
+          "cols": 3,
+          "field": {
+            "id": "5bcc861f-91c6-573f-b576-a9ab78fdd518",
+            "type": "SECTION",
+            "techName": "1_wnioskodawca_section_s10",
+            "title": "1. Wnioskodawca",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "df14a507-26d8-519f-8f67-81ea3628b71e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_0",
+                  "title": "",
+                  "description": "Prezydent Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0c1f9170-c0fa-5981-88f2-bdeb24275734",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_1",
+                  "title": "",
+                  "description": "Klub sportowy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a4a38ce8-6ea1-51b1-8e0a-8ebce08f1589",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_2",
+                  "title": "",
+                  "description": "Należy wypełnić w przypadku Wnioskodawcy – Klubu sportowego.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "299e4e6c-701c-55dc-9b58-e2513046a56b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_3",
+                  "title": "",
+                  "description": "Dane reprezentanta klubu sportowego z KRS lub innego właściwego rejestru",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e61ba7a6-2208-5a4a-8947-0a3ba68d64b2",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_4",
+                  "title": "",
+                  "description": "Dane pełnomocnika klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1b151eab-80ad-50d4-bdb0-363271cf8a78",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_5",
+                  "title": "",
+                  "description": "Do wniosku należy dołączyć pełnomocnictwo potwierdzające uprawnienia do działania w imieniu klubu wraz z potwierdzeniem uiszczenia opłaty skarbowej (opłata skarbowa jest niezbędna w związku z udzielonym pełnomocnictwem).",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e461668a-f400-5bd0-ab5e-85137c2a7532",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_6",
+                  "title": "",
+                  "description": "Dane klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a5f9311b-4ee1-584a-8881-e54100ba37e7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_7",
+                  "title": "",
+                  "description": "Korespondencja z urzędem (wybierz preferowany sposób korespondencji z urzędem)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fa70f24f-5a57-5009-81b1-82d4e6f725af",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_8",
+                  "title": "",
+                  "description": "Poczta tradycyjna - na który adres kierować korespondencję",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5dd3158e-b20f-506a-8d25-396fb985962e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_9",
+                  "title": "",
+                  "description": "adres siedziby klubu",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "236fe5b7-c2c6-54fe-a94b-a07700589e4e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_10",
+                  "title": "",
+                  "description": "Odpis danych z KRS lub innego właściwego rejestru",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "642257c3-7ec1-5c69-b4e9-44cc043d9e5e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s10_11",
+                  "title": "",
+                  "description": "Do wniosku należy dołączyć aktualny odpis danych o klubie z Krajowego Rejestru Sądowego lub innego właściwego rejestru, zgodny z bieżącym stanem faktycznym i prawnym.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fe1bb8c8-ce02-543b-92df-8d0d4dd71467",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_a708865209",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7bb86c3b-ccf2-583e-8d7a-598d461e4027",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_72867f65ae",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 13,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ee3db787-fdca-5956-b59d-015826fdc584",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_telefonu_opcjonalnie_e1faeb1ac6",
+                  "title": "Numer telefonu (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 14,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3014220d-e961-56d6-a202-03173a6d3266",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_924e24d97b",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 15,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8e3dc63d-c119-5da6-bda1-568f1b2b80e9",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_7d7fea0bee",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 16,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d36372e6-4dde-5cf2-8d67-656aa5fa7aa9",
+                  "type": "TEXT_FIELD",
+                  "techName": "seria_i_numer_dowodu_osobistego_5abe06bc73",
+                  "title": "Seria i numer dowodu osobistego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 17,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "10371ef2-793d-506f-a03c-52abf8cd0cd7",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_telefonu_opcjonalnie_152afd8149",
+                  "title": "Numer telefonu (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 18,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "81184057-25cd-5bdc-9f82-88469d1fd8fb",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwa_klubu_sportowego_d41255aafd",
+                  "title": "Nazwa klubu sportowego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 19,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "54901b88-ca62-5e22-9867-bf889d8cbda6",
+                  "type": "TEXT_FIELD",
+                  "techName": "telefon_kontaktowy_opcjonalnie_192308de37",
+                  "title": "Telefon kontaktowy (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 20,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4546bf45-6878-5567-ac7e-967c28ef92e0",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_siedziby_2abff01a85",
+                  "title": "Adres siedziby",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 21,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6e16d619-b323-53c3-ace1-a60c22e51b96",
+                  "type": "TEXT_FIELD",
+                  "techName": "inny_adres_korespondencyjny_761dc856cd",
+                  "title": "inny adres korespondencyjny",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 22,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ee363197-f86a-5a13-8521-5b3aec5be215",
+                  "type": "TEXT_FIELD",
+                  "techName": "skrzynka_epuap_adres_skrzynki_0ee9ba4517",
+                  "title": "Skrzynka ePUAP - adres skrzynki",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 23,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "445d2d4b-d6d4-5827-8141-8e92eacf8ee8",
+                  "type": "TEXT_FIELD",
+                  "techName": "edoreczenia_adres_skrzynki_f8a5a49982",
+                  "title": "eDoręczenia - adres skrzynki",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 24,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 29,
+          "rows": 38,
+          "cols": 3,
+          "field": {
+            "id": "b129be60-e835-5fd1-ab95-830f09751995",
+            "type": "SECTION",
+            "techName": "dane_kandydatki_kandydata_do_nagrody_section_s12",
+            "title": "Dane kandydatki/kandydata do nagrody:",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4742c358-9270-5b2e-b8ec-cc433f60f4c5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_0",
+                  "title": "",
+                  "description": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "55508287-5e25-52ba-a7eb-6ae47722c200",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_1",
+                  "title": "",
+                  "description": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "85750ec5-b7de-57de-8afc-09f2183b76b6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_2",
+                  "title": "",
+                  "description": "3. Osiągnięcia sportowe",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "33e59865-1460-59c4-bf31-77eefaa9b02c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_3",
+                  "title": "",
+                  "description": "Opisz najważniejsze osiągnięcia sportowe kandydata, które będą brane pod uwagę przy ocenie wniosku",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3bd84569-7e6a-5599-9b1d-f73abbca76c7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_4",
+                  "title": "",
+                  "description": "Do wniosku można dołączyć dyplomy lub inne dokumenty potwierdzające opisane osiągnięcia sportowe.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "57dc165e-dc66-59a4-97f4-c2a7a9c1240e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_5",
+                  "title": "",
+                  "description": "Opinia macierzystego klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7f6bd3f4-0c4b-5732-be06-1baa4b252d0b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_6",
+                  "title": "",
+                  "description": "Opinia macierzystego klubu sportowego, potwierdzająca nienaganną postawę etyczną\ni  moralną sportowca",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7c6b3392-e054-5488-b078-d2201ebffa0a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_7",
+                  "title": "",
+                  "description": "Do wniosku można dołączyć dokument z opinią klubu.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "25323c7a-02fa-5e99-b5f8-ff81cf127ac6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_8",
+                  "title": "",
+                  "description": "Wymagane zaświadczenia",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e4e4b05d-e071-5d59-addf-32179cf7edfd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_9",
+                  "title": "",
+                  "description": "Do wniosku należy załączyć zaświadczenia wydane przez Polski Związek Sportowy odpowiedni dla danej dyscypliny sportowej lub inne oficjalne dokumenty (np. komunikaty z zawodów), które potwierdzają osiągnięcia sportowe.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c57cc86f-e3c3-50cd-a5a1-7fedda3b0aeb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_10",
+                  "title": "",
+                  "description": "Dodatkowe informacje o osiągnieciach sportowych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "89447030-4677-5c11-9c7e-383681d3dab2",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_11",
+                  "title": "",
+                  "description": "Ewentualne dodatkowe informacje o kandydatce/kandydacie do nagrody",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "75a04dae-7a01-5ba4-a9c5-10c13dd74b51",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_12",
+                  "title": "",
+                  "description": "Podpis i pieczątka wnioskodawcy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4f4950d0-358a-5da1-9f92-41a4ef843b9a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_13",
+                  "title": "",
+                  "description": "4. Klauzula informacyjna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d60ee2af-caec-52ac-9f78-127715374068",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_14",
+                  "title": "",
+                  "description": "Informacje na temat ochrony danych osobowych stosowanych przez administratora danych, którymi są wnioskujący:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e6d1f2bb-104a-5247-aaf5-cbb5dcf8b72e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_15",
+                  "title": "",
+                  "description": "a) klub sportowy – znajdują się na jego stronie internetowej lub w wersji papierowej w jego siedzibie oraz wymagane zgody z pkt. 5;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "56863516-9a91-566f-ac71-b8724393e548",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_16",
+                  "title": "",
+                  "description": "b) Prezydent Miasta Zgierza – znajdują się na stronie podmiotowej BIP Urzędu Miasta Zgierza pod adresem: www.bip.zgierz.pl lub w siedzibie Urzędu Miasta Zgierza oraz wymagane zgody z pkt. 5.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2a6acb7b-a9cd-5675-a2d6-74818ff85195",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_17",
+                  "title": "",
+                  "description": "5. Zgody",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "399bd917-744c-535a-be5f-2e1f679577a2",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_18",
+                  "title": "",
+                  "description": "5.1. Zgoda kandydata pełnoletniego do nagrody",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1ea6684a-db85-5e9b-9236-69b953b7a92f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_19",
+                  "title": "",
+                  "description": "1) Wyrażam zgodę na przetwarzanie moich danych osobowych zwartych we wniosku w celu przekazania go do dalszego procedowania.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f62189b0-8f0b-5adf-93bf-691675d56b83",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_20",
+                  "title": "",
+                  "description": "2) Oświadczam, że zapoznałem się z regulaminem przyznawania nagród sportowych Rady Miasta Zgierza i akceptuję wszystkie jego postanowienia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "004f5e26-8f3b-5f7e-a801-2e493817defe",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_21",
+                  "title": "",
+                  "description": "Podpis kandydata",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2e92da50-2165-5335-be9c-b47d120d211e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_22",
+                  "title": "",
+                  "description": "5.2. Zgoda w imieniu kandydata nieletniego do nagrody",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "199dd96a-100f-5693-a83b-b3012b007ad8",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_23",
+                  "title": "",
+                  "description": "(rodzic/opiekun prawny)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "24df29ed-6249-5b52-a3df-951c534c670c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_24",
+                  "title": "",
+                  "description": "wyrażam zgodę na przetwarzanie danych osobowych mojego dziecka/podopiecznego zawartych we wniosku w celu przekazania go do dalszego procedowania.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 25,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a01f9694-de8d-5f3c-8baf-350fc00c971c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_25",
+                  "title": "",
+                  "description": "2) Oświadczam, że zapoznałem się z regulaminem przyznawania nagród sportowych Rady Miasta Zgierza i akceptuję wszystkie jego postanowienia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ccd589ea-5b30-5f8b-a8ae-5daefb89fcf7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_26",
+                  "title": "",
+                  "description": "Podpis rodzica/opiekuna prawnego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 27,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0871f311-1b1f-5916-a4cf-b9225302adbd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s12_27",
+                  "title": "",
+                  "description": "Wypełniony formularz zgody przechowuje właściwy administrator danych osobowych.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 28,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8f3f2c4e-5a84-5e0a-934d-cd9027e1fd26",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_726374ec14",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 28,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 29,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "462d4a50-4533-51a8-8c13-3837fdefddf4",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_ecbad8342d",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 29,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 30,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ca6853c0-d6da-57cb-bbca-a3a3945513c3",
+                  "type": "DATEPICKER",
+                  "techName": "data_urodzenia_8368c02af9",
+                  "title": "Data urodzenia",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 30,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 31,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "568da73d-a2c0-5828-bc72-4e1bb92f6f5a",
+                  "type": "DATEPICKER",
+                  "techName": "data_sporzadzenia_wniosku_92e62f0f78",
+                  "title": "Data sporządzenia wniosku",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 31,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 32,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a2b21293-a1e7-5cb3-a5e8-035c2d180bbb",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_kandydata_956d4f316d",
+                  "title": "Imię i nazwisko kandydata",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 32,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 33,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "59fa550e-999c-57d9-b36b-f831b422a486",
+                  "type": "DATEPICKER",
+                  "techName": "data_63925793a3",
+                  "title": "Data",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 33,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 34,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3736c72d-9302-5731-97a6-015b0a0585bb",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_kandydata_0a73719c86",
+                  "title": "Imię i nazwisko kandydata",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 34,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 35,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a3d3ce38-ffa9-57ce-9146-77e3406a50df",
+                  "type": "TEXT_FIELD",
+                  "techName": "ja_nizej_podpisany_b495ba7430",
+                  "title": "Ja niżej podpisany",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 35,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 36,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6373cdb4-a088-5082-a7aa-d8f170f28257",
+                  "type": "DATEPICKER",
+                  "techName": "data_6b3e453c86",
+                  "title": "Data",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 36,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5340edf4-ee2e-5d94-a5ec-1ed2cfe7e2e1",
+      "title": "III. Wyróżnienie",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 2,
+          "cols": 3,
+          "field": {
+            "id": "9e7ad3cd-e2fe-5b38-971a-aed7e579fd1d",
+            "type": "SECTION",
+            "techName": "iii_section_s13",
+            "title": "III.",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3cb82d2f-417b-5974-bffc-35ba4979d761",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s13_0",
+                  "title": "",
+                  "description": "Wniosek o przyznanie wyróżnienia sportowego Rady Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "rows": 26,
+          "cols": 3,
+          "field": {
+            "id": "ea9867be-5716-58e4-b90a-47cd8b673761",
+            "type": "SECTION",
+            "techName": "1_wnioskodawca_section_s14",
+            "title": "1. Wnioskodawca",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "eafaa19d-73aa-5f2b-b401-2e9170da938e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_0",
+                  "title": "",
+                  "description": "Prezydent Miasta Zgierza",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1a724cfe-33ac-5928-b084-b265e6431a52",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_1",
+                  "title": "",
+                  "description": "Klub sportowy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1f8a4920-68fc-52c9-a35e-24de83f92369",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_2",
+                  "title": "",
+                  "description": "Należy wypełnić w przypadku Wnioskodawcy – Klubu sportowego.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5526f3e8-14c5-517a-83f4-08228aa610dc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_3",
+                  "title": "",
+                  "description": "Dane reprezentanta klubu sportowego z KRS lub innego właściwego rejestru",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ecadb387-3722-5a65-b08b-53f49866210f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_4",
+                  "title": "",
+                  "description": "Dane pełnomocnika klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "dfbd281f-d701-5144-a99e-e8e4916f0209",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_5",
+                  "title": "",
+                  "description": "Do wniosku należy dołączyć pełnomocnictwo potwierdzające uprawnienia do działania w imieniu klubu wraz z potwierdzeniem uiszczenia opłaty skarbowej (opłata skarbowa jest niezbędna w związku z udzielonym pełnomocnictwem).",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "eda42147-9cfb-56b5-b61c-f5f86151be4a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_6",
+                  "title": "",
+                  "description": "Dane klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ce0b9811-4c02-5b6d-a4ff-12de31a2e059",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_7",
+                  "title": "",
+                  "description": "Korespondencja z urzędem (wybierz preferowany sposób korespondencji z urzędem)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "dcfa7a84-dbef-5b3c-a741-15b1a2842f59",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_8",
+                  "title": "",
+                  "description": "Poczta tradycyjna - na który adres kierować korespondencję",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e9b9f0ea-7bd8-5fc6-9b6d-ed98028fcdfd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_9",
+                  "title": "",
+                  "description": "adres siedziby klubu",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d4b26fa4-d75f-55f9-be30-c0ceed7b839c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_10",
+                  "title": "",
+                  "description": "Odpis danych z KRS lub innego właściwego rejestru",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "139e8d49-6470-5c0c-94b0-28e1253ad88b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_11",
+                  "title": "",
+                  "description": "Do wniosku należy dołączyć aktualny odpis danych o klubie z Krajowego Rejestru Sądowego lub innego właściwego rejestru, zgodny z bieżącym stanem faktycznym i prawnym.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c16a9207-7e75-5aa1-8005-abc38248d5b6",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_b94bd9be30",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "62cfadd7-8608-56c5-8450-7e63d2afdcc7",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_2d81e9acf5",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 13,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b054819e-c6fd-59e4-91e4-b08304689312",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_telefonu_opcjonalnie_27173ff693",
+                  "title": "Numer telefonu (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 14,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "faf4210c-9776-5f38-ad4b-cb252aef1c53",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_955b80e5cd",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 15,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "72f33259-2d12-5f78-be91-8b76528a7088",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_3379cd659e",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 16,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4e98f518-0602-5ce6-a95e-29b3b86a7a1f",
+                  "type": "TEXT_FIELD",
+                  "techName": "seria_i_numer_dowodu_osobistego_6fe60ceb4d",
+                  "title": "Seria i numer dowodu osobistego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 17,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d04481bc-6b8d-5247-9e70-ce5fbba627aa",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_telefonu_opcjonalnie_795303af6a",
+                  "title": "Numer telefonu (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 18,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "651b0e08-0741-5d9a-b702-5f185b16f9f1",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwa_klubu_sportowego_3760ada069",
+                  "title": "Nazwa klubu sportowego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 19,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "54ad7539-e57d-5b7b-8d55-371d8a486f70",
+                  "type": "TEXT_FIELD",
+                  "techName": "telefon_kontaktowy_opcjonalnie_f374176d47",
+                  "title": "Telefon kontaktowy (opcjonalnie)",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 20,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1414be80-f3b7-5de6-8cdd-6fb02577d70a",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_siedziby_1102b9b277",
+                  "title": "Adres siedziby",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 21,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c1823e97-d121-5694-b180-5822fd6fbd36",
+                  "type": "TEXT_FIELD",
+                  "techName": "inny_adres_korespondencyjny_f80379f082",
+                  "title": "inny adres korespondencyjny",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 22,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d852f7e6-dc20-5dde-96b0-bf9d489c79a7",
+                  "type": "TEXT_FIELD",
+                  "techName": "skrzynka_epuap_adres_skrzynki_83b65f7e69",
+                  "title": "Skrzynka ePUAP - adres skrzynki",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 23,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "990a6d56-e32a-54c7-8a71-51ce7818bbd5",
+                  "type": "TEXT_FIELD",
+                  "techName": "edoreczenia_adres_skrzynki_8038b3e92c",
+                  "title": "eDoręczenia - adres skrzynki",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 24,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 28,
+          "rows": 12,
+          "cols": 3,
+          "field": {
+            "id": "e377f738-ad0d-5cb1-a97a-c49867fc9729",
+            "type": "SECTION",
+            "techName": "2_dane_trenera_section_s15",
+            "title": "2. Dane trenera",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0dd49d44-bc3d-59b4-baf7-4adf98125fa1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_0",
+                  "title": "",
+                  "description": "Dane osobowe kandydatki/kandydata do wyróżnienia",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "11804a2c-51bf-51d9-8752-04a437960126",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_1",
+                  "title": "",
+                  "description": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d8bfcb9c-1a45-5386-b18e-40fb48486a7d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_2",
+                  "title": "",
+                  "description": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "33f47435-7885-5bbc-b619-a78b91a8c407",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_3",
+                  "title": "",
+                  "description": "Opinia macierzystego klubu sportowego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a87b4c7d-e210-5064-b7aa-98a0a74deacd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_4",
+                  "title": "",
+                  "description": "Opinia macierzystego klubu sportowego, potwierdzająca nienaganną postawę etyczną\ni  moralną opiekuna sportowego.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e41ea31b-7508-544d-a96a-c63e4cb7bfea",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_5",
+                  "title": "",
+                  "description": "Do wniosku można dołączyć dokument z opinią klubu",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "17068e5b-1b8d-5cd3-af5f-20e01405fb44",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_6",
+                  "title": "",
+                  "description": "Dodatkowe informacje o osiągnieciach sportowych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3845e4a2-efc0-57bb-bc0b-cc721da58826",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_7",
+                  "title": "",
+                  "description": "Ewentualne dodatkowe informacje o kandydatce/kandydacie do wyróżnienia",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fd12dee9-7d62-5deb-bafb-e4085f7aeb03",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_d259c683c6",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 8,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1b5f32f8-8c17-5504-9d51-0f8e812ba61b",
+                  "type": "TEXT_FIELD",
+                  "techName": "nazwisko_5511868632",
+                  "title": "Nazwisko",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 9,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "105da276-fe23-56de-bead-e01a6fb19177",
+                  "type": "DATEPICKER",
+                  "techName": "data_urodzenia_7c0015a393",
+                  "title": "Data urodzenia",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 10,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 40,
+          "rows": 2,
+          "cols": 3,
+          "field": {
+            "id": "4bdef5d8-9881-52b5-9e5d-bb7e904bc3f4",
+            "type": "SECTION",
+            "techName": "3_dane_podopiecznych_trenera_section_s16",
+            "title": "3. Dane podopiecznych trenera",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "dc8c13f6-2642-5511-82b6-c6a8ebb547e6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s16_0",
+                  "title": "",
+                  "description": "Poniżej należy dodać dane poszczególnych podopiecznych opiekuna sportowego, dla którego składany jest wniosek o wyróżnienie sportowe. Do wniosku można dołączyć dyplomy lub inne dokumenty potwierdzające opisane osiągnięcia sportowe.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 3,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 42,
+          "rows": 3,
+          "cols": 3,
+          "field": {
+            "id": "dc104787-e399-5dad-b7ac-7aae4aa39379",
+            "type": "SECTION",
+            "techName": "1_dane_osobowe_podopiecznego_trenera_section_s17",
+            "title": "1. Dane osobowe podopiecznego trenera",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "974119d8-fd90-5a8e-8a41-c48cb885f0bd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s17_0",
+                  "title": "",
+                  "description": "Imię i nazwisko zawodniczki/zawodnika",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "90c2959f-b9f6-5fed-b03d-c1d404388a58",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s17_1",
+                  "title": "",
+                  "description": "Osiągnięcia sportowe podopiecznego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 4,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 45,
+          "rows": 3,
+          "cols": 3,
+          "field": {
+            "id": "41bc1d69-d0e5-5787-a9a6-e7c85dd86cbb",
+            "type": "SECTION",
+            "techName": "2_dane_osobowe_podopiecznego_trenera_section_s18",
+            "title": "2. Dane osobowe podopiecznego trenera",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "656df915-11ad-55ad-9b3a-a1c9718c12cb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s18_0",
+                  "title": "",
+                  "description": "Imię i nazwisko zawodniczki/zawodnika",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ce0eedf4-279c-536d-9a0c-732f1da7429b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s18_1",
+                  "title": "",
+                  "description": "Osiągnięcia sportowe podopiecznego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 5,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 48,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "8b94318b-3b3a-585f-b299-86efa88bf611",
+            "type": "SECTION",
+            "techName": "3_dane_osobowe_podopiecznego_trenera_section_s19",
+            "title": "3. Dane osobowe podopiecznego trenera",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7d189c05-2f9e-5372-bc04-6b18f83351e9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s19_0",
+                  "title": "",
+                  "description": "Imię i nazwisko zawodniczki/zawodnika",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "07854c7d-cbf5-5dc1-ab62-f3968090eb3b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s19_1",
+                  "title": "",
+                  "description": "Osiągnięcia sportowe podopiecznego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "829050fd-fae2-518f-bb72-4d344a36fc34",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s19_2",
+                  "title": "",
+                  "description": "Osiągnięcia sportowe podopiecznego kandydata, które będą brane pod uwagę przy ocenie wniosku",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 6,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 52,
+          "rows": 36,
+          "cols": 3,
+          "field": {
+            "id": "a7e81db8-abea-5359-83aa-9d7130a97ea9",
+            "type": "SECTION",
+            "techName": "4_dane_osobowe_podopiecznego_trenera_section_s20",
+            "title": "4. Dane osobowe podopiecznego trenera",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f74bc006-384a-5a7b-80cf-d1795d66eaef",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_0",
+                  "title": "",
+                  "description": "Imię i nazwisko zawodniczki/zawodnika",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7b102291-4ec5-54a7-ac4f-67329b8fbf00",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_1",
+                  "title": "",
+                  "description": "Osiągnięcia sportowe podopiecznego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3bea7be5-fbeb-54fe-97bc-af3e4637f9c0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_2",
+                  "title": "",
+                  "description": "Osiągnięcia sportowe podopiecznego kandydata, które będą brane pod uwagę przy ocenie wniosku",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0ac17f32-6587-586e-8089-bc806a9342df",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_3",
+                  "title": "",
+                  "description": "Wymagane zaświadczenia wymienionych podopiecznych trenera",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0802f682-b126-556d-955f-6d3c56708312",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_4",
+                  "title": "",
+                  "description": "Do wniosku należy załączyć zaświadczenia wydane przez Polski Związek Sportowy\nodpowiedni dla danej dyscypliny sportowej lub inne oficjalne dokumenty (np. komunikaty\nz  zawodów), które potwierdzają osiągnięcia sportowe zawodniczek/zawodników.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "383dddf7-3594-580e-9ee4-674eb42cfac2",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_5",
+                  "title": "",
+                  "description": "Podpis i pieczątka wnioskodawcy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f31da904-b069-593d-a1fc-5e4357a0d438",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_6",
+                  "title": "",
+                  "description": "4. Klauzula informacyjna",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ae16e332-7e1b-5f47-9d3f-a97630756eed",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_7",
+                  "title": "",
+                  "description": "Informacje na temat ochrony danych osobowych stosowanych przez administratora danych, którymi są wnioskujący:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1f02a7c2-004f-5d35-9f16-a40e0a1f5d7c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_8",
+                  "title": "",
+                  "description": "a) klub sportowy – znajdują się na jego stronie internetowej lub w wersji papierowej w jego siedzibie oraz wymagane zgody z pkt. 5 i 6;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e76137c5-ace6-5165-8552-e634d7ea9828",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_9",
+                  "title": "",
+                  "description": "b) Prezydent Miasta Zgierza – znajdują się na stronie podmiotowej BIP Urzędu Miasta Zgierza pod adresem: www.bip.zgierz.pl lub w siedzibie Urzędu Miasta Zgierza oraz wymagane zgody z pkt. 5 i 6.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b31e5fba-90a5-5cad-9e5c-87f69c0085df",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_10",
+                  "title": "",
+                  "description": "5. Zgoda",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "88d1ea02-11a3-5e48-b0b5-261f09ddf209",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_11",
+                  "title": "",
+                  "description": "5.1. Zgoda kandydata do wyróżnienia",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "53e49061-9f71-5126-b4c3-b484e13cdd47",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_12",
+                  "title": "",
+                  "description": "1) Wyrażam zgodę na przetwarzanie moich danych osobowych zwartych we wniosku w celu przekazania go do dalszego procedowania.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "10bfe4a7-ab34-5f43-a79d-19620fe0bc45",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_13",
+                  "title": "",
+                  "description": "2) Oświadczam, że zapoznałem się z regulaminem przyznawania wyróżnień sportowych Rady Miasta Zgierza i akceptuję wszystkie jego postanowienia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d90b98c7-81ff-523c-84d9-fbca5e61c447",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_14",
+                  "title": "",
+                  "description": "Podpis kandydata",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7bebaf90-f4aa-5c9d-89fe-25ffbd685d4b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_15",
+                  "title": "",
+                  "description": "6. Zgoda podopiecznego trenera",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6a1eae44-667d-5f92-b46c-d315f64b0170",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_16",
+                  "title": "",
+                  "description": "Dokument należy wypełnić odrębnie dla każdego podopiecznego trenera, który został wskazany\nw  pkt. 3 wniosku.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "dddd688d-0582-5387-84f7-6c92d5ac370f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_17",
+                  "title": "",
+                  "description": "6.1. Zgoda podopiecznego pełnoletniego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5866961c-6a5c-5af9-a990-c37a39f600f8",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_18",
+                  "title": "",
+                  "description": "1) Wyrażam zgodę na przetwarzanie moich danych osobowych zwartych we wniosku w celu przekazania go do dalszego procedowania.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2b8268ea-0606-52c1-86b5-77ab7aba27c8",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_19",
+                  "title": "",
+                  "description": "2) Oświadczam, że zapoznałem się z regulaminem przyznawania wyróżnień sportowych Rady Miasta Zgierza i akceptuję wszystkie jego postanowienia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "64c32690-7d47-528b-a589-c381d57623a7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_20",
+                  "title": "",
+                  "description": "Podpis kandydata",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0634aaed-6396-51ce-9c9e-50906ce20bc5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_21",
+                  "title": "",
+                  "description": "6.2. Zgoda w imieniu podopiecznego nieletniego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6c3af468-1812-543f-9f93-a280e53f734d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_22",
+                  "title": "",
+                  "description": "(rodzic/opiekun prawny)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2a7de0da-d3fd-5f2b-a1ca-6c145a6603dc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_23",
+                  "title": "",
+                  "description": "wyrażam zgodę na przetwarzanie danych osobowych mojego dziecka/podopiecznego zawartych we wniosku w celu przekazania go do dalszego procedowania.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2aa0e4c1-c8c6-5720-95ef-89e12a58213a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_24",
+                  "title": "",
+                  "description": "2) Oświadczam, że zapoznałem się z regulaminem przyznawania wyróżnień sportowych Rady Miasta Zgierza i akceptuję wszystkie jego postanowienia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 25,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ce5f7098-be9b-51f3-af35-3a1e2216a3c8",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_25",
+                  "title": "",
+                  "description": "Podpis rodzica/opiekuna prawnego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1a7af21a-65a5-509d-8bbb-e9d2126378cd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_26",
+                  "title": "",
+                  "description": "Wypełniony formularz zgody przechowuje właściwy administrator danych osobowych.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 27,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "863d1c97-7c12-5055-9c3d-837586c3705c",
+                  "type": "DATEPICKER",
+                  "techName": "data_sporzadzenia_wniosku_7736ea2e79",
+                  "title": "Data sporządzenia wniosku",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 27,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 28,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4935da55-6876-581b-b388-eaba4b96b573",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_kandydata_d26e78a4bb",
+                  "title": "Imię i nazwisko kandydata",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 28,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 29,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9ec1b4e4-18c9-5db5-a094-144c35629ba7",
+                  "type": "DATEPICKER",
+                  "techName": "data_b20010ff54",
+                  "title": "Data",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 29,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 30,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "27b309d7-832f-520b-97d3-b1b997fa12ad",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_podopiecznego_dd7f641083",
+                  "title": "Imię i nazwisko podopiecznego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 30,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 31,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "83defc98-0894-56e0-b2ce-67b0bc7fe780",
+                  "type": "DATEPICKER",
+                  "techName": "data_923896e3b8",
+                  "title": "Data",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 31,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 32,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b6bd58d7-a560-5970-82f3-5e87b0e68cac",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_podopiecznego_a70227fee9",
+                  "title": "Imię i nazwisko podopiecznego",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 32,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 33,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "949de592-14e8-515b-b6a0-ba08b9722768",
+                  "type": "TEXT_FIELD",
+                  "techName": "ja_nizej_podpisany_0e409c100e",
+                  "title": "Ja niżej podpisany",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 33,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 34,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b569f1f7-e9d4-54a1-8361-a28e2d963b29",
+                  "type": "DATEPICKER",
+                  "techName": "data_771a06a13f",
+                  "title": "Data",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 34,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 7,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "01f2f9ae-397f-5d27-aeae-a12f53e44b5f",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "91c136ad-0625-5ca5-9b61-06d13c5ee565",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "61ced176-4735-5f93-8661-dff9aee43ce3",
+        "source": "82f635eb-6c06-5c1a-b2ee-2a3560e5a51e",
+        "target": "2a4a590e-737b-5b99-8b98-7fb4f3ea5a19"
+      },
+      {
+        "id": "73c91e81-6eb0-5ded-aa7c-08740b0f4df6",
+        "source": "2a4a590e-737b-5b99-8b98-7fb4f3ea5a19",
+        "target": "f1f13a76-a02c-5660-bc2a-fd7d72cffa41"
+      },
+      {
+        "id": "8dfa90bf-34de-5126-9a0a-6f6b35144103",
+        "source": "f1f13a76-a02c-5660-bc2a-fd7d72cffa41",
+        "target": "5340edf4-ee2e-5d94-a5ec-1ed2cfe7e2e1"
+      },
+      {
+        "id": "642277bf-e703-55a2-9c07-28f614fce0bc",
+        "source": "5340edf4-ee2e-5d94-a5ec-1ed2cfe7e2e1",
+        "target": "01f2f9ae-397f-5d27-aeae-a12f53e44b5f"
+      }
+    ]
+  }
+}

@@ -106,6 +106,8 @@ def main():
     for name in ("exports", "results", "comparisons"):
         (DEST / name).mkdir(parents=True, exist_ok=True)
     freeze = DEST / "engine-freeze.json"
+    if args.phase == "references" and freeze.exists() and json.loads(freeze.read_text())["files"] != engine():
+        raise SystemExit("coi-v1 is frozen and read-only for this engine. Use scripts/evaluate_v03.py known.")
     if args.phase == "freeze":
         if freeze.exists():
             raise SystemExit("Freeze already exists. Preserve the independent result rather than overwrite it.")

@@ -11,12 +11,14 @@ from .errors import DocumentError
 
 MIMES = {
     "pdf": "application/pdf",
+    "doc": "application/msword",
     "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     "xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "ods": "application/vnd.oasis.opendocument.spreadsheet",
     "png": "image/png",
     "jpg": "image/jpeg",
     "jpeg": "image/jpeg",
+    "jpe": "image/jpeg",
 }
 FORBIDDEN = re.compile(r"[;:></\\|'*%$\x00-\x1f\x7f]")
 
@@ -29,10 +31,24 @@ class FileValidator:
         if not filename or len(filename) > 250 or FORBIDDEN.search(filename) or filename.strip() != filename:
             raise DocumentError("Nieprawidłowa nazwa pliku (maks. 250 znaków, bez znaków specjalnych).", 400, "invalid_filename")
         extension = Path(filename).suffix.lower().lstrip(".")
+        if len(data) > self.settings.max_upload_mb * 1024 * 1024:
+            raise DocumentError("Plik przekracza dopuszczalny rozmiar.", 413, "file_too_large")
         if extension == "doc":
-            raise DocumentError(
-                "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF.", 415, "doc_not_supported"
-            )
+            # Some organizer .DOC files are actually valid OOXML packages.
+            # Accept that verified container, not unsupported legacy binaries.
+            if data.startswith(b"PK"):
+                self._validate_archive(data, "docx")
+                if mime.partition(";")[0].lower() not in ("application/msword", MIMES["docx"], "application/octet-stream", ""):
+                    raise DocumentError("Typ MIME nie odpowiada dokumentowi Word.", 415, "mime_mismatch")
+                if len(data) > self.settings.max_upload_mb * 1024 * 1024:
+                    raise DocumentError("Plik przekracza dopuszczalny rozmiar.", 413, "file_too_large")
+                return "docx"
+            if mime.partition(";")[0].strip().lower() not in (MIMES["doc"], "application/octet-stream", ""):
+                raise DocumentError("Typ MIME nie odpowiada dokumentowi Word.", 415, "mime_mismatch")
+            from .legacy_doc import inspect_doc
+
+            inspect_doc(data, self.settings.max_uncompressed_mb * 1024 * 1024)
+            return "doc"
         if extension not in MIMES:
             raise DocumentError("Niedozwolony format pliku.", 415, "unsupported_format")
         if not data:
@@ -42,7 +58,7 @@ class FileValidator:
         supplied_mime = mime.partition(";")[0].strip().lower()
         if supplied_mime not in (MIMES[extension], "application/octet-stream", ""):
             raise DocumentError("Typ MIME nie odpowiada rozszerzeniu pliku.", 415, "mime_mismatch")
-        signatures = {"pdf": b"%PDF-", "png": b"\x89PNG\r\n\x1a\n", "jpg": b"\xff\xd8\xff", "jpeg": b"\xff\xd8\xff"}
+        signatures = {"pdf": b"%PDF-", "png": b"\x89PNG\r\n\x1a\n", "jpg": b"\xff\xd8\xff", "jpeg": b"\xff\xd8\xff", "jpe": b"\xff\xd8\xff"}
         if extension in signatures and not data.startswith(signatures[extension]):
             raise DocumentError("Zawartość pliku nie odpowiada jego rozszerzeniu.", 415, "content_mismatch")
         if extension in ("docx", "xlsx", "ods"):

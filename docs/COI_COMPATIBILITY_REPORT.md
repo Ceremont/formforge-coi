@@ -1,4 +1,10 @@
+> **1.0:** aktualna macierz: [COI_REQUIREMENTS_MATRIX.md](COI_REQUIREMENTS_MATRIX.md), [FINAL_COMPETITION_REPORT.md](FINAL_COMPETITION_REPORT.md). 68/69 konwersji lokalnie poprawnych, importer niezweryfikowany, DOC/warunki/słowniki częściowe. Poniżej zachowany opis kontraktu i historyczne wyniki.
+
 # COI compatibility and quality report
+
+> This report preserves the COI-v1 contract and measurements. Current 0.3 engine
+> metrics, container verification and remaining gaps are in
+> [ENGINE_V03_REPORT.md](ENGINE_V03_REPORT.md). The frozen coi-v1 data is unchanged.
 
 Current status: **official-format proposal, review required; platform import
 unverified; not competition-ready**. This extends the existing project rather

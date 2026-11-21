@@ -1,0 +1,118 @@
+{
+  "image_build": "passed",
+  "image": "formforge-coi:0.3.0",
+  "compose_config": "passed",
+  "compose_project": "formforge-v03-check",
+  "cases": [
+    {
+      "case": "pdf",
+      "http_status": 200,
+      "seconds": 0.362,
+      "fields": 9,
+      "valid": true,
+      "quality": "review_required",
+      "ocr": false
+    },
+    {
+      "case": "textbox",
+      "http_status": 200,
+      "seconds": 0.465,
+      "fields": 24,
+      "valid": true,
+      "quality": "partial",
+      "ocr": false
+    },
+    {
+      "case": "sparse-xlsx",
+      "http_status": 200,
+      "seconds": 1.772,
+      "fields": 76,
+      "valid": true,
+      "quality": "partial",
+      "ocr": false
+    },
+    {
+      "case": "ocr",
+      "http_status": 200,
+      "seconds": 1.213,
+      "fields": 9,
+      "valid": true,
+      "quality": "review_required",
+      "ocr": true
+    },
+    {
+      "case": "jpe",
+      "http_status": 200,
+      "seconds": 8.772,
+      "fields": 19,
+      "valid": true,
+      "quality": "partial",
+      "ocr": true
+    },
+    {
+      "case": "large-image",
+      "http_status": 200,
+      "seconds": 49.635,
+      "fields": 178,
+      "valid": true,
+      "quality": "partial",
+      "ocr": true
+    },
+    {
+      "case": "binary-doc",
+      "http_status": 415,
+      "seconds": 0.012,
+      "error": {
+        "error": {
+          "code": "doc_not_supported",
+          "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+        }
+      }
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "version": "0.3.0",
+    "python": "3.14.5",
+    "offline": true,
+    "ocr": {
+      "available": true,
+      "languages": [
+        "eng",
+        "pol"
+      ]
+    },
+    "auth_enabled": false,
+    "coi_compatibility": "official_schema_and_business_rules_available",
+    "target_import_verified": false,
+    "max_upload_mb": 20
+  },
+  "uid": "10001",
+  "tesseract": "tesseract 5.5.1",
+  "excluded_ocr_optional_libraries_absent": true,
+  "read_only": true,
+  "internal_network": true,
+  "processor_networks": [
+    "formforge-v03-check_offline"
+  ],
+  "request_temp_directories_after_tests": 0,
+  "status": "passed",
+  "full_native_sbom": "not a complete audited SBOM; inventories/linkage only",
+  "browser_smoke": {
+    "status": "passed",
+    "scenarios": [
+      "upload",
+      "demo",
+      "field editing",
+      "JSON download",
+      "native required validation",
+      "server validation",
+      "conditional visibility",
+      "responsive mobile layout",
+      "offline Swagger"
+    ],
+    "externalRequests": [],
+    "browserErrors": []
+  },
+  "test_project_removed_after_checks": true
+}

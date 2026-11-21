@@ -1,0 +1,473 @@
+[
+  {
+    "id": "03-pdf",
+    "version": "baseline",
+    "scope": "all visible citizen answer regions and purpose choices on the one-page paper form",
+    "expected_fields": 11,
+    "predicted_fields": 8,
+    "matched_fields": 4,
+    "field_precision": 0.5,
+    "field_recall": 0.36363636363636365,
+    "field_f1": 0.4210526315789474,
+    "field_type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "matches": [
+      {
+        "expected": "purpose",
+        "actual": "Zaświadczenie potrzebne jest celem przedłożenia w",
+        "type_correct": true
+      },
+      {
+        "expected": "other_text",
+        "actual": "inne",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "/ adres /",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "/ imię i nazwisko /",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "pesel",
+      "phone",
+      "owned_land",
+      "rented_land",
+      "ownership_period",
+      "no_land",
+      "other_choice"
+    ],
+    "extra": [
+      "Młynary, dnia",
+      "14-420 Młynary",
+      "Proszę o wydanie zaświadczenia o",
+      "INFORMACJE"
+    ]
+  },
+  {
+    "id": "03-pdf",
+    "version": "v03",
+    "scope": "all visible citizen answer regions and purpose choices on the one-page paper form",
+    "expected_fields": 11,
+    "predicted_fields": 11,
+    "matched_fields": 11,
+    "field_precision": 1.0,
+    "field_recall": 1.0,
+    "field_f1": 1.0,
+    "field_type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "matches": [
+      {
+        "expected": "purpose",
+        "actual": "Zaświadczenie potrzebne jest celem przedłożenia w",
+        "type_correct": true
+      },
+      {
+        "expected": "other_text",
+        "actual": "inne – doprecyzowanie",
+        "type_correct": true
+      },
+      {
+        "expected": "other_choice",
+        "actual": "inne",
+        "type_correct": true
+      },
+      {
+        "expected": "no_land",
+        "actual": "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+        "type_correct": true
+      },
+      {
+        "expected": "ownership_period",
+        "actual": "okresie posiadania gospodarstwa rolnego",
+        "type_correct": true
+      },
+      {
+        "expected": "rented_land",
+        "actual": "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "type_correct": true
+      },
+      {
+        "expected": "owned_land",
+        "actual": "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "/ nr telefonu /",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel",
+        "actual": "/ PESEL /",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "/ adres /",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "/ imię i nazwisko /",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": []
+  },
+  {
+    "id": "04-pdf",
+    "version": "baseline",
+    "scope": "all visible citizen inputs; rental/loan strikeout alternatives count as one source choice; date/signature header excluded",
+    "expected_fields": 10,
+    "predicted_fields": 12,
+    "matched_fields": 9,
+    "field_precision": 0.75,
+    "field_recall": 0.9,
+    "field_f1": 0.8181818181818182,
+    "field_type_accuracy": 0.7777777777777778,
+    "section_accuracy": null,
+    "section_f1": null,
+    "matches": [
+      {
+        "expected": "responsible_person",
+        "actual": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+        "type_correct": true
+      },
+      {
+        "expected": "participants",
+        "actual": "Przewidywana ilość uczestników",
+        "type_correct": true
+      },
+      {
+        "expected": "purpose",
+        "actual": "Cel wynajęcia świetlicy",
+        "type_correct": true
+      },
+      {
+        "expected": "village",
+        "actual": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "(nr telefonu)",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "(adres zamieszkania)",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "(imię i nazwisko wnioskodawcy)",
+        "type_correct": true
+      },
+      {
+        "expected": "end",
+        "actual": "do",
+        "type_correct": false
+      },
+      {
+        "expected": "start",
+        "actual": "wraz z wyposażeniem w terminie od",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "rental_mode"
+    ],
+    "extra": [
+      "(miejscowość i data)",
+      "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+      "(czytelny podpis wnioskodawcy)"
+    ]
+  },
+  {
+    "id": "04-pdf",
+    "version": "v03",
+    "scope": "all visible citizen inputs; rental/loan strikeout alternatives count as one source choice; date/signature header excluded",
+    "expected_fields": 10,
+    "predicted_fields": 9,
+    "matched_fields": 9,
+    "field_precision": 1.0,
+    "field_recall": 0.9,
+    "field_f1": 0.9473684210526316,
+    "field_type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "matches": [
+      {
+        "expected": "responsible_person",
+        "actual": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+        "type_correct": true
+      },
+      {
+        "expected": "participants",
+        "actual": "Przewidywana ilość uczestników",
+        "type_correct": true
+      },
+      {
+        "expected": "purpose",
+        "actual": "Cel wynajęcia świetlicy",
+        "type_correct": true
+      },
+      {
+        "expected": "end",
+        "actual": "do (koniec terminu)",
+        "type_correct": true
+      },
+      {
+        "expected": "start",
+        "actual": "wraz z wyposażeniem w terminie od",
+        "type_correct": true
+      },
+      {
+        "expected": "village",
+        "actual": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "(nr telefonu)",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "(adres zamieszkania)",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "(imię i nazwisko wnioskodawcy)",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "rental_mode"
+    ],
+    "extra": []
+  },
+  {
+    "id": "06-pdf",
+    "version": "baseline",
+    "scope": "only the entire repeated dimensions table: four road categories, two printed rows each, length/width/area per row; 24 explicit cells",
+    "expected_fields": 24,
+    "predicted_fields": 8,
+    "matched_fields": 8,
+    "field_precision": 1.0,
+    "field_recall": 0.3333333333333333,
+    "field_f1": 0.5,
+    "field_type_accuracy": 0.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "matches": [
+      {
+        "expected": "repeat2_7",
+        "actual": "razem",
+        "type_correct": false
+      },
+      {
+        "expected": "repeat2_6",
+        "actual": "razem",
+        "type_correct": false
+      },
+      {
+        "expected": "repeat2_5",
+        "actual": "razem",
+        "type_correct": false
+      },
+      {
+        "expected": "repeat2_4",
+        "actual": "razem",
+        "type_correct": false
+      },
+      {
+        "expected": "repeat2_3",
+        "actual": "razem",
+        "type_correct": false
+      },
+      {
+        "expected": "repeat2_2",
+        "actual": "razem",
+        "type_correct": false
+      },
+      {
+        "expected": "repeat2_1",
+        "actual": "razem",
+        "type_correct": false
+      },
+      {
+        "expected": "repeat2_0",
+        "actual": "razem",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "repeat0_0",
+      "repeat0_1",
+      "repeat0_2",
+      "repeat0_3",
+      "repeat0_4",
+      "repeat0_5",
+      "repeat0_6",
+      "repeat0_7",
+      "repeat1_0",
+      "repeat1_1",
+      "repeat1_2",
+      "repeat1_3",
+      "repeat1_4",
+      "repeat1_5",
+      "repeat1_6",
+      "repeat1_7"
+    ],
+    "extra": []
+  },
+  {
+    "id": "06-pdf",
+    "version": "v03",
+    "scope": "only the entire repeated dimensions table: four road categories, two printed rows each, length/width/area per row; 24 explicit cells",
+    "expected_fields": 24,
+    "predicted_fields": 24,
+    "matched_fields": 24,
+    "field_precision": 1.0,
+    "field_recall": 1.0,
+    "field_f1": 1.0,
+    "field_type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "matches": [
+      {
+        "expected": "repeat2_7",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_6",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_5",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_4",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_3",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_2",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_1",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_0",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_7",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_6",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_5",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_4",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_3",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_2",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_1",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_0",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_7",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_6",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_5",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_4",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_3",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_2",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_1",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_0",
+        "actual": "długość",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": []
+  }
+]

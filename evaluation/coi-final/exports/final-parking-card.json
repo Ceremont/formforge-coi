@@ -1,0 +1,4920 @@
+{
+  "title": "Wniosek o wydanie karty parkingowej",
+  "tabs": [
+    {
+      "id": "ae4f2d8b-c724-5b2d-83d1-c527e25de438",
+      "title": "Strona 1",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "de6add3f-6d50-534f-8cf3-4c17b60d48be",
+            "type": "SECTION",
+            "techName": "dane_formularza_section_s1",
+            "title": "Dane formularza",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "25a1ef8d-60e1-5560-9d80-42ba3d5d6bb2",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_0",
+                  "title": "",
+                  "description": "– 6 –",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "183c0bbd-aea5-5e47-951a-2eb161c24c81",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_1",
+                  "title": "",
+                  "description": "Poz. 1611",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0cb5d815-6b23-5a14-9d72-c42ed55d7bd4",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_2",
+                  "title": "",
+                  "description": "Załączniki do rozporządzenia Ministra Pracy i Polityki Społecznej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b7cd36b6-4ab5-54c4-86db-0240f3830cb7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_3",
+                  "title": "",
+                  "description": "z dnia Z25 ałącczzenrwikci a d2o 01r4 ozrp. o(Drzzą. dUze. nz ia 20M22 inri. sptroa z. P1r6ac1y 1)i Polityki",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9ffb9206-5416-5474-b915-8daa4acf95ff",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_4",
+                  "title": "",
+                  "description": "Społecznej z dnia 25 czerwca 2014 r.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "23491ba5-734a-5005-8059-fc50af327c87",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_5",
+                  "title": "",
+                  "description": "Załącznik nr 1",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "dad9eeaf-2e58-5994-b099-e602020ff721",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_6",
+                  "title": "",
+                  "description": "Załącznik nr 1",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7b5345f6-a959-566c-9213-8bac60c553a9",
+                  "type": "TEXT_FIELD",
+                  "techName": "dziennik_ustaw_01bd26ce41",
+                  "title": "Dziennik Ustaw",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 7,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 9,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "4eff86c5-2394-5fca-8bf9-029cf12c2609",
+            "type": "SECTION",
+            "techName": "wzor_section_s3",
+            "title": "WZÓR",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a87b5d97-d69d-56c9-bb07-8789defb346a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_0",
+                  "title": "",
+                  "description": "WYPEŁNIA ORGAN",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "cdb4c8db-82d1-57ea-a2e2-2bab588fae6a",
+                  "type": "TEXTAREA",
+                  "techName": "numer_wniosku_9a4adc9ac6",
+                  "title": "Numer wniosku",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a5197e67-7404-5bb9-b652-7ee2a3a9fa68",
+                  "type": "DATEPICKER",
+                  "techName": "data_wplywu_wniosku_ef6680fa8b",
+                  "title": "Data wpływu wniosku",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 15,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "63253436-97d6-53f8-8a78-de206194b4ac",
+            "type": "SECTION",
+            "techName": "wypelnia_wnioskodawca_section_s4",
+            "title": "WYPEŁNIA WNIOSKODAWCA",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "e2be85ae-8a32-5042-a57c-12637812ebab",
+                  "type": "TEXTAREA",
+                  "techName": "nazwa_organu1_762003999f",
+                  "title": "Nazwa organu1",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 19,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "eb204474-df8b-5f43-869d-ee8ee58b42b3",
+            "type": "SECTION",
+            "techName": "dane_wnioskodawcy_section_s6",
+            "title": "DANE WNIOSKODAWCY",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f308028c-f01a-5b81-8da6-497c7dc99c16",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s6_0",
+                  "title": "",
+                  "description": "3. Nazwisko",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e80a41ee-fba4-5d41-8d06-eb6b64fdf55c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s6_1",
+                  "title": "",
+                  "description": "5. Numer i data wydania orzeczenia potwierdzającego niepełnosprawność",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ea9c66f2-3c33-53db-878c-552064dcf9e3",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_6c040f40e6",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9cf0736e-afee-5aa1-82f0-8664338213ed",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_pesel3_f1a9ffebb9",
+                  "title": "Numer PESEL3",
+                  "description": "",
+                  "options": [],
+                  "validation": [
+                    "PESEL"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 3,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "a8a27d74-fe35-547f-a7ba-e84eeafe5fe1",
+            "type": "SECTION",
+            "techName": "adres_do_korespondencji_section_s7",
+            "title": "ADRES DO KORESPONDENCJI",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9c23fe1a-bb9a-5d37-81bc-dc7ac73e2f5c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_0",
+                  "title": "",
+                  "description": "7. Kod pocztowy",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "16e8d974-079e-59ce-af09-97d09708ab15",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s7_1",
+                  "title": "",
+                  "description": "10. Nr domu/Nr lokalu",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1b22b2c3-4eaf-5f6f-a540-9f534c6a2d8b",
+                  "type": "TEXT_FIELD",
+                  "techName": "miejscowosc_fa044cf8d4",
+                  "title": "Miejscowość",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d96d6c10-dd02-5211-b10f-a09c451bbec3",
+                  "type": "TEXT_FIELD",
+                  "techName": "poczta4_e2ba1eaf32",
+                  "title": "Poczta4",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c299baa7-b135-5a9e-afab-2e025199fb47",
+                  "type": "TEXT_FIELD",
+                  "techName": "ulica_1289b05008",
+                  "title": "Ulica",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 4,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 30,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "4c39fa25-43f5-5c70-937a-0d73bdeb7e4b",
+            "type": "SECTION",
+            "techName": "dane_osoby_skladajacej_wniosek5_section_s8",
+            "title": "DANE OSOBY SKŁADAJĄCEJ WNIOSEK5",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "405792bc-a95b-59c0-a17b-af12f01ba77d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s8_0",
+                  "title": "",
+                  "description": "12. Nazwisko",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a7f20f10-ed37-5da2-8d3f-268158b66859",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_6bfa98f36a",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "38f428f2-b258-5d02-97b1-3a3539c80ca5",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_pesel3_8f4e3f6249",
+                  "title": "Numer PESEL3",
+                  "description": "",
+                  "options": [],
+                  "validation": [
+                    "PESEL"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 5,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 34,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "6ae8cb04-fe96-5358-b8b0-9eb901ccdad2",
+            "type": "SECTION",
+            "techName": "adres_do_korespondencji_section_s9",
+            "title": "ADRES DO KORESPONDENCJI",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "df9c281b-4517-55dc-b696-1f671a59ef03",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s9_0",
+                  "title": "",
+                  "description": "15. Kod pocztowy 16. Poczta4",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a56491e8-8519-59fa-871b-e63427e50cc4",
+                  "type": "TEXT_FIELD",
+                  "techName": "miejscowosc_1e17f2228c",
+                  "title": "Miejscowość",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9145a2d3-b6a5-5580-a919-409e7006466c",
+                  "type": "TEXT_FIELD",
+                  "techName": "ulica_1ac9f52190",
+                  "title": "Ulica",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a4da4deb-51d2-5b02-9c37-5cbd22e70a79",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_domu_nr_lokalu_9dfdccb0d8",
+                  "title": "Nr domu/Nr lokalu",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 6,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 39,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "0f96a91d-ab64-5a4c-b1cb-f97147bf281f",
+            "type": "SECTION",
+            "techName": "dokumenty_dolaczone_do_wniosku6_section_s10",
+            "title": "DOKUMENTY DOŁĄCZONE DO WNIOSKU6",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "05b1bfdc-c89b-5c95-ac5e-8acf460ad0b1",
+                  "type": "TEXTAREA",
+                  "techName": "fotografia_o_wymiarach_35_mm_x_45_mm_20_dowod_uiszczenia_oplaty_za_wydanie_karty_parkingowej_i_oplat_67b8a754ca",
+                  "title": "Fotografia o wymiarach 35 mm x 45 mm 20. Dowód uiszczenia opłaty za wydanie karty parkingowej i opłaty ewidencyjnej7",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 7,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 43,
+          "rows": 11,
+          "cols": 3,
+          "field": {
+            "id": "cc8faa12-e0f5-5651-b1c2-f4e390df876d",
+            "type": "SECTION",
+            "techName": "oswiadczenia8_section_s11",
+            "title": "OŚWIADCZENIA8",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "14a06f3f-6fe3-5aaf-9205-fa69d64e84cb",
+                  "type": "TEXT_FIELD",
+                  "techName": "oswiadczam_ze_eefb3b485b",
+                  "title": "Oświadczam, że",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "531988a5-e208-5e28-ad0e-e3b788e07395",
+                  "type": "TEXTAREA",
+                  "techName": "sprawuje_wladze_rodzicielska_nad_osoba_niepelnosprawna_ktora_jest_uprawniona_do_uzyskania_karty_park_5c1a3490c7",
+                  "title": "sprawuję władzę rodzicielską nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "3f3c74cf-96e5-566d-b403-86da0b78e435",
+                  "type": "TEXTAREA",
+                  "techName": "sprawuje_opieke_nad_osoba_niepelnosprawna_ktora_jest_uprawniona_do_uzyskania_karty_parkingowej_c300ed7bc0",
+                  "title": "sprawuję opiekę nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "19f70a27-1a71-546d-993b-1f049cc7ef86",
+                  "type": "TEXTAREA",
+                  "techName": "sprawuje_kuratele_nad_osoba_niepelnosprawna_ktora_jest_uprawniona_do_uzyskania_karty_parkingowej_6f8bef83ad",
+                  "title": "sprawuję kuratelę nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 8,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 54,
+          "rows": 3,
+          "cols": 3,
+          "field": {
+            "id": "4ff6489c-d616-5bf4-b9e6-213584109357",
+            "type": "SECTION",
+            "techName": "upowaznienie9_section_s13",
+            "title": "UPOWAŻNIENIE9",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ca28a5f5-0d74-54da-8c73-8dee7bd0f456",
+                  "type": "TEXT_FIELD",
+                  "techName": "upowazniam_pana_pania_8ef2c66b9a",
+                  "title": "Upoważniam Pana/PaniąͳͲ",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "09389ef2-2e56-59aa-ad6f-32a5678e919a",
+                  "type": "TEXT_FIELD",
+                  "techName": "posiadajacego_posiadajaca_numer_pesel_db03372962",
+                  "title": "posiadającego/posiadającąͳͲ numer PESEL",
+                  "description": "",
+                  "options": [],
+                  "validation": [
+                    "PESEL"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 9,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 57,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "2a0dd44c-b51d-5b2d-86d1-d6e06bc4d4b1",
+            "type": "SECTION",
+            "techName": "pole_section_s14",
+            "title": "    Ǥ",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1641d411-b49c-5424-ac82-2a8b9d66e94b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_0",
+                  "title": "",
+                  "description": "23.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f99e813d-4db1-5afd-aa26-525a2f713c1f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s14_1",
+                  "title": "",
+                  "description": "(data i podpis wnioskodawcy albo rodzica, opiekuna lub kuratora",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "e620433c-e6d3-5353-b329-cd7492b85315",
+                  "type": "TEXTAREA",
+                  "techName": "albo_adnotacja_o_braku_mozliwosci_zlozenia_podpisu_11_f205f24bcd",
+                  "title": "albo adnotacja o braku możliwości złożenia podpisu)11",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 10,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ecec1d3b-0075-5d69-803d-f41f71b2e550",
+      "title": "Strona 2",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "3af2fe07-5e7f-5e25-8a90-c7e15871d384",
+            "type": "SECTION",
+            "techName": "strona_2_section_s15",
+            "title": "Strona 2",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d694757d-53b2-5e26-b204-ed1b787dfe28",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_0",
+                  "title": "",
+                  "description": "– 7 –",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "678b7e8e-a88a-51a8-914e-f7ad1260ec71",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s15_1",
+                  "title": "",
+                  "description": "Poz. 1611",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "230cfb72-b7ba-5e8c-b9b4-963e2551297d",
+                  "type": "TEXTAREA",
+                  "techName": "dziennik_ustaw_fed8a1cd4f",
+                  "title": "Dziennik Ustaw",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "rows": 12,
+          "cols": 3,
+          "field": {
+            "id": "41699ac1-be03-583a-9fad-b849534246d2",
+            "type": "SECTION",
+            "techName": "majacych_znacznie_ograniczone_mozliwosci_samodzielnego_poruszania_sie_section_s18",
+            "title": "MAJĄCYCH ZNACZNIE OGRANICZONE MOŻLIWOŚCI SAMODZIELNEGO PORUSZANIA SIĘ",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4a75172a-1f20-5d4c-91ad-6eae97928630",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s18_0",
+                  "title": "",
+                  "description": "26. Numer REGON",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8bf90fe9-2f25-5aa5-b18e-6617368e14e6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s18_1",
+                  "title": "",
+                  "description": "28. Marka i model pojazdu placówki",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "314d133c-d45a-54df-87a2-90b240101135",
+                  "type": "TEXTAREA",
+                  "techName": "nazwa_40cfc45aba",
+                  "title": "Nazwa",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "267e23fb-5963-5bce-ad77-c3a3d6620da3",
+                  "type": "TEXTAREA",
+                  "techName": "numer_krs_820de71560",
+                  "title": "Numer KRS",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "45386562-317a-5cf3-bde8-38655e550690",
+                  "type": "TEXTAREA",
+                  "techName": "numer_rejestracyjny_pojazdu_placowki_e2728c505f",
+                  "title": "Numer rejestracyjny pojazdu placówki",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 18,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "56fe9f99-6482-5150-ba21-ba4a4964f94c",
+            "type": "SECTION",
+            "techName": "adres_siedziby_section_s19",
+            "title": "ADRES SIEDZIBY",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ef8d5b48-1193-5bad-8fca-e841172889db",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s19_0",
+                  "title": "",
+                  "description": "30. Kod pocztowy 31. Poczta4",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6983dc0f-29d6-590d-a429-4c5be9cd2b24",
+                  "type": "TEXT_FIELD",
+                  "techName": "miejscowosc_674916d57a",
+                  "title": "Miejscowość",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b6a7f44c-5b3c-5943-ad70-c72479c5817a",
+                  "type": "TEXT_FIELD",
+                  "techName": "ulica_022e896131",
+                  "title": "Ulica",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6ef8c1f2-6c17-5d32-8fab-0d03d11eb1f1",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_domu_nr_lokalu_96fad47ead",
+                  "title": "Nr domu/Nr lokalu",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 23,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "b0a7bcb0-a6ed-5fa8-9bed-417e549f26ea",
+            "type": "SECTION",
+            "techName": "dane_osoby_skladajacej_wniosek_section_s20",
+            "title": "DANE OSOBY SKŁADAJĄCEJ WNIOSEK",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "537b5301-3de4-5af8-b015-c1625c86ef24",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s20_0",
+                  "title": "",
+                  "description": "35. Nazwisko",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2b0afe2a-3a9d-58e7-8a7a-3b28db61b74a",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_19c797da76",
+                  "title": "Imię",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3f02e855-e2cf-59cf-9d70-72ec0174b1c8",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_pesel3_2280488663",
+                  "title": "Numer PESEL3",
+                  "description": "",
+                  "options": [],
+                  "validation": [
+                    "PESEL"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 3,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 27,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "f535b9ad-f4b1-5dd2-a97a-465f380fd95e",
+            "type": "SECTION",
+            "techName": "adres_do_korespondencji_section_s21",
+            "title": "ADRES DO KORESPONDENCJI",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0fa58530-bfed-543f-843b-dcb10e55b0f6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s21_0",
+                  "title": "",
+                  "description": "38. Kod pocztowy 39. Poczta4",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e20dc37f-afde-5e0a-a6a6-9584e2499c27",
+                  "type": "TEXT_FIELD",
+                  "techName": "miejscowosc_39b476f4a0",
+                  "title": "Miejscowość",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b01d3af5-55c5-5dae-b8d8-5cfe835937a6",
+                  "type": "TEXT_FIELD",
+                  "techName": "ulica_47a3db8b9f",
+                  "title": "Ulica",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f660d7f9-34fc-504a-b0f9-08e0741ae630",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_domu_nr_lokalu_14e634757a",
+                  "title": "Nr domu/Nr lokalu",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 4,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 32,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "8131737a-4064-5204-8080-ff764147c67f",
+            "type": "SECTION",
+            "techName": "dokument_dolaczony_do_wniosku6_section_s22",
+            "title": "DOKUMENT DOŁĄCZONY DO WNIOSKU6",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "bdf6e1dc-f735-5b6d-a077-e29efff11841",
+                  "type": "TEXTAREA",
+                  "techName": "dowod_uiszczenia_oplaty_za_wydanie_karty_parkingowej_i_oplaty_ewidencyjnej7_f954ab6f1c",
+                  "title": "Dowód uiszczenia opłaty za wydanie karty parkingowej i opłaty ewidencyjnej7",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 5,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 36,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "00ef86af-42ea-5614-a8d2-f9e6b15476dd",
+            "type": "SECTION",
+            "techName": "oswiadczenia6_section_s23",
+            "title": "OŚWIADCZENIA6",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "da201821-bcb6-57f8-89eb-5099dab8f5c4",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s23_0",
+                  "title": "",
+                  "description": "2) placówka prowadzi działalność w zakresie opieki, rehabilitacji lub edukacji osób niepełnosprawnych mających znacznie",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ae0a592e-da8b-5134-9a08-8dcbecb6055d",
+                  "type": "TEXT_FIELD",
+                  "techName": "oswiadczam_ze_886e60d568",
+                  "title": "Oświadczam, że",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "bbd549cd-7353-52b4-a8dd-b42ac9368f4b",
+                  "type": "TEXTAREA",
+                  "techName": "posiadam_upowaznienie_do_reprezentowania_placowki_uprawnionej_do_uzyskania_karty_parkingowej_74fd6d264b",
+                  "title": "posiadam upoważnienie do reprezentowania placówki uprawnionej do uzyskania karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "ba1a72df-09f2-508c-a2db-da6c72acbb90",
+                  "type": "TEXTAREA",
+                  "techName": "ograniczone_mozliwosci_samodzielnego_poruszania_sie_i_jest_uprawniona_do_uzyskania_karty_parkingowej_0ef06836b9",
+                  "title": "ograniczone możliwości samodzielnego poruszania się i jest uprawniona do uzyskania karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 6,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 45,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "b960ac4a-1a9b-5cea-99d4-b77eb96e336c",
+            "type": "SECTION",
+            "techName": "3_dane_podane_we_wniosku_sa_aktualne_i_zgodne_ze_stanem_faktycznym_section_s24",
+            "title": "3) dane podane we wniosku są aktualne i zgodne ze stanem faktycznym",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b18da874-a098-50df-b702-fe386eec639f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s24_0",
+                  "title": "",
+                  "description": "44.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ba17563e-fd99-5ed4-85f5-a5f098560ff4",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s24_1",
+                  "title": "",
+                  "description": "(data i podpis osoby upoważnionej do reprezentowania placówki",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "6bbb3fea-8db4-5ec3-ad32-f7a7d22ac9b1",
+                  "type": "TEXTAREA",
+                  "techName": "albo_adnotacja_o_braku_mozliwosci_zlozenia_podpisu_11_8bc61470c0",
+                  "title": "albo adnotacja o braku możliwości złożenia podpisu)11",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 7,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 51,
+          "rows": 22,
+          "cols": 3,
+          "field": {
+            "id": "fd3d2ec2-857f-52ae-b71f-541602d7ff54",
+            "type": "SECTION",
+            "techName": "iii_czesc_c_odbior_karty_section_s25",
+            "title": "III. CZĘŚĆ C – ODBIÓR KARTY",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a2b663da-74f8-5800-acfc-3c2785e7e0ca",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_0",
+                  "title": "",
+                  "description": "otrzymałem/otrzymałam10",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "937a474d-d5d8-57ac-95a9-aa32ae7d664d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_1",
+                  "title": "",
+                  "description": "47.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a9c71889-3fcc-5084-8290-1619d1d677a6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_2",
+                  "title": "",
+                  "description": "1) posiadam upoważnienie do reprezentowania placówki",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "30732445-3528-5956-a6e0-6a72a427991c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_3",
+                  "title": "",
+                  "description": "2) sprawuję władzę rodzicielską, opiekę lub kuratelę nad osobą",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4ab397f4-168b-5799-b9ff-5b493f396562",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_4",
+                  "title": "",
+                  "description": "(data i podpis wnioskodawcy lub osoby przez niego upoważnionej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "15f33668-588a-5555-a401-db94e6564066",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_5",
+                  "title": "",
+                  "description": "albo rodzica, opiekuna lub kuratora, albo osoby upoważnionej do",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c63cb382-c9b7-553d-a991-9d7b57cab6a0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_6",
+                  "title": "",
+                  "description": "reprezentowania placówki albo adnotacja o braku możliwości",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "858fdedc-351e-574c-bee5-bb96c2971c9a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s25_7",
+                  "title": "",
+                  "description": "złożenia podpisu)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "173a58a9-ab7f-5dc6-8bac-df7fb1ab10b8",
+                  "type": "TEXTAREA",
+                  "techName": "potwierdzenie_odbioru_karty_parkingowej_f3333741ba",
+                  "title": "Potwierdzenie odbioru karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 8,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "25f424d4-aa2a-596c-b37a-7cb8412dba4d",
+                  "type": "TEXTAREA",
+                  "techName": "karte_parkingowa_numer_1ea792395d",
+                  "title": "Kartę parkingową numer",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 9,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "743ada96-80a1-5479-8b4a-aadddf391ccd",
+                  "type": "TEXT_FIELD",
+                  "techName": "oswiadczam_ze6_58ef5b5d54",
+                  "title": "Oświadczam, że6",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 10,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "415d4a97-6361-54d9-bd71-5a84fe8f7f03",
+                  "type": "TEXTAREA",
+                  "techName": "uprawnionej_do_uzyskania_karty_parkingowej_2e817d1606",
+                  "title": "uprawnionej do uzyskania karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 11,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "e325130d-6116-5638-b59e-f49a71c26b50",
+                  "type": "TEXTAREA",
+                  "techName": "niepelnosprawna_uprawniona_do_uzyskania_karty_parkingowej_38c645017d",
+                  "title": "niepełnosprawną uprawnioną do uzyskania karty parkingowej",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 8,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "b37241f4-003b-57a9-8bd6-19cbf2f92643",
+      "title": "Strona 3",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "6e140c15-f18b-5e9b-ba39-e31480022001",
+            "type": "SECTION",
+            "techName": "strona_3_section_s26",
+            "title": "Strona 3",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "689b77f7-68eb-5e2e-a5b8-3f82718b5192",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s26_0",
+                  "title": "",
+                  "description": "– 8 –",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8b6f51bc-0de7-5b12-af6f-7f4e632947af",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s26_1",
+                  "title": "",
+                  "description": "Poz. 1611",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "4279d4cf-7c76-5b36-92bc-159aa039233c",
+                  "type": "TEXTAREA",
+                  "techName": "dziennik_ustaw_b6f153ce16",
+                  "title": "Dziennik Ustaw",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "rows": 5,
+          "cols": 3,
+          "field": {
+            "id": "d8fe4dde-bb32-552a-a467-89a032639ff3",
+            "type": "SECTION",
+            "techName": "iv_czesc_d_wzor_podpisu_i_zdjecie_section_s27",
+            "title": "IV. CZĘŚĆ D – WZÓR PODPISU I ZDJĘCIE",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "858134cf-695a-5c9e-8ffa-29e9248a3cd6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s27_0",
+                  "title": "",
+                  "description": "48.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "bb85ec6a-eb62-54c4-be93-a5a0779ebc7c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s27_1",
+                  "title": "",
+                  "description": "49.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7e47ddaf-b369-5a68-b2fa-59878763a264",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s27_2",
+                  "title": "",
+                  "description": "miejsce na fotografię",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e0059321-da6b-5f11-b86d-5c31c31e579b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s27_3",
+                  "title": "",
+                  "description": "35 mm x 45 mm",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 11,
+          "rows": 16,
+          "cols": 3,
+          "field": {
+            "id": "5dd23c34-7cc5-5da2-a09a-67cc13d09e6c",
+            "type": "SECTION",
+            "techName": "wzor_podpisu13_section_s28",
+            "title": "WZÓR PODPISU13",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9fb47a34-43b9-53bd-948d-eed8624037f9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_0",
+                  "title": "",
+                  "description": "1 Przewodniczący powiatowego zespołu do spraw orzekania o niepełnosprawności, do którego składa się wniosek.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7ce0147b-2b59-51bd-8c97-b3d7813e5081",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_1",
+                  "title": "",
+                  "description": "2 Część A wypełnia się w przypadku, gdy wniosek dotyczy osoby niepełnosprawnej.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e75be695-96e6-57b4-97da-2df9b3c1a230",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_2",
+                  "title": "",
+                  "description": "3 W przypadku nieposiadania numeru PESEL – seria i numer dokumentu potwierdzającego tożsamość.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2aea9019-4f3e-55ce-85b6-a7e885566068",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_3",
+                  "title": "",
+                  "description": "4 Należy wypełnić, o ile nazwa poczty jest inna niż nazwa miejscowości.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9c2dd4d3-6d66-5040-b54f-634f4ca22743",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_4",
+                  "title": "",
+                  "description": "5 Wypełnia się w przypadku, gdy wniosek składany jest przez rodzica, opiekuna lub kuratora osoby niepełnosprawnej.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d06a4a82-ee36-533a-afa7-e115e9096688",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_5",
+                  "title": "",
+                  "description": "6 Właściwe zaznaczyć, wstawiając znak „X”.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a6759f5c-de9a-5475-95ec-bb22fd4eb558",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_6",
+                  "title": "",
+                  "description": "7 Dowód uiszczenia opłaty ewidencyjnej dołączany jest do wniosku od dnia 4 stycznia 2016 r.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8850a86e-00ba-5d1a-921f-572766787553",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_7",
+                  "title": "",
+                  "description": "8 Właściwe zaznaczyć, wstawiając znak „X”; oświadczenia wskazane w pkt 1–3 są składane w przypadku, gdy wniosek o wydanie karty parkingowej",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4d306337-c0a6-52ea-9287-34064cb34720",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_8",
+                  "title": "",
+                  "description": "jest składany przez rodzica, opiekuna lub kuratora osoby niepełnosprawnej.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "13e9aeab-50b1-5838-9526-3c58ce95f64f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_9",
+                  "title": "",
+                  "description": "9 Wypełnia się w przypadku odbioru karty parkingowej przez osobę upoważnioną.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "49280b0d-32d8-519b-b09b-2807c90ff25a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_10",
+                  "title": "",
+                  "description": "10 Niewłaściwe skreślić.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "55c812c6-4881-5020-9501-9165ae20bdb3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_11",
+                  "title": "",
+                  "description": "11 Należy podpisać wniosek w obecności przewodniczącego zespołu albo osoby przez niego upoważnionej.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cad632d9-3c96-5d12-afd0-146f23b68a6f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_12",
+                  "title": "",
+                  "description": "12 Część B wypełnia się w przypadku, gdy wniosek dotyczy placówki.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6b2a7659-85f9-535a-8645-773afa40b505",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_13",
+                  "title": "",
+                  "description": "13 W przypadku gdy wniosek dotyczy osoby, która nie ukończyła 18. roku życia, osoby ubezwłasnowolnionej całkowicie lub częściowo lub osoby, która nie ma",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fac8f7d3-e61a-5247-b97c-ba9a13624c9d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s28_14",
+                  "title": "",
+                  "description": "możliwości złożenia podpisu, albo placówki – pole pozostawia się niewypełnione.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "28421343-2893-5cb7-aea3-52094937f577",
+      "title": "Strona 4",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "9a986a80-2238-55b5-aae4-17ce5110bd54",
+            "type": "SECTION",
+            "techName": "strona_4_section_s29",
+            "title": "Strona 4",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "43ff9101-47bb-5790-988b-a137cacc93c6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s29_0",
+                  "title": "",
+                  "description": "– 9 –",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "802aeaf5-df89-5fe9-b035-582d8e476f63",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s29_1",
+                  "title": "",
+                  "description": "Poz. 1611",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2bf0ef50-761d-5731-81cf-3500ee3fcf46",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s29_2",
+                  "title": "",
+                  "description": "Załącznik nr 2",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "eee13936-d8ba-5107-b40e-82dc1b73edf9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s29_3",
+                  "title": "",
+                  "description": "Załącznik nr 2",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "138a9d1e-9c9c-5b90-b6e5-972755591fff",
+                  "type": "TEXT_FIELD",
+                  "techName": "dziennik_ustaw_2f79c19c21",
+                  "title": "Dziennik Ustaw",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "rows": 2,
+          "cols": 3,
+          "field": {
+            "id": "78102424-c984-5156-81bf-5a7828a16171",
+            "type": "SECTION",
+            "techName": "wzor_karty_parkingowej_dla_osob_niepelnosprawnych_section_s30",
+            "title": "WZÓR KARTY PARKINGOWEJ DLA OSÓB NIEPEŁNOSPRAWNYCH",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2fbfaede-4548-51c8-82ca-b1092dc7b525",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s30_0",
+                  "title": "",
+                  "description": "Załącznik nr 2",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "rows": 2,
+          "cols": 3,
+          "field": {
+            "id": "7a80ebc6-5a7b-50e3-8549-0016aa887c5d",
+            "type": "SECTION",
+            "techName": "wzor_karty_parkingowej_dla_osob_niepelnosprawnych_section_s31",
+            "title": "WZÓR KARTY PARKINGOWEJ DLA OSÓB NIEPEŁNOSPRAWNYCH",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1ce17e10-4982-596a-af46-f8e4ea9a3153",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s31_0",
+                  "title": "",
+                  "description": "Awers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 10,
+          "rows": 15,
+          "cols": 3,
+          "field": {
+            "id": "617024df-0409-50c0-85bd-104ae94895d0",
+            "type": "SECTION",
+            "techName": "wzor_karty_parkingowej_dla_osob_niepelnosprawnych_section_s32",
+            "title": "WZÓR KARTY PARKINGOWEJ DLA OSÓB NIEPEŁNOSPRAWNYCH",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1a4eceb2-2c3c-59bf-aded-bc87c7fabcf9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_0",
+                  "title": "",
+                  "description": "Awers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "60df3000-d9af-503e-98e9-f80081af323b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_1",
+                  "title": "",
+                  "description": "Awers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "64e21d63-f1bd-53cd-96b5-654ecd70b8c0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_2",
+                  "title": "",
+                  "description": "Rewers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d5375bdf-60c2-5b0c-b6d9-5cf4276435a9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_3",
+                  "title": "",
+                  "description": "Rewers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6f97fc16-8606-5839-a52b-d4fabe1240fb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_4",
+                  "title": "",
+                  "description": "Rewers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0c626a0c-6fdc-571f-b208-d142635f0b79",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_5",
+                  "title": "",
+                  "description": "1) prostokąt o wymiarach 106 mm x 148 mm, zadrukowany dwustronnie i laminowany dwustronnie folią;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2650a863-c8da-5fe6-b3fb-7e394b3698b6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_6",
+                  "title": "",
+                  "description": "21) ) pkroolsotroyksątt yok aw –y dmwiaursatcrhon 1n0a6  amplm a wx  1k4o8lo mrzme j,a zsandornuikeobwieasnkyim d w(Puasntrtoonnen iner i 2 l9am1)i,n zo wwyajnąyt kdiwemus:tronnie folią;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "93e3efb5-69e7-587b-a94e-c94e0c31094a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_7",
+                  "title": "",
+                  "description": "2) ak)o loproylsat yok aw –y mdwiaurastcrh on1n0a  mapmla  x w7 k0 olmormze,  jkatsónroegnoie bkireaswkęimdz (ieP aunstyotnueo wnra 2n9e1 s)ą,  zw w oydjąletkgiłeomśc:i 3 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "18c0ed14-9c0a-5b84-885a-ad32fb2f3817",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_8",
+                  "title": "",
+                  "description": "a)  kpaorltay  oi  3w mymmi aorda cgh ór1n0e jm kmra wx ę7d0 zi mkamrt,y k, twór kegoolo rkzrea wbięadłyzime  (uaswyteuros)w, ane są w odległości 3 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f6acbe96-9db0-5eb8-9198-b1bdd3c5f725",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_9",
+                  "title": "",
+                  "description": "b)  kpaorltay  oi  3w mymmi aorda cghó r1n0e jm kmra wxę 7d0 zi mkamrt,y k, twór keogloo rkzrea wbięadłyzmie  (uaswyteuros)w, ane są w odległości 3 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2716e643-2e8e-5a77-908d-63835c9945a8",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_10",
+                  "title": "",
+                  "description": "b) kpaorltay  oi  1w6 ymmmia roadc hg ó1r0n emj mkr axw 7ęd0 zmi kma,r tkyt, ówre kgool okrrzaew bęidazłyiem u (saywtueorws)a, ne są w odległości 3 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "95020e4d-f28d-5e02-b9d1-04a3e91dacd3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s32_11",
+                  "title": "",
+                  "description": "karty i 16 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6b5cc14c-18b4-52fe-b5e8-fb19a547b208",
+                  "type": "TEXT_FIELD",
+                  "techName": "u_w_a_g_i_07b443eac0",
+                  "title": "U w a g i",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c6c7fef3-6ea5-5d03-9044-607dd2747404",
+                  "type": "TEXT_FIELD",
+                  "techName": "u_w_a_g_i_03aea02032",
+                  "title": "U w a g i",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 13,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 3,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "c81299a0-f1c1-5544-8e59-88c3f6f22bd6",
+      "title": "Strona 5",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 36,
+          "cols": 3,
+          "field": {
+            "id": "dc585659-edcc-530e-b224-db42ac45b50b",
+            "type": "SECTION",
+            "techName": "strona_5_section_s33",
+            "title": "Strona 5",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "822658df-b573-51ef-b8fe-2c00cba378dc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_0",
+                  "title": "",
+                  "description": "– 10 –",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e8f69f2f-80b2-5d8d-9d07-645033530ba2",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_1",
+                  "title": "",
+                  "description": "Poz. 1611",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4e7f8a55-15b1-5d8b-a93e-935d5a8722dc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_2",
+                  "title": "",
+                  "description": "1) prostokąt o wymiarach 106 mm x 148 mm, zadrukowany dwustronnie i laminowany dwustronnie folią;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "92588812-b4e0-5c2e-b035-f8ffb2b14ab7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_3",
+                  "title": "",
+                  "description": "a) pola o wymiarach 10 mm x 70 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "35eea194-2a57-53d5-a43f-d9898ffa94cd",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_4",
+                  "title": "",
+                  "description": "i 3 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a8ac7674-9b6e-593d-b5ca-bda7eaf1731f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_5",
+                  "title": "",
+                  "description": "b) pola o wymiarach 10 mm x 70 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "db263c80-9be5-5d35-bb79-4610baca688a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_6",
+                  "title": "",
+                  "description": "i 16 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5b8f8f3e-d4d3-53ee-aa52-661e8d695457",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_7",
+                  "title": "",
+                  "description": "c) pola o wymiarach 25 mm x 70 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0b4018bc-b43e-548d-a962-ac527d69166b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_8",
+                  "title": "",
+                  "description": "i 29 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ae2915b1-4be0-5533-ba45-df815713fdea",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_9",
+                  "title": "",
+                  "description": "d) pola o wymiarach 40 mm x 40 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f1d136ed-0af6-5910-a10a-7e8145152135",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_10",
+                  "title": "",
+                  "description": "i 57 mm od górnej krawędzi karty, w kolorze ciemnoniebieskim (Pantone nr 293), zawierającego symbol wózka",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d8459e0f-0d87-5750-afb0-d2dc32f9cf3b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_11",
+                  "title": "",
+                  "description": "inwalidzkiego w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9c891312-3a6b-5644-a126-e955e66eb6e7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_12",
+                  "title": "",
+                  "description": "e) pierścienia dwunastu gwiazdek symbolizujących Unię Europejską w kolorze białym otaczających litery „PL”,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ba06522b-cc57-52d2-b9d7-ba795ed228e0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_13",
+                  "title": "",
+                  "description": "których środek znajduje się w odległości 42 mm od prawej krawędzi karty i 57 mm od górnej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1edab2fb-f117-5017-8c61-c59426bdb34a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_14",
+                  "title": "",
+                  "description": "(awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "74ca2053-84a8-5c39-97f9-e4332ed695ed",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_15",
+                  "title": "",
+                  "description": "f) pola o wymiarach 10 mm x 55 mm, którego krawędzie usytuowane są w odległości 13,5 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0b6ba5be-d9b7-5027-ba73-90519092db3e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_16",
+                  "title": "",
+                  "description": "i 5 mm od górnej krawędzi karty, w kolorze białym (rewers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cab4fbd5-6668-5ca4-a0f7-5667e48bdf35",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_17",
+                  "title": "",
+                  "description": "g) pola o wymiarach 10 mm x 55 mm, którego krawędzie usytuowane są w odległości 13,5 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6a467d93-d9a9-5194-8618-b3a09571bb04",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_18",
+                  "title": "",
+                  "description": "i 18 mm od górnej krawędzi karty, w kolorze białym (rewers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "633cd3e6-fc92-5437-a764-c2c34f42a4ed",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_19",
+                  "title": "",
+                  "description": "h) pola o wymiarach 45 mm x 35 mm, którego krawędzie usytuowane są w odległości 13,5 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0ec04d83-9dd9-5227-8a41-62416cf69f77",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_20",
+                  "title": "",
+                  "description": "i 35 mm od górnej krawędzi karty, przedstawiającego fotografię posiadacza (rewers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3346e2a5-938e-56a4-8c6d-9751705bb83b",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_21",
+                  "title": "",
+                  "description": "i) pola o wymiarach 15 mm x 55 mm, którego krawędzie usytuowane są w odległości 13,5 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c2468ebe-46b3-5455-95ef-6e7c41735e8f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_22",
+                  "title": "",
+                  "description": "i 85 mm od górnej krawędzi karty;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6d81bfe1-0199-537b-9921-c525f1de32a1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_23",
+                  "title": "",
+                  "description": "a) przetłumaczonych na języki obce nazw „karta parkingowa”,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "002227ab-e637-5448-9a89-dee022debbae",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_24",
+                  "title": "",
+                  "description": "b) zwrotów „Wzór Unii Europejskiej”, „Data ważności:”, „Nr:”, „Organ wydający:”, „Imię:”, „Nazwisko:”,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 25,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ba3d5135-8868-50b4-b164-9a050e86ffd4",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_25",
+                  "title": "",
+                  "description": "„Podpis:” – czcionka Arial, rozmiar 8;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "eab11037-19a1-56e3-8224-0dbca79de06c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_26",
+                  "title": "",
+                  "description": "c) treści wpisywanych w pola „Data ważności” i „Nr” – czcionka Arial, rozmiar 16;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 27,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "df54e996-d4cc-5498-ac9b-34c9bde3b001",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_27",
+                  "title": "",
+                  "description": "4) zabezpieczenie – hologram przedstawiający symbol wózka inwalidzkiego o wymiarach 15 mm x 15 mm, którego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 28,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3267cbc0-175e-5938-8da9-3048af3f7243",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s33_28",
+                  "title": "",
+                  "description": "krawędzie usytuowane są w odległości 58 mm od lewej krawędzi karty i 68 mm od górnej krawędzi karty (awers).",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 29,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c1ddddab-714b-5880-8f2d-0b6b95664e2e",
+                  "type": "TEXT_FIELD",
+                  "techName": "dziennik_ustaw_e870afbf6e",
+                  "title": "Dziennik Ustaw",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 29,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 30,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "4b42b545-2419-59c6-a3c2-5cbdaf196e73",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_c06797038f",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 30,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 33,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "64800f60-481e-5529-96fe-0754cde82784",
+                  "type": "TEXT_FIELD",
+                  "techName": "kolorystyka_dwustronna_apla_w_kolorze_jasnoniebieskim_pantone_nr_291_z_wyjatkiem_3c24d0cc4d",
+                  "title": "kolorystyka – dwustronna apla w kolorze jasnoniebieskim (Pantone nr 291), z wyjątkiem",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 31,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 34,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1ce3b77a-ea7c-5759-8dfc-b0c1a2221043",
+                  "type": "TEXT_FIELD",
+                  "techName": "tekst_w_kolorze_czarnym_czcionka_arial_rozmiar_10_z_wyjatkiem_9a5c7e6e5f",
+                  "title": "tekst w kolorze czarnym (czcionka Arial, rozmiar 10), z wyjątkiem",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 32,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "4c389229-0bb8-5bbe-b013-5c7320a44efa",
+      "title": "Strona 6",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 6,
+          "cols": 3,
+          "field": {
+            "id": "f12a9e33-dfc2-5dba-9c91-af6e3a933a94",
+            "type": "SECTION",
+            "techName": "strona_6_section_s34",
+            "title": "Strona 6",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f268862d-52ee-51de-9e62-aca01b0f9498",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s34_0",
+                  "title": "",
+                  "description": "– 11 –",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "67659a3e-43aa-57d2-acb1-37dbcb0ca198",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s34_1",
+                  "title": "",
+                  "description": "Poz. 1611",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a09d6e66-905f-5dbb-b3ae-6bac4a7ae384",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s34_2",
+                  "title": "",
+                  "description": "Załącznik nr 3",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f7ea7e81-d4fc-5bf3-a378-5dc24d3e54cb",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s34_3",
+                  "title": "",
+                  "description": "Załącznik nr 3",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "37f8c3ca-7b96-59e0-b9e8-6a42e28326cc",
+                  "type": "TEXT_FIELD",
+                  "techName": "dziennik_ustaw_55ec36e739",
+                  "title": "Dziennik Ustaw",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "778907b0-b0e0-5511-af9c-9251480cac72",
+            "type": "SECTION",
+            "techName": "wzor_karty_parkingowej_dla_placowek_section_s36",
+            "title": "WZÓR KARTY PARKINGOWEJ DLA PLACÓWEK",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0cc29573-5998-5197-9f81-de3d80d9ce77",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s36_0",
+                  "title": "",
+                  "description": "Awers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "81dd7f30-17eb-5d38-a915-a03462ee2c7e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s36_1",
+                  "title": "",
+                  "description": "Załącznik nr 3",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "bc9f1bf8-64a9-5f6f-9b0b-de28b2130b2e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s36_2",
+                  "title": "",
+                  "description": "Awers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 10,
+          "rows": 14,
+          "cols": 3,
+          "field": {
+            "id": "ad0673ff-34f3-5252-894b-426826440f5c",
+            "type": "SECTION",
+            "techName": "wzor_karty_parkingowej_dla_placowek_section_s37",
+            "title": "WZÓR KARTY PARKINGOWEJ DLA PLACÓWEK",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0168ee9b-572f-5974-b41f-c6f55ba0c564",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_0",
+                  "title": "",
+                  "description": "Awers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "626fbb44-a87f-547c-9e11-35f3800030f5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_1",
+                  "title": "",
+                  "description": "Rewers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a3dbb0a4-69bb-5bcf-b76a-b7c6da9f9b22",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_2",
+                  "title": "",
+                  "description": "Rewers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "705c1828-9ed8-5420-a361-ed2739209ac5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_3",
+                  "title": "",
+                  "description": "Rewers",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b3885cc2-6b3c-586c-b489-bf978a850998",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_4",
+                  "title": "",
+                  "description": "1) prostokąt o wymiarach 106 mm x 148 mm, zadrukowany dwustronnie i laminowany dwustronnie folią;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1254239a-259c-59b7-994a-edfc69c2c424",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_5",
+                  "title": "",
+                  "description": "U2)  w ak ogl oi r: ystyka – dwustronna apla w kolorze jasnoniebieskim (Pantone nr 291), z wyjątkiem:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c4a2d953-8824-5c1f-928d-78b8aa92b5c6",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_6",
+                  "title": "",
+                  "description": "1) pa)r osptooklaą  t oo  wwyymmiiaarraacchh   1100 6m mmm  x x   7104 8m mmm, ,k ztóarderguok okwraawnyę ddzwieu sutsroyntunoiew ia nlaem siąn oww aondyle dgwłouśsctir o3n nmiem f ooldią ;l ewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4c943ac0-e943-5b3d-8a41-dd344614bb72",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_7",
+                  "title": "",
+                  "description": "2) kolokrayrsttyy ik a3  – mdmw oudst groónrnneaj a kprlaaw wę dkzoil okrazrety j,a wsn koonlioebrziees bkiiamły (mP a(natwoenres )n,r  291), z wyjątkiem:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "fb614182-39ab-5322-a1bf-a028b4aaa726",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_8",
+                  "title": "",
+                  "description": "ba))  ppoolala    oo  wwyymmiiaarraacchh    1100  mmmm    xx    770 0 mmmm,,  kkttóórreeggoo  kkrraawwęęddzziiee  uussyyttuuoowwaannee  ssąą  ww  ooddlleeggłłoośśccii  33  mmmm  oodd  lleewweejj  kkrraawwęęddzzii",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "096a32f7-9ade-55e2-88a3-a53336b61161",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_9",
+                  "title": "",
+                  "description": "kkaarrttyy  ii  31 6 mmmm o do dg ógrónrenje jk krarwawędędziz ik karatryt,y w, w k koololorzrez eb biaiłayłymm ( a(waweresr)s,) ,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c244ff82-d272-5c8d-a009-890c5341dfcf",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_10",
+                  "title": "",
+                  "description": "b) pola  o wymiarach  10 mm  x  70 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9100b35c-46df-5fe5-b321-bdd5112a6201",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s37_11",
+                  "title": "",
+                  "description": "karty i 16 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f77786e3-0cf8-5ef7-932c-727532bec0de",
+                  "type": "TEXT_FIELD",
+                  "techName": "u_w_a_g_i_50942e9858",
+                  "title": "U w a g i",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5ff589fd-b379-5ff4-a9fd-d89e3d3c4c4e",
+      "title": "Strona 7",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 34,
+          "cols": 3,
+          "field": {
+            "id": "43896189-9b68-512e-ac34-374eab56052c",
+            "type": "SECTION",
+            "techName": "strona_7_section_s38",
+            "title": "Strona 7",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8e322a7a-1d68-5d17-8a95-1d14eb9f0930",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_0",
+                  "title": "",
+                  "description": "– 12 –",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "81e37cb4-f9b9-53a7-9e7f-76f11a3ee116",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_1",
+                  "title": "",
+                  "description": "Poz. 1611",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "47b98da9-daf2-5421-a6c1-f16828a0c583",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_2",
+                  "title": "",
+                  "description": "1) prostokąt o wymiarach 106 mm x 148 mm, zadrukowany dwustronnie i laminowany dwustronnie folią;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2a632f0f-e1de-5100-a8c0-9eba3227dd96",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_3",
+                  "title": "",
+                  "description": "a) pola o wymiarach 10 mm x 70 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2be0c105-ff4f-5b04-9874-9d98c281d3c1",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_4",
+                  "title": "",
+                  "description": "i 3 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c183e3c7-3343-5668-b9bb-b04d0885f8d7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_5",
+                  "title": "",
+                  "description": "b) pola o wymiarach 10 mm x 70 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "56f10d70-f6a0-544c-82cc-d4b4fe32e95d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_6",
+                  "title": "",
+                  "description": "i 16 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "05757766-2974-5ae5-8bd7-448d5769705d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_7",
+                  "title": "",
+                  "description": "c) pola o wymiarach 25 mm x 70 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "69bd0932-a515-59ae-80ea-4175bdf9a767",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_8",
+                  "title": "",
+                  "description": "i 29 mm od górnej krawędzi karty, w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8e1aa54b-b220-5dfe-b859-2a84128d608f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_9",
+                  "title": "",
+                  "description": "d) pola o wymiarach 40 mm x 40 mm, którego krawędzie usytuowane są w odległości 3 mm od lewej krawędzi karty",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5c768392-3488-538f-93b9-746123d334c9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_10",
+                  "title": "",
+                  "description": "i 57 mm od górnej krawędzi karty, w kolorze ciemnoniebieskim (Pantone nr 293), zawierającego symbol wózka",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "33f9156e-5b5a-5f4b-a588-662d4f215d4d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_11",
+                  "title": "",
+                  "description": "inwalidzkiego w kolorze białym (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c72b293f-cc37-5215-b358-af6bfbc97fb7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_12",
+                  "title": "",
+                  "description": "e) liter „PL”, których środek znajduje się w odległości 42 mm od prawej krawędzi karty i 57 mm od górnej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "432732ac-88a2-5ecc-9a4a-ddfa2b56a02d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_13",
+                  "title": "",
+                  "description": "karty (awers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 14,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5ae74e7d-bfd8-52cc-a2f9-c2cada01e0b5",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_14",
+                  "title": "",
+                  "description": "f) pola o wymiarach 10 mm x 120 mm, którego krawędzie usytuowane są w odległości 15 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 15,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e13b5609-4146-5b6d-af9b-eaf27144f71f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_15",
+                  "title": "",
+                  "description": "karty i 5 mm od górnej krawędzi karty, w kolorze białym (rewers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 16,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4d677178-ed7a-54cc-b24f-d986c4e4785c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_16",
+                  "title": "",
+                  "description": "g) pola o wymiarach 10 mm x 120 mm, którego krawędzie usytuowane są w odległości 15 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 17,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8372c866-97e9-59c8-bbc4-c52094242bb9",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_17",
+                  "title": "",
+                  "description": "karty i 20 mm od górnej krawędzi karty, w kolorze białym (rewers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 18,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "34209822-2514-5366-8b84-d843abf8b191",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_18",
+                  "title": "",
+                  "description": "h) pola o wymiarach 10 mm x 70 mm, którego krawędzie usytuowane są w odległości 15 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 19,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "eb474df3-8f30-5551-994b-10d7c73f66cc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_19",
+                  "title": "",
+                  "description": "karty i 35 mm od górnej krawędzi karty, w kolorze białym (rewers),",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 20,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b257c3f1-81ab-5ec1-a38b-411abeeeaa41",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_20",
+                  "title": "",
+                  "description": "i) pola o wymiarach 10 mm x 70 mm, którego krawędzie usytuowane są w odległości 15 mm od lewej krawędzi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 21,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f27b7d0a-a18c-5c35-af13-4876f21f0390",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_21",
+                  "title": "",
+                  "description": "karty i 50 mm od górnej krawędzi karty, w kolorze białym (rewers);",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 22,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "201beb2a-8836-51ad-b968-8b8f6652c1fe",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_22",
+                  "title": "",
+                  "description": "a) zwrotów „Data ważności:”, „Nr:”, „Organ wydający:”, „Nazwa placówki:”, „Adres:”, „Marka i model pojazdu:”,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 23,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "08109d3e-7fdc-53aa-b385-5078de5eb56e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_23",
+                  "title": "",
+                  "description": "„Nr rejestracyjny pojazdu:”– czcionka Arial, rozmiar 8,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 24,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7bdcaad0-9b9e-5ab2-bfd1-a5164b5e36d0",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_24",
+                  "title": "",
+                  "description": "b) treści wpisywanych w pola „Data ważności” i „Nr” – czcionka Arial, rozmiar 16;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 25,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "43185c1d-369b-5934-9bd1-85e92c1d8cb3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_25",
+                  "title": "",
+                  "description": "4) zabezpieczenie – hologram przedstawiający symbol wózka inwalidzkiego o wymiarach 15 mm x 15 mm, którego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 26,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "668a6e59-e781-5206-b3c0-9c07d321e33c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s38_26",
+                  "title": "",
+                  "description": "krawędzie usytuowane są w odległości 58 mm od lewej krawędzi karty i 68 mm od górnej krawędzi karty (awers).",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 27,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8cfc50c5-6f09-5afb-9c51-0f6a0aff694c",
+                  "type": "TEXT_FIELD",
+                  "techName": "dziennik_ustaw_a44862549a",
+                  "title": "Dziennik Ustaw",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 27,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 28,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "9e03ae04-62e2-5904-a690-a5def8d2fa98",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_bc1464c4fb",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 28,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 31,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4f3cca3e-7f4c-5824-add5-9df21c9b0c29",
+                  "type": "TEXT_FIELD",
+                  "techName": "kolorystyka_dwustronna_apla_w_kolorze_jasnoniebieskim_pantone_nr_291_z_wyjatkiem_b75320fe44",
+                  "title": "kolorystyka – dwustronna apla w kolorze jasnoniebieskim (Pantone nr 291), z wyjątkiem",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 29,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 32,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "faa91791-fddc-5199-b219-01be5f20ec92",
+                  "type": "TEXT_FIELD",
+                  "techName": "tekst_w_kolorze_czarnym_czcionka_arial_rozmiar_10_z_wyjatkiem_4ab74c9f2a",
+                  "title": "tekst w kolorze czarnym (czcionka Arial, rozmiar 10), z wyjątkiem",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 30,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "f46aa8f6-6a74-54c7-8c5d-87d9bdc6ce2f",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "37df2493-cfb6-5312-994b-1e1e844c0673",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "395532e5-e979-5649-9515-e0d1b56388a9",
+        "source": "ae4f2d8b-c724-5b2d-83d1-c527e25de438",
+        "target": "ecec1d3b-0075-5d69-803d-f41f71b2e550"
+      },
+      {
+        "id": "8c53da40-e04c-5c71-a6ea-f42b79f8e21a",
+        "source": "ecec1d3b-0075-5d69-803d-f41f71b2e550",
+        "target": "b37241f4-003b-57a9-8bd6-19cbf2f92643"
+      },
+      {
+        "id": "1f84a516-f3c4-578d-98ff-c906f8b8d5c8",
+        "source": "b37241f4-003b-57a9-8bd6-19cbf2f92643",
+        "target": "28421343-2893-5cb7-aea3-52094937f577"
+      },
+      {
+        "id": "8abe0c99-c683-5b4d-8613-e7a8bd0b9f0e",
+        "source": "28421343-2893-5cb7-aea3-52094937f577",
+        "target": "c81299a0-f1c1-5544-8e59-88c3f6f22bd6"
+      },
+      {
+        "id": "f98fddac-bd12-52bc-8ce5-a8deb81b4a09",
+        "source": "c81299a0-f1c1-5544-8e59-88c3f6f22bd6",
+        "target": "4c389229-0bb8-5bbe-b013-5c7320a44efa"
+      },
+      {
+        "id": "5eb6ea3f-312c-50d8-ae09-b38cc4a3278b",
+        "source": "4c389229-0bb8-5bbe-b013-5c7320a44efa",
+        "target": "5ff589fd-b379-5ff4-a9fd-d89e3d3c4c4e"
+      },
+      {
+        "id": "67c446d1-e050-5dcd-853f-be600968f704",
+        "source": "5ff589fd-b379-5ff4-a9fd-d89e3d3c4c4e",
+        "target": "f46aa8f6-6a74-54c7-8c5d-87d9bdc6ce2f"
+      }
+    ]
+  }
+}

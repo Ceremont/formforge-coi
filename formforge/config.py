@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     max_blocks: int = Field(default=12_000, ge=100, le=50_000)
     max_uncompressed_mb: int = Field(default=80, ge=1, le=200)
     max_image_pixels: int = Field(default=25_000_000, ge=100_000, le=50_000_000)
+    max_source_image_pixels: int = Field(default=80_000_000, ge=100_000, le=100_000_000)
     worker_memory_mb: int = Field(default=768, ge=256, le=2048)
     max_workers: int = Field(default=2, ge=1, le=8)
     ocr_languages: str = "pol+eng"

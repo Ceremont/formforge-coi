@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-21T21:59:28.792906+00:00",
+  "file": "formforge/coi_official.py",
+  "before": "eda6212f14b0fa364f1bcf86b757f25ab701ea041913cb8d59441710297352ae",
+  "after": "22d21666670c32351fe98456ac96888abf10ff0e51beba27cb21a1bdf33e234e",
+  "reason": "Mapping-only crash recovery discovered on known official 08 JPEG/JPG. Empty options on a boolean condition now produce unsupported-feature diagnostics, retaining all source fields and the internal condition. No extraction, layout, field/section prediction or matching change. Final R3 holdout source predictions unchanged.",
+  "test": "test_unsupported_boolean_option_keeps_data_and_reports_gap",
+  "r3_holdout_raw_predictions_and_exports_unchanged": true
+}

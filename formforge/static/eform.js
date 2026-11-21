@@ -32,15 +32,16 @@
     const date=new Date(Date.UTC(century+yy, mm%20-1, dd));
     return date.getUTCFullYear()===century+yy && date.getUTCMonth()===mm%20-1 && date.getUTCDate()===dd;
   }
-  window.FormForgeRender = function(container, model) {
+  window.FormForgeRender = function(container, model, official) {
     container.replaceChildren();
     const shell=el('div','eform-shell'); container.append(shell);
     shell.append(el('h2','eform-title',model.title), el('p','eform-subtitle','* Pola wymagane · Dane służą wyłącznie do testowania podglądu.'));
     const form=el('form'); form.noValidate=true; shell.append(form);
+    const viewFields=[...model.fields];
     const sectionById=Object.fromEntries(model.sections.map(s=>[s.id,s]));
     const byId=Object.fromEntries(model.fields.map(f=>[f.id,{...f,sectionCoi:sectionById[f.section].coi,conditions:[...f.conditions,...(sectionById[f.section].conditions||[])]}]));
     const wrappers={}, controls={}, errors={}, sectionWrappers={};
-    const getValues=()=>Object.fromEntries(model.fields.map(f=> {
+    const getValues=()=>Object.fromEntries(viewFields.map(f=> {
       const list=controls[f.id]||[];
       const value=['checkbox','consent'].includes(f.field_type) ? !!list[0]?.checked : f.field_type==='radio' ? list.find(n=>n.checked)?.value||'' : f.field_type==='attachment' ? list[0]?.files?.[0]?.name||'' : list[0]?.value||'';
       return [f.id,value];
@@ -88,25 +89,55 @@
       }
       form.append(group);
     }
+    // Page navigation changes visibility only; entered values and File objects stay in the DOM.
+    const nav=el('div','eform-navigation'), previous=el('button','secondary','← Wstecz'), next=el('button','secondary','Dalej →'), selector=el('select');
+    previous.type=next.type='button';selector.setAttribute('aria-label','Strona e-formularza');
+    const tabs=[...new Set([...model.sections].sort((a,b)=>a.order-b.order).map(s=>s.coi?.tab||'Strona '+s.page))];
+    for(const value of ['Wszystkie strony',...tabs,'FINISH']){const option=el('option','',value==='FINISH'?'Zakończenie (FINISH)':value);option.value=value;selector.append(option);}
+    nav.append(previous,selector,next);form.before(nav);
+    const finish=el('section','eform-finish');finish.hidden=true;finish.append(el('h3','','Zakończenie'),el('p','','To lokalny podgląd strony INFO_SECTION. Wniosek nie został wysłany.'));
+    const finishTab=official?.tabs?.find(t=>t.type==='FINISH');
+    if(finishTab)for(const question of finishTab.questions||[])if(question.field?.type==='INFO_SECTION')finish.append(el('p','',question.field.label||question.field.description||''));
+    form.after(finish);
+    function navigate(){const value=selector.value;form.hidden=value==='FINISH';finish.hidden=value!=='FINISH';previous.disabled=selector.selectedIndex===0;next.disabled=selector.selectedIndex===selector.options.length-1;refresh();}
+    selector.addEventListener('change',navigate);previous.addEventListener('click',()=>{selector.selectedIndex--;navigate();});next.addEventListener('click',()=>{selector.selectedIndex++;navigate();});
+    // Repeating instances are local test data, never new source fields in the export.
+    for(const definition of (model.groups||[]).filter(g=>g.repeat_key)){
+      const members=model.fields.filter(f=>f.group_id===definition.id);if(!members.length)continue;
+      const host=el('div','eform-repeat'), base=el('div','eform-repeat-instance');wrappers[members[0].id].before(host);host.append(el('h4','',definition.title),el('p','eform-help','Powtarzanie w lokalnym podglądzie · maksymalnie 20 wierszy.'));
+      for(const field of members)base.append(wrappers[field.id]);host.append(base);
+      const add=el('button','secondary','Dodaj wiersz');add.type='button';host.append(add);let serial=0,count=1;
+      add.addEventListener('click',()=>{
+        if(count>=20)return;serial++;count++;const instance=el('div','eform-repeat-instance'), ids=Object.fromEntries(members.map((f,i)=>[f.id,'repeat_'+definition.id.replace(/[^a-zA-Z0-9_]/g,'').slice(0,35)+'_'+serial+'_'+i]));
+        const remap=value=>{if(Array.isArray(value))return value.map(remap);if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([k,v])=>[k,k==='field_id'?(ids[v]||v):remap(v)]));return value;};
+        for(const original of members){const field=remap(JSON.parse(JSON.stringify(original)));field.id=ids[original.id];viewFields.push(field);byId[field.id]={...field,sectionCoi:sectionById[field.section].coi,conditions:[...field.conditions,...(sectionById[field.section].conditions||[])]};
+          const row=wrappers[original.id].cloneNode(true);row.dataset.fieldId=field.id;row.querySelector('.eform-group-title')?.remove();wrappers[field.id]=row;controls[field.id]=[...row.querySelectorAll('input,select,textarea')];
+          for(const input of controls[field.id]){input.name=field.id;if(input.id)input.id=field.id;input.setAttribute('aria-describedby',field.id+'_error');if(['radio','checkbox'].includes(input.type))input.checked=false;else input.value='';}
+          for(const label of row.querySelectorAll('label[for]'))label.htmlFor=field.id;const error=row.querySelector('.eform-error');error.id=field.id+'_error';error.textContent='';errors[field.id]=error;instance.append(row);
+        }
+        const remove=el('button','secondary','Usuń wiersz');remove.type='button';remove.addEventListener('click',()=>{for(const id of Object.values(ids)){viewFields.splice(viewFields.findIndex(f=>f.id===id),1);delete byId[id];delete wrappers[id];delete controls[id];delete errors[id];}instance.remove();count--;add.disabled=false;refresh();});instance.append(remove);add.before(instance);add.disabled=count>=20;refresh();
+      });
+    }
     const submitRow=el('div','eform-submit'); const submit=el('button','primary','Sprawdź formularz →'); submit.type='submit'; submitRow.append(submit); form.append(submitRow);
     const status=el('p'); status.setAttribute('role','status'); form.append(status);
     function refresh() {
       const values=getValues();
-      for (const field of model.fields) {
+      for (const field of viewFields) {
         const show=visible(byId[field.id],values,byId); wrappers[field.id].hidden=!show;
         const conditional=(field.required_conditions||[]).length&&visible({...field,conditions:field.required_conditions},values,byId);
         const locked=field.coi?.read_only||field.coi?.default_value_type==='EXTERNAL_SYSTEM'||(field.coi?.read_only_when&&expression(field.coi.read_only_when,values,byId,new Set()));
         for (const input of controls[field.id]||[]) { input.disabled=!show||!!locked; input.required=show&&!locked&&(input.dataset.required==='true'||!!conditional); }
         if (!show) errors[field.id].textContent='';
       }
-      for(const section of model.sections){sectionWrappers[section.id].hidden=!visible({id:'section_'+section.id,conditions:section.conditions,coi:section.coi},values,byId);}
+      for(const section of model.sections){sectionWrappers[section.id].hidden=(selector.value!=='Wszystkie strony'&&selector.value!==(section.coi?.tab||'Strona '+section.page))||!visible({id:'section_'+section.id,conditions:section.conditions,coi:section.coi},values,byId);}
     }
-    form.addEventListener('input',refresh); form.addEventListener('change',refresh); refresh();
+    form.addEventListener('input',refresh); form.addEventListener('change',refresh); navigate();
     form.addEventListener('submit',event=> {
       event.preventDefault(); const values=getValues(); let good=true; status.textContent=''; status.className='';
-      for (const field of model.fields) {
+      for (const field of viewFields) {
         errors[field.id].textContent=''; if(wrappers[field.id].hidden) continue;
-        const input=(controls[field.id]||[])[0]; if (!input) continue; input.setCustomValidity('');
+        const input=(controls[field.id]||[])[0]; if (!input) continue;
+        if(field.coi?.default_value_type==='EXTERNAL_SYSTEM'&&(field.required||field.validation.some(r=>r.kind==='required'))&&!values[field.id]){errors[field.id].textContent='Wymagane dane rejestrowe nie są dostępne w lokalnym podglądzie.';good=false;continue;} input.setCustomValidity('');
         if (field.field_type==='pesel'&&values[field.id]&&!pesel(values[field.id])) input.setCustomValidity('Nieprawidłowy PESEL (suma kontrolna lub data urodzenia).');
         if (!input.checkValidity()) { errors[field.id].textContent=input.validationMessage; good=false; }
       }
@@ -115,7 +146,7 @@
         if (issues.length) { issues.forEach(i=>{if(errors[i.field_id]) errors[i.field_id].textContent=i.message;}); status.textContent='Popraw oznaczone pola.'; status.className='eform-error'; }
         else { status.textContent='Dane są poprawne. Podgląd nie zapisuje ani nie wysyła wniosku do urzędu.'; status.className='eform-success'; }
       };
-      if (window.FormForgeValidate) { submit.disabled=true; window.FormForgeValidate(model,values).then(report).catch(error=>{status.textContent=error.message;status.className='eform-error';}).finally(()=>submit.disabled=false); }
+      if (window.FormForgeValidate) { submit.disabled=true; window.FormForgeValidate({...model,fields:viewFields},values).then(report).catch(error=>{status.textContent=error.message;status.className='eform-error';}).finally(()=>submit.disabled=false); }
       else report([]);
     });
   };

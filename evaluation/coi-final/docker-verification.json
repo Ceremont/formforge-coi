@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "image": "formforge-coi:1.0.0",
+  "image_id": "sha256:93b14d16d1b4088bf5ab547ab94be04cae8a52d4459d4ecff4929282ddc1fe67",
+  "base_digest": "sha256:c845af9399020c7e562969a13689e929074a10fd057acd1b1fad06a2fb068e97",
+  "build": "real docker compose build in byte-identical ASCII temporary context; Unicode Buildx path error recorded",
+  "health": {
+    "status": "ok",
+    "version": "1.0.0",
+    "python": "3.14.5",
+    "offline": true,
+    "ocr": {
+      "available": true,
+      "languages": [
+        "eng",
+        "pol"
+      ]
+    },
+    "auth_enabled": false,
+    "coi_compatibility": "official_schema_and_business_rules_available",
+    "target_import_verified": false,
+    "max_upload_mb": 20,
+    "processing_timeout": 90
+  },
+  "cases": [
+    {
+      "case": "zaswiadczenie.pdf",
+      "http_status": 200,
+      "seconds": 0.394,
+      "fields": 9,
+      "valid": true
+    },
+    {
+      "case": "skan.pdf",
+      "http_status": 200,
+      "seconds": 1.586,
+      "fields": 10,
+      "valid": true
+    },
+    {
+      "case": "zaswiadczenie.doc",
+      "http_status": 200,
+      "seconds": 0.306,
+      "fields": 9,
+      "valid": true
+    },
+    {
+      "case": "zezwolenie.docx",
+      "http_status": 200,
+      "seconds": 0.355,
+      "fields": 11,
+      "valid": true
+    },
+    {
+      "case": "zaswiadczenie.xlsx",
+      "http_status": 200,
+      "seconds": 0.347,
+      "fields": 9,
+      "valid": true
+    },
+    {
+      "case": "zaswiadczenie.ods",
+      "http_status": 200,
+      "seconds": 0.345,
+      "fields": 9,
+      "valid": true
+    },
+    {
+      "case": "zaswiadczenie.png",
+      "http_status": 200,
+      "seconds": 1.223,
+      "fields": 9,
+      "valid": true
+    },
+    {
+      "case": "zaswiadczenie.jpg",
+      "http_status": 200,
+      "seconds": 1.268,
+      "fields": 9,
+      "valid": true
+    },
+    {
+      "case": "08-embedded-doc",
+      "http_status": 415,
+      "seconds": 0.005,
+      "error_code": "macros_rejected"
+    }
+  ],
+  "source_page_png": true,
+  "uid": "10001",
+  "read_only": true,
+  "internal_processor_network": true,
+  "temp_directories_after": 0,
+  "excluded_ocr_optional_libraries_absent": true,
+  "complete_native_sbom": false
+}

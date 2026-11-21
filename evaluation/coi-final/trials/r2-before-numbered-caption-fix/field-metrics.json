@@ -1,0 +1,2362 @@
+[
+  {
+    "id": "03-pdf",
+    "category": "known_scoped",
+    "version": "v03",
+    "scope": "all visible citizen answer regions and purpose choices on the one-page paper form",
+    "expected": 11,
+    "predicted": 11,
+    "matched": 11,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "purpose",
+        "actual": "Zaświadczenie potrzebne jest celem przedłożenia w",
+        "type_correct": true
+      },
+      {
+        "expected": "other_text",
+        "actual": "inne – doprecyzowanie",
+        "type_correct": true
+      },
+      {
+        "expected": "other_choice",
+        "actual": "inne",
+        "type_correct": true
+      },
+      {
+        "expected": "no_land",
+        "actual": "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+        "type_correct": true
+      },
+      {
+        "expected": "ownership_period",
+        "actual": "okresie posiadania gospodarstwa rolnego",
+        "type_correct": true
+      },
+      {
+        "expected": "rented_land",
+        "actual": "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "type_correct": true
+      },
+      {
+        "expected": "owned_land",
+        "actual": "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "/ nr telefonu /",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel",
+        "actual": "/ PESEL /",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "/ adres /",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "/ imię i nazwisko /",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": []
+  },
+  {
+    "id": "03-pdf",
+    "category": "known_scoped",
+    "version": "final",
+    "scope": "all visible citizen answer regions and purpose choices on the one-page paper form",
+    "expected": 11,
+    "predicted": 11,
+    "matched": 11,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "purpose",
+        "actual": "Zaświadczenie potrzebne jest celem przedłożenia w",
+        "type_correct": true
+      },
+      {
+        "expected": "other_text",
+        "actual": "inne – doprecyzowanie",
+        "type_correct": true
+      },
+      {
+        "expected": "other_choice",
+        "actual": "inne",
+        "type_correct": true
+      },
+      {
+        "expected": "no_land",
+        "actual": "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+        "type_correct": true
+      },
+      {
+        "expected": "ownership_period",
+        "actual": "okresie posiadania gospodarstwa rolnego",
+        "type_correct": true
+      },
+      {
+        "expected": "rented_land",
+        "actual": "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "type_correct": true
+      },
+      {
+        "expected": "owned_land",
+        "actual": "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "/ nr telefonu /",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel",
+        "actual": "/ PESEL /",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "/ adres /",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "/ imię i nazwisko /",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": []
+  },
+  {
+    "id": "04-pdf",
+    "category": "known_scoped",
+    "version": "v03",
+    "scope": "all visible citizen inputs; rental/loan strikeout alternatives count as one source choice; date/signature header excluded",
+    "expected": 10,
+    "predicted": 9,
+    "matched": 9,
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1": 0.9473684210526315,
+    "type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "responsible_person",
+        "actual": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+        "type_correct": true
+      },
+      {
+        "expected": "participants",
+        "actual": "Przewidywana ilość uczestników",
+        "type_correct": true
+      },
+      {
+        "expected": "purpose",
+        "actual": "Cel wynajęcia świetlicy",
+        "type_correct": true
+      },
+      {
+        "expected": "end",
+        "actual": "do (koniec terminu)",
+        "type_correct": true
+      },
+      {
+        "expected": "start",
+        "actual": "wraz z wyposażeniem w terminie od",
+        "type_correct": true
+      },
+      {
+        "expected": "village",
+        "actual": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "(nr telefonu)",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "(adres zamieszkania)",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "(imię i nazwisko wnioskodawcy)",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "rental_mode"
+    ],
+    "extra": []
+  },
+  {
+    "id": "04-pdf",
+    "category": "known_scoped",
+    "version": "final",
+    "scope": "all visible citizen inputs; rental/loan strikeout alternatives count as one source choice; date/signature header excluded",
+    "expected": 10,
+    "predicted": 9,
+    "matched": 9,
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1": 0.9473684210526315,
+    "type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "responsible_person",
+        "actual": "Osoba odpowiedzialna (pełnoletnia) za utrzymanie porządku i bezpieczeństwa",
+        "type_correct": true
+      },
+      {
+        "expected": "participants",
+        "actual": "Przewidywana ilość uczestników",
+        "type_correct": true
+      },
+      {
+        "expected": "purpose",
+        "actual": "Cel wynajęcia świetlicy",
+        "type_correct": true
+      },
+      {
+        "expected": "end",
+        "actual": "do (koniec terminu)",
+        "type_correct": true
+      },
+      {
+        "expected": "start",
+        "actual": "wraz z wyposażeniem w terminie od",
+        "type_correct": true
+      },
+      {
+        "expected": "village",
+        "actual": "Proszę o wynajem/użyczenie* świetlicy wiejskiej w",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "(nr telefonu)",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "(adres zamieszkania)",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "(imię i nazwisko wnioskodawcy)",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "rental_mode"
+    ],
+    "extra": []
+  },
+  {
+    "id": "06-pdf",
+    "category": "known_scoped",
+    "version": "v03",
+    "scope": "only the entire repeated dimensions table: four road categories, two printed rows each, length/width/area per row; 24 explicit cells",
+    "expected": 24,
+    "predicted": 24,
+    "matched": 24,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "repeat2_7",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_6",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_5",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_4",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_3",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_2",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_1",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_0",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_7",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_6",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_5",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_4",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_3",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_2",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_1",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_0",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_7",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_6",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_5",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_4",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_3",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_2",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_1",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_0",
+        "actual": "długość",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": []
+  },
+  {
+    "id": "06-pdf",
+    "category": "known_scoped",
+    "version": "final",
+    "scope": "only the entire repeated dimensions table: four road categories, two printed rows each, length/width/area per row; 24 explicit cells",
+    "expected": 24,
+    "predicted": 24,
+    "matched": 24,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "repeat2_7",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_6",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_5",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_4",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_3",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_2",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_1",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat2_0",
+        "actual": "razem",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_7",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_6",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_5",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_4",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_3",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_2",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_1",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat1_0",
+        "actual": "szerokość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_7",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_6",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_5",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_4",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_3",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_2",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_1",
+        "actual": "długość",
+        "type_correct": true
+      },
+      {
+        "expected": "repeat0_0",
+        "actual": "długość",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": []
+  },
+  {
+    "id": "new-gus-info",
+    "category": "development_after_v03",
+    "version": "v03",
+    "scope": null,
+    "expected": 15,
+    "predicted": 15,
+    "matched": 11,
+    "precision": 0.7333333333333333,
+    "recall": 0.7333333333333333,
+    "f1": 0.7333333333333333,
+    "type_accuracy": 0.9090909090909091,
+    "section_accuracy": 0.0,
+    "section_f1": 0.0,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "cd_post",
+        "actual": "plik(i) na płycie CD – wysyłka pocztą",
+        "type_correct": true
+      },
+      {
+        "expected": "cd_personal",
+        "actual": "plik(i) na płycie CD – odbiór osobisty",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_post",
+        "actual": "kserokopia – wysyłka pocztą",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_personal",
+        "actual": "kserokopia – odbiór osobisty",
+        "type_correct": true
+      },
+      {
+        "expected": "office_choice",
+        "actual": "na miejscu w Urzędzie",
+        "type_correct": true
+      },
+      {
+        "expected": "email_choice",
+        "actual": "na podany adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "Nr telefonu",
+        "type_correct": true
+      },
+      {
+        "expected": "email",
+        "actual": "Adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "Adres",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "Imię i Nazwisko / Nazwa instytucji/firmy",
+        "type_correct": true
+      },
+      {
+        "expected": "request",
+        "actual": "poz. 1330,1669)  zwracam się z prośbą o udostępnienie informacji w następującym zakresie",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "other_personal",
+      "other_post",
+      "other_personal_detail",
+      "other_post_detail"
+    ],
+    "extra": [
+      "SPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI",
+      "plik(i) na innym nośniku (jakim?)",
+      "plik(i) na innym nośniku (jakim?)",
+      "Uwagi"
+    ]
+  },
+  {
+    "id": "new-gus-info",
+    "category": "development_after_v03",
+    "version": "final",
+    "scope": null,
+    "expected": 15,
+    "predicted": 14,
+    "matched": 11,
+    "precision": 0.7857142857142857,
+    "recall": 0.7333333333333333,
+    "f1": 0.7586206896551724,
+    "type_accuracy": 1.0,
+    "section_accuracy": 1.0,
+    "section_f1": 0.8,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "cd_post",
+        "actual": "plik(i) na płycie CD – wysyłka pocztą",
+        "type_correct": true
+      },
+      {
+        "expected": "cd_personal",
+        "actual": "plik(i) na płycie CD – odbiór osobisty",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_post",
+        "actual": "kserokopia – wysyłka pocztą",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_personal",
+        "actual": "kserokopia – odbiór osobisty",
+        "type_correct": true
+      },
+      {
+        "expected": "office_choice",
+        "actual": "na miejscu w Urzędzie",
+        "type_correct": true
+      },
+      {
+        "expected": "email_choice",
+        "actual": "na podany adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "request",
+        "actual": "poz. 1330,1669) zwracam się z prośbą o udostępnienie informacji w następującym zakresie",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "Nr telefonu",
+        "type_correct": true
+      },
+      {
+        "expected": "email",
+        "actual": "Adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "Adres",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "Imię i Nazwisko / Nazwa instytucji/firmy",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "other_personal",
+      "other_post",
+      "other_personal_detail",
+      "other_post_detail"
+    ],
+    "extra": [
+      "plik(i) na innym nośniku (jakim?)",
+      "plik(i) na innym nośniku (jakim?)",
+      "Uwagi"
+    ]
+  },
+  {
+    "id": "new-student-card",
+    "category": "development_after_v03",
+    "version": "v03",
+    "scope": null,
+    "expected": 7,
+    "predicted": 11,
+    "matched": 4,
+    "precision": 0.36363636363636365,
+    "recall": 0.5714285714285714,
+    "f1": 0.4444444444444444,
+    "type_accuracy": 0.75,
+    "section_accuracy": 0.0,
+    "section_f1": 0.0,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "class",
+        "actual": "(klasa)",
+        "type_correct": true
+      },
+      {
+        "expected": "student",
+        "actual": "(imię i nazwisko ucznia)",
+        "type_correct": true
+      },
+      {
+        "expected": "applicant",
+        "actual": "(imię i nazwisko osoby wnioskującej",
+        "type_correct": true
+      },
+      {
+        "expected": "reason",
+        "actual": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "birth",
+      "pesel",
+      "address"
+    ],
+    "extra": [
+      "(data urodzeniaucznia)",
+      "(PESELucznia)",
+      "(adres zamieszkaniaucznia)",
+      "Załączniki",
+      "Opłatę wnosi się na rachunek",
+      "numer rachunku",
+      "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres"
+    ]
+  },
+  {
+    "id": "new-student-card",
+    "category": "development_after_v03",
+    "version": "final",
+    "scope": null,
+    "expected": 7,
+    "predicted": 8,
+    "matched": 7,
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1": 0.9333333333333333,
+    "type_accuracy": 1.0,
+    "section_accuracy": 0.5,
+    "section_f1": 0.2857142857142857,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "reason",
+        "actual": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "(adres zamieszkania ucznia)",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel",
+        "actual": "(PESEL ucznia)",
+        "type_correct": true
+      },
+      {
+        "expected": "birth",
+        "actual": "(data urodzenia ucznia)",
+        "type_correct": true
+      },
+      {
+        "expected": "class",
+        "actual": "(klasa)",
+        "type_correct": true
+      },
+      {
+        "expected": "student",
+        "actual": "(imię i nazwisko ucznia)",
+        "type_correct": true
+      },
+      {
+        "expected": "applicant",
+        "actual": "(imię i nazwisko osoby wnioskującej",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": [
+      "numer rachunku"
+    ]
+  },
+  {
+    "id": "new-finance-info",
+    "category": "development_after_v03",
+    "version": "v03",
+    "scope": null,
+    "expected": 10,
+    "predicted": 9,
+    "matched": 9,
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1": 0.9473684210526315,
+    "type_accuracy": 0.8888888888888888,
+    "section_accuracy": 1.0,
+    "section_f1": 0.8888888888888888,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "other",
+        "actual": "albo w następujący sposób",
+        "type_correct": true
+      },
+      {
+        "expected": "office_choice",
+        "actual": "do wglądu w urzędzie (niezbędne jest podanie numeru telefonu kontaktowego do uzgodnienia szczegółów wizyty w urzędzie)",
+        "type_correct": true
+      },
+      {
+        "expected": "epuap_choice",
+        "actual": "przesłanie na wskazaną w nagłówku skrzynkę na platformie e-PUAP",
+        "type_correct": true
+      },
+      {
+        "expected": "cd_choice",
+        "actual": "przesłanie pocztą na adres wskazany w nagłówku w formie zapisu na dysku CD/DVD",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_choice",
+        "actual": "przesłanie pocztą na adres wskazany w nagłówku w formie wydruku/kserokopii",
+        "type_correct": true
+      },
+      {
+        "expected": "email_choice",
+        "actual": "przesłanie pocztą elektroniczną na wskazany w nagłówku adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "surname",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "Imię",
+        "type_correct": true
+      },
+      {
+        "expected": "contact",
+        "actual": "Adres zamieszkania/adres e-mail/skrytka ePUAP/numer telefonu",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "request"
+    ],
+    "extra": []
+  },
+  {
+    "id": "new-finance-info",
+    "category": "development_after_v03",
+    "version": "final",
+    "scope": null,
+    "expected": 10,
+    "predicted": 10,
+    "matched": 10,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "type_accuracy": 1.0,
+    "section_accuracy": 1.0,
+    "section_f1": 0.8888888888888888,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "other",
+        "actual": "albo w następujący sposób",
+        "type_correct": true
+      },
+      {
+        "expected": "office_choice",
+        "actual": "do wglądu w urzędzie (niezbędne jest podanie numeru telefonu kontaktowego do uzgodnienia szczegółów wizyty w urzędzie)",
+        "type_correct": true
+      },
+      {
+        "expected": "epuap_choice",
+        "actual": "przesłanie na wskazaną w nagłówku skrzynkę na platformie e-PUAP",
+        "type_correct": true
+      },
+      {
+        "expected": "cd_choice",
+        "actual": "przesłanie pocztą na adres wskazany w nagłówku w formie zapisu na dysku CD/DVD",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_choice",
+        "actual": "przesłanie pocztą na adres wskazany w nagłówku w formie wydruku/kserokopii",
+        "type_correct": true
+      },
+      {
+        "expected": "email_choice",
+        "actual": "przesłanie pocztą elektroniczną na wskazany w nagłówku adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "request",
+        "actual": "Przedmiot wniosku",
+        "type_correct": true
+      },
+      {
+        "expected": "contact",
+        "actual": "Adres zamieszkania/adres e-mail/skrytka ePUAP/numer telefonu",
+        "type_correct": true
+      },
+      {
+        "expected": "surname",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "Imię",
+        "type_correct": true
+      }
+    ],
+    "missing": [],
+    "extra": []
+  },
+  {
+    "id": "final-name-change",
+    "category": "promoted_development",
+    "version": "v03",
+    "scope": "Citizen source controls across two scanned pages; compound birth/identity boxes stay text. Includes strikeout decisions and three child rows. Excludes paper signature/place/date and receipt footer for office use. One continued justification, not a second page input.",
+    "expected": 25,
+    "predicted": 22,
+    "matched": 13,
+    "precision": 0.5909090909090909,
+    "recall": 0.52,
+    "f1": 0.5531914893617021,
+    "type_accuracy": 0.23076923076923078,
+    "section_accuracy": 0.25,
+    "section_f1": 0.25,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "birth_registry",
+        "actual": "aktu urodzenia osoby, której zmiana dotyczy",
+        "type_correct": true
+      },
+      {
+        "expected": "child_pesel_3",
+        "actual": "Numer ewidencyjny PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "Telefon kontaktowy",
+        "type_correct": true
+      },
+      {
+        "expected": "children_registry",
+        "actual": "aktu urodzenia małoletnich dzieci, jeżeli zmiana będzie dotyczyła tych aktów",
+        "type_correct": false
+      },
+      {
+        "expected": "marriage_registry",
+        "actual": "aktu małżeństwa osoby, której zmiana dotyczy",
+        "type_correct": false
+      },
+      {
+        "expected": "postal_delivery",
+        "actual": "D przesłanie na adres wnioskodawcy",
+        "type_correct": false
+      },
+      {
+        "expected": "personal_delivery",
+        "actual": "D osobiście w siedzibie USC",
+        "type_correct": false
+      },
+      {
+        "expected": "children_extension",
+        "actual": "Wnoszę / nie wnoszę o rozciągnięcie zmiany na małoletnie dzieci",
+        "type_correct": false
+      },
+      {
+        "expected": "change_kind",
+        "actual": "późn. zm.) wnoszę o zmianę imienia/nazwiska/nazwiska rodowego",
+        "type_correct": false
+      },
+      {
+        "expected": "new_name",
+        "actual": "na",
+        "type_correct": false
+      },
+      {
+        "expected": "identity_document",
+        "actual": "Seria i nr dowodu osobistego, data wydania i organ wydajacy",
+        "type_correct": false
+      },
+      {
+        "expected": "marital_status",
+        "actual": "Stan cywilny",
+        "type_correct": false
+      },
+      {
+        "expected": "birth_date_place",
+        "actual": "Data i miejsce urodzenia",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "applicant",
+      "birth_surname",
+      "citizenship",
+      "address",
+      "pesel",
+      "old_name",
+      "child_name_1",
+      "child_pesel_1",
+      "child_name_2",
+      "child_pesel_2",
+      "child_name_3",
+      "reason"
+    ],
+    "extra": [
+      "w Milejczycach",
+      "Wnioskodawca",
+      "O ZMIANĘ IMIENIA / NAZWISKA",
+      "Sposób odbioru dokumentów",
+      "Wskazanie miejsca sporządzenia (właściwego USC)",
+      "(Dz. U. Nr 225 poz. 1635 z dnia 08.12.2006 r. ze zm.)",
+      "opłatę skarbową w kwocie 37 zł zapłacono w dniu",
+      "nr KP",
+      "na konto"
+    ]
+  },
+  {
+    "id": "final-name-change",
+    "category": "promoted_development",
+    "version": "final",
+    "scope": "Citizen source controls across two scanned pages; compound birth/identity boxes stay text. Includes strikeout decisions and three child rows. Excludes paper signature/place/date and receipt footer for office use. One continued justification, not a second page input.",
+    "expected": 25,
+    "predicted": 22,
+    "matched": 13,
+    "precision": 0.5909090909090909,
+    "recall": 0.52,
+    "f1": 0.5531914893617021,
+    "type_accuracy": 0.23076923076923078,
+    "section_accuracy": 0.25,
+    "section_f1": 0.25,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "birth_registry",
+        "actual": "aktu urodzenia osoby, której zmiana dotyczy",
+        "type_correct": true
+      },
+      {
+        "expected": "child_pesel_3",
+        "actual": "Numer ewidencyjny PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "Telefon kontaktowy",
+        "type_correct": true
+      },
+      {
+        "expected": "children_registry",
+        "actual": "aktu urodzenia małoletnich dzieci, jeżeli zmiana będzie dotyczyła tych aktów",
+        "type_correct": false
+      },
+      {
+        "expected": "marriage_registry",
+        "actual": "aktu małżeństwa osoby, której zmiana dotyczy",
+        "type_correct": false
+      },
+      {
+        "expected": "postal_delivery",
+        "actual": "D przesłanie na adres wnioskodawcy",
+        "type_correct": false
+      },
+      {
+        "expected": "personal_delivery",
+        "actual": "D osobiście w siedzibie USC",
+        "type_correct": false
+      },
+      {
+        "expected": "children_extension",
+        "actual": "Wnoszę / nie wnoszę o rozciągnięcie zmiany na małoletnie dzieci",
+        "type_correct": false
+      },
+      {
+        "expected": "change_kind",
+        "actual": "późn. zm.) wnoszę o zmianę imienia/nazwiska/nazwiska rodowego",
+        "type_correct": false
+      },
+      {
+        "expected": "new_name",
+        "actual": "na",
+        "type_correct": false
+      },
+      {
+        "expected": "identity_document",
+        "actual": "Seria i nr dowodu osobistego, data wydania i organ wydajacy",
+        "type_correct": false
+      },
+      {
+        "expected": "marital_status",
+        "actual": "Stan cywilny",
+        "type_correct": false
+      },
+      {
+        "expected": "birth_date_place",
+        "actual": "Data i miejsce urodzenia",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "applicant",
+      "birth_surname",
+      "citizenship",
+      "address",
+      "pesel",
+      "old_name",
+      "child_name_1",
+      "child_pesel_1",
+      "child_name_2",
+      "child_pesel_2",
+      "child_name_3",
+      "reason"
+    ],
+    "extra": [
+      "w Milejczycach",
+      "Wnioskodawca",
+      "O ZMIANĘ IMIENIA / NAZWISKA",
+      "Sposób odbioru dokumentów",
+      "Wskazanie miejsca sporządzenia (właściwego USC)",
+      "(Dz. U. Nr 225 poz. 1635 z dnia 08.12.2006 r. ze zm.)",
+      "opłatę skarbową w kwocie 37 zł zapłacono w dniu",
+      "nr KP",
+      "na konto"
+    ]
+  },
+  {
+    "id": "final-parking-card",
+    "category": "promoted_development",
+    "version": "v03",
+    "scope": "Citizen fields in Parts A and B, authority-name input, checklist boxes and photograph placeholder in D. Excludes office header, pickup Part C, paper signatures, card designs and legal/technical notes. Matching within physical page; named-person role assignment is not measured.",
+    "expected": 49,
+    "predicted": 50,
+    "matched": 22,
+    "precision": 0.44,
+    "recall": 0.4489795918367347,
+    "f1": 0.4444444444444444,
+    "type_accuracy": 0.5454545454545454,
+    "section_accuracy": 1.0,
+    "section_f1": 0.16393442622950818,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "facility_street2",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "facility_postal2",
+        "actual": "Kod pocztowy 39.Poczta4",
+        "type_correct": true
+      },
+      {
+        "expected": "facility_last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "facility_street",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "pickup_pesel",
+        "actual": "posiadającego/posiadającąͳͲ numer PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "pickup_name",
+        "actual": "Upoważniam Pana/PaniąͳͲ",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_street",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_postoffice",
+        "actual": "Poczta4",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_postal",
+        "actual": "Kod pocztowy",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "applicant_street",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "applicant_last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "facility_authorization",
+        "actual": "posiadam upoważnienie do reprezentowania placówki uprawnionej do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "facility_pesel",
+        "actual": "Numer PESEL3",
+        "type_correct": false
+      },
+      {
+        "expected": "facility_krs",
+        "actual": "Numer KRS",
+        "type_correct": false
+      },
+      {
+        "expected": "facility_facility",
+        "actual": "Nazwa",
+        "type_correct": false
+      },
+      {
+        "expected": "curator_declaration",
+        "actual": "sprawuję kuratelę nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "guardian_declaration",
+        "actual": "sprawuję opiekę nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "parent_declaration",
+        "actual": "sprawuję władzę rodzicielską nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "fee_check",
+        "actual": "Fotografia owymiarach35mmx45mm 20. Dowód uiszczenia opłaty za wydanie karty parkingowej i opłaty ewidencyjnej7",
+        "type_correct": false
+      },
+      {
+        "expected": "representative_pesel",
+        "actual": "Numer PESEL3",
+        "type_correct": false
+      },
+      {
+        "expected": "applicant_pesel",
+        "actual": "Numer PESEL3",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "authority",
+      "applicant_first",
+      "applicant_ruling",
+      "applicant_town",
+      "applicant_postal",
+      "applicant_postoffice",
+      "applicant_home",
+      "representative_first",
+      "representative_town",
+      "representative_home",
+      "photo_check",
+      "truth_declaration",
+      "facility_regon",
+      "facility_plate",
+      "facility_vehicle",
+      "facility_town",
+      "facility_postal",
+      "facility_postoffice",
+      "facility_home",
+      "facility_first",
+      "facility_town2",
+      "facility_postoffice2",
+      "facility_home2",
+      "facility_fee_check",
+      "facility_activity",
+      "facility_truth",
+      "photo_upload"
+    ],
+    "extra": [
+      "DziennikUstaw",
+      "Numer wniosku",
+      "Data wpływu wniosku",
+      "Oświadczam, że",
+      "albo adnotacja o braku możliwości złożenia podpisu)11",
+      "DziennikUstaw",
+      "Oświadczam, że",
+      "ograniczone możliwości samodzielnego poruszania się i jest uprawniona do uzyskania karty parkingowej",
+      "albo adnotacja o braku możliwości złożenia podpisu)11",
+      "Potwierdzenie odbioru karty parkingowej",
+      "Kartę parkingową numer",
+      "Oświadczam, że6",
+      "uprawnionej douzyskania kartyparkingowej",
+      "niepełnosprawną uprawnioną do uzyskania karty parkingowej",
+      "Dziennik Ustaw",
+      "DziennikUstaw",
+      "U w a g i",
+      "U w a g i",
+      "DziennikUstaw",
+      "Uwagi",
+      "kolorystyka–dwustronnaaplawkolorzejasnoniebieskim(Pantonenr291),zwyjątkiem",
+      "tekstwkolorzeczarnym(czcionkaArial,rozmiar10),zwyjątkiem",
+      "DziennikUstaw",
+      "U w a g i",
+      "DziennikUstaw",
+      "Uwagi",
+      "kolorystyka–dwustronnaaplawkolorzejasnoniebieskim(Pantonenr291),zwyjątkiem",
+      "tekstwkolorzeczarnym(czcionkaArial,rozmiar10),zwyjątkiem"
+    ]
+  },
+  {
+    "id": "final-parking-card",
+    "category": "promoted_development",
+    "version": "final",
+    "scope": "Citizen fields in Parts A and B, authority-name input, checklist boxes and photograph placeholder in D. Excludes office header, pickup Part C, paper signatures, card designs and legal/technical notes. Matching within physical page; named-person role assignment is not measured.",
+    "expected": 49,
+    "predicted": 35,
+    "matched": 7,
+    "precision": 0.2,
+    "recall": 0.14285714285714285,
+    "f1": 0.16666666666666666,
+    "type_accuracy": 0.2857142857142857,
+    "section_accuracy": 1.0,
+    "section_f1": 0.12987012987012986,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "pickup_pesel",
+        "actual": "posiadającego/posiadającąͳͲ numer PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "pickup_name",
+        "actual": "Upoważniam Pana/PaniąͳͲ",
+        "type_correct": true
+      },
+      {
+        "expected": "facility_authorization",
+        "actual": "posiadam upoważnienie do reprezentowania placówki uprawnionej do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "curator_declaration",
+        "actual": "sprawuję kuratelę nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "guardian_declaration",
+        "actual": "sprawuję opiekę nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "parent_declaration",
+        "actual": "sprawuję władzę rodzicielską nad osobą niepełnosprawną, która jest uprawniona do uzyskania karty parkingowej",
+        "type_correct": false
+      },
+      {
+        "expected": "fee_check",
+        "actual": "Fotografia o wymiarach 35 mm x 45 mm 20. Dowód uiszczenia opłaty za wydanie karty parkingowej i opłaty ewidencyjnej7",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "authority",
+      "applicant_first",
+      "applicant_last",
+      "applicant_pesel",
+      "applicant_ruling",
+      "applicant_town",
+      "applicant_postal",
+      "applicant_postoffice",
+      "applicant_street",
+      "applicant_home",
+      "representative_first",
+      "representative_last",
+      "representative_pesel",
+      "representative_town",
+      "representative_postal",
+      "representative_postoffice",
+      "representative_street",
+      "representative_home",
+      "photo_check",
+      "truth_declaration",
+      "facility_facility",
+      "facility_krs",
+      "facility_regon",
+      "facility_plate",
+      "facility_vehicle",
+      "facility_town",
+      "facility_postal",
+      "facility_postoffice",
+      "facility_street",
+      "facility_home",
+      "facility_first",
+      "facility_last",
+      "facility_pesel",
+      "facility_town2",
+      "facility_postal2",
+      "facility_postoffice2",
+      "facility_street2",
+      "facility_home2",
+      "facility_fee_check",
+      "facility_activity",
+      "facility_truth",
+      "photo_upload"
+    ],
+    "extra": [
+      "Dziennik Ustaw",
+      "Numer wniosku",
+      "Data wpływu wniosku",
+      "Oświadczam, że",
+      "albo adnotacja o braku możliwości złożenia podpisu)11",
+      "Dziennik Ustaw",
+      "Oświadczam, że",
+      "ograniczone możliwości samodzielnego poruszania się i jest uprawniona do uzyskania karty parkingowej",
+      "albo adnotacja o braku możliwości złożenia podpisu)11",
+      "Potwierdzenie odbioru karty parkingowej",
+      "Kartę parkingową numer",
+      "Oświadczam, że6",
+      "uprawnionej do uzyskania karty parkingowej",
+      "niepełnosprawną uprawnioną do uzyskania karty parkingowej",
+      "Dziennik Ustaw",
+      "Dziennik Ustaw",
+      "U w a g i",
+      "U w a g i",
+      "Dziennik Ustaw",
+      "Uwagi",
+      "kolorystyka – dwustronna apla w kolorze jasnoniebieskim (Pantone nr 291), z wyjątkiem",
+      "tekst w kolorze czarnym (czcionka Arial, rozmiar 10), z wyjątkiem",
+      "Dziennik Ustaw",
+      "U w a g i",
+      "Dziennik Ustaw",
+      "Uwagi",
+      "kolorystyka – dwustronna apla w kolorze jasnoniebieskim (Pantone nr 291), z wyjątkiem",
+      "tekst w kolorze czarnym (czcionka Arial, rozmiar 10), z wyjątkiem"
+    ]
+  },
+  {
+    "id": "final-tree-removal",
+    "category": "promoted_development",
+    "version": "v03",
+    "scope": "Three personal controls, all six cells in each of six explicit blank table rows, and source-listed map upload. No dynamic group inferred. Excludes paper signature/date and legal guidance. DOCX pagination unknown; no page restriction.",
+    "expected": 40,
+    "predicted": 1,
+    "matched": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "type_accuracy": 0.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [],
+    "missing": [
+      "owner",
+      "address",
+      "phone",
+      "row1_number",
+      "row1_species",
+      "row1_circ130",
+      "row1_circ5",
+      "row1_land",
+      "row1_notes",
+      "row2_number",
+      "row2_species",
+      "row2_circ130",
+      "row2_circ5",
+      "row2_land",
+      "row2_notes",
+      "row3_number",
+      "row3_species",
+      "row3_circ130",
+      "row3_circ5",
+      "row3_land",
+      "row3_notes",
+      "row4_number",
+      "row4_species",
+      "row4_circ130",
+      "row4_circ5",
+      "row4_land",
+      "row4_notes",
+      "row5_number",
+      "row5_species",
+      "row5_circ130",
+      "row5_circ5",
+      "row5_land",
+      "row5_notes",
+      "row6_number",
+      "row6_species",
+      "row6_circ130",
+      "row6_circ5",
+      "row6_land",
+      "row6_notes",
+      "map"
+    ],
+    "extra": [
+      "Załącznik"
+    ]
+  },
+  {
+    "id": "final-tree-removal",
+    "category": "promoted_development",
+    "version": "final",
+    "scope": "Three personal controls, all six cells in each of six explicit blank table rows, and source-listed map upload. No dynamic group inferred. Excludes paper signature/date and legal guidance. DOCX pagination unknown; no page restriction.",
+    "expected": 40,
+    "predicted": 40,
+    "matched": 39,
+    "precision": 0.975,
+    "recall": 0.975,
+    "f1": 0.975,
+    "type_accuracy": 1.0,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "row6_notes",
+        "actual": "Uwagi",
+        "type_correct": true
+      },
+      {
+        "expected": "row6_land",
+        "actual": "Nr działki i obręb",
+        "type_correct": true
+      },
+      {
+        "expected": "row6_circ5",
+        "actual": "Obwód pnia na wysokości 5 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row6_circ130",
+        "actual": "Obwód pnia na wysokości 130 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row6_species",
+        "actual": "Gatunek",
+        "type_correct": true
+      },
+      {
+        "expected": "row6_number",
+        "actual": "Nr",
+        "type_correct": true
+      },
+      {
+        "expected": "row5_notes",
+        "actual": "Uwagi",
+        "type_correct": true
+      },
+      {
+        "expected": "row5_land",
+        "actual": "Nr działki i obręb",
+        "type_correct": true
+      },
+      {
+        "expected": "row5_circ5",
+        "actual": "Obwód pnia na wysokości 5 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row5_circ130",
+        "actual": "Obwód pnia na wysokości 130 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row5_species",
+        "actual": "Gatunek",
+        "type_correct": true
+      },
+      {
+        "expected": "row5_number",
+        "actual": "Nr",
+        "type_correct": true
+      },
+      {
+        "expected": "row4_notes",
+        "actual": "Uwagi",
+        "type_correct": true
+      },
+      {
+        "expected": "row4_land",
+        "actual": "Nr działki i obręb",
+        "type_correct": true
+      },
+      {
+        "expected": "row4_circ5",
+        "actual": "Obwód pnia na wysokości 5 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row4_circ130",
+        "actual": "Obwód pnia na wysokości 130 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row4_species",
+        "actual": "Gatunek",
+        "type_correct": true
+      },
+      {
+        "expected": "row4_number",
+        "actual": "Nr",
+        "type_correct": true
+      },
+      {
+        "expected": "row3_notes",
+        "actual": "Uwagi",
+        "type_correct": true
+      },
+      {
+        "expected": "row3_land",
+        "actual": "Nr działki i obręb",
+        "type_correct": true
+      },
+      {
+        "expected": "row3_circ5",
+        "actual": "Obwód pnia na wysokości 5 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row3_circ130",
+        "actual": "Obwód pnia na wysokości 130 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row3_species",
+        "actual": "Gatunek",
+        "type_correct": true
+      },
+      {
+        "expected": "row3_number",
+        "actual": "Nr",
+        "type_correct": true
+      },
+      {
+        "expected": "row2_notes",
+        "actual": "Uwagi",
+        "type_correct": true
+      },
+      {
+        "expected": "row2_land",
+        "actual": "Nr działki i obręb",
+        "type_correct": true
+      },
+      {
+        "expected": "row2_circ5",
+        "actual": "Obwód pnia na wysokości 5 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row2_circ130",
+        "actual": "Obwód pnia na wysokości 130 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row2_species",
+        "actual": "Gatunek",
+        "type_correct": true
+      },
+      {
+        "expected": "row2_number",
+        "actual": "Nr",
+        "type_correct": true
+      },
+      {
+        "expected": "row1_notes",
+        "actual": "Uwagi",
+        "type_correct": true
+      },
+      {
+        "expected": "row1_land",
+        "actual": "Nr działki i obręb",
+        "type_correct": true
+      },
+      {
+        "expected": "row1_circ5",
+        "actual": "Obwód pnia na wysokości 5 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row1_circ130",
+        "actual": "Obwód pnia na wysokości 130 cm",
+        "type_correct": true
+      },
+      {
+        "expected": "row1_species",
+        "actual": "Gatunek",
+        "type_correct": true
+      },
+      {
+        "expected": "row1_number",
+        "actual": "Nr",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "numer telefonu",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "adres zamieszkania/korespondencyjny",
+        "type_correct": true
+      },
+      {
+        "expected": "owner",
+        "actual": "imię i nazwisko właściciela",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "map"
+    ],
+    "extra": [
+      "Załącznik"
+    ]
+  },
+  {
+    "id": "final-krk-language",
+    "category": "prospective_r2_holdout",
+    "version": "v03",
+    "scope": "All six citizen controls, including language as a bounded choice from the printed EU-language list. Excludes paper signature. PDF one page.",
+    "expected": 6,
+    "predicted": 6,
+    "matched": 5,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1": 0.8333333333333334,
+    "type_accuracy": 1.0,
+    "section_accuracy": 0.0,
+    "section_f1": 0.0,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "address",
+        "actual": "Adres do korespondencji (opcjonalnie)",
+        "type_correct": true
+      },
+      {
+        "expected": "birth",
+        "actual": "Data urodzenia",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel",
+        "actual": "Numer PESEL (jeżeli został nadany)",
+        "type_correct": true
+      },
+      {
+        "expected": "last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "first",
+        "actual": "Imię",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "language"
+    ],
+    "extra": [
+      "Dane osoby, której dotyczy wniosek"
+    ]
+  },
+  {
+    "id": "final-krk-language",
+    "category": "prospective_r2_holdout",
+    "version": "final",
+    "scope": "All six citizen controls, including language as a bounded choice from the printed EU-language list. Excludes paper signature. PDF one page.",
+    "expected": 6,
+    "predicted": 6,
+    "matched": 5,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1": 0.8333333333333334,
+    "type_accuracy": 1.0,
+    "section_accuracy": 0.0,
+    "section_f1": 0.0,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "address",
+        "actual": "Adres do korespondencji (opcjonalnie)",
+        "type_correct": true
+      },
+      {
+        "expected": "birth",
+        "actual": "Data urodzenia",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel",
+        "actual": "Numer PESEL (jeżeli został nadany)",
+        "type_correct": true
+      },
+      {
+        "expected": "last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "first",
+        "actual": "Imię",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "language"
+    ],
+    "extra": [
+      "Dane osoby, której dotyczy wniosek"
+    ]
+  },
+  {
+    "id": "final-fishing-card",
+    "category": "prospective_r2_holdout",
+    "version": "v03",
+    "scope": "Five explicit personal answer controls in the table. Postal fragment and street/address are separate. Excludes date/signature, office issuance/receipt footer, static consent and attachment descriptions without printed answer controls. Upload redesign assessed qualitatively. DOCX page layout not scored.",
+    "expected": 5,
+    "predicted": 8,
+    "matched": 4,
+    "precision": 0.5,
+    "recall": 0.8,
+    "f1": 0.6153846153846154,
+    "type_accuracy": 0.75,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "phone",
+        "actual": "(nr telefonu)",
+        "type_correct": true
+      },
+      {
+        "expected": "birth",
+        "actual": "(data urodzenia)",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "(nazwisko i imię)",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "ul",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "postal"
+    ],
+    "extra": [
+      "Załączniki",
+      "Kartę wędkarską Nr",
+      "wydano dnia",
+      "Pokwitowanie odbioru karty wędkarskiej"
+    ]
+  },
+  {
+    "id": "final-fishing-card",
+    "category": "prospective_r2_holdout",
+    "version": "final",
+    "scope": "Five explicit personal answer controls in the table. Postal fragment and street/address are separate. Excludes date/signature, office issuance/receipt footer, static consent and attachment descriptions without printed answer controls. Upload redesign assessed qualitatively. DOCX page layout not scored.",
+    "expected": 5,
+    "predicted": 7,
+    "matched": 4,
+    "precision": 0.5714285714285714,
+    "recall": 0.8,
+    "f1": 0.6666666666666666,
+    "type_accuracy": 0.75,
+    "section_accuracy": null,
+    "section_f1": null,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "phone",
+        "actual": "(nr telefonu)",
+        "type_correct": true
+      },
+      {
+        "expected": "birth",
+        "actual": "(data urodzenia)",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "(nazwisko i imię)",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "ul",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "postal"
+    ],
+    "extra": [
+      "Kartę wędkarską Nr",
+      "wydano dnia",
+      "Pokwitowanie odbioru karty wędkarskiej"
+    ]
+  },
+  {
+    "id": "final-pesel-request",
+    "category": "prospective_r2_holdout",
+    "version": "v03",
+    "scope": "Citizen controls from sections 1–7; duplicated Choice/Fallback text counts once. Includes printed checkbox lists and their other-detail areas. Excludes paper dates/signatures and office-only section. DOCX page/person-position assignment not scored; matching by label/type multiplicity, not full workflow equivalence.",
+    "expected": 52,
+    "predicted": 41,
+    "matched": 25,
+    "precision": 0.6097560975609756,
+    "recall": 0.4807692307692308,
+    "f1": 0.5376344086021505,
+    "type_accuracy": 0.76,
+    "section_accuracy": 0.5,
+    "section_f1": 0.25,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "authorization_check",
+        "actual": "dokument stwierdzający udzielenie pełnomocnictwa",
+        "type_correct": true
+      },
+      {
+        "expected": "fee_check",
+        "actual": "dowód uiszczenia opłaty za udostępnienie danych",
+        "type_correct": true
+      },
+      {
+        "expected": "other_scope_detail",
+        "actual": "Inne dane",
+        "type_correct": true
+      },
+      {
+        "expected": "temporary_scope",
+        "actual": "adres zameldowania na pobyt czasowy",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_town",
+        "actual": "Miejscowość",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_flat",
+        "actual": "Nr lokalu",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_home",
+        "actual": "Nr domu",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_street",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_pesel",
+        "actual": "Numer PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_first",
+        "actual": "Imię",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_town",
+        "actual": "Miejscowość",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_flat",
+        "actual": "Nr lokalu",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_home",
+        "actual": "Nr domu",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_street",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_email",
+        "actual": "Adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "applicant_town",
+        "actual": "Miejscowość",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel_choice",
+        "actual": "z rejestru PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_country",
+        "actual": "Kraj",
+        "type_correct": false
+      },
+      {
+        "expected": "representative_fax",
+        "actual": "faksu",
+        "type_correct": false
+      },
+      {
+        "expected": "representative_name",
+        "actual": "Nazwa",
+        "type_correct": false
+      },
+      {
+        "expected": "applicant_country",
+        "actual": "Kraj",
+        "type_correct": false
+      },
+      {
+        "expected": "applicant_name",
+        "actual": "Nazwa",
+        "type_correct": false
+      },
+      {
+        "expected": "residents_choice",
+        "actual": "Wniosek o udostępnienie danych jednostkowych z rejestru mieszkańców oraz rejestru PESEL",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "authority",
+      "applicant_last",
+      "applicant_first",
+      "applicant_phone",
+      "applicant_fax",
+      "applicant_email",
+      "applicant_street",
+      "applicant_home",
+      "applicant_flat",
+      "applicant_postal",
+      "representative_first",
+      "representative_phone",
+      "representative_postal",
+      "subject_previous",
+      "subject_birth_surname",
+      "subject_birth",
+      "subject_birthplace",
+      "subject_father",
+      "subject_mother",
+      "subject_identity",
+      "subject_other",
+      "subject_postal",
+      "permanent_scope",
+      "other_scope",
+      "reason",
+      "other_attachment_check",
+      "other_attachment_detail"
+    ],
+    "extra": [
+      "kierowany",
+      "wniosku",
+      "elefon",
+      "su",
+      "(imiona)",
+      "(imiona)",
+      "Załączniki",
+      "strona",
+      "wraz z dowodem uiszczenia opłaty skarbowej za jego",
+      "imiona",
+      "Data",
+      "ojca",
+      "matki",
+      "telefonu",
+      "r dowodu",
+      "Adres korespondencyjny"
+    ]
+  },
+  {
+    "id": "final-pesel-request",
+    "category": "prospective_r2_holdout",
+    "version": "final",
+    "scope": "Citizen controls from sections 1–7; duplicated Choice/Fallback text counts once. Includes printed checkbox lists and their other-detail areas. Excludes paper dates/signatures and office-only section. DOCX page/person-position assignment not scored; matching by label/type multiplicity, not full workflow equivalence.",
+    "expected": 52,
+    "predicted": 40,
+    "matched": 25,
+    "precision": 0.625,
+    "recall": 0.4807692307692308,
+    "f1": 0.5434782608695652,
+    "type_accuracy": 0.76,
+    "section_accuracy": 0.75,
+    "section_f1": 0.3333333333333333,
+    "condition_coverage": null,
+    "matches": [
+      {
+        "expected": "authorization_check",
+        "actual": "dokument stwierdzający udzielenie pełnomocnictwa",
+        "type_correct": true
+      },
+      {
+        "expected": "fee_check",
+        "actual": "dowód uiszczenia opłaty za udostępnienie danych",
+        "type_correct": true
+      },
+      {
+        "expected": "other_scope_detail",
+        "actual": "Inne dane",
+        "type_correct": true
+      },
+      {
+        "expected": "temporary_scope",
+        "actual": "adres zameldowania na pobyt czasowy",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_town",
+        "actual": "Miejscowość",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_flat",
+        "actual": "Nr lokalu",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_home",
+        "actual": "Nr domu",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_street",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_pesel",
+        "actual": "Numer PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_first",
+        "actual": "Imię",
+        "type_correct": true
+      },
+      {
+        "expected": "subject_last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_town",
+        "actual": "Miejscowość",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_flat",
+        "actual": "Nr lokalu",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_home",
+        "actual": "Nr domu",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_street",
+        "actual": "Ulica",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_email",
+        "actual": "Adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_last",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "applicant_town",
+        "actual": "Miejscowość",
+        "type_correct": true
+      },
+      {
+        "expected": "pesel_choice",
+        "actual": "z rejestru PESEL",
+        "type_correct": true
+      },
+      {
+        "expected": "representative_country",
+        "actual": "Kraj",
+        "type_correct": false
+      },
+      {
+        "expected": "representative_fax",
+        "actual": "faksu",
+        "type_correct": false
+      },
+      {
+        "expected": "representative_name",
+        "actual": "Nazwa",
+        "type_correct": false
+      },
+      {
+        "expected": "applicant_country",
+        "actual": "Kraj",
+        "type_correct": false
+      },
+      {
+        "expected": "applicant_name",
+        "actual": "Nazwa",
+        "type_correct": false
+      },
+      {
+        "expected": "residents_choice",
+        "actual": "Wniosek o udostępnienie danych jednostkowych z rejestru mieszkańców oraz rejestru PESEL",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "authority",
+      "applicant_last",
+      "applicant_first",
+      "applicant_phone",
+      "applicant_fax",
+      "applicant_email",
+      "applicant_street",
+      "applicant_home",
+      "applicant_flat",
+      "applicant_postal",
+      "representative_first",
+      "representative_phone",
+      "representative_postal",
+      "subject_previous",
+      "subject_birth_surname",
+      "subject_birth",
+      "subject_birthplace",
+      "subject_father",
+      "subject_mother",
+      "subject_identity",
+      "subject_other",
+      "subject_postal",
+      "permanent_scope",
+      "other_scope",
+      "reason",
+      "other_attachment_check",
+      "other_attachment_detail"
+    ],
+    "extra": [
+      "kierowany",
+      "wniosku",
+      "elefon",
+      "su",
+      "(imiona)",
+      "(imiona)",
+      "strona",
+      "wraz z dowodem uiszczenia opłaty skarbowej za jego",
+      "imiona",
+      "Data",
+      "ojca",
+      "matki",
+      "telefonu",
+      "r dowodu",
+      "Adres korespondencyjny"
+    ]
+  }
+]

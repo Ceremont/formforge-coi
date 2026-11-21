@@ -86,16 +86,37 @@ def read_lines(data, variant):
             groups.setdefault((data["block_num"][i], data["par_num"][i], data["line_num"][i]), []).append(i)
     lines = []
     for indices in groups.values():
-        text = " ".join(data["text"][i] for i in indices)
-        confs = [max(0, float(data["conf"][i])) for i in indices]
-        box = (
-            min(data["left"][i] for i in indices),
-            min(data["top"][i] for i in indices),
-            max(data["left"][i] + data["width"][i] for i in indices),
-            max(data["top"][i] + data["height"][i] for i in indices),
-        )
-        lines.append({"text": text, "bbox": variant.source_box(box), "confidence": sum(confs) / len(confs) / 100, "variant": variant.name})
+        # Sparse OCR often merges two distant columns into a single physical
+        # line. Split at a true horizontal gutter before joining the words.
+        indices = sorted(indices, key=lambda i: data["left"][i])
+        heights = [data["height"][i] for i in indices]
+        import statistics
+
+        threshold = max(35, statistics.median(heights) * 3)
+        partitions = []
+        part = []
+        for i in indices:
+            if part and data["left"][i] - (data["left"][part[-1]] + data["width"][part[-1]]) > threshold:
+                partitions.append(part)
+                part = []
+            part.append(i)
+        if part:
+            partitions.append(part)
+        for part in partitions:
+            lines.append(_line(data, part, variant))
     return lines
+
+
+def _line(data, indices, variant):
+    text = " ".join(data["text"][i] for i in indices)
+    confs = [max(0, float(data["conf"][i])) for i in indices]
+    box = (
+        min(data["left"][i] for i in indices),
+        min(data["top"][i] for i in indices),
+        max(data["left"][i] + data["width"][i] for i in indices),
+        max(data["top"][i] + data["height"][i] for i in indices),
+    )
+    return {"text": text, "bbox": variant.source_box(box), "confidence": sum(confs) / len(confs) / 100, "variant": variant.name}
 
 
 def quality(lines):
@@ -139,7 +160,10 @@ def recognize(image, languages, settings):
     # Conflicting text in the same region is never combined or fabricated.
     for _, lines, _ in results:
         for line in lines:
-            if line["confidence"] < 0.65 or len(line["text"]) < 3:
+            from .layout_analyzer import fold
+
+            explicit_label = fold(line["text"]).strip(" ()/:*") in {"pesel", "nip", "regon", "imie i nazwisko", "nr telefonu", "telefon"}
+            if line["confidence"] < (0.35 if explicit_label else 0.65) or len(line["text"]) < 3:
                 continue
             y = (line["bbox"][1] + line["bbox"][3]) / 2
             if not any(abs(y - (other["bbox"][1] + other["bbox"][3]) / 2) < max(8, line["bbox"][3] - line["bbox"][1]) for other in selected):

@@ -1,0 +1,81 @@
+{
+  "native": {
+    "ui_smoke.cjs": {
+      "status": "passed",
+      "externalRequests": [],
+      "browserErrors": [],
+      "note": "Observed earlier in the engine-upgrade session; repeated below against actual Compose."
+    },
+    "ui_review.cjs": {
+      "status": "passed",
+      "checks": [
+        "local classifier mode",
+        "source navigation",
+        "original-to-eForm comparison",
+        "validation editing",
+        "section assignment",
+        "group merge and split",
+        "field addition",
+        "dictionary creation and assignment",
+        "field deletion",
+        "order normalization",
+        "updated JSON",
+        "updated eForm",
+        "image source overlay"
+      ],
+      "browserErrors": [],
+      "externalRequests": []
+    },
+    "ui_coi.cjs": {
+      "status": "passed",
+      "checks": [
+        "official PDF upload",
+        "COI diagnostics",
+        "applicant SHOW",
+        "refund SHOW",
+        "registry readOnly",
+        "static text without inputs",
+        "property confirmation",
+        "edited official JSON download",
+        "raw COI validation"
+      ],
+      "browserErrors": [],
+      "externalRequests": []
+    },
+    "ui_large_image.cjs": {
+      "status": "passed",
+      "seconds": 55.735,
+      "fields": 178,
+      "tiles": 16,
+      "quality": "partial",
+      "checks": [
+        "actual 61.9MP image upload",
+        "HTTP worker completes within deadline",
+        "valid official COI",
+        "quality disclosure",
+        "source tile offset on original image",
+        "readable source scaling"
+      ],
+      "browserErrors": [],
+      "externalRequests": []
+    }
+  },
+  "docker_gateway": {
+    "ui_smoke.cjs": {
+      "status": "passed",
+      "scenarios": [
+        "upload",
+        "demo",
+        "field editing",
+        "JSON download",
+        "native required validation",
+        "server validation",
+        "conditional visibility",
+        "responsive mobile layout",
+        "offline Swagger"
+      ],
+      "externalRequests": [],
+      "browserErrors": []
+    }
+  }
+}

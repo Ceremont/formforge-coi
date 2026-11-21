@@ -17,7 +17,7 @@ def test_health_ui_swagger(client):
     assert health.status_code == 200 and health.json()["offline"] is True
     assert "3.14" in health.json()["python"]
     html = client.get("/")
-    assert html.status_code == 200 and "Podgląd eForm" in html.text
+    assert html.status_code == 200 and "Podgląd e-formularza" in html.text
     docs = client.get("/docs")
     assert docs.status_code == 200 and "https://cdn" not in docs.text
     assert "unsafe-inline" in docs.headers["content-security-policy"]

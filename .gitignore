@@ -13,6 +13,10 @@ output/
 # Official COI reference materials
 reference/coi-official/
 
+# Separately acquired evaluation originals: redistribution rights unverified.
+evaluation/coi-final/**/*.pdf
+evaluation/coi-final/**/*.docx
+
 # Secrets
 .env*
 !.env.example

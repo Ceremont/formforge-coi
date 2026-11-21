@@ -11,7 +11,7 @@ def fold(text: str) -> str:
 
 
 LABEL = re.compile(
-    r"^(?:imie(?: i nazwisko)?|nazwisko|pesel|nip|regon|e-?mail|telefon|data(?: urodzenia| zlozenia)?|kod pocztowy|adres(?: zamieszkania)?|miejscowosc|ulica|numer domu|numer lokalu)\s*[:*]?$",
+    r"^(?:imie(?: i nazwisko)?|nazwisko|(?:(?:numer|nr\.?)\s+)?(?:pesel|nip|regon|krs)|e-?mail|telefon|data(?: urodzenia| zlozenia)?|kod pocztowy|adres(?: zamieszkania)?|miejscowosc|ulica|(?:numer|nr\.?) domu|(?:numer|nr\.?) lokalu|poczta)\s*[:*]?$",
     re.I,
 )
 
@@ -26,6 +26,7 @@ class LayoutAnalyzer:
             source = [b.model_copy(deep=True) for b in document.blocks if b.page == page.id]
             heights = [b.bbox[3] - b.bbox[1] for b in source if b.bbox and b.kind != "blank" and b.bbox[3] > b.bbox[1]]
             median = statistics.median(heights) if heights else 12
+            source = self._columns(source, page.width, median)
             for block in source:
                 text = block.text.strip()
                 normalized = fold(text)
@@ -39,14 +40,20 @@ class LayoutAnalyzer:
                     continue
                 if block.kind in ("form_field", "heading", "blank"):
                     continue
-                if re.fullmatch(r"[_ .…\-]{3,}", text):
+                thematic = re.fullmatch(
+                    r"(?:dane (?:wnioskodawcy|osobowe|kontaktowe|ucznia|przedstawiciela)|sposob i forma udostepnienia informacji|zalaczniki)\s*[:* ]*", normalized
+                )
+                if thematic:
+                    block.kind = "heading"
+                    block.metadata["role_reason"] = "Thematic caption without an answer marker"
+                elif re.fullmatch(r"[_ .…\-]{3,}", text):
                     block.kind = "blank"
                 elif re.match(r"^(uwaga|instrukcja|nalezy|wypelnij|prosimy)\b", normalized):
                     block.kind = "instruction"
                 elif re.match(r"^(podstawa prawna|pouczenie|rodo|administratorem danych|zgodnie z art)", normalized):
                     block.kind = "legal"
-                elif not LABEL.fullmatch(normalized):
-                    numbered = re.match(r"^(?:[IVX]{1,5}|\d{1,2})[.)]\s+[A-ZĄĆĘŁŃÓŚŹŻ]", text)
+                elif not LABEL.fullmatch(re.sub(r"(?<=[a-z])\d{1,2}\b", "", re.sub(r"^(?:[ivx]{1,5}|\d{1,2})[.)]\s*", "", normalized)).strip(" /*:()")):
+                    numbered = re.match(r"^(?:[ivx]{1,5}|\d{1,2})[.)]\s+(?:dane|informacje|instrukcja|oswiadczeni|zalaczniki|podpis)\b", normalized)
                     upper = text.isupper() and 3 < len(text) < 90 and not re.search(r"[:*]|[_:.]{2,}", text)
                     large = block.bbox and block.bbox[3] - block.bbox[1] > median * 1.35
                     if (numbered or upper or large or block.metadata.get("bold")) and len(text) < 110 and not re.search(r"[:_…]|\.{3,}", text):
@@ -91,7 +98,7 @@ class LayoutAnalyzer:
                         candidates.append((above * 2 + abs(a[0] - b[0]) * 0.2 + 10, label))
                 elif not blank.bbox and blocks.index(blank) == blocks.index(label) + 1:
                     candidates.append((10, label))
-                caption = label.text.strip().startswith("(") or bool(re.match(r"^(nazwisko|imie|adres|rodzaj|nr telefonu)", fold(label.text)))
+                caption = label.text.strip().startswith(("(", "/")) or bool(re.match(r"^(nazwisko|imie|adres|rodzaj|nr telefonu)", fold(label.text)))
                 if caption and blank.bbox and label.bbox:
                     a, b = label.bbox, blank.bbox
                     below = a[1] - b[3]

@@ -1,149 +1,153 @@
-# FormForge COI
+# FormForge COI 1.0
 
-Istniejący projekt Document AI rozszerzony o **oficjalny COI FormDefinition**.
-Domyślny eksport zawiera tylko `title`, `tabs`, `flow`. Własny model FormForge
-pozostaje modelem edycji, a dawny JSON jest dostępny jako jawny tryb `preview`.
+**Od dokumentu do e-formularza.** Lokalny konwerter pustych formularzy urzędowych
+do COI FormDefinition: upload → analiza → przegląd źródła → edycja → walidacja → JSON.
+Powstał jako rozwinięcie istniejącego projektu, bez przepisywania API i UI.
 
-Adapter obsługuje MAIN/FINISH, UUID, SECTION/REPEATING_SECTION, siatkę,
-typy pól COI, walidatory, opcje/słowniki, dane inicjalne, SHOW/READ_ONLY,
-JSONata oraz połączenia stron. FINISH zawiera INFO_SECTION. Osobno sprawdzane są:
-niezmieniona schema organizatora, rekurencyjny profil oraz reguły techniczne.
-Eksport używa `repeatingSectionGrid`; wejście akceptuje również oficjalną literówkę
-`repetingSectionGrid`. Oryginalne materiały pozostają niezmienione.
+![FormForge — przegląd wyniku](docs/screenshots/02-overview.png)
 
-**Status: konfiguracje wymagające przeglądu; import w platformie COI niezweryfikowany.**
-Poprawny JSON nie dowodzi pełnego odczytu dokumentu. Niezależna kontrola ujawniła
-istotne braki w tabelach, checkboxach, zależnościach i długich dokumentach.
-DOC jest nieobsługiwany. Nie deklarujemy gotowości konkursowej.
+To wydanie konkursowe z jawnymi ograniczeniami. **68/69** przekazanych źródeł daje
+JSON poprawny w lokalnym schemacie, profilu rekurencyjnym i regułach technicznych.
+Nie oznacza to kompletnego rozpoznania. Importer rzeczywistego COI **nie był dostępny**.
+Nowe trzy dokumenty R3: mikro F1 surowych pól **52,63% → 58,95%** względem 0.3;
+próba mała, jeden anotator. [Pełny raport](docs/FINAL_ACCURACY_REPORT.md).
 
-Aktualne raporty:
+## Uruchomienie Docker — zalecane
 
-- [Analiza źródeł i sprzeczności](docs/OFFICIAL_COI_ANALYSIS.md)
-- [Porównanie z wzorcami 01/05](docs/REFERENCE_COMPARISON.md)
-- [Zgodność, niezależne testy i ograniczenia](docs/COI_COMPATIBILITY_REPORT.md)
-- Pełne wyniki, eksporty i pomiary: `evaluation/coi-v1/`
+Wymagany działający Docker Desktop/Engine i Compose. Z katalogu projektu
+(najlepiej prosty katalog ASCII, np. `FormForge-COI`):
 
-Raporty z poprzedniej fazy preview są historyczne. Syntetyczny holdout v1
-zachowuje poprzednie wyniki; nowy rozwój według materiałów COI zmienił silnik,
-więc dawnych wyników nie przedstawiamy jako aktualnego niezależnego testu.
+```sh
+docker compose build
+docker compose up -d --wait
+docker compose ps
+curl http://127.0.0.1:8000/api/health
+```
 
-## Uruchomienie
+UI: http://127.0.0.1:8000 · Swagger lokalny: http://127.0.0.1:8000/docs ·
+OpenAPI: http://127.0.0.1:8000/openapi.json.
 
-Python 3.14 oraz Tesseract z `pol` i `eng`. Na macOS:
-`brew install tesseract tesseract-lang`. Na Debian/Ubuntu:
-`sudo apt-get install tesseract-ocr tesseract-ocr-pol tesseract-ocr-eng`.
-Instalacja wymaga sieci; działający produkt nie korzysta z zewnętrznych AI API,
-CDN, pobierania modeli ani usług OCR.
+Inny port: `FORMFORGE_HTTP_PORT=8766 docker compose up -d --wait`.
+Zatrzymanie: `docker compose down`.
+Buildx w badanym macOS odrzucał znormalizowany Unicode w ścieżce. Ten sam kod
+zbudowano i uruchomiono przez Compose z tymczasowego katalogu ASCII. W takim
+przypadku rozpakuj ZIP do katalogu ASCII; alternatywnie `docker build -t formforge-coi:1.0.0 .`,
+a następnie `docker compose up -d --no-build --wait`.
 
-```bash
+Obraz bazowy oficjalny Python 3.14.5 slim-trixie jest przypięty digestem.
+OCR Tesseract 5.5.1 i Leptonica 1.87.0 budowane ze źródeł. Pierwsza instalacja/build
+pobiera zależności. Przetwarzanie po instalacji działa bez Internetu.
+
+## Uruchomienie lokalne
+
+Wymagane: Python **3.14**, Tesseract z `pol` i `eng`, ok. 2 GB dostępnej pamięci.
+Na macOS z Homebrew: `brew install python@3.14 tesseract tesseract-lang`.
+Lokalne pakiety natywne mają własne licencje; rygorystyczny audyt opisuje [raport](docs/LICENSE_COMPLIANCE.md).
+
+```sh
 python3.14 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements-dev.lock
-cp .env.example .env
-python -m uvicorn formforge.main:app --host 127.0.0.1 --port 8765 --no-access-log
+.venv/bin/python -m pip install -r requirements.lock
+.venv/bin/python -m uvicorn formforge.main:app --host 127.0.0.1 --port 8000 --no-access-log
 ```
 
-UI: http://127.0.0.1:8765/ · Swagger: http://127.0.0.1:8765/docs.
-Tylko runtime: `python -m pip install -r requirements.lock`.
-Przykłady syntetyczne są już w `demo_samples/`.
+Jeśli środowisko zarządzane nie ma pip: `uv pip install --python .venv/bin/python -r requirements.lock`.
+Do testów dodatkowo zainstaluj `requirements-dev.lock`, następnie:
 
-```bash
-docker compose config --quiet
-docker compose up --build
+```sh
+.venv/bin/python -m pytest -q
+.venv/bin/python -m ruff check formforge deploy tests scripts
 ```
 
-Docker publikuje port 8000. Konfiguracja Compose jest sprawdzona, ale budowa
-i uruchomienie obrazu pozostają **niesprawdzone: brak działającego daemon Docker**.
-Obraz buduje Tesseract 5.5.1 i Leptonica bez problematycznych opcjonalnych zależności;
-lokalne testy używały Tesseract 5.5.4. Pełny native SBOM nadal jest potrzebny.
+Oryginały organizatora nie są potrzebne do działania. Czysty ZIP ich nie zawiera;
+sprawdzono 181 passed / 15 jawnych SKIP, ponieważ źródła są osobno dostarczane. Pełne testy
+referencji wymagają odtworzenia `reference/coi-official/` z legalnie otrzymanego pakietu.
+Nie interpretuj SKIP jako zaliczonego benchmarku.
 
-## Praca w UI
+## Co działa
 
-Prześlij PDF, DOCX, XLSX, ODS, JPG/JPEG lub PNG. Analiza tworzy model edycji,
-oficjalny JSON i raport. Zakładka **Zgodność z COI** pokazuje trzy walidacje,
-błędy sekcji/powiązań, cechy nieobsługiwane, źródła ustaleń oraz pola wymagające
-potwierdzenia. Sekcje dodawane według standardów COI mają oddzielne pochodzenie;
-nie są przedstawiane jako pola odczytane z papieru.
+- PDF: tekst/AcroForm i lokalny OCR skanów; DOCX: tabele, textboxy, kontrolki;
+  XLSX/ODS: komórki/scalenia; JPEG/JPE/PNG: OCR z geometrią.
+- DOC Word 97–2003: ograniczony bezpieczny odczyt tekstu; bez pełnego składu.
+  Starsze, zaszyfrowane, makra lub osadzone obiekty są odrzucane.
+- Analiza bloków, etykiet, pól, sekcji i jawnych warunków. Reguły deterministyczne
+  oraz opcjonalny mały własny Naive Bayes. Bez LLM ani płatnego API.
+- Adapter oficjalnego COI: UUID, MAIN/FINISH, SECTION/repeating, typy, grid,
+  walidacja, options, dictionaryName, states, ograniczone JSONata i flow.links.
+- Edytor: pola/typy/opcje, obowiązkowość, walidatory, sekcje/grupy, słowniki,
+  zależności, potwierdzenia, automatyczna walidacja, cofanie i ponawianie zmian.
+- Source mapping PDF/obrazów i odtworzony tekst DOCX/arkuszy. Lokalny eForm
+  z warunkami, powtarzaniem i FINISH; nie jest rendererem docelowego COI.
+- Zgodność: osobno schema, profil, business rules, błędy i ostrzeżenia, pochodzenie
+  uzupełnień standardu. Brak sztucznego „procentu dokładności” w UI.
 
-Edytuj etykiety, typy, opcje, walidację, sekcje, grupy i kolejność. W ustawieniach
-pola można zmienić właściwości COI: słownik, readOnly, binding danych inicjalnych,
-drzewo warunków i potwierdzenie. Warunki sekcji są dostępne pod tabelą.
-Grupę można oznaczyć jako powtarzalną; lokalny podgląd nie implementuje pełnego
-cyklu dodawania/usuwania jej wierszy. Usunięcie pola sterującego wymaga najpierw
-poprawienia zależności.
+## Architektura i dane
 
-Po „Zastosuj zmiany” walidacja i JSON są przeliczane. Pobierany
-`formforge-coi.json` jest samym FormDefinition, bez metadanych FormForge.
-Brak błędów technicznych umożliwia eksport; ostrzeżenia i niepotwierdzone decyzje
-nadal wymagają przeglądu przed publikacją.
-
-Podgląd jest lokalnym przybliżeniem eForm, nie silnikiem COI. Rejestry nie są
-podłączone; pola EXTERNAL_SYSTEM są zablokowane i opisane bindingiem. Pełne
-wartości słowników TERYT/Kraje udostępnia platforma, nie ten pakiet. Nie ma wysyłki
-do urzędu. Wpisane dane i wybrane załączniki nie są utrwalane.
-
-## API
-
-| Metoda i ścieżka | Znaczenie |
-|---|---|
-| GET `/api/health` | Python, OCR, offline, status zgodności |
-| GET `/api/v1/formats` | Format/MIME i ograniczenia |
-| POST `/api/v1/forms/convert` | Multipart `file`; model, surowe wykrycie, dokument, etapy, eksport i raport |
-| POST `/api/v1/forms/validate` | `form`, opcjonalnie `values`, `export_format`; walidacja i ponowny eksport |
-| POST `/api/v1/forms/preview` | `form`; HTML podglądu i eksport |
-| GET `/api/v1/coi/schema` | Niezmieniona schema organizatora |
-| POST `/api/v1/forms/coi-validate` | Surowy FormDefinition → raport zgodności |
-
-```bash
-curl -F 'file=@demo_samples/zaswiadczenie.pdf;type=application/pdf' \
-  'http://127.0.0.1:8765/api/v1/forms/convert?export_format=official' > result.json
-python -c 'import json; x=json.load(open("result.json")); print(json.dumps(x["export"],ensure_ascii=False,indent=2))' > formforge-coi.json
-curl -H 'Content-Type: application/json' --data-binary @formforge-coi.json \
-  http://127.0.0.1:8765/api/v1/forms/coi-validate
+```text
+Browser (własny JS/Jinja, bez CDN)
+  → lokalna brama HTTP (stały backend, limity)
+  → FastAPI (JWT opcjonalny, limit żądań, semafor)
+  → izolowany proces ekstrakcji/OCR (czas/pamięć/temp)
+  → layout → pola → model wewnętrzny → adapter COI
+  → schema + profil rekurencyjny + reguły techniczne
+  → odpowiedź, edytor, eForm, eksport
 ```
 
-Wsteczna zgodność: `convert?export_format=preview`; w validate/preview JSON
-`"export_format":"preview"`. Odpowiedź convert zawsze zachowuje `preview_export`.
-Tryb analizy `deterministic` jest domyślny. Opcjonalny `local-ai-assisted` to mały
-lokalny klasyfikator Naive Bayes, nie LLM; nie deklarujemy poprawy jakości dzięki niemu.
+W Compose procesor jest tylko w sieci `internal`, z UID10001, read-only root,
+tmpfs, bez capabilities i z limitami zasobów. Brama publikuje wyłącznie localhost.
+Nie ma połączeń do usług AI, CDN, zdalnych fontów ani automatycznych pobrań modeli
+w runtime. Rzeczywisty test `--network none` sprawdził PDF/DOC/OCR/model lokalny.
+OpenTelemetry API jest zależnością przechodnią FastAPI; brak SDK/eksportera.
 
-## Testy i odtwarzanie pomiarów
+Źródła są w request-scoped temp i usuwane po zakończeniu/timeout. Podgląd PDF
+ponownie przesyła stronę do lokalnego, ograniczonego procesu renderowania; plik
+znów jest usuwany. Blob źródła, model, historia edycji i testowe odpowiedzi żyją
+w pamięci karty. Nie wpisuj danych obywateli do demonstracji. Brak zapisu wniosków,
+podpisu, e-Doręczeń i integracji rejestrów.
 
-```bash
-python -m pytest -q
-python -m ruff check formforge scripts tests
-python scripts/evaluate_coi.py references
-python scripts/evaluate_coi.py independent
+## API i konfiguracja
+
+```sh
+curl -F 'file=@demo_samples/zaswiadczenie.pdf'   http://127.0.0.1:8000/api/v1/forms/convert > result.json
 ```
 
-`evaluation/coi-v1/engine-freeze.json` zawiera hashe silnika sprzed niezależnego
-przetwarzania 02/03/04/06/07/08/09. Polecenie `independent` odmawia działania po
-zmianie silnika. Istniejącego freeze nie nadpisujemy. Dalszy rozwój wymaga nowej
-wersji pomiaru i nowych, wcześniej nieoglądanych dokumentów do niezależnego testu.
-`references` to zbiór rozwojowy, a nie niezależna ocena.
+Odpowiedź zawiera `form`, `detected_form`, `export`, `coi_validation`,
+`quality_review`, `document`, `stages`. Eksport to `export` z title/tabs/flow.
+`POST /api/v1/forms/validate` przyjmuje `{ "form": ... }` i przebudowuje eksport.
+`POST /api/v1/forms/coi-validate` sprawdza surowy COI JSON.
+`POST /api/v1/forms/preview` zwraca lokalny HTML i JSON.
+`POST /api/v1/forms/source-page?page=1` przyjmuje PDF i zwraca PNG.
+`GET /api/v1/dictionaries` udostępnia opisy katalogu, bez pełnych wartości COI.
+Opcja `export_format=preview` zachowuje dawny jawny format podglądowy.
 
-Opcjonalny Playwright z lokalnym Chrome:
+Wszystkie parametry są w `.env.example`; ustawiane przez środowisko/Compose.
+Domyślnie tryb lokalny ma auth=false i binding localhost. Przed udostępnieniem
+w sieci włącz JWT, skonfiguruj TLS na kontrolowanej bramie i ogranicz dostęp:
+`FORMFORGE_AUTH_ENABLED=true`, sekret >=32 znaki, issuer, audience.
+JWT HS256 wymaga exp/iat/sub/iss/aud. Sekrety tylko runtime; nie umieszczaj `.env`
+w repo ani obrazie. Limity pliku, komórek, stron, ZIP, obrazu, OCR i czasu pozostają aktywne.
 
-```bash
-node scripts/ui_smoke.cjs
-node scripts/ui_review.cjs
-node scripts/ui_coi.cjs
-```
+## Demo i dowody
 
-Zmienne `FORMFORGE_CHROMIUM`, `FORMFORGE_PLAYWRIGHT_MODULE`, `FORMFORGE_BASE_URL`
-pozwalają wskazać istniejącą instalację. Zrzuty i wyniki: `output/qa/`.
+W UI kliknij własny przykład PDF. Otwórz źródło, popraw etykietę pola, sprawdź
+eForm i „Zgodność z COI”, pobierz JSON. Każdy przykład przechodzi prawdziwą konwersję.
+Na obronie załaduj nowy pusty blankiet i jawnie pokaż konieczne poprawki.
 
-## Bezpieczeństwo i licencje
+- [Start dla jury](docs/QUICK_START_PL.md) · [Demo 2–3 min](docs/FINAL_DEMO_PL.md)
+- [Raport końcowy](docs/FINAL_COMPETITION_REPORT.md) · [Macierz COI](docs/COI_REQUIREMENTS_MATRIX.md)
+- [Dokładność](docs/FINAL_ACCURACY_REPORT.md) · [Ograniczenia](docs/KNOWN_LIMITATIONS.md)
+- [Prezentacja PDF, 10 slajdów](docs/FormForge_COI_1.0_Presentation_PL.pdf) · [Pytania jury](docs/JURY_QA_PL.md)
+- Wyniki pomiarów/QA i generowane konfiguracje: `evaluation/coi-final/`.
+  Historyczne eksperymenty w Git zachowane; źródła i duże raw traces pominięte w czystym ZIP.
 
-Upload działa w krótkotrwałym procesie, z limitami, kontrolą MIME/sygnatur,
-ZIP/XXE/makr, timeout i czyszczeniem katalogu żądania. Podgląd oryginału korzysta
-z lokalnego Blob URL. Dostępny jest JWT HS256; konfiguracja w `.env.example`.
-Nie ma bazy dokumentów ani zewnętrznej analizy. Docker ogranicza egress;
-instalacja natywna korzysta z izolacji systemu gospodarza.
+## Warunki przekazania
 
-Kod: MIT. 37 przypiętych bibliotek runtime: `requirements.lock`,
-`docs/runtime-licenses.json`, [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md).
-JSONata jest wykonywana lokalnie przez Apache-2.0 `jsonata-python`.
-PyMuPDF i LibreOffice nie są zależnościami. Materiały organizatorów w `reference/`
-zachowują własne prawa i warunki; licencja MIT projektu nie przenosi na nie praw.
-Nie zmieniono ich zawartości. Produkt nie ładuje etalonowych JSON podczas konwersji.
+Nie deklarujemy pełnej gotowości konkursowej. Nadal potrzebne: rzeczywisty import
+COI, poprawki pominiętych pól/warunków na nowym dokumencie, rozstrzygnięcie audytu
+natywnych licencji i praw zespołu, nagranie publicznego filmu <=3 min oraz dostęp
+jury do repozytorium. Jeżeli repo jest prywatne, właściciel musi nadać dostęp.
+Nie zmieniono widoczności ani nie wykonano push/merge.
+
+Kod zachowuje istniejącą [MIT](LICENSE). Materiały organizatora, schemat, źródła
+urzędowe i biblioteki mają odrębne prawa; [notices](THIRD_PARTY_NOTICES.md) i
+[raport licencyjny](docs/LICENSE_COMPLIANCE.md) opisują zakres. Paczka źródeł nie
+zawiera środowiska Python/obrazu Docker: instalację trzeba przeprowadzić wcześniej.

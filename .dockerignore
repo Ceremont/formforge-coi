@@ -1,6 +1,6 @@
 .venv
 .git
-.env
+.env*
 __pycache__
 .pytest_cache
 .ruff_cache
@@ -10,3 +10,19 @@ tests
 scripts
 *.pdf
 !demo_samples/*.pdf
+
+reference
+evaluation
+docs
+*.zip
+*.zip.tmp
+requirements-dev.lock
+
+# Local credentials and development dependencies
+.aws
+.ssh
+node_modules
+*.pem
+*.key
+*.p12
+*.pfx

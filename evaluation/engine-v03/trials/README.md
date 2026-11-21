@@ -1,0 +1,1 @@
+Exploratory development passes, not final evaluation. The second pass overlapped a correction to known-reference OCR noise. These matrices are preserved for history and must not be reported as a fixed-engine benchmark. The active engine-freeze.json and known-results.json describe the final rerun.

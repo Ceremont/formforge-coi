@@ -1,0 +1,346 @@
+[
+  {
+    "id": "new-gus-info",
+    "version": "baseline",
+    "scope": "Explicit source controls; see pre-prediction annotation protocol",
+    "expected_fields": 15,
+    "predicted_fields": 7,
+    "matched_fields": 2,
+    "field_precision": 0.2857142857142857,
+    "field_recall": 0.13333333333333333,
+    "field_f1": 0.18181818181818182,
+    "field_type_accuracy": 1.0,
+    "section_accuracy": 0.5,
+    "section_f1": 0.06060606060606061,
+    "matches": [
+      {
+        "expected": "phone",
+        "actual": "Nr telefonu",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "Adres",
+        "type_correct": true
+      }
+    ],
+    "missing": [
+      "name",
+      "email",
+      "request",
+      "email_choice",
+      "office_choice",
+      "paper_personal",
+      "paper_post",
+      "cd_personal",
+      "cd_post",
+      "other_personal",
+      "other_post",
+      "other_personal_detail",
+      "other_post_detail"
+    ],
+    "extra": [
+      "mail",
+      "zakresie",
+      "poz",
+      "UDOSTĘPNIENIA INFORMACJI",
+      "Uwagi"
+    ]
+  },
+  {
+    "id": "new-gus-info",
+    "version": "v03",
+    "scope": "Explicit source controls; see pre-prediction annotation protocol",
+    "expected_fields": 15,
+    "predicted_fields": 15,
+    "matched_fields": 11,
+    "field_precision": 0.7333333333333333,
+    "field_recall": 0.7333333333333333,
+    "field_f1": 0.7333333333333333,
+    "field_type_accuracy": 0.9090909090909091,
+    "section_accuracy": 0.0,
+    "section_f1": 0.0,
+    "matches": [
+      {
+        "expected": "cd_post",
+        "actual": "plik(i) na płycie CD – wysyłka pocztą",
+        "type_correct": true
+      },
+      {
+        "expected": "cd_personal",
+        "actual": "plik(i) na płycie CD – odbiór osobisty",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_post",
+        "actual": "kserokopia – wysyłka pocztą",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_personal",
+        "actual": "kserokopia – odbiór osobisty",
+        "type_correct": true
+      },
+      {
+        "expected": "office_choice",
+        "actual": "na miejscu w Urzędzie",
+        "type_correct": true
+      },
+      {
+        "expected": "email_choice",
+        "actual": "na podany adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "phone",
+        "actual": "Nr telefonu",
+        "type_correct": true
+      },
+      {
+        "expected": "email",
+        "actual": "Adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "address",
+        "actual": "Adres",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "Imię i Nazwisko / Nazwa instytucji/firmy",
+        "type_correct": true
+      },
+      {
+        "expected": "request",
+        "actual": "poz. 1330,1669)  zwracam się z prośbą o udostępnienie informacji w następującym zakresie",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "other_personal",
+      "other_post",
+      "other_personal_detail",
+      "other_post_detail"
+    ],
+    "extra": [
+      "SPOSÓB i FORMA UDOSTĘPNIENIA INFORMACJI",
+      "plik(i) na innym nośniku (jakim?)",
+      "plik(i) na innym nośniku (jakim?)",
+      "Uwagi"
+    ]
+  },
+  {
+    "id": "new-student-card",
+    "version": "baseline",
+    "scope": "Explicit source controls; see pre-prediction annotation protocol",
+    "expected_fields": 7,
+    "predicted_fields": 14,
+    "matched_fields": 4,
+    "field_precision": 0.2857142857142857,
+    "field_recall": 0.5714285714285714,
+    "field_f1": 0.38095238095238093,
+    "field_type_accuracy": 0.25,
+    "section_accuracy": 0.0,
+    "section_f1": 0.0,
+    "matches": [
+      {
+        "expected": "student",
+        "actual": "(imię i nazwisko ucznia)",
+        "type_correct": true
+      },
+      {
+        "expected": "reason",
+        "actual": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+        "type_correct": false
+      },
+      {
+        "expected": "class",
+        "actual": "(klasa)",
+        "type_correct": false
+      },
+      {
+        "expected": "applicant",
+        "actual": "(imię i nazwisko osoby wnioskującej",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "birth",
+      "pesel",
+      "address"
+    ],
+    "extra": [
+      ", dnia",
+      "(",
+      "(",
+      "adres zamieszkania",
+      ")",
+      "(czytelny podpis",
+      "Opłatę wnosi się na rachunek",
+      "numer rachunku",
+      "W treści przelewu prosimy o podanie",
+      "w Bydgoszczy potwierdzenia uiszczenia wymaganej opłaty, drogą elektroniczną na adres"
+    ]
+  },
+  {
+    "id": "new-student-card",
+    "version": "v03",
+    "scope": "Explicit source controls; see pre-prediction annotation protocol",
+    "expected_fields": 7,
+    "predicted_fields": 11,
+    "matched_fields": 4,
+    "field_precision": 0.36363636363636365,
+    "field_recall": 0.5714285714285714,
+    "field_f1": 0.4444444444444444,
+    "field_type_accuracy": 0.75,
+    "section_accuracy": 0.0,
+    "section_f1": 0.0,
+    "matches": [
+      {
+        "expected": "class",
+        "actual": "(klasa)",
+        "type_correct": true
+      },
+      {
+        "expected": "student",
+        "actual": "(imię i nazwisko ucznia)",
+        "type_correct": true
+      },
+      {
+        "expected": "applicant",
+        "actual": "(imię i nazwisko osoby wnioskującej",
+        "type_correct": true
+      },
+      {
+        "expected": "reason",
+        "actual": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "birth",
+      "pesel",
+      "address"
+    ],
+    "extra": [
+      "(data urodzeniaucznia)",
+      "(PESELucznia)",
+      "(adres zamieszkaniaucznia)",
+      "Załączniki",
+      "Opłatę wnosi się na rachunek",
+      "numer rachunku",
+      "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres"
+    ]
+  },
+  {
+    "id": "new-finance-info",
+    "version": "baseline",
+    "scope": "Explicit source controls; see pre-prediction annotation protocol",
+    "expected_fields": 10,
+    "predicted_fields": 4,
+    "matched_fields": 4,
+    "field_precision": 1.0,
+    "field_recall": 0.4,
+    "field_f1": 0.5714285714285715,
+    "field_type_accuracy": 0.75,
+    "section_accuracy": 1.0,
+    "section_f1": 1.0,
+    "matches": [
+      {
+        "expected": "other",
+        "actual": "albo w następujący sposób",
+        "type_correct": true
+      },
+      {
+        "expected": "surname",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "Imię",
+        "type_correct": true
+      },
+      {
+        "expected": "contact",
+        "actual": "Adres zamieszkania/adres e-mail/skrytka ePUAP/numer telefonu",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "request",
+      "email_choice",
+      "paper_choice",
+      "cd_choice",
+      "epuap_choice",
+      "office_choice"
+    ],
+    "extra": []
+  },
+  {
+    "id": "new-finance-info",
+    "version": "v03",
+    "scope": "Explicit source controls; see pre-prediction annotation protocol",
+    "expected_fields": 10,
+    "predicted_fields": 9,
+    "matched_fields": 9,
+    "field_precision": 1.0,
+    "field_recall": 0.9,
+    "field_f1": 0.9473684210526316,
+    "field_type_accuracy": 0.8888888888888888,
+    "section_accuracy": 1.0,
+    "section_f1": 0.8888888888888888,
+    "matches": [
+      {
+        "expected": "other",
+        "actual": "albo w następujący sposób",
+        "type_correct": true
+      },
+      {
+        "expected": "office_choice",
+        "actual": "do wglądu w urzędzie (niezbędne jest podanie numeru telefonu kontaktowego do uzgodnienia szczegółów wizyty w urzędzie)",
+        "type_correct": true
+      },
+      {
+        "expected": "epuap_choice",
+        "actual": "przesłanie na wskazaną w nagłówku skrzynkę na platformie e-PUAP",
+        "type_correct": true
+      },
+      {
+        "expected": "cd_choice",
+        "actual": "przesłanie pocztą na adres wskazany w nagłówku w formie zapisu na dysku CD/DVD",
+        "type_correct": true
+      },
+      {
+        "expected": "paper_choice",
+        "actual": "przesłanie pocztą na adres wskazany w nagłówku w formie wydruku/kserokopii",
+        "type_correct": true
+      },
+      {
+        "expected": "email_choice",
+        "actual": "przesłanie pocztą elektroniczną na wskazany w nagłówku adres e-mail",
+        "type_correct": true
+      },
+      {
+        "expected": "surname",
+        "actual": "Nazwisko",
+        "type_correct": true
+      },
+      {
+        "expected": "name",
+        "actual": "Imię",
+        "type_correct": true
+      },
+      {
+        "expected": "contact",
+        "actual": "Adres zamieszkania/adres e-mail/skrytka ePUAP/numer telefonu",
+        "type_correct": false
+      }
+    ],
+    "missing": [
+      "request"
+    ],
+    "extra": []
+  }
+]

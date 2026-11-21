@@ -1,0 +1,412 @@
+{
+  "created_utc": "2026-11-21T21:46:54.185464+00:00",
+  "protocol": "Final R2 prospective single-annotator source inventory, before predictions. Fixed accent-folded label patterns and one-to-one matches. Neither official truth nor an estimate of population accuracy. No annotation changes or recognition tuning after outcomes.",
+  "cases": [
+    {
+      "id": "krk-language",
+      "expected": [
+        {
+          "key": "first",
+          "pattern": "^imie",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "last",
+          "pattern": "^nazwisko",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "pesel",
+          "pattern": "pesel",
+          "type": "pesel",
+          "page": null
+        },
+        {
+          "key": "birth",
+          "pattern": "data urodzenia",
+          "type": "date",
+          "page": null
+        },
+        {
+          "key": "address",
+          "pattern": "adres do korespondencji",
+          "type": "address",
+          "page": null
+        },
+        {
+          "key": "language",
+          "pattern": "jezyk urzedowy",
+          "type": "select",
+          "page": null
+        }
+      ],
+      "expected_sections": [
+        "Dane osoby, której dotyczy wniosek"
+      ],
+      "scope": "All six citizen controls, including language as a bounded choice from the printed EU-language list. Excludes paper signature. PDF one page."
+    },
+    {
+      "id": "fishing-card",
+      "expected": [
+        {
+          "key": "name",
+          "pattern": "nazwisko.*imie|imie.*nazwisko",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "postal",
+          "pattern": "kod pocztowy|^15-",
+          "type": "postal_code",
+          "page": null
+        },
+        {
+          "key": "address",
+          "pattern": "adres zamieszkania|^ul\\.?$|^ulica$",
+          "type": "address",
+          "page": null
+        },
+        {
+          "key": "birth",
+          "pattern": "data urodzenia",
+          "type": "date",
+          "page": null
+        },
+        {
+          "key": "phone",
+          "pattern": "(?:nr|numer) telefonu",
+          "type": "phone",
+          "page": null
+        }
+      ],
+      "expected_sections": null,
+      "scope": "Five explicit personal answer controls in the table. Postal fragment and street/address are separate. Excludes date/signature, office issuance/receipt footer, static consent and attachment descriptions without printed answer controls. Upload redesign assessed qualitatively. DOCX page layout not scored."
+    },
+    {
+      "id": "pesel-request",
+      "expected": [
+        {
+          "key": "authority",
+          "pattern": "nazwa organu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "residents_choice",
+          "pattern": "z rejestru mieszkancow",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "pesel_choice",
+          "pattern": "z rejestru pesel",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "applicant_last",
+          "pattern": "^nazwisko",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "applicant_first",
+          "pattern": "^imie",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "applicant_name",
+          "pattern": "^nazwa$",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "applicant_phone",
+          "pattern": "(?:nr|numer) telefonu",
+          "type": "phone",
+          "page": null
+        },
+        {
+          "key": "applicant_fax",
+          "pattern": "faksu",
+          "type": "phone",
+          "page": null
+        },
+        {
+          "key": "applicant_email",
+          "pattern": "adres e-?mail",
+          "type": "email",
+          "page": null
+        },
+        {
+          "key": "applicant_street",
+          "pattern": "^ulica",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "applicant_home",
+          "pattern": "nr domu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "applicant_flat",
+          "pattern": "nr lokalu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "applicant_postal",
+          "pattern": "kod pocztowy",
+          "type": "postal_code",
+          "page": null
+        },
+        {
+          "key": "applicant_town",
+          "pattern": "^miejscowosc",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "applicant_country",
+          "pattern": "^kraj",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_last",
+          "pattern": "^nazwisko",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_first",
+          "pattern": "^imie",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_name",
+          "pattern": "^nazwa$",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_phone",
+          "pattern": "(?:nr|numer) telefonu",
+          "type": "phone",
+          "page": null
+        },
+        {
+          "key": "representative_fax",
+          "pattern": "faksu",
+          "type": "phone",
+          "page": null
+        },
+        {
+          "key": "representative_email",
+          "pattern": "adres e-?mail",
+          "type": "email",
+          "page": null
+        },
+        {
+          "key": "representative_street",
+          "pattern": "^ulica",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_home",
+          "pattern": "nr domu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_flat",
+          "pattern": "nr lokalu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_postal",
+          "pattern": "kod pocztowy",
+          "type": "postal_code",
+          "page": null
+        },
+        {
+          "key": "representative_town",
+          "pattern": "^miejscowosc",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "representative_country",
+          "pattern": "^kraj",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_last",
+          "pattern": "^nazwisko$",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_previous",
+          "pattern": "poprzednie nazwisko",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_birth_surname",
+          "pattern": "nazwisko rodowe",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_first",
+          "pattern": "^imie(?:\\s*\\(imiona\\))?$",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_pesel",
+          "pattern": "numer pesel",
+          "type": "pesel",
+          "page": null
+        },
+        {
+          "key": "subject_birth",
+          "pattern": "data urodzenia",
+          "type": "date",
+          "page": null
+        },
+        {
+          "key": "subject_birthplace",
+          "pattern": "miejsce urodzenia",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_father",
+          "pattern": "imie ojca",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_mother",
+          "pattern": "imie matki",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_identity",
+          "pattern": "seria.*dowodu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_other",
+          "pattern": "inne dane",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "subject_street",
+          "pattern": "^ulica",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_home",
+          "pattern": "nr domu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_flat",
+          "pattern": "nr lokalu",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "subject_postal",
+          "pattern": "kod pocztowy",
+          "type": "postal_code",
+          "page": null
+        },
+        {
+          "key": "subject_town",
+          "pattern": "^miejscowosc",
+          "type": "text",
+          "page": null
+        },
+        {
+          "key": "temporary_scope",
+          "pattern": "adres zameldowania na pobyt czasowy",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "permanent_scope",
+          "pattern": "adres zameldowania na pobyt staly",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "other_scope",
+          "pattern": "^inne$",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "other_scope_detail",
+          "pattern": "inne.*(?:doprecyzowanie|dane)|zakres.*innych",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "reason",
+          "pattern": "uzasadnienie potrzeby",
+          "type": "textarea",
+          "page": null
+        },
+        {
+          "key": "fee_check",
+          "pattern": "dowod.*oplaty za udostepnienie",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "authorization_check",
+          "pattern": "dokument.*pelnomocnictwa",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "other_attachment_check",
+          "pattern": "^inne$",
+          "type": "checkbox",
+          "page": null
+        },
+        {
+          "key": "other_attachment_detail",
+          "pattern": "inne.*(?:zalaczniki|doprecyzowanie)|zalaczniki.*inne",
+          "type": "textarea",
+          "page": null
+        }
+      ],
+      "expected_sections": [
+        "Dane wnioskodawcy",
+        "Dane pełnomocnika wnioskodawcy",
+        "Dane osoby, której wniosek dotyczy",
+        "Uzasadnienie potrzeby uzyskania danych"
+      ],
+      "scope": "Citizen controls from sections 1–7; duplicated Choice/Fallback text counts once. Includes printed checkbox lists and their other-detail areas. Excludes paper dates/signatures and office-only section. DOCX page/person-position assignment not scored; matching by label/type multiplicity, not full workflow equivalence."
+    }
+  ]
+}

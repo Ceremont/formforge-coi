@@ -1,0 +1,195 @@
+{
+  "protocol": "Single-annotator source inventory created before any new-document conversion predictions. PDF pages visually inspected; DOCX original paragraphs and OOXML controls inspected. Explicit citizen answer regions and printed choice controls counted. Signatures/place-date headers, fixed recipient data, legal prose and attachment descriptions without printed answer controls excluded. Combined contact line is one free-text field. Exact source-style sections are a separate set metric; no official COI expected JSON exists. This is a small prospective external check, not a representative competition benchmark.",
+  "annotated_utc": "2026-11-21T18:26:51.859707+00:00",
+  "cases": [
+    {
+      "id": "new-gus-info",
+      "expected_sections": [
+        "Dane wnioskodawcy",
+        "Sposób i forma udostępnienia informacji"
+      ],
+      "expected": [
+        {
+          "key": "name",
+          "pattern": "imie i nazwisko|nazwa instytucji",
+          "type": "text"
+        },
+        {
+          "key": "address",
+          "pattern": "^adres$",
+          "type": "address"
+        },
+        {
+          "key": "email",
+          "pattern": "adres e-mail",
+          "type": "email"
+        },
+        {
+          "key": "phone",
+          "pattern": "nr telefonu",
+          "type": "phone"
+        },
+        {
+          "key": "request",
+          "pattern": "nastepujacym zakresie|tresc wniosku|przedmiot wniosku",
+          "type": "textarea"
+        },
+        {
+          "key": "email_choice",
+          "pattern": "^na podany adres e-mail",
+          "type": "checkbox"
+        },
+        {
+          "key": "office_choice",
+          "pattern": "^na miejscu w urzedzie",
+          "type": "checkbox"
+        },
+        {
+          "key": "paper_personal",
+          "pattern": "kserokopia.*odbior osobisty",
+          "type": "checkbox"
+        },
+        {
+          "key": "paper_post",
+          "pattern": "kserokopia.*wysylka poczta",
+          "type": "checkbox"
+        },
+        {
+          "key": "cd_personal",
+          "pattern": "plycie cd.*odbior osobisty",
+          "type": "checkbox"
+        },
+        {
+          "key": "cd_post",
+          "pattern": "plycie cd.*wysylka poczta",
+          "type": "checkbox"
+        },
+        {
+          "key": "other_personal",
+          "pattern": "innym nosniku.*odbior osobisty",
+          "type": "checkbox"
+        },
+        {
+          "key": "other_post",
+          "pattern": "innym nosniku.*wysylka poczta",
+          "type": "checkbox"
+        },
+        {
+          "key": "other_personal_detail",
+          "pattern": "innym nosniku.*(?:doprecyzowanie|jakim).*odbior|nosnik.*osobist",
+          "type": "text"
+        },
+        {
+          "key": "other_post_detail",
+          "pattern": "innym nosniku.*(?:doprecyzowanie|jakim).*wysyl|nosnik.*poczt",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "new-student-card",
+      "expected_sections": [
+        "Załączniki",
+        "Dodatkowe informacje"
+      ],
+      "expected": [
+        {
+          "key": "applicant",
+          "pattern": "imie i nazwisko osoby wniosku",
+          "type": "text"
+        },
+        {
+          "key": "student",
+          "pattern": "imie i nazwisko ucznia",
+          "type": "text"
+        },
+        {
+          "key": "class",
+          "pattern": "klasa",
+          "type": "text"
+        },
+        {
+          "key": "birth",
+          "pattern": "data urodzenia ucznia",
+          "type": "date"
+        },
+        {
+          "key": "pesel",
+          "pattern": "pesel ucznia",
+          "type": "pesel"
+        },
+        {
+          "key": "address",
+          "pattern": "adres zamieszkania ucznia",
+          "type": "address"
+        },
+        {
+          "key": "reason",
+          "pattern": "zwracam.*duplikat.*powodu|przyczyn|powod",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "new-finance-info",
+      "expected_sections": [
+        "Dane wnioskodawcy",
+        "Dane organu",
+        "Przedmiot wniosku",
+        "Sposób przekazania informacji"
+      ],
+      "expected": [
+        {
+          "key": "name",
+          "pattern": "^imie$",
+          "type": "text"
+        },
+        {
+          "key": "surname",
+          "pattern": "^nazwisko$",
+          "type": "text"
+        },
+        {
+          "key": "contact",
+          "pattern": "adres zamieszkania/adres e-mail",
+          "type": "text"
+        },
+        {
+          "key": "request",
+          "pattern": "nastepujacych informacji|przedmiot wniosku|tresc wniosku",
+          "type": "textarea"
+        },
+        {
+          "key": "email_choice",
+          "pattern": "^przeslanie poczta elektroniczna",
+          "type": "checkbox"
+        },
+        {
+          "key": "paper_choice",
+          "pattern": "wydruku/kserokopii",
+          "type": "checkbox"
+        },
+        {
+          "key": "cd_choice",
+          "pattern": "dysku cd",
+          "type": "checkbox"
+        },
+        {
+          "key": "epuap_choice",
+          "pattern": "^przeslanie.*platformie.*e-puap",
+          "type": "checkbox"
+        },
+        {
+          "key": "office_choice",
+          "pattern": "^do wgladu w urzedzie",
+          "type": "checkbox"
+        },
+        {
+          "key": "other",
+          "pattern": "albo w nastepujacy sposob",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

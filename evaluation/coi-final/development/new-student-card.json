@@ -1,0 +1,4616 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_4eba02ec08026ef8",
+    "title": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      },
+      {
+        "id": 2,
+        "title": "Strona 2",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "................................., dnia .......................",
+          "(miejscowość)",
+          "(data)",
+          "o duplikat legitymacji szkolnej)",
+          "Dyrektor",
+          "Państwowego Liceum Sztuk Plastycznych",
+          "im. Leona Wyczółkowskiego w Bydgoszczy",
+          "ul. Konarskiego 2",
+          "85-066 Bydgoszcz",
+          "Wniosek o wydanie duplikatu legitymacji szkolnej",
+          "……………………………………………………… (np. zniszczenia, zgubienia, kradzieży) oryginału.",
+          "(czytelny podpis pełnoletniego ucznia/opiekuna prawnego)"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "Załączniki:",
+        "page": 1,
+        "order": 1,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "1.  Aktualne, podpisane zdjęcie legitymacyjne.",
+        "page": 1,
+        "order": 2,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s4",
+        "title": "2.  Dowód wniesienia opłaty za wydanie duplikatu legitymacji.",
+        "page": 1,
+        "order": 3,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s5",
+        "title": "Strona 2",
+        "page": 2,
+        "order": 4,
+        "instructions": [
+          "Dodatkowe informacje !",
+          "Wniosek o wystawienie duplikatu legitymacji szkolnej w formie papierowej do sekretariatu szkoły",
+          "składa pełnoletni uczeń lub rodzic/opiekun prawny ucznia.",
+          "Wnioski złożone drogą elektroniczną należy podpisać kwalifikowanym podpisem elektronicznym. Za",
+          "każdy duplikat legitymacji szkolnej należy dokonać wpłaty w wysokości 9 zł.",
+          "Państwowego Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego w Bydgoszczy",
+          "ul. Konarskiego 2",
+          "85-066 Bydgoszcz",
+          "W  treści  przelewu  prosimy  o  podanie: „ imienia  i  nazwiska  -  opłata  za wydanie  duplikatu",
+          "legitymacji szkolnej”- ułatwi to identyfikację wpłat.",
+          "Bardzo prosimy o zwrotne przekazanie do Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego",
+          "sekretariat@plastyk.bydgoszcz.pl, co przyspieszy sporządzenie i wydanie duplikatu.",
+          "Do pobrania takiej opłaty obliguje nas § 23 ust. 2 rozporządzenia Ministra Kultury i Dziedzictwa",
+          "Narodowego w sprawie świadectw, dyplomów państwowych i innych druków publicznych szkół i",
+          "placówek artystycznych (Dz. U. z 2020 r. poz. 813), zgodnie z którym, za wydanie odpowiednio",
+          "duplikatu legitymacji szkolnej albo e-legitymacji szkolnej pobiera się opłatę w wysokości równej",
+          "kwocie opłaty skarbowej od poświadczenia własnoręczności podpisu."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_93c8297431ed",
+        "label": "(imię i nazwisko osoby wnioskującej",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "(imię i nazwisko osoby wnioskującej",
+          "bbox": [
+            70.80001068115234,
+            143.27996826171875,
+            204.24391174316406,
+            155.4029541015625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.8052978515625,
+            130.229736328125,
+            274.44580078125,
+            145.10064697265625
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            143.27996826171875,
+            204.24391174316406,
+            155.4029541015625
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_80d1665d970b",
+        "label": "(imię i nazwisko ucznia)",
+        "field_type": "text",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b8",
+          "text": "(imię i nazwisko ucznia)",
+          "bbox": [
+            70.80001068115234,
+            189.23992919921875,
+            159.4770050048828,
+            201.3629150390625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            176.31640625,
+            274.4405517578125,
+            191.18731689453125
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            189.23992919921875,
+            159.4770050048828,
+            201.3629150390625
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_7edead0fa6d0",
+        "label": "(klasa)",
+        "field_type": "text",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b10",
+          "text": "(klasa)",
+          "bbox": [
+            70.80001068115234,
+            224.88006591796875,
+            95.15670776367188,
+            237.0030517578125
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            211.9564208984375,
+            274.4372253417969,
+            226.82733154296875
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            224.88006591796875,
+            95.15670776367188,
+            237.0030517578125
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_bea520a649de",
+        "label": "(data urodzenia ucznia)",
+        "field_type": "date",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b12",
+          "text": "(data urodzenia ucznia)",
+          "bbox": [
+            70.80001068115234,
+            260.52001953125,
+            155.39369201660156,
+            272.64300537109375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            247.596435546875,
+            274.4405517578125,
+            262.46734619140625
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            260.52001953125,
+            155.39369201660156,
+            272.64300537109375
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e61ef3dd905d",
+        "label": "(PESEL ucznia)",
+        "field_type": "pesel",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "pesel",
+            "value": null,
+            "message": null
+          },
+          {
+            "kind": "min_length",
+            "value": 11,
+            "message": null
+          },
+          {
+            "kind": "max_length",
+            "value": 11,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b14",
+          "text": "(PESEL ucznia)",
+          "bbox": [
+            70.80001068115234,
+            296.15997314453125,
+            129.1136932373047,
+            308.282958984375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            283.2364501953125,
+            274.4405517578125,
+            298.1072998046875
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            296.15997314453125,
+            129.1136932373047,
+            308.282958984375
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: pesel"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_1397cca0155e",
+        "label": "(adres zamieszkania ucznia)",
+        "field_type": "address",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "(adres zamieszkania ucznia)",
+          "bbox": [
+            70.80001068115234,
+            331.7999267578125,
+            172.1967010498047,
+            343.9229431152344
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            318.87640380859375,
+            274.4449157714844,
+            333.747314453125
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            331.7999267578125,
+            172.1967010498047,
+            343.9229431152344
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_b19de0837ede",
+        "label": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+        "field_type": "textarea",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu ……………………………",
+          "bbox": [
+            70.80001068115234,
+            469.47503662109375,
+            523.6796264648438,
+            484.3459167480469
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.80001068115234,
+            469.47503662109375,
+            523.6796264648438,
+            484.3459167480469
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_97012098135a",
+        "label": "Opłatę wnosi się na rachunek",
+        "field_type": "text",
+        "required": false,
+        "order": 7,
+        "page": 2,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 2,
+          "block_id": "b35",
+          "text": "Opłatę wnosi się na rachunek:",
+          "bbox": [
+            70.78897094726562,
+            175.22637939453125,
+            203.33851623535156,
+            190.0972900390625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.78897094726562,
+            175.22637939453125,
+            203.33851623535156,
+            190.0972900390625
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ceca3fbb79a9",
+        "label": "numer rachunku",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 2,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 2,
+          "block_id": "b39",
+          "text": "numer rachunku: 20 1010 1078 0020 1722 3100 0000",
+          "bbox": [
+            70.80001068115234,
+            234.94171142578125,
+            316.43780517578125,
+            250.2210693359375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.80001068115234,
+            234.94171142578125,
+            316.43780517578125,
+            250.2210693359375
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_65e436df3a3a",
+        "label": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres",
+        "field_type": "address",
+        "required": false,
+        "order": 9,
+        "page": 2,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 2,
+          "block_id": "b43",
+          "text": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres:",
+          "bbox": [
+            70.8000259399414,
+            310.709228515625,
+            527.16064453125,
+            325.58013916015625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.8000259399414,
+            310.709228515625,
+            527.16064453125,
+            325.58013916015625
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_4eba02ec08026ef8",
+    "title": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      },
+      {
+        "id": 2,
+        "title": "Strona 2",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Dane formularza",
+        "page": 1,
+        "order": 0,
+        "instructions": [
+          "................................., dnia .......................",
+          "(miejscowość)",
+          "(data)",
+          "o duplikat legitymacji szkolnej)",
+          "Dyrektor",
+          "Państwowego Liceum Sztuk Plastycznych",
+          "im. Leona Wyczółkowskiego w Bydgoszczy",
+          "ul. Konarskiego 2",
+          "85-066 Bydgoszcz",
+          "Wniosek o wydanie duplikatu legitymacji szkolnej",
+          "……………………………………………………… (np. zniszczenia, zgubienia, kradzieży) oryginału.",
+          "(czytelny podpis pełnoletniego ucznia/opiekuna prawnego)"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "Załączniki:",
+        "page": 1,
+        "order": 1,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "1.  Aktualne, podpisane zdjęcie legitymacyjne.",
+        "page": 1,
+        "order": 2,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s4",
+        "title": "2.  Dowód wniesienia opłaty za wydanie duplikatu legitymacji.",
+        "page": 1,
+        "order": 3,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s5",
+        "title": "Strona 2",
+        "page": 2,
+        "order": 4,
+        "instructions": [
+          "Dodatkowe informacje !",
+          "Wniosek o wystawienie duplikatu legitymacji szkolnej w formie papierowej do sekretariatu szkoły",
+          "składa pełnoletni uczeń lub rodzic/opiekun prawny ucznia.",
+          "Wnioski złożone drogą elektroniczną należy podpisać kwalifikowanym podpisem elektronicznym. Za",
+          "każdy duplikat legitymacji szkolnej należy dokonać wpłaty w wysokości 9 zł.",
+          "Państwowego Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego w Bydgoszczy",
+          "ul. Konarskiego 2",
+          "85-066 Bydgoszcz",
+          "W  treści  przelewu  prosimy  o  podanie: „ imienia  i  nazwiska  -  opłata  za wydanie  duplikatu",
+          "legitymacji szkolnej”- ułatwi to identyfikację wpłat.",
+          "Bardzo prosimy o zwrotne przekazanie do Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego",
+          "sekretariat@plastyk.bydgoszcz.pl, co przyspieszy sporządzenie i wydanie duplikatu.",
+          "Do pobrania takiej opłaty obliguje nas § 23 ust. 2 rozporządzenia Ministra Kultury i Dziedzictwa",
+          "Narodowego w sprawie świadectw, dyplomów państwowych i innych druków publicznych szkół i",
+          "placówek artystycznych (Dz. U. z 2020 r. poz. 813), zgodnie z którym, za wydanie odpowiednio",
+          "duplikatu legitymacji szkolnej albo e-legitymacji szkolnej pobiera się opłatę w wysokości równej",
+          "kwocie opłaty skarbowej od poświadczenia własnoręczności podpisu."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_93c8297431ed",
+        "label": "(imię i nazwisko osoby wnioskującej",
+        "field_type": "text",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "(imię i nazwisko osoby wnioskującej",
+          "bbox": [
+            70.80001068115234,
+            143.27996826171875,
+            204.24391174316406,
+            155.4029541015625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.8052978515625,
+            130.229736328125,
+            274.44580078125,
+            145.10064697265625
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            143.27996826171875,
+            204.24391174316406,
+            155.4029541015625
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_80d1665d970b",
+        "label": "(imię i nazwisko ucznia)",
+        "field_type": "text",
+        "required": false,
+        "order": 1,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b8",
+          "text": "(imię i nazwisko ucznia)",
+          "bbox": [
+            70.80001068115234,
+            189.23992919921875,
+            159.4770050048828,
+            201.3629150390625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            176.31640625,
+            274.4405517578125,
+            191.18731689453125
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            189.23992919921875,
+            159.4770050048828,
+            201.3629150390625
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_7edead0fa6d0",
+        "label": "(klasa)",
+        "field_type": "text",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b10",
+          "text": "(klasa)",
+          "bbox": [
+            70.80001068115234,
+            224.88006591796875,
+            95.15670776367188,
+            237.0030517578125
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            211.9564208984375,
+            274.4372253417969,
+            226.82733154296875
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            224.88006591796875,
+            95.15670776367188,
+            237.0030517578125
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_bea520a649de",
+        "label": "(data urodzenia ucznia)",
+        "field_type": "date",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b12",
+          "text": "(data urodzenia ucznia)",
+          "bbox": [
+            70.80001068115234,
+            260.52001953125,
+            155.39369201660156,
+            272.64300537109375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            247.596435546875,
+            274.4405517578125,
+            262.46734619140625
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            260.52001953125,
+            155.39369201660156,
+            272.64300537109375
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_e61ef3dd905d",
+        "label": "(PESEL ucznia)",
+        "field_type": "pesel",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s1",
+        "validation": [
+          {
+            "kind": "pesel",
+            "value": null,
+            "message": null
+          },
+          {
+            "kind": "min_length",
+            "value": 11,
+            "message": null
+          },
+          {
+            "kind": "max_length",
+            "value": 11,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b14",
+          "text": "(PESEL ucznia)",
+          "bbox": [
+            70.80001068115234,
+            296.15997314453125,
+            129.1136932373047,
+            308.282958984375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            283.2364501953125,
+            274.4405517578125,
+            298.1072998046875
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            296.15997314453125,
+            129.1136932373047,
+            308.282958984375
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: pesel"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_1397cca0155e",
+        "label": "(adres zamieszkania ucznia)",
+        "field_type": "address",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "(adres zamieszkania ucznia)",
+          "bbox": [
+            70.80001068115234,
+            331.7999267578125,
+            172.1967010498047,
+            343.9229431152344
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            318.87640380859375,
+            274.4449157714844,
+            333.747314453125
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            331.7999267578125,
+            172.1967010498047,
+            343.9229431152344
+          ]
+        },
+        "confidence": 0.84,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_b19de0837ede",
+        "label": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+        "field_type": "textarea",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s1",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu ……………………………",
+          "bbox": [
+            70.80001068115234,
+            469.47503662109375,
+            523.6796264648438,
+            484.3459167480469
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.80001068115234,
+            469.47503662109375,
+            523.6796264648438,
+            484.3459167480469
+          ]
+        },
+        "confidence": 0.9,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_97012098135a",
+        "label": "Opłatę wnosi się na rachunek",
+        "field_type": "text",
+        "required": false,
+        "order": 7,
+        "page": 2,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 2,
+          "block_id": "b35",
+          "text": "Opłatę wnosi się na rachunek:",
+          "bbox": [
+            70.78897094726562,
+            175.22637939453125,
+            203.33851623535156,
+            190.0972900390625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.78897094726562,
+            175.22637939453125,
+            203.33851623535156,
+            190.0972900390625
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ceca3fbb79a9",
+        "label": "numer rachunku",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 2,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 2,
+          "block_id": "b39",
+          "text": "numer rachunku: 20 1010 1078 0020 1722 3100 0000",
+          "bbox": [
+            70.80001068115234,
+            234.94171142578125,
+            316.43780517578125,
+            250.2210693359375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.80001068115234,
+            234.94171142578125,
+            316.43780517578125,
+            250.2210693359375
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_65e436df3a3a",
+        "label": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres",
+        "field_type": "address",
+        "required": false,
+        "order": 9,
+        "page": 2,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 2,
+          "block_id": "b43",
+          "text": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres:",
+          "bbox": [
+            70.8000259399414,
+            310.709228515625,
+            527.16064453125,
+            325.58013916015625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.8000259399414,
+            310.709228515625,
+            527.16064453125,
+            325.58013916015625
+          ]
+        },
+        "confidence": 0.85,
+        "detection_method": "pdf_text+rules",
+        "decision_reasons": [
+          "Label/type context",
+          "Semantic type: address"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+    "tabs": [
+      {
+        "id": "41773ee1-2af2-5426-854e-6c76393ef61e",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 22,
+            "cols": 3,
+            "field": {
+              "id": "8d422fee-ed74-5917-8896-416c6a538969",
+              "type": "SECTION",
+              "techName": "dane_formularza_section_s1",
+              "title": "Dane formularza",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "24d588c9-d6f9-5f96-a60a-583e0687029f",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_0",
+                    "title": "",
+                    "description": "................................., dnia .......................",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f2aa75a7-dc43-52ae-a502-e1d09d222c31",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_1",
+                    "title": "",
+                    "description": "(miejscowość)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c5d4ae1e-8e46-55b0-b630-37384d852562",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_2",
+                    "title": "",
+                    "description": "(data)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "25c89808-bd2f-5314-b779-95e69a663282",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_3",
+                    "title": "",
+                    "description": "o duplikat legitymacji szkolnej)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "83351504-7f6b-53d9-bbd2-5ee872619b48",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_4",
+                    "title": "",
+                    "description": "Dyrektor",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d045a487-1bbe-5d58-8371-c3c67dc06308",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_5",
+                    "title": "",
+                    "description": "Państwowego Liceum Sztuk Plastycznych",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "96b29eef-8aab-5057-b630-3b19ddad125c",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_6",
+                    "title": "",
+                    "description": "im. Leona Wyczółkowskiego w Bydgoszczy",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "cfb8a928-a645-5e9e-abb9-8aa5fd002e83",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_7",
+                    "title": "",
+                    "description": "ul. Konarskiego 2",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "671fff10-b4ed-59f3-9895-a40a5a959bcc",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_8",
+                    "title": "",
+                    "description": "85-066 Bydgoszcz",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "aed82e75-aeea-5870-bfd2-3e38cc1b088a",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_9",
+                    "title": "",
+                    "description": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8ebe1fbe-0cbf-5d80-aaf2-988c058741d9",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_10",
+                    "title": "",
+                    "description": "……………………………………………………… (np. zniszczenia, zgubienia, kradzieży) oryginału.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a8f97ba4-e60f-529b-8b7d-e18bd843170e",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s1_11",
+                    "title": "",
+                    "description": "(czytelny podpis pełnoletniego ucznia/opiekuna prawnego)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "6680f1f1-c82b-5b4b-9a8b-5083306f7322",
+                    "type": "TEXT_FIELD",
+                    "techName": "imie_i_nazwisko_osoby_wnioskujacej_c8297431ed",
+                    "title": "(imię i nazwisko osoby wnioskującej",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 12,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ee589cf2-54e4-5ae8-a38a-3d3aeb421efe",
+                    "type": "TEXT_FIELD",
+                    "techName": "imie_i_nazwisko_ucznia_d1665d970b",
+                    "title": "(imię i nazwisko ucznia)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 13,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 14,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c4744759-a08f-5f77-940a-12b589a9b9c6",
+                    "type": "TEXT_FIELD",
+                    "techName": "klasa_dead0fa6d0",
+                    "title": "(klasa)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 14,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 15,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "6608f6f6-b2c5-5b95-a7e6-5f4708129697",
+                    "type": "DATEPICKER",
+                    "techName": "data_urodzenia_ucznia_a520a649de",
+                    "title": "(data urodzenia ucznia)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 15,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 16,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4176504d-2080-56e8-87ea-e61b83c2c7a1",
+                    "type": "TEXT_FIELD",
+                    "techName": "pesel_ucznia_1ef3dd905d",
+                    "title": "(PESEL ucznia)",
+                    "description": "",
+                    "options": [],
+                    "validation": [
+                      "PESEL"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 16,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 17,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "7b06efb9-66e7-59a7-a236-7d8b600718ee",
+                    "type": "TEXT_FIELD",
+                    "techName": "adres_zamieszkania_ucznia_97cca0155e",
+                    "title": "(adres zamieszkania ucznia)",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 17,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 18,
+                  "rows": 3,
+                  "cols": 3,
+                  "field": {
+                    "id": "1efd1de0-4b86-5843-9a22-afb2734973ef",
+                    "type": "TEXTAREA",
+                    "techName": "zwracam_sie_z_prosba_o_wydanie_duplikatu_legitymacji_szkolnej_z_powodu_9de0837ede",
+                    "title": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 18,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "b8f780aa-f434-5ba3-ad03-7cc4147ef728",
+        "title": "Strona 2",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 21,
+            "cols": 3,
+            "field": {
+              "id": "2bfbf8be-3abe-5bdb-a1ed-303034e2d13f",
+              "type": "SECTION",
+              "techName": "strona_2_section_s5",
+              "title": "Strona 2",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "04dedd92-f942-54da-b69b-83cc90cd5df5",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_0",
+                    "title": "",
+                    "description": "Dodatkowe informacje !",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "3545cdcc-fce9-5bce-903d-cd3367ae1165",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_1",
+                    "title": "",
+                    "description": "Wniosek o wystawienie duplikatu legitymacji szkolnej w formie papierowej do sekretariatu szkoły",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "50469772-b634-5283-82d2-d6f9a34e9c2a",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_2",
+                    "title": "",
+                    "description": "składa pełnoletni uczeń lub rodzic/opiekun prawny ucznia.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e519aa01-6695-53ca-a144-cf54c9895721",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_3",
+                    "title": "",
+                    "description": "Wnioski złożone drogą elektroniczną należy podpisać kwalifikowanym podpisem elektronicznym. Za",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c2add572-28e1-5eb7-a50d-eb61a538c51e",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_4",
+                    "title": "",
+                    "description": "każdy duplikat legitymacji szkolnej należy dokonać wpłaty w wysokości 9 zł.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c3e0ec7e-9a46-5778-b2bc-5e6f6647b49f",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_5",
+                    "title": "",
+                    "description": "Państwowego Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego w Bydgoszczy",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c96496e7-8fa6-515b-b152-cca31cc09d3c",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_6",
+                    "title": "",
+                    "description": "ul. Konarskiego 2",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "91138f44-7315-5a9e-8800-6798823b0266",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_7",
+                    "title": "",
+                    "description": "85-066 Bydgoszcz",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "8393a27f-3117-5cf1-957e-d31f532ec4ba",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_8",
+                    "title": "",
+                    "description": "W  treści  przelewu  prosimy  o  podanie: „ imienia  i  nazwiska  -  opłata  za wydanie  duplikatu",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "998de45f-9081-580f-a724-96288f9a944b",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_9",
+                    "title": "",
+                    "description": "legitymacji szkolnej”- ułatwi to identyfikację wpłat.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "40b8e965-b006-56b4-ae1b-9911622ec915",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_10",
+                    "title": "",
+                    "description": "Bardzo prosimy o zwrotne przekazanie do Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b9968887-43f4-5e12-b0e5-78498083d837",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_11",
+                    "title": "",
+                    "description": "sekretariat@plastyk.bydgoszcz.pl, co przyspieszy sporządzenie i wydanie duplikatu.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "68160dfb-7c12-544c-ba9f-a3a265c121db",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_12",
+                    "title": "",
+                    "description": "Do pobrania takiej opłaty obliguje nas § 23 ust. 2 rozporządzenia Ministra Kultury i Dziedzictwa",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "783695fb-4b25-5ba9-ace4-b5969e4fc194",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_13",
+                    "title": "",
+                    "description": "Narodowego w sprawie świadectw, dyplomów państwowych i innych druków publicznych szkół i",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 14,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "518e8b65-e84a-5288-a16d-8269c08f7d0b",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_14",
+                    "title": "",
+                    "description": "placówek artystycznych (Dz. U. z 2020 r. poz. 813), zgodnie z którym, za wydanie odpowiednio",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 15,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a301ac83-4b77-5611-8b26-69832e3081a4",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_15",
+                    "title": "",
+                    "description": "duplikatu legitymacji szkolnej albo e-legitymacji szkolnej pobiera się opłatę w wysokości równej",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 16,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "1b5dde53-17f3-5c0c-b932-555c4cc84452",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_16",
+                    "title": "",
+                    "description": "kwocie opłaty skarbowej od poświadczenia własnoręczności podpisu.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 17,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "ffb8d533-0da1-5472-b733-77099d85c889",
+                    "type": "TEXT_FIELD",
+                    "techName": "oplate_wnosi_sie_na_rachunek_012098135a",
+                    "title": "Opłatę wnosi się na rachunek",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 17,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 18,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "3e990323-9dea-5346-9031-a2225c97302a",
+                    "type": "TEXT_FIELD",
+                    "techName": "numer_rachunku_ca3fbb79a9",
+                    "title": "numer rachunku",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 18,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 19,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "57a2df9a-4878-55e7-83a5-b08d310adcb5",
+                    "type": "TEXT_FIELD",
+                    "techName": "w_bydgoszczy_potwierdzenia_uiszczenia_wymaganej_oplaty_droga_elektroniczna_na_adres_e436df3a3a",
+                    "title": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 19,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5bad81b-5ec4-5b19-b99b-988d6d1e132b",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "b8acbf60-d377-5538-993e-eb71cc8fa33f",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "9d4f0b3b-cc71-5399-b595-654001d9633f",
+          "source": "41773ee1-2af2-5426-854e-6c76393ef61e",
+          "target": "b8f780aa-f434-5ba3-ad03-7cc4147ef728"
+        },
+        {
+          "id": "cde23cdf-15aa-57b1-a23a-6906908d4a31",
+          "source": "b8f780aa-f434-5ba3-ad03-7cc4147ef728",
+          "target": "c5bad81b-5ec4-5b19-b99b-988d6d1e132b"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_4eba02ec08026ef8",
+      "title": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": 595.3200073242188,
+          "height": 841.9199829101562,
+          "source": "document"
+        },
+        {
+          "id": 2,
+          "title": "Strona 2",
+          "width": 595.3200073242188,
+          "height": 841.9199829101562,
+          "source": "document"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Dane formularza",
+          "page": 1,
+          "order": 0,
+          "instructions": [
+            "................................., dnia .......................",
+            "(miejscowość)",
+            "(data)",
+            "o duplikat legitymacji szkolnej)",
+            "Dyrektor",
+            "Państwowego Liceum Sztuk Plastycznych",
+            "im. Leona Wyczółkowskiego w Bydgoszczy",
+            "ul. Konarskiego 2",
+            "85-066 Bydgoszcz",
+            "Wniosek o wydanie duplikatu legitymacji szkolnej",
+            "……………………………………………………… (np. zniszczenia, zgubienia, kradzieży) oryginału.",
+            "(czytelny podpis pełnoletniego ucznia/opiekuna prawnego)"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s2",
+          "title": "Załączniki:",
+          "page": 1,
+          "order": 1,
+          "instructions": [],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s3",
+          "title": "1.  Aktualne, podpisane zdjęcie legitymacyjne.",
+          "page": 1,
+          "order": 2,
+          "instructions": [],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s4",
+          "title": "2.  Dowód wniesienia opłaty za wydanie duplikatu legitymacji.",
+          "page": 1,
+          "order": 3,
+          "instructions": [],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s5",
+          "title": "Strona 2",
+          "page": 2,
+          "order": 4,
+          "instructions": [
+            "Dodatkowe informacje !",
+            "Wniosek o wystawienie duplikatu legitymacji szkolnej w formie papierowej do sekretariatu szkoły",
+            "składa pełnoletni uczeń lub rodzic/opiekun prawny ucznia.",
+            "Wnioski złożone drogą elektroniczną należy podpisać kwalifikowanym podpisem elektronicznym. Za",
+            "każdy duplikat legitymacji szkolnej należy dokonać wpłaty w wysokości 9 zł.",
+            "Państwowego Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego w Bydgoszczy",
+            "ul. Konarskiego 2",
+            "85-066 Bydgoszcz",
+            "W  treści  przelewu  prosimy  o  podanie: „ imienia  i  nazwiska  -  opłata  za wydanie  duplikatu",
+            "legitymacji szkolnej”- ułatwi to identyfikację wpłat.",
+            "Bardzo prosimy o zwrotne przekazanie do Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego",
+            "sekretariat@plastyk.bydgoszcz.pl, co przyspieszy sporządzenie i wydanie duplikatu.",
+            "Do pobrania takiej opłaty obliguje nas § 23 ust. 2 rozporządzenia Ministra Kultury i Dziedzictwa",
+            "Narodowego w sprawie świadectw, dyplomów państwowych i innych druków publicznych szkół i",
+            "placówek artystycznych (Dz. U. z 2020 r. poz. 813), zgodnie z którym, za wydanie odpowiednio",
+            "duplikatu legitymacji szkolnej albo e-legitymacji szkolnej pobiera się opłatę w wysokości równej",
+            "kwocie opłaty skarbowej od poświadczenia własnoręczności podpisu."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_93c8297431ed",
+          "label": "(imię i nazwisko osoby wnioskującej",
+          "field_type": "text",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b5",
+            "text": "(imię i nazwisko osoby wnioskującej",
+            "bbox": [
+              70.80001068115234,
+              143.27996826171875,
+              204.24391174316406,
+              155.4029541015625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              70.8052978515625,
+              130.229736328125,
+              274.44580078125,
+              145.10064697265625
+            ],
+            "label_bbox": [
+              70.80001068115234,
+              143.27996826171875,
+              204.24391174316406,
+              155.4029541015625
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_80d1665d970b",
+          "label": "(imię i nazwisko ucznia)",
+          "field_type": "text",
+          "required": false,
+          "order": 1,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b8",
+            "text": "(imię i nazwisko ucznia)",
+            "bbox": [
+              70.80001068115234,
+              189.23992919921875,
+              159.4770050048828,
+              201.3629150390625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              70.80001068115234,
+              176.31640625,
+              274.4405517578125,
+              191.18731689453125
+            ],
+            "label_bbox": [
+              70.80001068115234,
+              189.23992919921875,
+              159.4770050048828,
+              201.3629150390625
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_7edead0fa6d0",
+          "label": "(klasa)",
+          "field_type": "text",
+          "required": false,
+          "order": 2,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b10",
+            "text": "(klasa)",
+            "bbox": [
+              70.80001068115234,
+              224.88006591796875,
+              95.15670776367188,
+              237.0030517578125
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              70.80001068115234,
+              211.9564208984375,
+              274.4372253417969,
+              226.82733154296875
+            ],
+            "label_bbox": [
+              70.80001068115234,
+              224.88006591796875,
+              95.15670776367188,
+              237.0030517578125
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_bea520a649de",
+          "label": "(data urodzenia ucznia)",
+          "field_type": "date",
+          "required": false,
+          "order": 3,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "date",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b12",
+            "text": "(data urodzenia ucznia)",
+            "bbox": [
+              70.80001068115234,
+              260.52001953125,
+              155.39369201660156,
+              272.64300537109375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              70.80001068115234,
+              247.596435546875,
+              274.4405517578125,
+              262.46734619140625
+            ],
+            "label_bbox": [
+              70.80001068115234,
+              260.52001953125,
+              155.39369201660156,
+              272.64300537109375
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: date"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_e61ef3dd905d",
+          "label": "(PESEL ucznia)",
+          "field_type": "pesel",
+          "required": false,
+          "order": 4,
+          "page": 1,
+          "section": "s1",
+          "validation": [
+            {
+              "kind": "pesel",
+              "value": null,
+              "message": null
+            },
+            {
+              "kind": "min_length",
+              "value": 11,
+              "message": null
+            },
+            {
+              "kind": "max_length",
+              "value": 11,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b14",
+            "text": "(PESEL ucznia)",
+            "bbox": [
+              70.80001068115234,
+              296.15997314453125,
+              129.1136932373047,
+              308.282958984375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              70.80001068115234,
+              283.2364501953125,
+              274.4405517578125,
+              298.1072998046875
+            ],
+            "label_bbox": [
+              70.80001068115234,
+              296.15997314453125,
+              129.1136932373047,
+              308.282958984375
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: pesel"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_1397cca0155e",
+          "label": "(adres zamieszkania ucznia)",
+          "field_type": "address",
+          "required": false,
+          "order": 5,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "(adres zamieszkania ucznia)",
+            "bbox": [
+              70.80001068115234,
+              331.7999267578125,
+              172.1967010498047,
+              343.9229431152344
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": [
+              70.80001068115234,
+              318.87640380859375,
+              274.4449157714844,
+              333.747314453125
+            ],
+            "label_bbox": [
+              70.80001068115234,
+              331.7999267578125,
+              172.1967010498047,
+              343.9229431152344
+            ]
+          },
+          "confidence": 0.84,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: address"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_b19de0837ede",
+          "label": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu",
+          "field_type": "textarea",
+          "required": false,
+          "order": 6,
+          "page": 1,
+          "section": "s1",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b23",
+            "text": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu ……………………………",
+            "bbox": [
+              70.80001068115234,
+              469.47503662109375,
+              523.6796264648438,
+              484.3459167480469
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.80001068115234,
+              469.47503662109375,
+              523.6796264648438,
+              484.3459167480469
+            ]
+          },
+          "confidence": 0.9,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: textarea"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_97012098135a",
+          "label": "Opłatę wnosi się na rachunek",
+          "field_type": "text",
+          "required": false,
+          "order": 7,
+          "page": 2,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 2,
+            "block_id": "b35",
+            "text": "Opłatę wnosi się na rachunek:",
+            "bbox": [
+              70.78897094726562,
+              175.22637939453125,
+              203.33851623535156,
+              190.0972900390625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.78897094726562,
+              175.22637939453125,
+              203.33851623535156,
+              190.0972900390625
+            ]
+          },
+          "confidence": 0.85,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Label/type context",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_ceca3fbb79a9",
+          "label": "numer rachunku",
+          "field_type": "text",
+          "required": false,
+          "order": 8,
+          "page": 2,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 2,
+            "block_id": "b39",
+            "text": "numer rachunku: 20 1010 1078 0020 1722 3100 0000",
+            "bbox": [
+              70.80001068115234,
+              234.94171142578125,
+              316.43780517578125,
+              250.2210693359375
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.80001068115234,
+              234.94171142578125,
+              316.43780517578125,
+              250.2210693359375
+            ]
+          },
+          "confidence": 0.85,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Label/type context",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_65e436df3a3a",
+          "label": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres",
+          "field_type": "address",
+          "required": false,
+          "order": 9,
+          "page": 2,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 2,
+            "block_id": "b43",
+            "text": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres:",
+            "bbox": [
+              70.8000259399414,
+              310.709228515625,
+              527.16064453125,
+              325.58013916015625
+            ],
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": [
+              70.8000259399414,
+              310.709228515625,
+              527.16064453125,
+              325.58013916015625
+            ]
+          },
+          "confidence": 0.85,
+          "detection_method": "pdf_text+rules",
+          "decision_reasons": [
+            "Label/type context",
+            "Semantic type: address"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [],
+      "groups": [],
+      "dictionaries": [],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": false
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [],
+    "provenance": {
+      "6680f1f1-c82b-5b4b-9a8b-5083306f7322": {
+        "internal_field_id": "f_93c8297431ed",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b5",
+          "text": "(imię i nazwisko osoby wnioskującej",
+          "bbox": [
+            70.80001068115234,
+            143.27996826171875,
+            204.24391174316406,
+            155.4029541015625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.8052978515625,
+            130.229736328125,
+            274.44580078125,
+            145.10064697265625
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            143.27996826171875,
+            204.24391174316406,
+            155.4029541015625
+          ]
+        }
+      },
+      "ee589cf2-54e4-5ae8-a38a-3d3aeb421efe": {
+        "internal_field_id": "f_80d1665d970b",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b8",
+          "text": "(imię i nazwisko ucznia)",
+          "bbox": [
+            70.80001068115234,
+            189.23992919921875,
+            159.4770050048828,
+            201.3629150390625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            176.31640625,
+            274.4405517578125,
+            191.18731689453125
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            189.23992919921875,
+            159.4770050048828,
+            201.3629150390625
+          ]
+        }
+      },
+      "c4744759-a08f-5f77-940a-12b589a9b9c6": {
+        "internal_field_id": "f_7edead0fa6d0",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b10",
+          "text": "(klasa)",
+          "bbox": [
+            70.80001068115234,
+            224.88006591796875,
+            95.15670776367188,
+            237.0030517578125
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            211.9564208984375,
+            274.4372253417969,
+            226.82733154296875
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            224.88006591796875,
+            95.15670776367188,
+            237.0030517578125
+          ]
+        }
+      },
+      "6608f6f6-b2c5-5b95-a7e6-5f4708129697": {
+        "internal_field_id": "f_bea520a649de",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b12",
+          "text": "(data urodzenia ucznia)",
+          "bbox": [
+            70.80001068115234,
+            260.52001953125,
+            155.39369201660156,
+            272.64300537109375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            247.596435546875,
+            274.4405517578125,
+            262.46734619140625
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            260.52001953125,
+            155.39369201660156,
+            272.64300537109375
+          ]
+        }
+      },
+      "4176504d-2080-56e8-87ea-e61b83c2c7a1": {
+        "internal_field_id": "f_e61ef3dd905d",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b14",
+          "text": "(PESEL ucznia)",
+          "bbox": [
+            70.80001068115234,
+            296.15997314453125,
+            129.1136932373047,
+            308.282958984375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            283.2364501953125,
+            274.4405517578125,
+            298.1072998046875
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            296.15997314453125,
+            129.1136932373047,
+            308.282958984375
+          ]
+        }
+      },
+      "7b06efb9-66e7-59a7-a236-7d8b600718ee": {
+        "internal_field_id": "f_1397cca0155e",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "(adres zamieszkania ucznia)",
+          "bbox": [
+            70.80001068115234,
+            331.7999267578125,
+            172.1967010498047,
+            343.9229431152344
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": [
+            70.80001068115234,
+            318.87640380859375,
+            274.4449157714844,
+            333.747314453125
+          ],
+          "label_bbox": [
+            70.80001068115234,
+            331.7999267578125,
+            172.1967010498047,
+            343.9229431152344
+          ]
+        }
+      },
+      "1efd1de0-4b86-5843-9a22-afb2734973ef": {
+        "internal_field_id": "f_b19de0837ede",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu ……………………………",
+          "bbox": [
+            70.80001068115234,
+            469.47503662109375,
+            523.6796264648438,
+            484.3459167480469
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.80001068115234,
+            469.47503662109375,
+            523.6796264648438,
+            484.3459167480469
+          ]
+        }
+      },
+      "ffb8d533-0da1-5472-b733-77099d85c889": {
+        "internal_field_id": "f_97012098135a",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 2,
+          "block_id": "b35",
+          "text": "Opłatę wnosi się na rachunek:",
+          "bbox": [
+            70.78897094726562,
+            175.22637939453125,
+            203.33851623535156,
+            190.0972900390625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.78897094726562,
+            175.22637939453125,
+            203.33851623535156,
+            190.0972900390625
+          ]
+        }
+      },
+      "3e990323-9dea-5346-9031-a2225c97302a": {
+        "internal_field_id": "f_ceca3fbb79a9",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 2,
+          "block_id": "b39",
+          "text": "numer rachunku: 20 1010 1078 0020 1722 3100 0000",
+          "bbox": [
+            70.80001068115234,
+            234.94171142578125,
+            316.43780517578125,
+            250.2210693359375
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.80001068115234,
+            234.94171142578125,
+            316.43780517578125,
+            250.2210693359375
+          ]
+        }
+      },
+      "57a2df9a-4878-55e7-83a5-b08d310adcb5": {
+        "internal_field_id": "f_65e436df3a3a",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 2,
+          "block_id": "b43",
+          "text": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres:",
+          "bbox": [
+            70.8000259399414,
+            310.709228515625,
+            527.16064453125,
+            325.58013916015625
+          ],
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": [
+            70.8000259399414,
+            310.709228515625,
+            527.16064453125,
+            325.58013916015625
+          ]
+        }
+      }
+    },
+    "requires_confirmation": false,
+    "status": "valid_configuration",
+    "unsupported_features": []
+  },
+  "normalization": {
+    "applied": false,
+    "reason": "No government-applicant context; preserved source structure"
+  },
+  "quality_review": {
+    "counts": {
+      "fields": 10,
+      "sections": 5,
+      "pages": 2,
+      "dependencies": 0,
+      "dictionaries": 0,
+      "review_fields": 0,
+      "error": 0,
+      "warning": 1,
+      "info": 1
+    },
+    "checks": {
+      "schema_valid": true,
+      "business_rules_valid": true,
+      "compatibility_profile_valid": true,
+      "actual_import_verified": false,
+      "completeness_verified": false
+    },
+    "diagnostics": [
+      {
+        "severity": "WARNING",
+        "code": "coi_review",
+        "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+        "field_id": null,
+        "category": "recognition",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      },
+      {
+        "severity": "INFO",
+        "code": "import_unverified",
+        "message": "Nie przeprowadzono importu na rzeczywistej platformie COI.",
+        "category": "platform",
+        "recommendation": "Sprawdź wskazany element w źródle i edytorze; następnie ponów lokalną walidację."
+      }
+    ],
+    "unsupported_features": [],
+    "score_semantics": "Nie skalibrowano prawdopodobieństwa poprawności. Liczby opisują elementy i kontrole, a nie procent dokładności."
+  },
+  "quality": {
+    "status": "review_required",
+    "completeness_verified": false,
+    "unresolved_warnings": [],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    }
+  ],
+  "document": {
+    "filename": "unknown.pdf",
+    "format": "pdf",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      },
+      {
+        "id": 2,
+        "title": "Strona 2",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562,
+        "source": "document"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "................................., dnia .......................",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          343.0799865722656,
+          69.27838134765625,
+          527.1598510742188,
+          84.1492919921875
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "paper place/date header; electronic completion uses finish page"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "(miejscowość)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          365.3641662597656,
+          82.32000732421875,
+          419.8132629394531,
+          94.4429931640625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "(data)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          478.57427978515625,
+          82.32000732421875,
+          499.45068359375,
+          94.4429931640625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": ".........................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.8052978515625,
+          130.229736328125,
+          274.44580078125,
+          145.10064697265625
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b5"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "(imię i nazwisko osoby wnioskującej",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          143.27996826171875,
+          204.24391174316406,
+          155.4029541015625
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            70.8052978515625,
+            130.229736328125,
+            274.44580078125,
+            145.10064697265625
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "o duplikat legitymacji szkolnej)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          73.0770034790039,
+          153.6029052734375,
+          187.31396484375,
+          165.72589111328125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": ".........................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.80001068115234,
+          176.31640625,
+          274.4405517578125,
+          191.18731689453125
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b8"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "(imię i nazwisko ucznia)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          189.23992919921875,
+          159.4770050048828,
+          201.3629150390625
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            70.80001068115234,
+            176.31640625,
+            274.4405517578125,
+            191.18731689453125
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": ".........................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.80001068115234,
+          211.9564208984375,
+          274.4372253417969,
+          226.82733154296875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b10"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "(klasa)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          224.88006591796875,
+          95.15670776367188,
+          237.0030517578125
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            70.80001068115234,
+            211.9564208984375,
+            274.4372253417969,
+            226.82733154296875
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": ".........................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.80001068115234,
+          247.596435546875,
+          274.4405517578125,
+          262.46734619140625
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b12"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": "(data urodzenia ucznia)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          260.52001953125,
+          155.39369201660156,
+          272.64300537109375
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            70.80001068115234,
+            247.596435546875,
+            274.4405517578125,
+            262.46734619140625
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": ".........................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.80001068115234,
+          283.2364501953125,
+          274.4405517578125,
+          298.1072998046875
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b14"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "(PESEL ucznia)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          296.15997314453125,
+          129.1136932373047,
+          308.282958984375
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            70.80001068115234,
+            283.2364501953125,
+            274.4405517578125,
+            298.1072998046875
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "……………………………………………….",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          70.80001068115234,
+          318.87640380859375,
+          274.4449157714844,
+          333.747314453125
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b16"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "(adres zamieszkania ucznia)",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          331.7999267578125,
+          172.1967010498047,
+          343.9229431152344
+        ],
+        "metadata": {
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": [
+            70.80001068115234,
+            318.87640380859375,
+            274.4449157714844,
+            333.747314453125
+          ]
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": "Dyrektor",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          318.6037902832031,
+          354.5164489746094,
+          361.0802307128906,
+          369.3873291015625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b18",
+        "text": "Państwowego Liceum Sztuk Plastycznych",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          318.6037902832031,
+          367.1131286621094,
+          507.363525390625,
+          381.9840087890625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b19",
+        "text": "im. Leona Wyczółkowskiego w Bydgoszczy",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          318.6037902832031,
+          379.8311767578125,
+          517.680419921875,
+          394.7020568847656
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b20",
+        "text": "ul. Konarskiego 2",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          318.6037902832031,
+          392.4278259277344,
+          399.9642028808594,
+          407.2987060546875
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b21",
+        "text": "85-066 Bydgoszcz",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          318.6037902832031,
+          405.1459045410156,
+          400.7834167480469,
+          420.01678466796875
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b22",
+        "text": "Wniosek o wydanie duplikatu legitymacji szkolnej",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          169.0800323486328,
+          442.9679260253906,
+          426.15606689453125,
+          459.575927734375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b23",
+        "text": "Zwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu ……………………………",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          469.47503662109375,
+          523.6796264648438,
+          484.3459167480469
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b24",
+        "text": "……………………………………………………… (np. zniszczenia, zgubienia, kradzieży) oryginału.",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          488.4306945800781,
+          526.080810546875,
+          503.30157470703125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b25",
+        "text": "…………….…………………………………………",
+        "page": 1,
+        "kind": "blank",
+        "bbox": [
+          283.19854736328125,
+          551.6567687988281,
+          517.0787353515625,
+          566.5276489257812
+        ],
+        "metadata": {
+          "column": 0,
+          "label_block_id": "b26"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b26",
+        "text": "(czytelny podpis pełnoletniego ucznia/opiekuna prawnego)",
+        "page": 1,
+        "kind": "information",
+        "bbox": [
+          285.4770202636719,
+          564.7200012207031,
+          502.9305419921875,
+          576.8429870605469
+        ],
+        "metadata": {
+          "column": 0,
+          "blank_lines": 1,
+          "input_bbox": [
+            283.19854736328125,
+            551.6567687988281,
+            517.0787353515625,
+            566.5276489257812
+          ],
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b27",
+        "text": "Załączniki:",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          70.80001068115234,
+          585.1017456054688,
+          126.85008239746094,
+          600.381103515625
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "Thematic caption without an answer marker"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b28",
+        "text": "1.  Aktualne, podpisane zdjęcie legitymacyjne.",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          88.80623626708984,
+          610.3502349853516,
+          298.46466064453125,
+          625.2211151123047
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b29",
+        "text": "2.  Dowód wniesienia opłaty za wydanie duplikatu legitymacji.",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          88.8062515258789,
+          622.9468688964844,
+          373.3214111328125,
+          637.8177490234375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b30",
+        "text": "Dodatkowe informacje !",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          69.34173583984375,
+          184.51425170898438,
+          84.62109375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b31",
+        "text": "Wniosek o wystawienie duplikatu legitymacji szkolnej w formie papierowej do sekretariatu szkoły",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          104.669677734375,
+          527.1827392578125,
+          119.54058837890625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b32",
+        "text": "składa pełnoletni uczeń lub rodzic/opiekun prawny ucznia.",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          118.22686767578125,
+          329.6361083984375,
+          133.0977783203125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b33",
+        "text": "Wnioski złożone drogą elektroniczną należy podpisać kwalifikowanym podpisem elektronicznym. Za",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.78894805908203,
+          139.9425048828125,
+          527.1494750976562,
+          154.81341552734375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b34",
+        "text": "każdy duplikat legitymacji szkolnej należy dokonać wpłaty w wysokości 9 zł.",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.78894805908203,
+          153.4444580078125,
+          416.0318298339844,
+          168.72381591796875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b35",
+        "text": "Opłatę wnosi się na rachunek:",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.78897094726562,
+          175.22637939453125,
+          203.33851623535156,
+          190.0972900390625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b36",
+        "text": "Państwowego Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego w Bydgoszczy",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.78897094726562,
+          196.8868408203125,
+          472.7906799316406,
+          212.16619873046875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b37",
+        "text": "ul. Konarskiego 2",
+        "page": 2,
+        "kind": "information",
+        "bbox": [
+          70.78897094726562,
+          209.60491943359375,
+          153.7093048095703,
+          224.88427734375
+        ],
+        "metadata": {
+          "column": 0,
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b38",
+        "text": "85-066 Bydgoszcz",
+        "page": 2,
+        "kind": "information",
+        "bbox": [
+          70.78897094726562,
+          222.2015380859375,
+          153.6905517578125,
+          237.48089599609375
+        ],
+        "metadata": {
+          "column": 0,
+          "blank_lines": 1,
+          "input_bbox": [
+            157.08,
+            236.03998291015625,
+            316.44000000000005,
+            248.9999829101563
+          ],
+          "role_reason": "literal address value, no source input label"
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b39",
+        "text": "numer rachunku: 20 1010 1078 0020 1722 3100 0000",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          234.94171142578125,
+          316.43780517578125,
+          250.2210693359375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b50",
+        "text": "___",
+        "page": 2,
+        "kind": "blank",
+        "bbox": [
+          157.08,
+          236.03998291015625,
+          316.44000000000005,
+          248.9999829101563
+        ],
+        "metadata": {
+          "input_region": true,
+          "choice_square": false,
+          "column": 0,
+          "label_block_id": "b38"
+        },
+        "method": "pdf_vector",
+        "confidence": 1.0
+      },
+      {
+        "id": "b40",
+        "text": "W  treści  przelewu  prosimy  o  podanie: „ imienia  i  nazwiska  -  opłata  za wydanie  duplikatu",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          259.90313720703125,
+          527.1328735351562,
+          275.1824951171875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b41",
+        "text": "legitymacji szkolnej”- ułatwi to identyfikację wpłat.",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.80001068115234,
+          272.6212158203125,
+          307.7095947265625,
+          287.90057373046875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b42",
+        "text": "Bardzo prosimy o zwrotne przekazanie do Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.8000259399414,
+          298.11260986328125,
+          527.1638793945312,
+          312.9835205078125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b43",
+        "text": "w  Bydgoszczy  potwierdzenia  uiszczenia  wymaganej  opłaty,  drogą  elektroniczną  na  adres:",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.8000259399414,
+          310.709228515625,
+          527.16064453125,
+          325.58013916015625
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b44",
+        "text": "sekretariat@plastyk.bydgoszcz.pl, co przyspieszy sporządzenie i wydanie duplikatu.",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.8000259399414,
+          323.30584716796875,
+          442.6824645996094,
+          338.1767272949219
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b45",
+        "text": "Do pobrania takiej opłaty obliguje nas § 23 ust. 2 rozporządzenia Ministra Kultury i Dziedzictwa",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.800048828125,
+          357.6292419433594,
+          527.16064453125,
+          372.5001220703125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b46",
+        "text": "Narodowego w sprawie świadectw, dyplomów państwowych i innych druków publicznych szkół i",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.66757202148438,
+          371.3078308105469,
+          527.16064453125,
+          386.1787109375
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b47",
+        "text": "placówek artystycznych (Dz. U. z 2020 r. poz. 813), zgodnie z którym, za wydanie odpowiednio",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.77796936035156,
+          384.9863586425781,
+          527.1572265625,
+          399.85723876953125
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b48",
+        "text": "duplikatu legitymacji szkolnej albo e-legitymacji szkolnej pobiera się opłatę w wysokości równej",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.800048828125,
+          398.6649475097656,
+          527.1672973632812,
+          413.53582763671875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      },
+      {
+        "id": "b49",
+        "text": "kwocie opłaty skarbowej od poświadczenia własnoręczności podpisu.",
+        "page": 2,
+        "kind": "text",
+        "bbox": [
+          70.78900909423828,
+          412.2220764160156,
+          377.8688659667969,
+          427.09295654296875
+        ],
+        "metadata": {
+          "column": 0
+        },
+        "method": "pdf_text",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [],
+    "analysis": {
+      "ocr": [],
+      "page_text": [
+        {
+          "page": 1,
+          "text": "................................., dnia .......................  \n                                                                                                                        (miejscowość)                           (data)  \n \n \n \n.........................................................................  \n(imię i nazwisko osoby wnioskującej \n o duplikat legitymacji szkolnej) \n \n.........................................................................  \n(imię i nazwisko ucznia) \n \n.........................................................................  \n(klasa) \n \n.........................................................................  \n(data urodzenia ucznia) \n \n.........................................................................  \n(PESEL ucznia) \n \n……………………………………………….  \n(adres zamieszkania ucznia) \n \nDyrektor  \nPaństwowego Liceum Sztuk Plastycznych  \nim. Leona Wyczółkowskiego w Bydgoszczy  \nul. Konarskiego 2  \n85-066 Bydgoszcz \n \n \n  Wniosek o wydanie duplikatu legitymacji szkolnej \n \nZwracam się z prośbą o wydanie duplikatu legitymacji szkolnej z powodu …………………………… \n……………………………………………………… (np. zniszczenia, zgubienia, kradzieży) oryginału.  \n \n \n   \n…………….………………………………………… \n   (czytelny podpis pełnoletniego ucznia/opiekuna prawnego) \n \nZałączniki:  \n \n1. Aktualne, podpisane zdjęcie legitymacyjne. \n2. Dowód wniesienia opłaty za wydanie duplikatu legitymacji.  \n \n \n \n \n \n \n "
+        },
+        {
+          "page": 2,
+          "text": "Dodatkowe informacje ! \n \nWniosek o wystawienie duplikatu legitymacji szkolnej w formie papierowej do sekretariatu szkoły \nskłada pełnoletni uczeń lub rodzic/opiekun prawny ucznia. \nWnioski złożone drogą elektroniczną należy podpisać kwalifikowanym podpisem elektronicznym. Za \nkażdy duplikat legitymacji szkolnej należy dokonać wpłaty w wysokości 9 zł.  \nOpłatę wnosi się na rachunek: \nPaństwowego Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego w  Bydgoszczy \nul. Konarskiego 2 \n85-066 Bydgoszcz \nnumer rachunku: 20 1010 1078 0020 1722 3100 0000 \n \nW treści przelewu prosimy o podanie: „ imienia i nazwiska -  opłata za wydanie duplikatu \nlegitymacji szkolnej”-  ułatwi to identyfikację wpłat.  \n \nBardzo prosimy o zwrotne przekazanie do Liceum Sztuk Plastycznych im. Leona Wyczółkowskiego \nw Bydgoszczy potwierdzenia uiszczenia wymaganej opłaty, drogą elektroniczną na adres: \nsekretariat@plastyk.bydgoszcz.pl, co przyspieszy sporządzenie i wydanie duplikatu. \n \nDo pobrania takiej opłaty obliguje nas § 23 ust. 2 rozporządzenia Ministra Kultury i Dziedzictwa \nNarodowego w sprawie świadectw, dyplomów państwowych i innych druków publicznych szkół i \nplacówek artystycznych (Dz. U. z 2020 r. poz. 813), zgodnie z którym, za wydanie odpowiednio \nduplikatu legitymacji szkolnej albo e-legitymacji szkolnej pobiera się opłatę w wysokości równej \nkwocie opłaty skarbowej od poświadczenia własnoręczności podpisu. \n \n \n "
+        }
+      ],
+      "layout": {
+        "geometry_associations": 8,
+        "columns": 2,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "information": 6,
+          "text": 33,
+          "blank": 8,
+          "heading": 3
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 63.29
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 2.26
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 1.2
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 0.86
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.01
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 0.95
+    }
+  ]
+}

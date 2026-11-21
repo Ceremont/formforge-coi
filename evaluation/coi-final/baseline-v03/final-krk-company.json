@@ -1,0 +1,3295 @@
+{
+  "form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_8511c273638a971f",
+    "title": "MINISTERSTWO SPRAWIEDLIWOŚCI BIURO INFORMACYJNE KRAJOWEGO REJESTRU KARNEGO",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "docx_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Data wpływu",
+        "page": 1,
+        "order": 0,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "miejsce na znaki opłaty sądowej*)",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "Nazwa i siedziba podmiotu kierującego zapytanie oraz numer urządzenia służącego do automatycznego",
+          "odbioru informacji"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "ZAPYTANIE O UDZIELENIE INFORMACJI O PODMIOCIE ZBIOROWYM**)",
+        "page": 1,
+        "order": 2,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s4",
+        "title": "1. OZNACZENIE PODM IOTU ZBIO ROWEGO",
+        "page": 1,
+        "order": 3,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s5",
+        "title": "NUMER KRAJOWEGO REJESTRU SĄDOWEGO",
+        "page": 1,
+        "order": 4,
+        "instructions": [
+          "(podpis osoby uprawnionej)",
+          "*)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+          "**)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu stanowi prawnemu albo podmiot nie jest wpisany do Krajowego Rejestru Sądowego, dane identyfikujące podmiot zbiorowy należy podać na podstawie innego dokumentu, który je zawiera.",
+          "***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy.",
+          "Pouczenie",
+          "Uzyskanie bez uprawnienia informacji o podmiocie zbiorowym z Krajowego Rejestru Karnego jest zagrożone grzywną, karą ograniczenia wolności albo karą pozbawienia wolności do lat 2 (art. 25 ustawy z dnia 24 maja 2000 r. o Krajowym Rejestrze Karnym)."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_5c4b77491419",
+        "label": "Data wystawienia",
+        "field_type": "date",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s2",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "Data wystawienia .....................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0f80e935513c",
+        "label": "(nazwa oraz numer właściwego rejestru***))",
+        "field_type": "text",
+        "required": true,
+        "order": 1,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "(nazwa oraz numer właściwego rejestru***))",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f6f233261087",
+        "label": "Nazwa/firma",
+        "field_type": "text",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b12",
+          "text": "Nazwa/firma   ...............................................................................................................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_de01150d1e29",
+        "label": "2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj",
+        "field_type": "text",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b14",
+          "text": "........................................................................................................................................................................................................   2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj ..........................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_8d23a40016b5",
+        "label": "Miejscowość",
+        "field_type": "text",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b15",
+          "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_36a170d3f5df",
+        "label": "ul",
+        "field_type": "text",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b15",
+          "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_7ed0775609fe",
+        "label": "Województwo",
+        "field_type": "select",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Województwo .......................................................................................   Powiat ......................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text",
+          "Exact match to supplied official COI dictionary description; full values resolved by platform"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": {
+          "id": "Województwo",
+          "source": "official",
+          "values": [],
+          "title": "Województwo",
+          "aliases": []
+        },
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": "Województwo",
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_86d5e7a89480",
+        "label": "Powiat",
+        "field_type": "select",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Województwo .......................................................................................   Powiat ......................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text",
+          "Exact match to supplied official COI dictionary description; full values resolved by platform"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": {
+          "id": "Powiat",
+          "source": "official",
+          "values": [],
+          "title": "Powiat",
+          "aliases": []
+        },
+        "requires_review": true,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": "Powiat",
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ab57fa707d86",
+        "label": "WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": ". WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym   ...................................................................................................................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_4624335c77e7",
+        "label": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+        "field_type": "textarea",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym …………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_b10f5b73a11f",
+        "label": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+        "field_type": "text",
+        "required": false,
+        "order": 10,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym ...................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+      "Potencjalna zależność wymaga weryfikacji: *)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+      "Potencjalna zależność wymaga weryfikacji: **)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu",
+      "Potencjalna zależność wymaga weryfikacji: ***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy."
+    ],
+    "groups": [],
+    "dictionaries": [
+      {
+        "id": "Województwo",
+        "source": "official",
+        "values": [],
+        "title": "Województwo",
+        "aliases": []
+      },
+      {
+        "id": "Powiat",
+        "source": "official",
+        "values": [],
+        "title": "Powiat",
+        "aliases": []
+      }
+    ],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "detected_form": {
+    "schema_version": "formforge/1.0",
+    "id": "form_8511c273638a971f",
+    "title": "MINISTERSTWO SPRAWIEDLIWOŚCI BIURO INFORMACYJNE KRAJOWEGO REJESTRU KARNEGO",
+    "language": "pl",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "docx_logical"
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "title": "Data wpływu",
+        "page": 1,
+        "order": 0,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s2",
+        "title": "miejsce na znaki opłaty sądowej*)",
+        "page": 1,
+        "order": 1,
+        "instructions": [
+          "Nazwa i siedziba podmiotu kierującego zapytanie oraz numer urządzenia służącego do automatycznego",
+          "odbioru informacji"
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s3",
+        "title": "ZAPYTANIE O UDZIELENIE INFORMACJI O PODMIOCIE ZBIOROWYM**)",
+        "page": 1,
+        "order": 2,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s4",
+        "title": "1. OZNACZENIE PODM IOTU ZBIO ROWEGO",
+        "page": 1,
+        "order": 3,
+        "instructions": [],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "s5",
+        "title": "NUMER KRAJOWEGO REJESTRU SĄDOWEGO",
+        "page": 1,
+        "order": 4,
+        "instructions": [
+          "(podpis osoby uprawnionej)",
+          "*)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+          "**)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu stanowi prawnemu albo podmiot nie jest wpisany do Krajowego Rejestru Sądowego, dane identyfikujące podmiot zbiorowy należy podać na podstawie innego dokumentu, który je zawiera.",
+          "***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy.",
+          "Pouczenie",
+          "Uzyskanie bez uprawnienia informacji o podmiocie zbiorowym z Krajowego Rejestru Karnego jest zagrożone grzywną, karą ograniczenia wolności albo karą pozbawienia wolności do lat 2 (art. 25 ustawy z dnia 24 maja 2000 r. o Krajowym Rejestrze Karnym)."
+        ],
+        "conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "fields": [
+      {
+        "id": "f_5c4b77491419",
+        "label": "Data wystawienia",
+        "field_type": "date",
+        "required": false,
+        "order": 0,
+        "page": 1,
+        "section": "s2",
+        "validation": [
+          {
+            "kind": "date",
+            "value": null,
+            "message": null
+          }
+        ],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "Data wystawienia .....................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: date"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_0f80e935513c",
+        "label": "(nazwa oraz numer właściwego rejestru***))",
+        "field_type": "text",
+        "required": true,
+        "order": 1,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "(nazwa oraz numer właściwego rejestru***))",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.84,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Spatial label/answer association",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_f6f233261087",
+        "label": "Nazwa/firma",
+        "field_type": "text",
+        "required": false,
+        "order": 2,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b12",
+          "text": "Nazwa/firma   ...............................................................................................................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_de01150d1e29",
+        "label": "2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj",
+        "field_type": "text",
+        "required": false,
+        "order": 3,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b14",
+          "text": "........................................................................................................................................................................................................   2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj ..........................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_8d23a40016b5",
+        "label": "Miejscowość",
+        "field_type": "text",
+        "required": false,
+        "order": 4,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b15",
+          "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_36a170d3f5df",
+        "label": "ul",
+        "field_type": "text",
+        "required": false,
+        "order": 5,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b15",
+          "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_7ed0775609fe",
+        "label": "Województwo",
+        "field_type": "text",
+        "required": false,
+        "order": 6,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Województwo .......................................................................................   Powiat ......................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_86d5e7a89480",
+        "label": "Powiat",
+        "field_type": "text",
+        "required": false,
+        "order": 7,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Województwo .......................................................................................   Powiat ......................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_ab57fa707d86",
+        "label": "WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym",
+        "field_type": "text",
+        "required": false,
+        "order": 8,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": ". WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym   ...................................................................................................................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_4624335c77e7",
+        "label": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+        "field_type": "textarea",
+        "required": false,
+        "order": 9,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym …………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: textarea"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      },
+      {
+        "id": "f_b10f5b73a11f",
+        "label": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+        "field_type": "text",
+        "required": false,
+        "order": 10,
+        "page": 1,
+        "section": "s5",
+        "validation": [],
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym ...................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        },
+        "confidence": 0.9,
+        "detection_method": "docx_paragraph+rules",
+        "decision_reasons": [
+          "Explicit answer marker",
+          "Semantic type: text"
+        ],
+        "options": [],
+        "conditions": [],
+        "dictionary": null,
+        "requires_review": false,
+        "help_text": "",
+        "group_id": null,
+        "required_conditions": [],
+        "coi": {
+          "origin": "source",
+          "policy_rule": "",
+          "tab": "",
+          "read_only": false,
+          "default_value": null,
+          "default_value_type": null,
+          "dictionary_name": null,
+          "show_when": null,
+          "read_only_when": null,
+          "consent_required": false,
+          "confirmed": false
+        }
+      }
+    ],
+    "warnings": [
+      "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+      "Potencjalna zależność wymaga weryfikacji: *)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+      "Potencjalna zależność wymaga weryfikacji: **)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu",
+      "Potencjalna zależność wymaga weryfikacji: ***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy."
+    ],
+    "groups": [],
+    "dictionaries": [],
+    "initial_data": {},
+    "confidence_semantics": "heuristic_score_not_calibrated_probability",
+    "coi_standardized": false
+  },
+  "export": {
+    "title": "MINISTERSTWO SPRAWIEDLIWOŚCI BIURO INFORMACYJNE KRAJOWEGO REJESTRU KARNEGO",
+    "tabs": [
+      {
+        "id": "2d932ed4-6a7f-55b5-acbf-d551b8222779",
+        "title": "Strona 1",
+        "type": "MAIN",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 4,
+            "cols": 3,
+            "field": {
+              "id": "9c5a7d05-4f17-5a3d-b145-36e44dcfcb2b",
+              "type": "SECTION",
+              "techName": "miejsce_na_znaki_oplaty_sadowej_section_s2",
+              "title": "miejsce na znaki opłaty sądowej*)",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "32f3cefe-cb5c-5c51-9dac-0dbca455a84d",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_0",
+                    "title": "",
+                    "description": "Nazwa i siedziba podmiotu kierującego zapytanie oraz numer urządzenia służącego do automatycznego",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "c2cdddef-7eb6-560e-a310-630fe2b19066",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s2_1",
+                    "title": "",
+                    "description": "odbioru informacji",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "e0d2ba62-8e7b-52b9-9fa4-f2f3f31bf056",
+                    "type": "DATEPICKER",
+                    "techName": "data_wystawienia_4b77491419",
+                    "title": "Data wystawienia",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 2,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "rows": 19,
+            "cols": 3,
+            "field": {
+              "id": "6b9fa3a3-870f-581e-9e01-79997e4a1b8b",
+              "type": "SECTION",
+              "techName": "numer_krajowego_rejestru_sadowego_section_s5",
+              "title": "NUMER KRAJOWEGO REJESTRU SĄDOWEGO",
+              "description": "",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "2418c76a-fc38-55a2-b50b-814316acae4b",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_0",
+                    "title": "",
+                    "description": "(podpis osoby uprawnionej)",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 1,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "b87009b6-dbbc-5d38-9673-8a23f0143d92",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_1",
+                    "title": "",
+                    "description": "*)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 2,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5d0ba03a-b3bc-568b-8cbc-d3ad38d0fce2",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_2",
+                    "title": "",
+                    "description": "**)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu stanowi prawnemu albo podmiot nie jest wpisany do Krajowego Rejestru Sądowego, dane identyfikujące podmiot zbiorowy należy podać na podstawie innego dokumentu, który je zawiera.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 3,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a69737ed-8870-57b6-bc3e-ec36f59d0149",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_3",
+                    "title": "",
+                    "description": "***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy.",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "02fb8bec-2e61-5fc8-9598-a9e7eb015836",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_4",
+                    "title": "",
+                    "description": "Pouczenie",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4d925ede-a34e-5599-b9d7-72b92caaddea",
+                    "type": "TEXT_BLOCK",
+                    "techName": "pole_static_s5_5",
+                    "title": "",
+                    "description": "Uzyskanie bez uprawnienia informacji o podmiocie zbiorowym z Krajowego Rejestru Karnego jest zagrożone grzywną, karą ograniczenia wolności albo karą pozbawienia wolności do lat 2 (art. 25 ustawy z dnia 24 maja 2000 r. o Krajowym Rejestrze Karnym).",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 0,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "a994be1f-a002-5dac-a377-4b95f8350d7a",
+                    "type": "TEXT_FIELD",
+                    "techName": "nazwa_oraz_numer_wlasciwego_rejestru_80e935513c",
+                    "title": "(nazwa oraz numer właściwego rejestru***))",
+                    "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                    "options": [],
+                    "validation": [
+                      "REQUIRED"
+                    ],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 6,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 7,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "7a9f7f0e-a173-5214-90e6-3f80ffe1ba1b",
+                    "type": "TEXT_FIELD",
+                    "techName": "nazwa_firma_f233261087",
+                    "title": "Nazwa/firma",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 7,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "f46057ac-f3d2-594f-8d07-b780ab251873",
+                    "type": "TEXT_FIELD",
+                    "techName": "2_siedziba_po_dm_iotu_zbio_rowego_kraj_01150d1e29",
+                    "title": "2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 8,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "4e4faef5-8a2b-519e-ba02-3841299dba4d",
+                    "type": "TEXT_FIELD",
+                    "techName": "miejscowosc_23a40016b5",
+                    "title": "Miejscowość",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 9,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 10,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "075a8c53-6d61-5335-a001-c41ceae0cbf1",
+                    "type": "TEXT_FIELD",
+                    "techName": "ul_a170d3f5df",
+                    "title": "ul",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 10,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5dc494d9-49f3-56a4-a19f-6bad7b768cea",
+                    "type": "SELECT",
+                    "techName": "wojewodztwo_d0775609fe",
+                    "title": "Województwo",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 11,
+                    "tooltipMessage": "",
+                    "dictionaryName": "Województwo",
+                    "searchEnabled": true
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 12,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "23baeeb7-4632-53c2-86e6-6e076246fc92",
+                    "type": "SELECT",
+                    "techName": "powiat_d5e7a89480",
+                    "title": "Powiat",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 12,
+                    "tooltipMessage": "",
+                    "dictionaryName": "Powiat",
+                    "searchEnabled": true
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "d984b472-8ca4-595c-a1ac-3e512a775b07",
+                    "type": "TEXT_FIELD",
+                    "techName": "wskazanie_po_stepowania_w_zwiazku_z_ktorym_zachodzi_potrzeba_uzyskania_informacji_o_podmiocie_zbioro_57fa707d86",
+                    "title": "WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 13,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 14,
+                  "rows": 3,
+                  "cols": 3,
+                  "field": {
+                    "id": "b068f4b7-214e-5095-9b51-91f12ac9b84a",
+                    "type": "TEXTAREA",
+                    "techName": "rodzaj_danych_ktore_maja_byc_przedmiotem_informacji_o_podmiocie_zbiorowym_24335c77e7",
+                    "title": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 14,
+                    "tooltipMessage": ""
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 17,
+                  "rows": 1,
+                  "cols": 3,
+                  "field": {
+                    "id": "5a22f8c6-9c0a-50ae-94d9-8bef5d977807",
+                    "type": "TEXT_FIELD",
+                    "techName": "zakres_danych_ktore_maja_byc_przedmiotem_informacji_o_podmiocie_zbiorowym_0f5b73a11f",
+                    "title": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+                    "description": "",
+                    "options": [],
+                    "validation": [],
+                    "readOnly": false,
+                    "repeatingSectionGrid": [],
+                    "states": [],
+                    "questionOrder": 15,
+                    "tooltipMessage": ""
+                  }
+                }
+              ],
+              "states": [],
+              "questionOrder": 1,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "bcf83b81-f8b7-50df-8f78-85334222cde6",
+        "title": "Strona końcowa",
+        "type": "FINISH",
+        "questions": [
+          {
+            "x": 0,
+            "y": 0,
+            "rows": 1,
+            "cols": 3,
+            "field": {
+              "id": "746dc22f-a89c-53d0-967b-d1724d0baf7f",
+              "type": "INFO_SECTION",
+              "techName": "podglad_finish_info",
+              "title": "Podgląd",
+              "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+              "options": [],
+              "validation": [],
+              "readOnly": false,
+              "repeatingSectionGrid": [],
+              "states": [],
+              "questionOrder": 0,
+              "tooltipMessage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "links": [
+        {
+          "id": "e94f1f24-18b7-5f66-892a-e9a2f6cc7dd2",
+          "source": "2d932ed4-6a7f-55b5-acbf-d551b8222779",
+          "target": "bcf83b81-f8b7-50df-8f78-85334222cde6"
+        }
+      ]
+    }
+  },
+  "preview_export": {
+    "format": "formforge-preview",
+    "compatibility": {
+      "status": "preview_incomplete",
+      "official_coi": false,
+      "message": "Wewnętrzny format FormForge do zgodności wstecznej. Oficjalny eksport COI jest dostępny osobno.",
+      "missing_materials": [
+        "Oficjalne pary formularz / JSON",
+        "Schemat i reguły projektowania e-form",
+        "Słowniki i dane inicjalne",
+        "Zrzuty wzorcowych eUsług"
+      ]
+    },
+    "form": {
+      "schema_version": "formforge/1.0",
+      "id": "form_8511c273638a971f",
+      "title": "MINISTERSTWO SPRAWIEDLIWOŚCI BIURO INFORMACYJNE KRAJOWEGO REJESTRU KARNEGO",
+      "language": "pl",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Strona 1",
+          "width": null,
+          "height": null,
+          "source": "docx_logical"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Data wpływu",
+          "page": 1,
+          "order": 0,
+          "instructions": [],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s2",
+          "title": "miejsce na znaki opłaty sądowej*)",
+          "page": 1,
+          "order": 1,
+          "instructions": [
+            "Nazwa i siedziba podmiotu kierującego zapytanie oraz numer urządzenia służącego do automatycznego",
+            "odbioru informacji"
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s3",
+          "title": "ZAPYTANIE O UDZIELENIE INFORMACJI O PODMIOCIE ZBIOROWYM**)",
+          "page": 1,
+          "order": 2,
+          "instructions": [],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s4",
+          "title": "1. OZNACZENIE PODM IOTU ZBIO ROWEGO",
+          "page": 1,
+          "order": 3,
+          "instructions": [],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "s5",
+          "title": "NUMER KRAJOWEGO REJESTRU SĄDOWEGO",
+          "page": 1,
+          "order": 4,
+          "instructions": [
+            "(podpis osoby uprawnionej)",
+            "*)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+            "**)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu stanowi prawnemu albo podmiot nie jest wpisany do Krajowego Rejestru Sądowego, dane identyfikujące podmiot zbiorowy należy podać na podstawie innego dokumentu, który je zawiera.",
+            "***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy.",
+            "Pouczenie",
+            "Uzyskanie bez uprawnienia informacji o podmiocie zbiorowym z Krajowego Rejestru Karnego jest zagrożone grzywną, karą ograniczenia wolności albo karą pozbawienia wolności do lat 2 (art. 25 ustawy z dnia 24 maja 2000 r. o Krajowym Rejestrze Karnym)."
+          ],
+          "conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "f_5c4b77491419",
+          "label": "Data wystawienia",
+          "field_type": "date",
+          "required": false,
+          "order": 0,
+          "page": 1,
+          "section": "s2",
+          "validation": [
+            {
+              "kind": "date",
+              "value": null,
+              "message": null
+            }
+          ],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b6",
+            "text": "Data wystawienia .....................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: date"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_0f80e935513c",
+          "label": "(nazwa oraz numer właściwego rejestru***))",
+          "field_type": "text",
+          "required": true,
+          "order": 1,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b11",
+            "text": "(nazwa oraz numer właściwego rejestru***))",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.84,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Spatial label/answer association",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_f6f233261087",
+          "label": "Nazwa/firma",
+          "field_type": "text",
+          "required": false,
+          "order": 2,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b12",
+            "text": "Nazwa/firma   ...............................................................................................................................................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_de01150d1e29",
+          "label": "2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj",
+          "field_type": "text",
+          "required": false,
+          "order": 3,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b14",
+            "text": "........................................................................................................................................................................................................   2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj ..........................................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_8d23a40016b5",
+          "label": "Miejscowość",
+          "field_type": "text",
+          "required": false,
+          "order": 4,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b15",
+            "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_36a170d3f5df",
+          "label": "ul",
+          "field_type": "text",
+          "required": false,
+          "order": 5,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b15",
+            "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_7ed0775609fe",
+          "label": "Województwo",
+          "field_type": "select",
+          "required": false,
+          "order": 6,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "Województwo .......................................................................................   Powiat ......................................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text",
+            "Exact match to supplied official COI dictionary description; full values resolved by platform"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": {
+            "id": "Województwo",
+            "source": "official",
+            "values": [],
+            "title": "Województwo",
+            "aliases": []
+          },
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": "Województwo",
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_86d5e7a89480",
+          "label": "Powiat",
+          "field_type": "select",
+          "required": false,
+          "order": 7,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b16",
+            "text": "Województwo .......................................................................................   Powiat ......................................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text",
+            "Exact match to supplied official COI dictionary description; full values resolved by platform"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": {
+            "id": "Powiat",
+            "source": "official",
+            "values": [],
+            "title": "Powiat",
+            "aliases": []
+          },
+          "requires_review": true,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": "Powiat",
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_ab57fa707d86",
+          "label": "WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym",
+          "field_type": "text",
+          "required": false,
+          "order": 8,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b17",
+            "text": ". WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym   ...................................................................................................................................................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_4624335c77e7",
+          "label": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+          "field_type": "textarea",
+          "required": false,
+          "order": 9,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b20",
+            "text": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym …………………………………",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: textarea"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        },
+        {
+          "id": "f_b10f5b73a11f",
+          "label": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym",
+          "field_type": "text",
+          "required": false,
+          "order": 10,
+          "page": 1,
+          "section": "s5",
+          "validation": [],
+          "source_reference": {
+            "page": 1,
+            "block_id": "b23",
+            "text": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym ...................................................",
+            "bbox": null,
+            "sheet": null,
+            "cell": null,
+            "input_bbox": null,
+            "label_bbox": null
+          },
+          "confidence": 0.9,
+          "detection_method": "docx_paragraph+rules",
+          "decision_reasons": [
+            "Explicit answer marker",
+            "Semantic type: text"
+          ],
+          "options": [],
+          "conditions": [],
+          "dictionary": null,
+          "requires_review": false,
+          "help_text": "",
+          "group_id": null,
+          "required_conditions": [],
+          "coi": {
+            "origin": "source",
+            "policy_rule": "",
+            "tab": "",
+            "read_only": false,
+            "default_value": null,
+            "default_value_type": null,
+            "dictionary_name": null,
+            "show_when": null,
+            "read_only_when": null,
+            "consent_required": false,
+            "confirmed": false
+          }
+        }
+      ],
+      "warnings": [
+        "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+        "Potencjalna zależność wymaga weryfikacji: *)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+        "Potencjalna zależność wymaga weryfikacji: **)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu",
+        "Potencjalna zależność wymaga weryfikacji: ***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy."
+      ],
+      "groups": [],
+      "dictionaries": [
+        {
+          "id": "Województwo",
+          "source": "official",
+          "values": [],
+          "title": "Województwo",
+          "aliases": []
+        },
+        {
+          "id": "Powiat",
+          "source": "official",
+          "values": [],
+          "title": "Powiat",
+          "aliases": []
+        }
+      ],
+      "initial_data": {},
+      "confidence_semantics": "heuristic_score_not_calibrated_probability",
+      "coi_standardized": false
+    }
+  },
+  "coi_validation": {
+    "schema_valid": true,
+    "schema_errors": [],
+    "compatibility_profile_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "schema_profile": "published unchanged + recursive compatibility + technical rules",
+    "grid_key": "repeatingSectionGrid",
+    "target_import_verified": false,
+    "review_items": [],
+    "provenance": {
+      "e0d2ba62-8e7b-52b9-9fa4-f2f3f31bf056": {
+        "internal_field_id": "f_5c4b77491419",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b6",
+          "text": "Data wystawienia .....................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "a994be1f-a002-5dac-a377-4b95f8350d7a": {
+        "internal_field_id": "f_0f80e935513c",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b11",
+          "text": "(nazwa oraz numer właściwego rejestru***))",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "7a9f7f0e-a173-5214-90e6-3f80ffe1ba1b": {
+        "internal_field_id": "f_f6f233261087",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b12",
+          "text": "Nazwa/firma   ...............................................................................................................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "f46057ac-f3d2-594f-8d07-b780ab251873": {
+        "internal_field_id": "f_de01150d1e29",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b14",
+          "text": "........................................................................................................................................................................................................   2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj ..........................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "4e4faef5-8a2b-519e-ba02-3841299dba4d": {
+        "internal_field_id": "f_8d23a40016b5",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b15",
+          "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "075a8c53-6d61-5335-a001-c41ceae0cbf1": {
+        "internal_field_id": "f_36a170d3f5df",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b15",
+          "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "5dc494d9-49f3-56a4-a19f-6bad7b768cea": {
+        "internal_field_id": "f_7ed0775609fe",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Województwo .......................................................................................   Powiat ......................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "23baeeb7-4632-53c2-86e6-6e076246fc92": {
+        "internal_field_id": "f_86d5e7a89480",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": true,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b16",
+          "text": "Województwo .......................................................................................   Powiat ......................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "d984b472-8ca4-595c-a1ac-3e512a775b07": {
+        "internal_field_id": "f_ab57fa707d86",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b17",
+          "text": ". WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym   ...................................................................................................................................................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "b068f4b7-214e-5095-9b51-91f12ac9b84a": {
+        "internal_field_id": "f_4624335c77e7",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b20",
+          "text": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym …………………………………",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      },
+      "5a22f8c6-9c0a-50ae-94d9-8bef5d977807": {
+        "internal_field_id": "f_b10f5b73a11f",
+        "origin": "source",
+        "policy_rule": "",
+        "requires_confirmation": false,
+        "source_reference": {
+          "page": 1,
+          "block_id": "b23",
+          "text": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym ...................................................",
+          "bbox": null,
+          "sheet": null,
+          "cell": null,
+          "input_bbox": null,
+          "label_bbox": null
+        }
+      }
+    },
+    "requires_confirmation": true,
+    "status": "valid_requires_review",
+    "unsupported_features": []
+  },
+  "normalization": {
+    "applied": false,
+    "reason": "No government-applicant context; preserved source structure"
+  },
+  "quality": {
+    "status": "partial",
+    "completeness_verified": false,
+    "unresolved_warnings": [
+      "Potencjalna zależność wymaga weryfikacji: *)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+      "Potencjalna zależność wymaga weryfikacji: **)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu",
+      "Potencjalna zależność wymaga weryfikacji: ***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy."
+    ],
+    "message": "Poprawność COI JSON nie potwierdza kompletności rozpoznania; sprawdź źródło i pola."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "coi_review",
+      "message": "Eksport COI jest propozycją konfiguracji. Sprawdź zgodność, źródła i reguły w zakładce Zgodność z COI.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: *)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: **)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "document_review",
+      "message": "Potencjalna zależność wymaga weryfikacji: ***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy.",
+      "field_id": null
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_7ed0775609fe"
+    },
+    {
+      "severity": "warning",
+      "code": "requires_review",
+      "message": "Sprawdź etykietę, typ i reguły pola.",
+      "field_id": "f_86d5e7a89480"
+    }
+  ],
+  "document": {
+    "filename": "unknown.docx",
+    "format": "docx",
+    "pages": [
+      {
+        "id": 1,
+        "title": "Strona 1",
+        "width": null,
+        "height": null,
+        "source": "docx_logical"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b1",
+        "text": "MINISTERSTWO SPRAWIEDLIWOŚCI BIURO INFORMACYJNE KRAJOWEGO REJESTRU KARNEGO",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b4",
+        "text": "Data wpływu",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          0.0,
+          0.0,
+          117.55,
+          83.75
+        ],
+        "metadata": {
+          "anchored": true,
+          "column": 0
+        },
+        "method": "docx_textbox",
+        "confidence": 1.0
+      },
+      {
+        "id": "b5",
+        "text": "miejsce na znaki opłaty sądowej*)",
+        "page": 1,
+        "kind": "heading",
+        "bbox": [
+          0.0,
+          0.0,
+          117.55,
+          83.75
+        ],
+        "metadata": {
+          "anchored": true,
+          "column": 0
+        },
+        "method": "docx_textbox",
+        "confidence": 1.0
+      },
+      {
+        "id": "b2",
+        "text": "Nazwa i siedziba podmiotu kierującego zapytanie oraz numer urządzenia służącego do automatycznego",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          0.0,
+          49.050000000000004,
+          135.5,
+          65.4
+        ],
+        "metadata": {
+          "anchored": true,
+          "column": 0
+        },
+        "method": "docx_textbox",
+        "confidence": 1.0
+      },
+      {
+        "id": "b3",
+        "text": "odbioru informacji",
+        "page": 1,
+        "kind": "text",
+        "bbox": [
+          0.0,
+          65.4,
+          135.5,
+          81.75
+        ],
+        "metadata": {
+          "anchored": true,
+          "column": 0
+        },
+        "method": "docx_textbox",
+        "confidence": 1.0
+      },
+      {
+        "id": "b6",
+        "text": "Data wystawienia .....................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b7",
+        "text": "ZAPYTANIE O UDZIELENIE INFORMACJI O PODMIOCIE ZBIOROWYM**)",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b8",
+        "text": "1. OZNACZENIE PODM IOTU ZBIO ROWEGO",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": true,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b9",
+        "text": "NUMER KRAJOWEGO REJESTRU SĄDOWEGO",
+        "page": 1,
+        "kind": "heading",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b10",
+        "text": "............................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "label_block_id": "b11"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b11",
+        "text": "(nazwa oraz numer właściwego rejestru***))",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 1,
+          "input_bbox": null
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b12",
+        "text": "Nazwa/firma   ...............................................................................................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b13",
+        "text": "........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b14",
+        "text": "........................................................................................................................................................................................................   2 .  SIEDZIBA PO DM IOTU ZBIO ROWEGO\tKraj ..........................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b15",
+        "text": "Miejscowość ......................................................................................... ul. ................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b16",
+        "text": "Województwo .......................................................................................   Powiat ......................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b17",
+        "text": ". WSKAZANIE PO STĘPOWANIA , w związku z którym zachodzi potrzeba uzyskania informacji o podmiocie zbiorowym   ...................................................................................................................................................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b18",
+        "text": ".........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b19",
+        "text": ".........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "label_block_id": "b20"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b20",
+        "text": "RODZAJ DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym …………………………………",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "label_input_pair": true,
+          "blank_lines": 2,
+          "input_bbox": null,
+          "multiline": true
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b21",
+        "text": ".........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "label_block_id": "b20"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b22",
+        "text": ".........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b23",
+        "text": "ZAKRES DANYCH, które mają być przedmiotem informacji o podmiocie zbiorowym ...................................................",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b24",
+        "text": ".........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b25",
+        "text": ".........................................................................................................................................................................................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b26",
+        "text": "...............................................",
+        "page": 1,
+        "kind": "blank",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "label_block_id": "b27"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b27",
+        "text": "(podpis osoby uprawnionej)",
+        "page": 1,
+        "kind": "information",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "blank_lines": 1,
+          "input_bbox": null,
+          "role_reason": "paper signature or stamp, not citizen input"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b28",
+        "text": "*)\tJeżeli zapytanie podlega opłacie i jest ona wnoszona znakami opłaty sądowej.",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b29",
+        "text": "**)\tDane identyfikujące podmiot zbiorowy należy podać na podstawie aktualnego odpisu z Krajowego Rejestru Karnego Sądowego. Jeśli dane wpisane do Krajowego Rejestru Sądowego nie odpowiadają aktualnemu stanowi prawnemu albo podmiot nie jest wpisany do Krajowego Rejestru Sądowego, dane identyfikujące podmiot zbiorowy należy podać na podstawie innego dokumentu, który je zawiera.",
+        "page": 1,
+        "kind": "legal",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b30",
+        "text": "***) Wypełnić, jeśli podmiot podlega wpisowi do innego rejestru niż Krajowy Rejestr Sądowy.",
+        "page": 1,
+        "kind": "text",
+        "bbox": null,
+        "metadata": {
+          "bold": false,
+          "column": 0
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b31",
+        "text": "Pouczenie",
+        "page": 1,
+        "kind": "instruction",
+        "bbox": null,
+        "metadata": {
+          "bold": true,
+          "column": 0,
+          "role_reason": "explicit completion instruction"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      },
+      {
+        "id": "b32",
+        "text": "Uzyskanie bez uprawnienia informacji o podmiocie zbiorowym z Krajowego Rejestru Karnego jest zagrożone grzywną, karą ograniczenia wolności albo karą pozbawienia wolności do lat 2 (art. 25 ustawy z dnia 24 maja 2000 r. o Krajowym Rejestrze Karnym).",
+        "page": 1,
+        "kind": "legal",
+        "bbox": null,
+        "metadata": {
+          "bold": true,
+          "column": 0,
+          "role_reason": "long explanatory prose without explicit answer marker"
+        },
+        "method": "docx_paragraph",
+        "confidence": 1.0
+      }
+    ],
+    "warnings": [
+      "DOCX: strony logiczne i współrzędne kotwic; bez silnika składu Word."
+    ],
+    "analysis": {
+      "ocr": [],
+      "layout": {
+        "geometry_associations": 3,
+        "columns": 1,
+        "repeated_headings": []
+      },
+      "understanding_v2": {
+        "roles": {
+          "heading": 6,
+          "text": 13,
+          "blank": 9,
+          "information": 1,
+          "legal": 2,
+          "instruction": 1
+        },
+        "source_evidence_only": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "stage": "extraction",
+      "status": "completed",
+      "duration_ms": 22.73
+    },
+    {
+      "stage": "layout",
+      "status": "completed",
+      "duration_ms": 4.13
+    },
+    {
+      "stage": "field_detection",
+      "status": "completed",
+      "duration_ms": 1.64
+    },
+    {
+      "stage": "structure",
+      "status": "completed",
+      "duration_ms": 1.07
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "duration_ms": 0.01
+    },
+    {
+      "stage": "json_mapping",
+      "status": "completed",
+      "duration_ms": 0.74
+    }
+  ]
+}

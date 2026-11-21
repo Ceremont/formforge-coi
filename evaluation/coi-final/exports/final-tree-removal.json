@@ -1,0 +1,1497 @@
+{
+  "title": "ZGŁOSZENIE",
+  "tabs": [
+    {
+      "id": "2d726d5f-dd4a-5ff0-94e9-be70c54003ee",
+      "title": "Strona 1",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 8,
+          "cols": 3,
+          "field": {
+            "id": "e1d0c222-8754-5ad6-9183-c61d762f1137",
+            "type": "SECTION",
+            "techName": "dane_formularza_section_s1",
+            "title": "Dane formularza",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "782ed81e-b808-5f8d-a6a4-4beccd94da9d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_0",
+                  "title": "",
+                  "description": "Miejscowość, data",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "073fa4bc-d557-5a99-a481-044b8896bf14",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_1",
+                  "title": "",
+                  "description": "Burmistrz Miasta Chrzanowa",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f8ff527f-d200-5ea6-9827-25e0bf24c5ab",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_2",
+                  "title": "",
+                  "description": "al. Henryka 20",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "eb714a08-ab1b-5d14-8aa6-44dac1bc8325",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s1_3",
+                  "title": "",
+                  "description": "32-500 Chrzanów",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e3f573e8-cd26-59d7-a199-31f1504c48cf",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_wlasciciela_4bcc86d09f",
+                  "title": "imię i nazwisko właściciela",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "518b5d4f-7935-5811-a7ab-347ddef11612",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_zamieszkania_korespondencyjny_45493e0458",
+                  "title": "adres zamieszkania/korespondencyjny",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d4316857-8ef8-5e4d-b257-69865b5eb533",
+                  "type": "TEXT_FIELD",
+                  "techName": "numer_telefonu_13c9c1ef43",
+                  "title": "numer telefonu",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 6,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "rows": 7,
+          "cols": 3,
+          "field": {
+            "id": "0ed43520-5c06-5ce5-8d69-2c34ba756f55",
+            "type": "SECTION",
+            "techName": "zglaszam_zamiar_usuniecia_drzew_a_wskazanych_ego_w_ponizszej_tabeli_section_s3",
+            "title": "Zgłaszam zamiar usunięcia drzew/a wskazanych/ego w poniższej tabeli",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "e0c71467-b566-5623-aaad-d12529b94413",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_0",
+                  "title": "",
+                  "description": "Nr",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "30ef0f90-0643-5a94-a72d-6634777f2514",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_1",
+                  "title": "",
+                  "description": "Gatunek",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3b2b5383-c029-5eeb-8443-9984fd6f08af",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_2",
+                  "title": "",
+                  "description": "Obwód pnia na wysokości 130 cm",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "50c8fdb1-d237-5764-8f3d-1621e82ced7d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_3",
+                  "title": "",
+                  "description": "Obwód pnia na wysokości 5 cm",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "89855f3b-ee9e-5466-b51f-d4ab113bb5c7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_4",
+                  "title": "",
+                  "description": "Nr działki i obręb",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "28f1096f-b30f-5858-bb83-31973fab795e",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s3_5",
+                  "title": "",
+                  "description": "Uwagi",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 15,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "4a602f71-cb7a-54f2-a51b-505826ee8034",
+            "type": "SECTION",
+            "techName": "wiersz_2_section_g_s3_0",
+            "title": "Wiersz 2",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "62ce64f7-ed0a-5b73-96b7-176c55cb8341",
+                  "type": "NUMBER",
+                  "techName": "nr_b54ae84957",
+                  "title": "Nr",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cbe5a629-8591-5048-884f-b8dfd28860bd",
+                  "type": "TEXT_FIELD",
+                  "techName": "gatunek_58c352eb16",
+                  "title": "Gatunek",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "c4926706-95b4-52f5-ad9c-a9f57e381531",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_130_cm_eabb180000",
+                  "title": "Obwód pnia na wysokości 130 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "461f013b-3894-58b4-ab2d-4d7d3e23cac7",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_5_cm_c69d4ce42f",
+                  "title": "Obwód pnia na wysokości 5 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b6324369-ba44-5f64-a617-bf672c48bf10",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_dzialki_i_obreb_49305f5b59",
+                  "title": "Nr działki i obręb",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "6f03106e-dea1-513e-8a14-ce84416e4edd",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_96e3b61d85",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 2,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "d155968e-a851-50bc-8b57-6ed037867253",
+            "type": "SECTION",
+            "techName": "wiersz_3_section_g_s3_1",
+            "title": "Wiersz 3",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "31d4dc56-72ed-54a3-b4ff-c43bbffc5e9d",
+                  "type": "NUMBER",
+                  "techName": "nr_924e3d50ff",
+                  "title": "Nr",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "a6fcc12f-5cea-5009-8ef3-a2dbf4128114",
+                  "type": "TEXT_FIELD",
+                  "techName": "gatunek_f2af1e6da3",
+                  "title": "Gatunek",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6f87b9f5-f2a0-588f-9ff4-e848de4489bb",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_130_cm_c880a14f0b",
+                  "title": "Obwód pnia na wysokości 130 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "28563b8a-0ed8-58cd-b7ac-4a73f9ece0fe",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_5_cm_2333f657e2",
+                  "title": "Obwód pnia na wysokości 5 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ce0f57b3-d525-5f4d-9f53-6cff7fd91f02",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_dzialki_i_obreb_ce14bc0c48",
+                  "title": "Nr działki i obręb",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "42238a3b-f94b-5b10-993b-f129846d673c",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_b948f07a4b",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 3,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 33,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "8ebf3764-b084-5346-94f8-85ad92d51af5",
+            "type": "SECTION",
+            "techName": "wiersz_4_section_g_s3_2",
+            "title": "Wiersz 4",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "abf50bd6-95eb-54fd-b1ba-138b1e0638b7",
+                  "type": "NUMBER",
+                  "techName": "nr_03f0ff0711",
+                  "title": "Nr",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ce3f9694-8ba8-5b76-82b1-ec3eea0224f4",
+                  "type": "TEXT_FIELD",
+                  "techName": "gatunek_90c6b45f69",
+                  "title": "Gatunek",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "5bc61113-fbdb-5a4f-8e09-aa5f5f5e853d",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_130_cm_ffc24eb7e7",
+                  "title": "Obwód pnia na wysokości 130 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6e5ad849-4fcc-50a0-80e7-a182935ab318",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_5_cm_c97c474a9f",
+                  "title": "Obwód pnia na wysokości 5 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b9af6838-76f8-5b1e-9125-da6515ffc834",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_dzialki_i_obreb_63424c6882",
+                  "title": "Nr działki i obręb",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "8276d405-caa6-5b0b-b7b2-751910b3fecc",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_02f14bcdb9",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 4,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 42,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "007e2a8e-5d66-5624-8a51-17475744d26a",
+            "type": "SECTION",
+            "techName": "wiersz_5_section_g_s3_3",
+            "title": "Wiersz 5",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d2b621ba-a730-56bb-ba4a-505e6009f089",
+                  "type": "NUMBER",
+                  "techName": "nr_3dbe66d915",
+                  "title": "Nr",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "7704aa52-1d1c-5363-9573-0696d66ed51e",
+                  "type": "TEXT_FIELD",
+                  "techName": "gatunek_438d3320e6",
+                  "title": "Gatunek",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f4e4914d-2bb3-52bb-ac39-af425e327ce8",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_130_cm_bca08b917f",
+                  "title": "Obwód pnia na wysokości 130 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0bcb41ab-88eb-5d64-8c0f-03050f7929ab",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_5_cm_4265623515",
+                  "title": "Obwód pnia na wysokości 5 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "94f37722-60d5-5aa5-96f7-731f2d199471",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_dzialki_i_obreb_f7b1071c9f",
+                  "title": "Nr działki i obręb",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "c70dccfd-63e8-55ce-b72b-9f949bff6521",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_a63e459767",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 5,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 51,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "ccbfb797-6631-54c6-b7cb-75c32ca3e9c7",
+            "type": "SECTION",
+            "techName": "wiersz_6_section_g_s3_4",
+            "title": "Wiersz 6",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "578084ed-4b56-551c-afb1-062046b70661",
+                  "type": "NUMBER",
+                  "techName": "nr_3105c9eafa",
+                  "title": "Nr",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "700584e1-fd5d-5cd0-ac33-77d957f7f3b5",
+                  "type": "TEXT_FIELD",
+                  "techName": "gatunek_f6b7f5b486",
+                  "title": "Gatunek",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d462c388-b1ba-5a36-8845-0b2f6bb04e8e",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_130_cm_9f66cb1e8e",
+                  "title": "Obwód pnia na wysokości 130 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "63066fa0-68da-5539-ba3c-9d57219901eb",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_5_cm_313dd3fe8b",
+                  "title": "Obwód pnia na wysokości 5 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "584c0184-38f0-553c-bc5e-193aa2c55f3b",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_dzialki_i_obreb_71a1da2451",
+                  "title": "Nr działki i obręb",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "cfe8f37e-ca79-596c-8614-70c796c936c1",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_b4e046440a",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 6,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 60,
+          "rows": 9,
+          "cols": 3,
+          "field": {
+            "id": "de91a7fb-c890-565e-9628-e6330e03dbdc",
+            "type": "SECTION",
+            "techName": "wiersz_7_section_g_s3_5",
+            "title": "Wiersz 7",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cfc41f4d-85f0-5263-bb6c-f83d17b6e554",
+                  "type": "NUMBER",
+                  "techName": "nr_8872803a74",
+                  "title": "Nr",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "94e9caf6-c340-567d-ad4e-f8a18f7b03ac",
+                  "type": "TEXT_FIELD",
+                  "techName": "gatunek_2a18b3a68e",
+                  "title": "Gatunek",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6edcb3c2-870c-5bfe-a0e8-05612f0f5f0a",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_130_cm_3b61b25e08",
+                  "title": "Obwód pnia na wysokości 130 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "3ae6bbe2-1136-5bc4-a1f2-116b2966df82",
+                  "type": "NUMBER",
+                  "techName": "obwod_pnia_na_wysokosci_5_cm_aafaf8ffa6",
+                  "title": "Obwód pnia na wysokości 5 cm",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 3,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d7435f33-521c-5c5d-b4f2-15e0b03678a7",
+                  "type": "TEXT_FIELD",
+                  "techName": "nr_dzialki_i_obreb_51269fd3cd",
+                  "title": "Nr działki i obręb",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 4,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 3,
+                "cols": 3,
+                "field": {
+                  "id": "97353fcc-afab-5ca2-86e1-c7c9e9720aa1",
+                  "type": "TEXTAREA",
+                  "techName": "uwagi_d72934d52a",
+                  "title": "Uwagi",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 5,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 7,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 69,
+          "rows": 15,
+          "cols": 3,
+          "field": {
+            "id": "a8fe46e0-c879-5fb8-a132-16c5ca1e079c",
+            "type": "SECTION",
+            "techName": "w_zalaczeniu_przedkladam_szkic_sytuacyjny_mapke_okreslajaca_usytuowanie_drzew_a_na_nieruchomosci_section_s4",
+            "title": "W załączeniu przedkładam szkic sytuacyjny/mapkę określającą usytuowanie drzew/a na nieruchomości.",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4c4e9569-49f5-5fc6-baab-8bfac0652f7f",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_0",
+                  "title": "",
+                  "description": "(podpis wnioskodawcy)",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b88805c7-075c-5fbf-835a-c295b47ec42d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_1",
+                  "title": "",
+                  "description": "*- informacje niewymagane, uzupełnione w celu usprawnienia przeprowadzenia oględzin drzew w terenie,",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "805b7ece-0551-52a8-b5f9-01e873854f1a",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_2",
+                  "title": "",
+                  "description": "1.rysunek/mapa",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "9af72f44-44d7-5bd5-83b0-7a1090c82144",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_3",
+                  "title": "",
+                  "description": "POUCZENIE",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "b3dc01fa-b4c4-5097-a9cc-4827844518f7",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_4",
+                  "title": "",
+                  "description": "Art. 83f. [Wyjątki od obowiązku uzyskania zezwolenia na usunięcie drzew lub krzewów]",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "71dd872c-a901-50a8-8ab0-fbbe60c6c904",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_5",
+                  "title": "",
+                  "description": "ust. 1. pkt. 3a. Przepisów art. 83 ust. 1 nie stosuje się do drzew lub krzewów, które rosną na nieruchomościach stanowiących własność osób fizycznych i są usuwane na cele niezwiązane z prowadzeniem działalności gospodarczej.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "ceb952fb-92d7-558f-aff5-7a91513d2f49",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_6",
+                  "title": "",
+                  "description": "ust. 4. W przypadku, o którym mowa w ust. 1 pkt 3a, właściciel nieruchomości jest obowiązany dokonać zgłoszenia do organu, o którym mowa w art. 83a ust. 1, zamiaru usunięcia drzewa, jeżeli obwód pnia drzewa mierzonego na wysokości 5 cm przekracza:",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "13426a42-b46d-58ea-9949-b7b4a4d1cc99",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_7",
+                  "title": "",
+                  "description": "80 cm - w przypadku topoli, wierzb, klonu jesionolistnego oraz klonu srebrzystego;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "8a4d2a97-cd90-5b80-8680-d3cf434bd770",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_8",
+                  "title": "",
+                  "description": "65 cm - w przypadku kasztanowca zwyczajnego, robinii akacjowej oraz platanu klonolistnego;",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "54b2479c-312c-57f7-9f26-fd35ab9f2633",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_9",
+                  "title": "",
+                  "description": "50 cm - w przypadku pozostałych gatunków drzew.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "dc84abe0-b03b-59c9-b2ad-443eb98b4c7c",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_10",
+                  "title": "",
+                  "description": "ust. 13. W przypadku nieusunięcia drzewa przed upływem 6 miesięcy od przeprowadzonych oględzin usunięcie drzewa może nastąpić po dokonaniu ponownego zgłoszenia, o którym mowa w ust. 4",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d745d58c-60ba-53f9-b6ef-2580fb34cb64",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_11",
+                  "title": "",
+                  "description": "ust. 17. Jeżeli w terminie 5 lat od dokonania oględzin wystąpiono o wydanie decyzji o pozwolenie na budowę na podstawie ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, a budowa ta ma związek z prowadzeniem działalności gospodarczej i będzie realizowana na części nieruchomości, na której rosło usunięte drzewo, organ, o którym mowa w art. 83a ust. 1, uwzględniając dane ustalone na podstawie oględzin, nakłada na właściciela nieruchomości, w drodze decyzji administracyjnej, obowiązek uiszczenia opłaty za usunięcie drzewa.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1396c1e8-f5cb-5ea5-92f7-dd0345938e06",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s4_12",
+                  "title": "",
+                  "description": "Wymagane podpisy wszystkich właścicieli nieruchomości.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 13,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "6207f593-09fe-56db-9f60-11484ace2325",
+                  "type": "FILE_UPLOADER",
+                  "techName": "zalacznik_374eb50cd3",
+                  "title": "Załącznik",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 13,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 8,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "e10c9d64-b863-5793-b1d7-85f62094dedd",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "50451f52-2151-5272-9374-e615522172d7",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "00d23d54-2519-52af-b617-8489dd93e73f",
+        "source": "2d726d5f-dd4a-5ff0-94e9-be70c54003ee",
+        "target": "e10c9d64-b863-5793-b1d7-85f62094dedd"
+      }
+    ]
+  }
+}

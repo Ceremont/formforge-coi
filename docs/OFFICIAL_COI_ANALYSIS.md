@@ -1,3 +1,5 @@
+> **1.0:** analiza oryginałów pozostaje aktualna; końcowe wdrożenie i statusy wymagań: [COI_REQUIREMENTS_MATRIX.md](COI_REQUIREMENTS_MATRIX.md). Oryginały niezmienione; nie są redystrybuowane w czystej paczce.
+
 # Official COI source analysis
 
 The user supplied `COI_HackNation_official_reference_pack.zip`; the advertised

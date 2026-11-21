@@ -60,13 +60,25 @@ class FormStructureBuilder:
             for field in [f for f in fields if f.section == section.id]:
                 block = source[field.source_reference.block_id]
                 if block.metadata.get("table_id"):
-                    rows.setdefault(block.metadata.get("row", 0), []).append(field)
+                    rows.setdefault((block.metadata["table_id"], block.metadata.get("row", 0)), []).append(field)
             for row, members in rows.items():
                 if len(members) > 1:
-                    group = FieldGroup(id=f"g_{section.id}_{row}", title=f"Wiersz {row}", section=section.id, repeat_key="table_row")
+                    group = FieldGroup(id=f"g_{section.id}_{len(groups)}", title=f"Wiersz {row[1]}", section=section.id, repeat_key=None)
                     groups.append(group)
                     for member in members:
                         member.group_id = group.id
+        for section in sections:
+            evidence = section.title + " " + " ".join(section.instructions)
+            match = re.search(r"w przypadku wiecej niz jednego|dla kazdego (?:kolejnego|nastepnego)|powtorz (?:sekcje|blok)|dodaj kolejny", fold(evidence))
+            members = [f for f in fields if f.section == section.id]
+            if match and members:
+                groups = [g for g in groups if g.section != section.id]
+                group = FieldGroup(id="g_repeat_" + section.id, title=section.title[:200], section=section.id, repeat_key="source_repeated_block")
+                groups.append(group)
+                for field in members:
+                    field.group_id = group.id
+                    field.requires_review = True
+                    field.decision_reasons.append("Explicit repeat instruction in source section; confirm bounds and group: " + evidence[:180])
         return Form(
             id="form_" + sha256("\n".join(b.text for b in document.blocks).encode()).hexdigest()[:16],
             title=title,

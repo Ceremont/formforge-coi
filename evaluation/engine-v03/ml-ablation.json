@@ -1,0 +1,62 @@
+[
+  {
+    "id": "03-pdf",
+    "mode": "deterministic",
+    "architecture": "arm64",
+    "seconds": 0.0838,
+    "fields": 11,
+    "field_f1": 1.0,
+    "valid": true,
+    "ml_proposals": 0
+  },
+  {
+    "id": "03-pdf",
+    "mode": "local-ai-assisted",
+    "architecture": "arm64",
+    "seconds": 0.0189,
+    "fields": 11,
+    "field_f1": 1.0,
+    "valid": true,
+    "ml_proposals": 5
+  },
+  {
+    "id": "04-pdf",
+    "mode": "deterministic",
+    "architecture": "arm64",
+    "seconds": 0.0229,
+    "fields": 9,
+    "field_f1": 0.9473684210526316,
+    "valid": true,
+    "ml_proposals": 0
+  },
+  {
+    "id": "04-pdf",
+    "mode": "local-ai-assisted",
+    "architecture": "arm64",
+    "seconds": 0.0224,
+    "fields": 9,
+    "field_f1": 0.9473684210526316,
+    "valid": true,
+    "ml_proposals": 17
+  },
+  {
+    "id": "06-pdf",
+    "mode": "deterministic",
+    "architecture": "arm64",
+    "seconds": 0.0764,
+    "fields": 49,
+    "field_f1": 1.0,
+    "valid": true,
+    "ml_proposals": 0
+  },
+  {
+    "id": "06-pdf",
+    "mode": "local-ai-assisted",
+    "architecture": "arm64",
+    "seconds": 0.0752,
+    "fields": 49,
+    "field_f1": 1.0,
+    "valid": true,
+    "ml_proposals": 37
+  }
+]
