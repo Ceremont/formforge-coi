@@ -1,0 +1,457 @@
+[
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.doc",
+    "extension": "doc",
+    "sha256": "e717dc255395c55604b803bff288554ed07e8609f0d3aebc315efbe12e36e698",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.docx",
+    "extension": "docx",
+    "sha256": "5c80f453ad5d69cb4f2541291ef435b4c6f4ab51404079a4126f5d3554f35e24",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 13,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 30,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 13,
+      "output_fields": 39,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_1a00d9b83070",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a6da891b4704",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25e661590239",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dfeff5c7e40a",
+          "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1af7f0bf2c2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.163
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.jpeg",
+    "extension": "jpeg",
+    "sha256": "5106de926173dadc1b5b93d330f4e6e7ed407ebf99f84da493cac944f0e76404",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 39,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7be78dc01ca4",
+          "label": "WÓJT GMINY PŁOSKINIA",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_e86e74d03bad",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_753df7734047",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bab6b3628952",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.241
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.jpg",
+    "extension": "jpg",
+    "sha256": "c14d2fe1ec3b03494794c98954f44212dfbb6d636e920fffa5050b08011b9765",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 39,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7be78dc01ca4",
+          "label": "WÓJT GMINY PŁOSKINIA",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_e86e74d03bad",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_753df7734047",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bab6b3628952",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.276
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.ods",
+    "extension": "ods",
+    "sha256": "0ec713b2a5e183697639409f25b033551cc866fb925dbf01281dbc458e5b1994",
+    "status": "converted",
+    "fields": 47,
+    "raw_fields": 24,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 44,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 24,
+      "output_fields": 47,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_38e26cac4bba",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_148966cbf777",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_dd09412153f2",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1e1dcb909f45",
+          "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1af7f0bf2c2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.16
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.pdf",
+    "extension": "pdf",
+    "sha256": "8ba4a8c133f08c9a9893695d91387c98ac1a978395f4c931b12565bfe43fa311",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 30,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 39,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_1a00d9b83070",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a6da891b4704",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0bd0731a4a04",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3ee101be34e2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.187
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.png",
+    "extension": "png",
+    "sha256": "5992645abec43713ed0631dc9a8a7d006693e328300252e5f7b20bb82c3cefa5",
+    "status": "converted",
+    "fields": 40,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 37,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 40,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25b1721402cc",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_e86e74d03bad",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2825d613735a",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.18
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.xlsx",
+    "extension": "xlsx",
+    "sha256": "3ec7b7aad2e472aeb6355f77b101f568849dea493e6b02eba6cb1e93c721f200",
+    "status": "converted",
+    "fields": 46,
+    "raw_fields": 20,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 43,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 20,
+      "output_fields": 46,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd09412153f2",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1e1dcb909f45",
+          "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1af7f0bf2c2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.232
+  }
+]

@@ -1,0 +1,1406 @@
+[
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.doc",
+    "extension": "doc",
+    "sha256": "901a80a61bf7f89e7075bba56f82d11244680da55b2437e77862c85a17542b4a",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.002
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.docx",
+    "extension": "docx",
+    "sha256": "b0665d0f9621e53118fcac0662b2230981c5e0258e3e122e37929b94a76f159f",
+    "status": "converted",
+    "fields": 80,
+    "raw_fields": 79,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 47,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 79,
+      "output_fields": 80,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_9f3030d74c86",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_89e3bf532bc7",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_95ba8d84845f",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ef5c79b05551",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dddb5ff350c9",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6e716de30457",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e3d3732e1a40",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6e1b9536ab54",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1c7a8c923f6e",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a5cd354d1336",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_76094ac9e526",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_69de8aae32e2",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2639cb0a400",
+          "label": "Ja niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4a457e045fbc",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_35debea6552f",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5533074d9379",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_630f54c8fe10",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_280f4b75ec99",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3253dbffb72c",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3cda2d2e2947",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e4342034dfd3",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2ce088e6dcb5",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_28b158b74c5a",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b3e87536db60",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_14e8b748b1fe",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_08e01838d222",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_960b6b89a3d6",
+          "label": "Ja niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d392ec8d94c2",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e5810b73e24",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_12845a4faf8e",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1919dc478fd0",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_db81f7cff823",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bfbde4710cdc",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4d4f3e9a0c2b",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2b37fe7dab00",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d4735eb2aaee",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c166cb6614bf",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2715412bae88",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e152824eb69",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_265ff0fe2d00",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dcee74828ebb",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c00a7d7de239",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f5100765b48b",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_303c9b8896b2",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6ea734dd7544",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7677f122df38",
+          "label": "Ja niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.224
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.jpeg",
+    "extension": "jpeg",
+    "sha256": "9e7e85be23deb68baf4d7a45dda7d7b2b30d621fd9dc503d2348629fff8e700d",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie można odczytać dokumentu. Plik może być uszkodzony lub zaszyfrowany.",
+      "status": 422,
+      "code": "invalid_document"
+    },
+    "processing_seconds": 0.126
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.jpg",
+    "extension": "jpg",
+    "sha256": "5da17ca6ce5a758794483c5cdc3d296f0884e1ddebf6625e4091fe3a3e34e1ef",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie można odczytać dokumentu. Plik może być uszkodzony lub zaszyfrowany.",
+      "status": 422,
+      "code": "invalid_document"
+    },
+    "processing_seconds": 0.126
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.ods",
+    "extension": "ods",
+    "sha256": "f09455c87a20be4c91bde4da57486c0fff175ede86074ccc8d3e6e7fd4663295",
+    "status": "converted",
+    "fields": 168,
+    "raw_fields": 212,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 157,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 212,
+      "output_fields": 168,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_31d7f1764c3f",
+          "label": "z dnia 26 listopada 2024 r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d2784bc4cb10",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d390f8fc9130",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ef5c79b05551",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dddb5ff350c9",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54bec2e1a3c3",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5b7e1a2f4907",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6785c1dbff9d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4ee5507c4ea8",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_116533fbe035",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63e50e37fc4c",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ae781a9c5c02",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0261f5430c93",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_787b5576da76",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_902619a8e31a",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1aa3bab8adfd",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_baaeb0110f7a",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb94fb410338",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b7af8553f3e",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_de2fd0bc954e",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do stypendium",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6575066a9ba9",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac743c88a5e7",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cad02ced6669",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6ca708865209",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6472867f65ae",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e2e1faeb1ac6",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c9924e24d97b",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2c7d7fea0bee",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54152afd8149",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_89192308de37",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5f2abff01a85",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8173762e2662",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b726374ec14",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_50ecbad8342d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_228fd9a5c471",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8cc4c32dd35d",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3f6653d69ff5",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7a956d4f316d",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0d63925793a3",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_08ece18db9e8",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac39c4aca044",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do nagrody",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a00a73719c86",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_486b3e453c86",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ec0257f7deaa",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_66b94bd9be30",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a32d81e9acf5",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6827173ff693",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_30955b80e5cd",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f23379cd659e",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_83795303af6a",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_84f374176d47",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c31102b9b277",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_351f4ca3f97c",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4cd259c683c6",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2b5511868632",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1bb087e50f44",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1c18d136e9e",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0588b938f006",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d61a64fd364a",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_566bf887c6a6",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d23c1427df58",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_399c3b7bfcae",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0fd26e78a4bb",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_37b20010ff54",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9ea27616b20a",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c4dd7f641083",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f8923896e3b8",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_58feca438091",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25a2a7ac5d67",
+          "label": "2. Zgoda w imieniu podopiecznego nieletniego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_81a70227fee9",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e771a06a13f",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ef31744fc017",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.229
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.pdf",
+    "extension": "pdf",
+    "sha256": "d9ace125afc5c4af18d1679eb63b85428a0391326bcb7bdf0022ec0fd4e77797",
+    "status": "converted",
+    "fields": 80,
+    "raw_fields": 85,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 47,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 85,
+      "output_fields": 80,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_13a0c8c8a090",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ee1bdc4020c6",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_94a6911fed0e",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_09fab3bf2827",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_fe4df2e2e755",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1d4cfbb6e535",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5482b064cd46",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_38c8a1e78743",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d6b611cd73fe",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_27383c350cb3",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_421feaee89df",
+          "label": "Adres do korespondencji (j",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5b31ab1408ce",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4c62d54aeaf7",
+          "label": "a niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3764c9fa7ad5",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8eb6eb4c4bcb",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6291440e7de2",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4b4ad3fd8bf2",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c125d2336e65",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_23daac8e60ef",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b7c352e72a63",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3e806328fe98",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b2338bbe4a91",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_44a1aa05d4e9",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4c05597436",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6398ebfdf995",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6821cb618bec",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d98bfe146f88",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_98616e04c695",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_387ed78a2db6",
+          "label": "a niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8a14680f3311",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_542594116c45",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1afe353b18cc",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_19459da21c90",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1c9ca5fce067",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bd1e217a58af",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_10ffb6485703",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_fae6737f2b8c",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dcb283b21ed5",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_993261ad0e00",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63c047232dd5",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9b98294a023b",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_52e79e3dfa53",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_172fa6efd371",
+          "label": "Adres do korespondencji (j",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1fa49177c5bf",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f5e954c3e277",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8313315357b1",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_de28281383f7",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e74b3281893c",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d653e2003d91",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c288c4db6768",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_94608dcd122b",
+          "label": "a niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.439
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.png",
+    "extension": "png",
+    "sha256": "117a903a918ddfff5b266da75488e4153768899f46169111d5884147816ea334",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie można odczytać dokumentu. Plik może być uszkodzony lub zaszyfrowany.",
+      "status": 422,
+      "code": "invalid_document"
+    },
+    "processing_seconds": 0.124
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.xlsx",
+    "extension": "xlsx",
+    "sha256": "8f8b6c8627cf9434872f3bb6a05abde477a2c282d8bb9fc830f88383ef90ef75",
+    "status": "converted",
+    "fields": 166,
+    "raw_fields": 211,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 155,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 211,
+      "output_fields": 166,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_31d7f1764c3f",
+          "label": "z dnia 26 listopada 2024 r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d2784bc4cb10",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d390f8fc9130",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ef5c79b05551",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dddb5ff350c9",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54bec2e1a3c3",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5b7e1a2f4907",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6785c1dbff9d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4ee5507c4ea8",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_116533fbe035",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63e50e37fc4c",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ae781a9c5c02",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0261f5430c93",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_787b5576da76",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_902619a8e31a",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1aa3bab8adfd",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_baaeb0110f7a",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb94fb410338",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b7af8553f3e",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_de2fd0bc954e",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do stypendium",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6575066a9ba9",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac743c88a5e7",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cad02ced6669",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6ca708865209",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6472867f65ae",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e2e1faeb1ac6",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c9924e24d97b",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2c7d7fea0bee",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54152afd8149",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_89192308de37",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5f2abff01a85",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8173762e2662",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b726374ec14",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_50ecbad8342d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_228fd9a5c471",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8cc4c32dd35d",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3f6653d69ff5",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7a956d4f316d",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0d63925793a3",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_08ece18db9e8",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac39c4aca044",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do nagrody",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a00a73719c86",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_486b3e453c86",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ec0257f7deaa",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_66b94bd9be30",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a32d81e9acf5",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6827173ff693",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_30955b80e5cd",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f23379cd659e",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_83795303af6a",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_84f374176d47",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c31102b9b277",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_351f4ca3f97c",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4cd259c683c6",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2b5511868632",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1bb087e50f44",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1c18d136e9e",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0588b938f006",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d61a64fd364a",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_566bf887c6a6",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d23c1427df58",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_399c3b7bfcae",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0fd26e78a4bb",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_37b20010ff54",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9ea27616b20a",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c4dd7f641083",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f8923896e3b8",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_58feca438091",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25a2a7ac5d67",
+          "label": "2. Zgoda w imieniu podopiecznego nieletniego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_81a70227fee9",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e771a06a13f",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ef31744fc017",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.384
+  }
+]

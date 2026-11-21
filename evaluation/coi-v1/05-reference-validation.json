@@ -1,0 +1,97 @@
+{
+  "schema_valid": true,
+  "schema_errors": [],
+  "compatibility_profile_valid": false,
+  "business_rules_valid": false,
+  "valid": false,
+  "errors": [
+    {
+      "code": "compatibility_model",
+      "message": "Field required",
+      "path": "tabs/0/questions/1/field/repeatingSectionGrid/0/field/options/1/techName",
+      "severity": "error"
+    },
+    {
+      "code": "compatibility_model",
+      "message": "Input should be a valid UUID, invalid length: found 5",
+      "path": "flow/links/0/id",
+      "severity": "error"
+    },
+    {
+      "code": "compatibility_model",
+      "message": "Input should be a valid UUID, invalid length: found 5",
+      "path": "flow/links/1/id",
+      "severity": "error"
+    },
+    {
+      "code": "compatibility_model",
+      "message": "Input should be a valid UUID, invalid character: found `i` at 2",
+      "path": "flow/links/2/id",
+      "severity": "error"
+    },
+    {
+      "code": "finish_info_only",
+      "message": "Na FINISH dozwolone jest wyłącznie INFO_SECTION.",
+      "path": "87733ddf-dd95-45c7-9fc7-5d7c15d139d5",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/0",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/1",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/3",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/8",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/2/questions/0/field/repeatingSectionGrid/0",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/2/questions/0/field/repeatingSectionGrid/1",
+      "severity": "error"
+    },
+    {
+      "code": "non_uuid",
+      "message": "Identyfikator nie jest UUID.",
+      "path": "a16ec",
+      "severity": "error"
+    },
+    {
+      "code": "non_uuid",
+      "message": "Identyfikator nie jest UUID.",
+      "path": "aa405",
+      "severity": "error"
+    },
+    {
+      "code": "non_uuid",
+      "message": "Identyfikator nie jest UUID.",
+      "path": "a0icc",
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "schema_profile": "published unchanged + recursive compatibility + technical rules",
+  "grid_key": "repeatingSectionGrid",
+  "target_import_verified": false
+}

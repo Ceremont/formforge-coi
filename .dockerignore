@@ -1,0 +1,12 @@
+.venv
+.git
+.env
+__pycache__
+.pytest_cache
+.ruff_cache
+tmp
+output
+tests
+scripts
+*.pdf
+!demo_samples/*.pdf

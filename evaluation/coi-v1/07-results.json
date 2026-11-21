@@ -1,0 +1,572 @@
+[
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.DOC",
+    "extension": "doc",
+    "sha256": "8563c1a84e99f22b2f9dc0724a54137206ec11263b774ae7922261081f9d447c",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.JPE",
+    "extension": "jpe",
+    "sha256": "895760a7117d4e232e3106352fa219876d893454d5ee886e1140ec86a0ec48ac",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "unsupported_format",
+      "message": "Niedozwolony format pliku."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.JPG",
+    "extension": "jpg",
+    "sha256": "ab6810c4fd4f245891c7b15e2380b7c242c34aa22d219c83af96fe85b4f320ca",
+    "status": "converted",
+    "fields": 85,
+    "raw_fields": 117,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 75,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 117,
+      "output_fields": 85,
+      "standard_additions": 29,
+      "suppressed": [
+        {
+          "id": "f_0cd394d803c5",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_393a8909d6c4",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_27a2aa55c7e5",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ee318e39bfe7",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_43c5dd66f993",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_aacbb4509f56",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fcfc55c0b64f",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35c502500651",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4bfe7e9459b1",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_da733cf55a7e",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f200408d3830",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a556c72be1f4",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_77f0186c33cb",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_00747becc59c",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ff9b0a69cf4d",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1a46a4b64054",
+          "label": "i Rozwoju Wsi z dnia 5 lipca 2010 r. w sprawie warunków i sposobu hodowania i utrzymywania chartów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_21266d03400d",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5711a40fe708",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1ecbed8da452",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_247bd63b5105",
+          "label": "Pochodzenie psa (metryka**, numer rodowodu**, imię, nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e8aa4a27210f",
+          "label": "Adres miejsca utrzymywania psa/psów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5e0ba7149d20",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa/psy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e32b586bd136",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_57f0a0fd710a",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_137b608dc5ff",
+          "label": "Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a038e0cf301c",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9c17f9604a10",
+          "label": "e przez e-mail: iodQum.wroc.pl",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c56cb489dec6",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 9.08
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.ODS",
+    "extension": "ods",
+    "sha256": "42a839c26665dea886c2328b6eaec78477050a84e863eb7d49df5454c41f2d4e",
+    "status": "converted",
+    "fields": 69,
+    "raw_fields": 84,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 55,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 84,
+      "output_fields": 69,
+      "standard_additions": 29,
+      "suppressed": [
+        {
+          "id": "f_436bfbb3a502",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6d918333b83b",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4e27da668de1",
+          "label": "Wydział Środowiska",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_0cf0354a839b",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych za agresywne",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_72e0594dc485",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_17a917b2285b",
+          "label": "Pochodzenie psa (metryka**, numer rodowodu**, imię, nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b3897b0738e1",
+          "label": "Adres miejsca utrzymywania psa/psów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d5774bae1c29",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa/psy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b8ee930084dc",
+          "label": "Oświadczam, że  zaszczepiono psa/psy przeciwko wściekliźnie – w załączeniu kopia dla każdego psa",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3cad224ad886",
+          "label": "Oświadczam, że zapewniam  warunki utrzymywania psa, zgodnie z rozporządzeniem Ministra Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3fe19eaf9cb1",
+          "label": "/podpis wnioskodawcy/",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df4a89a97ce9",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3fabeabdb53e",
+          "label": "przez e-mail: iod@um.wroc.pl",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_602256f44ae3",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.183
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.PDF",
+    "extension": "pdf",
+    "sha256": "22d99255ad6b8d93501dd6f0303a819dd8c37a671de49fd5c43c3c9565f682cc",
+    "status": "converted",
+    "fields": 55,
+    "raw_fields": 39,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 33,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 39,
+      "output_fields": 55,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_052d96d3f135",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_314a9b9c1b0a",
+          "label": "Imię i",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b10a0df3a41d",
+          "label": "nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_651d34156243",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_39e4b5f6e737",
+          "label": "(w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_74a2331f3990",
+          "label": "nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_174fdc537808",
+          "label": "Adres",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e5c1e0ed99cf",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0cf3bfe43763",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dfef4a49b8d9",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.27
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.PNG",
+    "extension": "png",
+    "sha256": "5f373c9b16c88d0203eaddf1f70fe6662f1532a915d1ece7bd30f3f744336179",
+    "status": "converted",
+    "fields": 85,
+    "raw_fields": 118,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 75,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 118,
+      "output_fields": 85,
+      "standard_additions": 29,
+      "suppressed": [
+        {
+          "id": "f_0cd394d803c5",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ee318e39bfe7",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_393a8909d6c4",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_93a7b077ee5c",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_aacbb4509f56",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fcfc55c0b64f",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35c502500651",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4bfe7e9459b1",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_da733cf55a7e",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f200408d3830",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b83cc647cc47",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_77f0186c33cb",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_00747becc59c",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9a5ed9e15c77",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ff9b0a69cf4d",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_48c8d264d148",
+          "label": "i Rozwoju Wsi z dnia 5 lipca 2010 r. w sprawie warunków i sposobu hodowania i utrzymywania chartów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5711a40fe708",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1ecbed8da452",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a8a0cc8f2c7d",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_247bd63b5105",
+          "label": "Pochodzenie psa (metryka**, numer rodowodu**, imię, nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_448dcd1f9e65",
+          "label": "Adres miejsca utrzymywania psa/psów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7b725785d75b",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa/psy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_57f0a0fd710a",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c8910ed1b28f",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_00039d72301d",
+          "label": "Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bae6b7b68a5c",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_abe9f811b6f7",
+          "label": "e przez e-mail: iodQum.wroc.pl",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b0c24d3d6760",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.775
+  }
+]

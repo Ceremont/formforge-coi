@@ -1,0 +1,294 @@
+{
+  "dataset": "holdout-v1",
+  "policy": "Final local synthetic holdout. Engine fixed before first run. No rule tuning on results. Not external/official COI data.",
+  "matching_policy": {
+    "one_to_one": true,
+    "same_page": true,
+    "label_similarity_threshold": 0.82,
+    "type_accuracy_denominator": "matched fields",
+    "section_accuracy_denominator": "matched fields with section annotation",
+    "ocr_coverage": "multiset source-token recall on OCR cases; expected labels/section text, no invented reference transcription"
+  },
+  "engine_sha256": {
+    "models.py": "1c9440c21c367be8e46eae31a086e110abb13991bc67ed3c87019931990f862b",
+    "extractors.py": "b8b136f71c77cb64ae8f6c53127c3711d528368b315e6af031136d154b914dc6",
+    "geometry.py": "d4b2e9bde1a3f92ce1d3050003483955af8842461c3302700b267b8ff68470f0",
+    "layout_analyzer.py": "8f8ab546109cbd1e065e0a8da936b23105367e8896f91811432f756a3b47a7b6",
+    "field_detector.py": "30f9507357e90fcca43af73edae5872eac39393126f0d2f445bf11dd796328ba",
+    "structure_builder.py": "4f94cf8b13127a171fa794f1cd498a31d6c6ded2ff5ad51eae90570e39d48ab3",
+    "ocr.py": "30ccf0873df788dfc9c9a49220bbfca96e17ce94a7001d8d22fe1cffdb294ff5",
+    "conditions.py": "46a4197d24bfd7c65043c4cbf7a98e8cd41c0be7ef2df6724011c6eedd7ceaf3",
+    "dictionaries.py": "79730a6eaf3cfe8a1048460a241ed4d21a7c90a945fa75201ca0e815c9a035f3",
+    "local_ai.py": "c398e6654625e635227c709966818eb16dd3c46039808bd3036393ab9a035541",
+    "pipeline.py": "8c3331c59a50cdbc7ae324f62da9ccd7628577f911846ab9c431ae2712900bce"
+  },
+  "counts": {
+    "documents": 12,
+    "true_positive": 64,
+    "false_positive": 0,
+    "false_negative": 3
+  },
+  "metrics": {
+    "field_precision": 1.0,
+    "field_recall": 0.9552238805970149,
+    "field_f1": 0.9770992366412213,
+    "field_type_accuracy_on_matches": 0.90625,
+    "section_grouping_accuracy_on_matches": 0.90625,
+    "ocr_token_coverage": 1.0,
+    "internal_json_validity": 1.0,
+    "median_seconds": 0.1494,
+    "p95_seconds": 2.5317,
+    "max_child_rss_mb_observed": 143.265625
+  },
+  "limitations": [
+    "Self-authored synthetic dataset independent of demo templates; not externally blinded or official COI.",
+    "One-to-one greedy label similarity with fixed threshold; localization/required/options accuracy not claimed.",
+    "Type and section accuracy are conditional on matched fields; misses counted separately.",
+    "OCR coverage is partial annotated source-token recall, not complete page transcription or character error rate.",
+    "RSS is maximum child high-water mark observed, not peak aggregate server memory.",
+    "No tuning of engine after the first final holdout result."
+  ],
+  "cases": [
+    {
+      "file": "oswiadczenie.pdf",
+      "expected": 4,
+      "predicted": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 4,
+      "section_correct": 4,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.161,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "obszar.pdf",
+      "expected": 4,
+      "predicted": 4,
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 4,
+      "section_correct": 4,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.1482,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "uprawnienia.docx",
+      "expected": 5,
+      "predicted": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 5,
+      "section_correct": 5,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.1274,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "rejestr.xlsx",
+      "expected": 6,
+      "predicted": 6,
+      "true_positive": 6,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 6,
+      "section_correct": 6,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.1357,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "oplaty.ods",
+      "expected": 5,
+      "predicted": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 5,
+      "section_correct": 5,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.115,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "rodzina.pdf",
+      "expected": 12,
+      "predicted": 12,
+      "true_positive": 12,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 12,
+      "section_correct": 12,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.1506,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "zdarzenie.docx",
+      "expected": 3,
+      "predicted": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 3,
+      "section_correct": 3,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.1263,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "ankieta.png",
+      "expected": 6,
+      "predicted": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 1,
+      "type_correct": 5,
+      "section_correct": 2,
+      "ocr_coverage": 1.0,
+      "json_valid": true,
+      "seconds": 0.7019,
+      "error": null,
+      "missed": [
+        "SMS"
+      ],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "ankieta.jpg",
+      "expected": 6,
+      "predicted": 5,
+      "true_positive": 5,
+      "false_positive": 0,
+      "false_negative": 1,
+      "type_correct": 5,
+      "section_correct": 2,
+      "ocr_coverage": 1.0,
+      "json_valid": true,
+      "seconds": 0.8078,
+      "error": null,
+      "missed": [
+        "SMS"
+      ],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "ewidencja_skan.pdf",
+      "expected": 4,
+      "predicted": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 1,
+      "type_correct": 3,
+      "section_correct": 3,
+      "ocr_coverage": 1.0,
+      "json_valid": true,
+      "seconds": 0.9687,
+      "error": null,
+      "missed": [
+        "Nazwa działalności"
+      ],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "informacja.pdf",
+      "expected": 0,
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 0,
+      "section_correct": 0,
+      "ocr_coverage": null,
+      "json_valid": true,
+      "seconds": 0.1472,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": []
+    },
+    {
+      "file": "rodzina_skan.pdf",
+      "expected": 12,
+      "predicted": 12,
+      "true_positive": 12,
+      "false_positive": 0,
+      "false_negative": 0,
+      "type_correct": 6,
+      "section_correct": 12,
+      "ocr_coverage": 1.0,
+      "json_valid": true,
+      "seconds": 2.5317,
+      "error": null,
+      "missed": [],
+      "extra": [],
+      "type_errors": [
+        {
+          "label": "Nazwisko",
+          "expected": "text",
+          "actual": "textarea"
+        },
+        {
+          "label": "Imię",
+          "expected": "text",
+          "actual": "textarea"
+        },
+        {
+          "label": "Nazwisko",
+          "expected": "text",
+          "actual": "textarea"
+        },
+        {
+          "label": "Imię",
+          "expected": "text",
+          "actual": "textarea"
+        },
+        {
+          "label": "Nazwisko",
+          "expected": "text",
+          "actual": "textarea"
+        },
+        {
+          "label": "Imię",
+          "expected": "text",
+          "actual": "textarea"
+        }
+      ]
+    }
+  ]
+}

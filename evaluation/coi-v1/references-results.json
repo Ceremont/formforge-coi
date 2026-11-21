@@ -1,0 +1,1038 @@
+[
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości (1).png",
+    "extension": "png",
+    "sha256": "c50af8c2699794c8aff21e9b9319337ab84a0b01c0b06db66193f5cb8355b914",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 5,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 5,
+      "output_fields": 54,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c0e7dbcdd99d",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0cafe1eca222",
+          "label": "(nr telefonu/adres e-mail)\"",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 5.245
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.doc",
+    "extension": "doc",
+    "sha256": "0006c49c55facade64c382677004ce25abbe034b98779afc7ebc2a88894c737c",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.003
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.docx",
+    "extension": "docx",
+    "sha256": "d26d86aea213ea09653381c987a5c12a3e1c20be4dfd6a3370613c8f04184c48",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 8,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 47,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 8,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_76dead4d4274",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2bd357272591",
+          "label": "(nr telefonu/adres e-mail))",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_73d5bd2e6104",
+          "label": "(podpis wnioskodawcy))",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.461
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.jpeg",
+    "extension": "jpeg",
+    "sha256": "340f304da52f18097034492170f13c0451ef31050b0bfee3cb389777626e6771",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 5,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 5,
+      "output_fields": 54,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c0e7dbcdd99d",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_408de2bc3445",
+          "label": "(nr telefonu/adres e-mail)”",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 5.428
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.jpg",
+    "extension": "jpg",
+    "sha256": "60971995a203fc511d872fb15909a87978442aa93906b09bab08b8b53323ee84",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 6,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 6,
+      "output_fields": 54,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c0e7dbcdd99d",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_408de2bc3445",
+          "label": "(nr telefonu/adres e-mail)”",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3c148c67add1",
+          "label": "WNIOSEK O USTALENIE NUMERU PORZĄDKOWEGO",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 5.555
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.ods",
+    "extension": "ods",
+    "sha256": "3f12eef510757599da8efdf8bac94a9b0092ddcb1f388b90033af23276e1a25c",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 15,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 15,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_841e78f239ae",
+          "label": "Wójt Gminy Elbląg",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ac35a3d7caab",
+          "label": "ul. Browarna 85",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_200c340efbf2",
+          "label": "82-300 Elbląg",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_c32b0b3725e6",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6d9be9c896c7",
+          "label": "(nr telefonu/adres e-mail)1)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d83a359bff13",
+          "label": "(podpis wnioskodawcy)2)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.447
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.pdf",
+    "extension": "pdf",
+    "sha256": "f728269466bdcb23d69a08a69a912939e1034b1fad26b489e971e404f297450a",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 10,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 48,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 10,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_76dead4d4274",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ad7ed49af6f7",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5df2c22a7c94",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_938c6d0c1ce0",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e14881ef655c",
+          "label": "(nr telefonu/adres e-mail)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b4086bb96ec4",
+          "label": "(podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.542
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.xlsx",
+    "extension": "xlsx",
+    "sha256": "b41d0eadb5696004d511434dfc1b72f4754d4a3550583828cce8d6feea09529d",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c32b0b3725e6",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6d9be9c896c7",
+          "label": "(nr telefonu/adres e-mail)1)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d83a359bff13",
+          "label": "(podpis wnioskodawcy)2)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.543
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.DOC",
+    "extension": "doc",
+    "sha256": "0a32774bbc471cd8fa4dc4fbe8dff775219b663df48cb6ebb6d8aecb102bb2e2",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.JPG",
+    "extension": "jpg",
+    "sha256": "a215b1b268e7dae950df347856d9a84b305fa38a512c0f5c1014ad850da9da43",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 57,
+      "standard_additions": 48,
+      "suppressed": [
+        {
+          "id": "f_848eb090071a",
+          "label": "Ulan-Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_17f40737776f",
+          "label": "o stwierdzenie nadpłaty podatku",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_64eea39ec489",
+          "label": "zaliczyć na poczet przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 3.016
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.ODS",
+    "extension": "ods",
+    "sha256": "808bfb541e4c0ac18e8ab25388b154c02f00a32199bc225a98500e7495db5fb3",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 24,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 56,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 24,
+      "output_fields": 57,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_848eb090071a",
+          "label": "Ulan-Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3b78903a744f",
+          "label": "Urząd Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6e8e90c929b",
+          "label": "Ulan-Majorat",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4043d02f05b7",
+          "label": "Ulan-Majorat 57",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_c407900f3aac",
+          "label": "21-307 Ulan-Majorat",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_71f4fb3f7ec2",
+          "label": "o stwierdzenie nadpłaty podatku",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bd37a8bf363f",
+          "label": "Na podstawie art. 75 ustawy z dnia 29 sierpnia 1997 r. - Ordynacja podatkowa",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6f180ebe3c03",
+          "label": "zaliczyć na poczet  przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63945a10684e",
+          "label": "zwrócić przelewem na wskazany rachunek",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d3142e390d05",
+          "label": "podpis wnioskodawcy lub osoby upoważnionej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7be6821c10f6",
+          "label": "Numer PESEL wpisują podatnicy będący osobami fizycznymi objętymi rejestrem PESEL nieprowadzący działalności",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bda617bb7324",
+          "label": "gospodarczej. Identyfikator podatkowy NIP wpisują pozostali podatnicy",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.461
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.PDF",
+    "extension": "pdf",
+    "sha256": "b4874b7d784e4e64045481fe281d683fdbb5060a8a163fec3909d8260091a394",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 50,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 57,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_ef876cb5de37",
+          "label": "Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_88e9f949dc9f",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62ba3e5ee024",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6a0060d63830",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_320c91fe936f",
+          "label": "zaliczyć na poczet przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e1f092ad0529",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.529
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.PNG",
+    "extension": "png",
+    "sha256": "091151313018ca413e0e2ba572a54679511d43e4b6b7bbf8d774d1133c441aa0",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 8,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 56,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 8,
+      "output_fields": 57,
+      "standard_additions": 48,
+      "suppressed": [
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63945a10684e",
+          "label": "zwrócić przelewem na wskazany rachunek",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 2.871
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.docx",
+    "extension": "docx",
+    "sha256": "f551277f2e57b3e042b54ecb5de7d0285dbadd60579cc475ce08a1b073128aa0",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 13,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 50,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 13,
+      "output_fields": 57,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_848eb090071a",
+          "label": "Ulan-Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_57929dc1609b",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_954721e851ae",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e821a29580c3",
+          "label": "zaliczyć na poczet  przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f103fc205977",
+          "label": "zwrócić przelewem na wskazany rachunek",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_56993ba9f661",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.483
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.jpeg",
+    "extension": "jpeg",
+    "sha256": "2c07718c062e8f4de67a2f2689e0589fcd2e99294fd2e73799b211124c290e17",
+    "status": "converted",
+    "fields": 58,
+    "raw_fields": 10,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 55,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 10,
+      "output_fields": 58,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 56,
+      "matched_fields": 52,
+      "field_precision": 0.9285714285714286,
+      "field_recall": 1.0,
+      "field_f1": 0.962962962962963,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 0.9928571428571429,
+      "structural_components": {
+        "section_f1": 0.9714285714285714,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 3.022
+  }
+]

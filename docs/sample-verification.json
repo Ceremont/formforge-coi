@@ -1,0 +1,151 @@
+[
+  {
+    "file": "zaswiadczenie.pdf",
+    "pages": 1,
+    "fields": 9,
+    "expected_matched": 8,
+    "expected_total": 8,
+    "duration_ms": 115.1
+  },
+  {
+    "file": "zaswiadczenie.docx",
+    "pages": 1,
+    "fields": 10,
+    "expected_matched": 8,
+    "expected_total": 8,
+    "duration_ms": 25.3
+  },
+  {
+    "file": "zaswiadczenie.xlsx",
+    "pages": 1,
+    "fields": 9,
+    "expected_matched": 8,
+    "expected_total": 8,
+    "duration_ms": 46.2
+  },
+  {
+    "file": "zaswiadczenie.ods",
+    "pages": 1,
+    "fields": 9,
+    "expected_matched": 8,
+    "expected_total": 8,
+    "duration_ms": 17.0
+  },
+  {
+    "file": "zezwolenie.pdf",
+    "pages": 1,
+    "fields": 10,
+    "expected_matched": 7,
+    "expected_total": 7,
+    "duration_ms": 3.4
+  },
+  {
+    "file": "zezwolenie.docx",
+    "pages": 1,
+    "fields": 11,
+    "expected_matched": 7,
+    "expected_total": 7,
+    "duration_ms": 7.0
+  },
+  {
+    "file": "zezwolenie.xlsx",
+    "pages": 1,
+    "fields": 10,
+    "expected_matched": 7,
+    "expected_total": 7,
+    "duration_ms": 2.3
+  },
+  {
+    "file": "zezwolenie.ods",
+    "pages": 1,
+    "fields": 10,
+    "expected_matched": 7,
+    "expected_total": 7,
+    "duration_ms": 1.6
+  },
+  {
+    "file": "zgloszenie.pdf",
+    "pages": 1,
+    "fields": 9,
+    "expected_matched": 9,
+    "expected_total": 9,
+    "duration_ms": 3.8
+  },
+  {
+    "file": "zgloszenie.docx",
+    "pages": 1,
+    "fields": 10,
+    "expected_matched": 9,
+    "expected_total": 9,
+    "duration_ms": 6.7
+  },
+  {
+    "file": "zgloszenie.xlsx",
+    "pages": 1,
+    "fields": 9,
+    "expected_matched": 9,
+    "expected_total": 9,
+    "duration_ms": 2.1
+  },
+  {
+    "file": "zgloszenie.ods",
+    "pages": 1,
+    "fields": 9,
+    "expected_matched": 9,
+    "expected_total": 9,
+    "duration_ms": 1.5
+  },
+  {
+    "file": "wielostronicowy.pdf",
+    "pages": 3,
+    "fields": 17,
+    "expected_matched": 14,
+    "expected_total": 14,
+    "duration_ms": 6.0
+  },
+  {
+    "file": "wielostronicowy.docx",
+    "pages": 3,
+    "fields": 18,
+    "expected_matched": 14,
+    "expected_total": 14,
+    "duration_ms": 11.2
+  },
+  {
+    "file": "wielostronicowy.xlsx",
+    "pages": 3,
+    "fields": 18,
+    "expected_matched": 14,
+    "expected_total": 14,
+    "duration_ms": 3.0
+  },
+  {
+    "file": "wielostronicowy.ods",
+    "pages": 3,
+    "fields": 18,
+    "expected_matched": 14,
+    "expected_total": 14,
+    "duration_ms": 2.9
+  },
+  {
+    "file": "zaswiadczenie.png",
+    "pages": 1,
+    "fields": 9,
+    "ocr": "executed",
+    "has_pesel": true
+  },
+  {
+    "file": "zaswiadczenie.jpg",
+    "pages": 1,
+    "fields": 9,
+    "ocr": "executed",
+    "has_pesel": true
+  },
+  {
+    "file": "skan.pdf",
+    "pages": 1,
+    "fields": 11,
+    "ocr": "executed",
+    "has_pesel": true
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "zaswiadczenie": {
+    "source_pages": 1,
+    "required_labels": [
+      "Imię i nazwisko",
+      "PESEL"
+    ],
+    "expected_labels": [
+      "Imię i nazwisko",
+      "PESEL",
+      "Adres zamieszkania",
+      "Kod pocztowy",
+      "E-mail",
+      "Telefon",
+      "Uzasadnienie",
+      "Data złożenia"
+    ],
+    "synthetic": true
+  },
+  "zezwolenie": {
+    "source_pages": 1,
+    "required_labels": [
+      "Imię i nazwisko",
+      "PESEL"
+    ],
+    "expected_labels": [
+      "Imię i nazwisko",
+      "PESEL",
+      "E-mail",
+      "Liczba dni",
+      "Data rozpoczęcia",
+      "Uzasadnienie",
+      "Załącznik"
+    ],
+    "synthetic": true
+  },
+  "zgloszenie": {
+    "source_pages": 1,
+    "required_labels": [
+      "Nazwa organizacji",
+      "E-mail"
+    ],
+    "expected_labels": [
+      "Nazwa organizacji",
+      "Imię i nazwisko",
+      "E-mail",
+      "Telefon",
+      "Adres",
+      "Kod pocztowy",
+      "Liczba uczestników",
+      "Data wydarzenia",
+      "Opis zgłoszenia"
+    ],
+    "synthetic": true
+  },
+  "wielostronicowy": {
+    "source_pages": 3,
+    "required_labels": [
+      "Imię i nazwisko",
+      "PESEL"
+    ],
+    "expected_labels": [
+      "Imię i nazwisko",
+      "PESEL",
+      "E-mail",
+      "Telefon",
+      "NIP",
+      "Adres zamieszkania",
+      "Kod pocztowy",
+      "Nazwa projektu",
+      "Opis projektu (maks. 500 znaków)",
+      "Kwota dofinansowania",
+      "Data rozpoczęcia",
+      "Załącznik",
+      "Uwagi dodatkowe",
+      "Data złożenia"
+    ],
+    "synthetic": true
+  }
+}

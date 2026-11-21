@@ -1,0 +1,667 @@
+[
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.doc",
+    "extension": "doc",
+    "sha256": "73527169cf69aa83545ab69d7f9b318503a9dcba5e55dbe76902649e2f1d0fe6",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.002
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.docx",
+    "extension": "docx",
+    "sha256": "a6f5f41e459a1dba2c9c02ad24cb496870e32340ecb4cde96d990b446268cbc9",
+    "status": "converted",
+    "fields": 58,
+    "raw_fields": 14,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 49,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 14,
+      "output_fields": 58,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_4ffdd9805850",
+          "label": "dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9f40fc471d92",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c25ab4753163",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.17
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.jpeg",
+    "extension": "jpeg",
+    "sha256": "d826ff9fa386dee10113ef647c967e02b7adabe964b9d58b1f85dfd5f6a3a837",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 34,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 61,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 34,
+      "output_fields": 66,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2b4bca8f34f",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b3a6d0e9c248",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_880f9687d38d",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_8b23278370ac",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_75ffdf618cfd",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35579da5fda3",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bcbd090b2485",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7be1e3df3136",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df60a6995152",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fd1669cd79e2",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6ca45cc89135",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2809cb581a4a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_01d22d4fa77a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d87e6b7299b1",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_9c51ca836f22",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.968
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.jpg",
+    "extension": "jpg",
+    "sha256": "9ab799d09f705c87cf5cafc35f9ddb863cd20a595ac7c66e4221d9de02202b6f",
+    "status": "converted",
+    "fields": 65,
+    "raw_fields": 34,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 59,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 34,
+      "output_fields": 65,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2b4bca8f34f",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b3a6d0e9c248",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_880f9687d38d",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_8b23278370ac",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_75ffdf618cfd",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35579da5fda3",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bcbd090b2485",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7be1e3df3136",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df60a6995152",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fd1669cd79e2",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6ca45cc89135",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2809cb581a4a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_01d22d4fa77a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d87e6b7299b1",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_9c51ca836f22",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.914
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.ods",
+    "extension": "ods",
+    "sha256": "78be30862cfaef96c736f705786334681ef591836015b316599484e7104688d7",
+    "status": "converted",
+    "fields": 92,
+    "raw_fields": 69,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 89,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 69,
+      "output_fields": 92,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_4ffdd9805850",
+          "label": "dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dc503b192534",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_29b526a44c87",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_cb08dabe4816",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4289a6e8cf31",
+          "label": "a/ jezdnia (przy zajęciu do 20% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_969b66229c05",
+          "label": "b/ jezdnia (przy zajęciu powyżej 20% do 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_29bcb6487ca0",
+          "label": "c/ jezdnia (przy zajęciu powyżej 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7ae8a1be6787",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6edbd9c74899",
+          "label": "/ podpis Wnioskodawcy/",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.174
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.pdf",
+    "extension": "pdf",
+    "sha256": "b251035b40bdd8a264b9c1035f466c57760b15db73d84a3ceebf9716c62ce14a",
+    "status": "converted",
+    "fields": 70,
+    "raw_fields": 26,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 49,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 26,
+      "output_fields": 70,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_2200b0ebb575",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f23285143ae5",
+          "label": "nr telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0341af3184d3",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a935d7510d87",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.243
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.png",
+    "extension": "png",
+    "sha256": "8daaac3e579ccb46326c13e43a1501aefd1036c26e89e6b6152331de01c91a8e",
+    "status": "converted",
+    "fields": 76,
+    "raw_fields": 45,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 70,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 45,
+      "output_fields": 76,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2b4bca8f34f",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b3a6d0e9c248",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_880f9687d38d",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_8b23278370ac",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_75ffdf618cfd",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35579da5fda3",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bcbd090b2485",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7be1e3df3136",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df60a6995152",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fd1669cd79e2",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6ca45cc89135",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2809cb581a4a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_01d22d4fa77a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d87e6b7299b1",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_9c51ca836f22",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_625054b5846f",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.851
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.xlsx",
+    "extension": "xlsx",
+    "sha256": "787099906ea66527d1ad4eed02620e268b87bd13b0f4c2e7a6d5748d149d10a7",
+    "status": "converted",
+    "fields": 91,
+    "raw_fields": 65,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 88,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 65,
+      "output_fields": 91,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_4ffdd9805850",
+          "label": "dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4289a6e8cf31",
+          "label": "a/ jezdnia (przy zajęciu do 20% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_969b66229c05",
+          "label": "b/ jezdnia (przy zajęciu powyżej 20% do 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_29bcb6487ca0",
+          "label": "c/ jezdnia (przy zajęciu powyżej 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7ae8a1be6787",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6edbd9c74899",
+          "label": "/ podpis Wnioskodawcy/",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.259
+  }
+]

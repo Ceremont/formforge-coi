@@ -1,0 +1,331 @@
+[
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.doc",
+    "extension": "doc",
+    "sha256": "b6a4b3a68e71a61b36f6ea7a6fd5f88b9562c0915d8490172f8f88bbaa33e6ff",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.docx",
+    "extension": "docx",
+    "sha256": "e4aef6daff830e86b4d5d69c2ed98ab9496079b5542e831be286478aad84ebb1",
+    "status": "converted",
+    "fields": 7,
+    "raw_fields": 7,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 0,
+    "ocr": false,
+    "normalization": {
+      "applied": false,
+      "reason": "No government-applicant context; preserved source structure"
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.151
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.jpeg",
+    "extension": "jpeg",
+    "sha256": "3b52e99527a40512158a0984f108055f3b522b77059cdb68d9ac9c87d6fea533",
+    "status": "converted",
+    "fields": 35,
+    "raw_fields": 3,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 34,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 3,
+      "output_fields": 35,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_05ac203578e4",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 2.743
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.jpg",
+    "extension": "jpg",
+    "sha256": "368b1e645a43663992962ebae6be60c0320aa4a397a3d5ee24f7e36f1115ffc3",
+    "status": "converted",
+    "fields": 36,
+    "raw_fields": 4,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 34,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 4,
+      "output_fields": 36,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_05ac203578e4",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.142
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.ods",
+    "extension": "ods",
+    "sha256": "a2ef5d47b193b46375481cf7f14d2693aa34f6475e822b4194b8fe8d63203698",
+    "status": "converted",
+    "fields": 42,
+    "raw_fields": 15,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 15,
+      "output_fields": 42,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_ff224ca383ea",
+          "label": "Młynary, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5cae3ba9d35a",
+          "label": "Urząd Miasta i Gminy Młynaryul. Dworcowa 2914-420 Młynary",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_00682efabd06",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6a5a3d5a432a",
+          "label": "/podpis/",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_35f90c3b7399",
+          "label": "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.  o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.154
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.pdf",
+    "extension": "pdf",
+    "sha256": "3c7f6a8d3ccddac4f0926b4b1450b0b1f89256f3d99bb0f5162e95dc7a923f10",
+    "status": "converted",
+    "fields": 37,
+    "raw_fields": 8,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 31,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 8,
+      "output_fields": 37,
+      "standard_additions": 31,
+      "suppressed": [
+        {
+          "id": "f_f7739b17247e",
+          "label": "Młynary, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6266461e6e52",
+          "label": "/ adres /",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_310491545f13",
+          "label": "14-420 Młynary",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.185
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.png",
+    "extension": "png",
+    "sha256": "42af6393d6dc568daf6a0904005940a5be99de7a9f071e283e4dc517f94c29be",
+    "status": "converted",
+    "fields": 35,
+    "raw_fields": 3,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 34,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 3,
+      "output_fields": 35,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_05ac203578e4",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 2.706
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.xlsx",
+    "extension": "xlsx",
+    "sha256": "a464bc289b17d2ba0c416aec55df5937d9a7ca0da83a6d344eda7e171e5e483b",
+    "status": "converted",
+    "fields": 43,
+    "raw_fields": 14,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 14,
+      "output_fields": 43,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_a15bf7d9712a",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f613d75d8946",
+          "label": "/podpis/",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c8756388ce21",
+          "label": "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.  o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.181
+  }
+]

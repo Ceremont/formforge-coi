@@ -1,0 +1,530 @@
+[
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości (1).png",
+    "extension": "png",
+    "sha256": "c50af8c2699794c8aff21e9b9319337ab84a0b01c0b06db66193f5cb8355b914",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 5,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 5,
+      "output_fields": 54,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c0e7dbcdd99d",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0cafe1eca222",
+          "label": "(nr telefonu/adres e-mail)\"",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 5.245
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.doc",
+    "extension": "doc",
+    "sha256": "0006c49c55facade64c382677004ce25abbe034b98779afc7ebc2a88894c737c",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.003
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.docx",
+    "extension": "docx",
+    "sha256": "d26d86aea213ea09653381c987a5c12a3e1c20be4dfd6a3370613c8f04184c48",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 8,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 47,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 8,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_76dead4d4274",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2bd357272591",
+          "label": "(nr telefonu/adres e-mail))",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_73d5bd2e6104",
+          "label": "(podpis wnioskodawcy))",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.461
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.jpeg",
+    "extension": "jpeg",
+    "sha256": "340f304da52f18097034492170f13c0451ef31050b0bfee3cb389777626e6771",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 5,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 5,
+      "output_fields": 54,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c0e7dbcdd99d",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_408de2bc3445",
+          "label": "(nr telefonu/adres e-mail)”",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 5.428
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.jpg",
+    "extension": "jpg",
+    "sha256": "60971995a203fc511d872fb15909a87978442aa93906b09bab08b8b53323ee84",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 6,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 6,
+      "output_fields": 54,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c0e7dbcdd99d",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_408de2bc3445",
+          "label": "(nr telefonu/adres e-mail)”",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3c148c67add1",
+          "label": "WNIOSEK O USTALENIE NUMERU PORZĄDKOWEGO",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 5.555
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.ods",
+    "extension": "ods",
+    "sha256": "3f12eef510757599da8efdf8bac94a9b0092ddcb1f388b90033af23276e1a25c",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 15,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 15,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_841e78f239ae",
+          "label": "Wójt Gminy Elbląg",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ac35a3d7caab",
+          "label": "ul. Browarna 85",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_200c340efbf2",
+          "label": "82-300 Elbląg",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_c32b0b3725e6",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6d9be9c896c7",
+          "label": "(nr telefonu/adres e-mail)1)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d83a359bff13",
+          "label": "(podpis wnioskodawcy)2)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.447
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.pdf",
+    "extension": "pdf",
+    "sha256": "f728269466bdcb23d69a08a69a912939e1034b1fad26b489e971e404f297450a",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 10,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 48,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 10,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_76dead4d4274",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ad7ed49af6f7",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5df2c22a7c94",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_938c6d0c1ce0",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e14881ef655c",
+          "label": "(nr telefonu/adres e-mail)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b4086bb96ec4",
+          "label": "(podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.542
+  },
+  {
+    "group": "01",
+    "source": "reference/coi-official/forms/01/Wniosek o ustalenie numeru porządkowego nieruchomości.xlsx",
+    "extension": "xlsx",
+    "sha256": "b41d0eadb5696004d511434dfc1b72f4754d4a3550583828cce8d6feea09529d",
+    "status": "converted",
+    "fields": 54,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 54,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_debd6d202c8d",
+          "label": "(data)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_821e4794326a",
+          "label": "Adresat",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c32b0b3725e6",
+          "label": "(adres)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6d9be9c896c7",
+          "label": "(nr telefonu/adres e-mail)1)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d83a359bff13",
+          "label": "(podpis wnioskodawcy)2)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 50,
+      "generated_interactive_fields": 52,
+      "matched_fields": 50,
+      "field_precision": 0.9615384615384616,
+      "field_recall": 1.0,
+      "field_f1": 0.9803921568627451,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.543
+  }
+]

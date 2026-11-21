@@ -1,0 +1,23 @@
+{
+  "python": "3.14.5",
+  "architecture": "arm64",
+  "pytest": {
+    "passed": 146,
+    "failed": 0,
+    "warning": "Starlette HTTPX development-client deprecation"
+  },
+  "ruff": "passed",
+  "ui_suites": [
+    "ui_smoke.cjs",
+    "ui_review.cjs",
+    "ui_coi.cjs"
+  ],
+  "browser_external_requests": 0,
+  "browser_uncaught_errors": 0,
+  "ocr": "Tesseract 5.5.4; pol+eng; real OCR tests executed",
+  "docker_compose_config": "passed",
+  "docker_build_and_run": "unverified: daemon socket absent",
+  "reference_files_unchanged": 82,
+  "independent_engine_unchanged": true,
+  "target_coi_import_verified": false
+}

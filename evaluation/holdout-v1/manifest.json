@@ -1,0 +1,572 @@
+{
+  "dataset": "holdout-v1",
+  "frozen_at_utc": "2026-11-21T13:55:12.162921+00:00",
+  "policy": "Final local synthetic holdout. Engine fixed before first run. No rule tuning on results. Not external/official COI data.",
+  "matching_policy": {
+    "one_to_one": true,
+    "same_page": true,
+    "label_similarity_threshold": 0.82,
+    "type_accuracy_denominator": "matched fields",
+    "section_accuracy_denominator": "matched fields with section annotation",
+    "ocr_coverage": "multiset source-token recall on OCR cases; expected labels/section text, no invented reference transcription"
+  },
+  "engine_sha256": {
+    "models.py": "1c9440c21c367be8e46eae31a086e110abb13991bc67ed3c87019931990f862b",
+    "extractors.py": "b8b136f71c77cb64ae8f6c53127c3711d528368b315e6af031136d154b914dc6",
+    "geometry.py": "d4b2e9bde1a3f92ce1d3050003483955af8842461c3302700b267b8ff68470f0",
+    "layout_analyzer.py": "8f8ab546109cbd1e065e0a8da936b23105367e8896f91811432f756a3b47a7b6",
+    "field_detector.py": "30f9507357e90fcca43af73edae5872eac39393126f0d2f445bf11dd796328ba",
+    "structure_builder.py": "4f94cf8b13127a171fa794f1cd498a31d6c6ded2ff5ad51eae90570e39d48ab3",
+    "ocr.py": "30ccf0873df788dfc9c9a49220bbfca96e17ce94a7001d8d22fe1cffdb294ff5",
+    "conditions.py": "46a4197d24bfd7c65043c4cbf7a98e8cd41c0be7ef2df6724011c6eedd7ceaf3",
+    "dictionaries.py": "79730a6eaf3cfe8a1048460a241ed4d21a7c90a945fa75201ca0e815c9a035f3",
+    "local_ai.py": "c398e6654625e635227c709966818eb16dd3c46039808bd3036393ab9a035541",
+    "pipeline.py": "8c3331c59a50cdbc7ae324f62da9ccd7628577f911846ab9c431ae2712900bce"
+  },
+  "generator_sha256": "ca4acc7639d03561eef702920ecefff7ae2dc941674af624fecac04db01f2450",
+  "cases": [
+    {
+      "file": "oswiadczenie.pdf",
+      "fields": [
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "A. OSOBA",
+          "page": 1
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "A. OSOBA",
+          "page": 1
+        },
+        {
+          "label": "PESEL",
+          "field_type": "pesel",
+          "section": "A. OSOBA",
+          "page": 1
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "A. OSOBA",
+          "page": 1
+        }
+      ],
+      "ocr": false,
+      "features": [
+        "two_columns",
+        "labels_above_lines",
+        "no_colons"
+      ],
+      "sha256": "2a81992ae09c38a1f9a216d7d8a4fa1f6bb840c032d0a285c70d933ce8a69b07"
+    },
+    {
+      "file": "obszar.pdf",
+      "fields": [
+        {
+          "label": "NIP",
+          "field_type": "nip",
+          "section": "IDENTYFIKACJA",
+          "page": 1
+        },
+        {
+          "label": "REGON",
+          "field_type": "regon",
+          "section": "IDENTYFIKACJA",
+          "page": 1
+        },
+        {
+          "label": "Kod pocztowy",
+          "field_type": "postal_code",
+          "section": "IDENTYFIKACJA",
+          "page": 1
+        },
+        {
+          "label": "Adres siedziby",
+          "field_type": "address",
+          "section": "IDENTYFIKACJA",
+          "page": 1
+        }
+      ],
+      "ocr": false,
+      "features": [
+        "no_colons",
+        "negative_whitespace",
+        "tax_identifiers"
+      ],
+      "sha256": "c14c7ba0d3babc09079fcb38d6aba4c1529a11aad7a6b44d5cfa45fb45f8bdef"
+    },
+    {
+      "file": "uprawnienia.docx",
+      "fields": [
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "DANE OSOBY",
+          "page": 1
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "DANE OSOBY",
+          "page": 1
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "DANE OSOBY",
+          "page": 1
+        },
+        {
+          "label": "Adres korespondencyjny",
+          "field_type": "address",
+          "section": "DANE OSOBY",
+          "page": 1
+        },
+        {
+          "label": "NIP",
+          "field_type": "nip",
+          "section": "DANE OSOBY",
+          "page": 1
+        }
+      ],
+      "ocr": false,
+      "features": [
+        "table_labels",
+        "no_colons",
+        "legal_negative_control"
+      ],
+      "sha256": "2fd3412a797cf48b0ce3fb81cb0b9106681719fe041df92267c32ed344dbe99c"
+    },
+    {
+      "file": "rejestr.xlsx",
+      "fields": [
+        {
+          "label": "Nazwa jednostki",
+          "field_type": "text",
+          "section": "DANE KONTAKTOWE",
+          "page": 1
+        },
+        {
+          "label": "REGON",
+          "field_type": "regon",
+          "section": "DANE KONTAKTOWE",
+          "page": 1
+        },
+        {
+          "label": "Adres e-mail",
+          "field_type": "email",
+          "section": "DANE KONTAKTOWE",
+          "page": 1
+        },
+        {
+          "label": "Numer telefonu",
+          "field_type": "phone",
+          "section": "DANE KONTAKTOWE",
+          "page": 1
+        },
+        {
+          "label": "Kod pocztowy",
+          "field_type": "postal_code",
+          "section": "DANE KONTAKTOWE",
+          "page": 1
+        },
+        {
+          "label": "Adres siedziby",
+          "field_type": "address",
+          "section": "DANE KONTAKTOWE",
+          "page": 1
+        }
+      ],
+      "ocr": false,
+      "features": [
+        "spreadsheet",
+        "empty_adjacent_cells"
+      ],
+      "sha256": "24649ed4b7e58f9498c40444ae0f1c4b5f5a21877609a7f9b4a94cbab38c1b0a"
+    },
+    {
+      "file": "oplaty.ods",
+      "fields": [
+        {
+          "label": "Nazwa podmiotu",
+          "field_type": "text",
+          "section": "DANE PŁATNIKA",
+          "page": 1
+        },
+        {
+          "label": "NIP",
+          "field_type": "nip",
+          "section": "DANE PŁATNIKA",
+          "page": 1
+        },
+        {
+          "label": "REGON",
+          "field_type": "regon",
+          "section": "DANE PŁATNIKA",
+          "page": 1
+        },
+        {
+          "label": "Kwota opłaty",
+          "field_type": "number",
+          "section": "DANE PŁATNIKA",
+          "page": 1
+        },
+        {
+          "label": "Termin realizacji (RRRR-MM-DD)",
+          "field_type": "date",
+          "section": "DANE PŁATNIKA",
+          "page": 1
+        }
+      ],
+      "ocr": false,
+      "features": [
+        "ods",
+        "date_format_hint"
+      ],
+      "sha256": "aaf9c4c3c621e39233175733d7abdaf2dfaf09b069d1ea951fe9c98f4d9a513a"
+    },
+    {
+      "file": "rodzina.pdf",
+      "fields": [
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Adres",
+          "field_type": "address",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Adres",
+          "field_type": "address",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "OSOBA 3",
+          "page": 3
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "OSOBA 3",
+          "page": 3
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "OSOBA 3",
+          "page": 3
+        },
+        {
+          "label": "Adres",
+          "field_type": "address",
+          "section": "OSOBA 3",
+          "page": 3
+        }
+      ],
+      "ocr": false,
+      "features": [
+        "multipage",
+        "repeated_fields",
+        "boxed_inputs"
+      ],
+      "sha256": "5ae1236ab15ebfd0479e54645e8b287919648d4caeee6a506ad25b4e450ceea9"
+    },
+    {
+      "file": "zdarzenie.docx",
+      "fields": [
+        {
+          "label": "Opis okoliczności",
+          "field_type": "textarea",
+          "section": "OPIS ZDARZENIA",
+          "page": 1
+        },
+        {
+          "label": "Załącznik",
+          "field_type": "attachment",
+          "section": "OPIS ZDARZENIA",
+          "page": 1
+        },
+        {
+          "label": "Data zdarzenia",
+          "field_type": "date",
+          "section": "OPIS ZDARZENIA",
+          "page": 1
+        }
+      ],
+      "ocr": false,
+      "features": [
+        "multiline",
+        "labels_above_blank_paragraphs",
+        "attachment"
+      ],
+      "sha256": "e97e16881121d91e5450bb83e76ff8d0a47aab3b47fe54201a64fe5fbf30fb3b"
+    },
+    {
+      "file": "ankieta.png",
+      "fields": [
+        {
+          "label": "Adres e-mail",
+          "field_type": "email",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "Telefon",
+          "field_type": "phone",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "SMS",
+          "field_type": "checkbox",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "E-mail",
+          "field_type": "checkbox",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "Listownie",
+          "field_type": "checkbox",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "Tryb",
+          "field_type": "radio",
+          "section": "KONTAKT",
+          "page": 1
+        }
+      ],
+      "ocr": true,
+      "features": [
+        "image",
+        "checkbox_groups",
+        "radio_group"
+      ],
+      "sha256": "a07234303784df4cccbd7eaa08b4af85dcc83afa5d5571f2af266c91187cb23d"
+    },
+    {
+      "file": "ankieta.jpg",
+      "fields": [
+        {
+          "label": "Adres e-mail",
+          "field_type": "email",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "Telefon",
+          "field_type": "phone",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "SMS",
+          "field_type": "checkbox",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "E-mail",
+          "field_type": "checkbox",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "Listownie",
+          "field_type": "checkbox",
+          "section": "KONTAKT",
+          "page": 1
+        },
+        {
+          "label": "Tryb",
+          "field_type": "radio",
+          "section": "KONTAKT",
+          "page": 1
+        }
+      ],
+      "ocr": true,
+      "features": [
+        "jpeg_compression",
+        "checkbox_groups",
+        "radio_group"
+      ],
+      "sha256": "75eda99bdfae8d4554b50d06046adaccdd47270ab71baf14d0e58417afe1be50"
+    },
+    {
+      "file": "ewidencja_skan.pdf",
+      "fields": [
+        {
+          "label": "Nazwa działalności",
+          "field_type": "text",
+          "section": "DANE FIRMY",
+          "page": 1
+        },
+        {
+          "label": "NIP",
+          "field_type": "nip",
+          "section": "DANE FIRMY",
+          "page": 1
+        },
+        {
+          "label": "REGON",
+          "field_type": "regon",
+          "section": "DANE FIRMY",
+          "page": 1
+        },
+        {
+          "label": "Telefon kontaktowy",
+          "field_type": "phone",
+          "section": "DANE FIRMY",
+          "page": 1
+        }
+      ],
+      "ocr": true,
+      "features": [
+        "scanned_pdf",
+        "low_contrast",
+        "skew",
+        "no_colons"
+      ],
+      "sha256": "bbc077325bd3d0d214cc4e193e7effca7607eaca9192eef4d0007550b2406c70"
+    },
+    {
+      "file": "informacja.pdf",
+      "fields": [],
+      "ocr": false,
+      "features": [
+        "no_fields",
+        "negative_control"
+      ],
+      "sha256": "2e0425c263778602bb8eff6ec4ded10cee5ffbc6ccdc7c9e460be4eb1dd59539"
+    },
+    {
+      "file": "rodzina_skan.pdf",
+      "fields": [
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Adres",
+          "field_type": "address",
+          "section": "OSOBA 1",
+          "page": 1
+        },
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Adres",
+          "field_type": "address",
+          "section": "OSOBA 2",
+          "page": 2
+        },
+        {
+          "label": "Imię",
+          "field_type": "text",
+          "section": "OSOBA 3",
+          "page": 3
+        },
+        {
+          "label": "Nazwisko",
+          "field_type": "text",
+          "section": "OSOBA 3",
+          "page": 3
+        },
+        {
+          "label": "Data urodzenia",
+          "field_type": "date",
+          "section": "OSOBA 3",
+          "page": 3
+        },
+        {
+          "label": "Adres",
+          "field_type": "address",
+          "section": "OSOBA 3",
+          "page": 3
+        }
+      ],
+      "ocr": true,
+      "features": [
+        "multipage_scan",
+        "repeated_fields",
+        "boxed_inputs"
+      ],
+      "sha256": "703e75d02094270d8db1de328a359c25800275fedb596595290000f8de63d43a"
+    }
+  ]
+}

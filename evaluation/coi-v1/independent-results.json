@@ -1,0 +1,4524 @@
+[
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.doc",
+    "extension": "doc",
+    "sha256": "5f0659b52d9764041d6344d8959e2f20a91a42a1aa595e161706def758f24396",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.docx",
+    "extension": "docx",
+    "sha256": "3552082dba95f10824cbe113d0238bdc8281ac37316f557b99da43d0fcda0d48",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie znaleziono czytelnego tekstu ani pól formularza.",
+      "status": 422,
+      "code": "no_text"
+    },
+    "processing_seconds": 0.197
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.jpeg",
+    "extension": "jpeg",
+    "sha256": "9c6be43789a51e40b5e86cb5ccf6d18eb297b2f085692a8025c2a04207f3f484",
+    "status": "converted",
+    "fields": 65,
+    "raw_fields": 45,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 53,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 45,
+      "output_fields": 65,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_51de88c94555",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d9ea7b041451",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6c8573aa111",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d30a0462540b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_595e33a73d29",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a70534019fc8",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_adb9a62fbca4",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df2029269a3f",
+          "label": "Dane wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_035981bdb86f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d658e626a762",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2d2e10a61d6d",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4cf1650d57",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df906fe6618f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a9c0c363357c",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0f73bd4c9b2d",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb8918086de1",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d72db478180",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_24e929b303ee",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_807d5bafee45",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f02930e3edb1",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62043653c045",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.316
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.jpg",
+    "extension": "jpg",
+    "sha256": "afd2fd2b46f936129a8531cfb58986b89476aa57c24550cc163ffb8ce47c9c61",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 44,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 44,
+      "output_fields": 66,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_51de88c94555",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d9ea7b041451",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6c8573aa111",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d30a0462540b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_595e33a73d29",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a70534019fc8",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_adb9a62fbca4",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df2029269a3f",
+          "label": "Dane wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_035981bdb86f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d658e626a762",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2d2e10a61d6d",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4cf1650d57",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df906fe6618f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e217a0f43d82",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_664b140c0b19",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb8918086de1",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d72db478180",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_24e929b303ee",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_807d5bafee45",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62043653c045",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.517
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.ods",
+    "extension": "ods",
+    "sha256": "ea2e98dcb30ee6150f9fbc93cf95f1c077f7831c2bb1480312ccbe12708943df",
+    "status": "converted",
+    "fields": 76,
+    "raw_fields": 39,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 76,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 39,
+      "output_fields": 76,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ccb9dd5d903b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_08bebc9e73f1",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_702c11592c61",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe, ale ułatwią kontakt w sprawie wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e6f5a221fcb3",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d1597769d125",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_183518a5c8ea",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bfec140595ae",
+          "label": "Art. 9 ustawy z dnia 16 listopada 2006 r. o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8ae269882354",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ea30f8488d03",
+          "label": "Podpis",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.188
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.pdf",
+    "extension": "pdf",
+    "sha256": "be4d196a6622490e7dc18b2c2740986ef62d95beb45803da9b016ace72fe1dee",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 23,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 49,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 23,
+      "output_fields": 66,
+      "standard_additions": 48,
+      "suppressed": [
+        {
+          "id": "f_93c17267cd45",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_c449a8c418d4",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_77676521d3a9",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1dca8a591e3c",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5fa645ce53b4",
+          "label": "Art. 9 ustawy z dnia 16 listopada 2006 r. o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.256
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.png",
+    "extension": "png",
+    "sha256": "8a81945e0a88474d15e0add5d4ab9aeb0140e76c2ace81ea728ded8bb832f8b5",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 45,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 45,
+      "output_fields": 66,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_51de88c94555",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d9ea7b041451",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6c8573aa111",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d30a0462540b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_595e33a73d29",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a70534019fc8",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_adb9a62fbca4",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df2029269a3f",
+          "label": "Dane wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_035981bdb86f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d658e626a762",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2d2e10a61d6d",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4cf1650d57",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df906fe6618f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a9c0c363357c",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0f73bd4c9b2d",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb8918086de1",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d72db478180",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_24e929b303ee",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_807d5bafee45",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f02930e3edb1",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62043653c045",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.334
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.xlsx",
+    "extension": "xlsx",
+    "sha256": "6b76b513c0e8adb478fdf18447ab970ea8bc922d6fb566d7923dfc043a7c3545",
+    "status": "converted",
+    "fields": 74,
+    "raw_fields": 35,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 74,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 35,
+      "output_fields": 74,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_702c11592c61",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe, ale ułatwią kontakt w sprawie wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e6f5a221fcb3",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d1597769d125",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_183518a5c8ea",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bfec140595ae",
+          "label": "Art. 9 ustawy z dnia 16 listopada 2006 r. o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8ae269882354",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ea30f8488d03",
+          "label": "Podpis",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.231
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.doc",
+    "extension": "doc",
+    "sha256": "b6a4b3a68e71a61b36f6ea7a6fd5f88b9562c0915d8490172f8f88bbaa33e6ff",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.docx",
+    "extension": "docx",
+    "sha256": "e4aef6daff830e86b4d5d69c2ed98ab9496079b5542e831be286478aad84ebb1",
+    "status": "converted",
+    "fields": 7,
+    "raw_fields": 7,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 0,
+    "ocr": false,
+    "normalization": {
+      "applied": false,
+      "reason": "No government-applicant context; preserved source structure"
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.151
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.jpeg",
+    "extension": "jpeg",
+    "sha256": "3b52e99527a40512158a0984f108055f3b522b77059cdb68d9ac9c87d6fea533",
+    "status": "converted",
+    "fields": 35,
+    "raw_fields": 3,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 34,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 3,
+      "output_fields": 35,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_05ac203578e4",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 2.743
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.jpg",
+    "extension": "jpg",
+    "sha256": "368b1e645a43663992962ebae6be60c0320aa4a397a3d5ee24f7e36f1115ffc3",
+    "status": "converted",
+    "fields": 36,
+    "raw_fields": 4,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 34,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 4,
+      "output_fields": 36,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_05ac203578e4",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.142
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.ods",
+    "extension": "ods",
+    "sha256": "a2ef5d47b193b46375481cf7f14d2693aa34f6475e822b4194b8fe8d63203698",
+    "status": "converted",
+    "fields": 42,
+    "raw_fields": 15,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 15,
+      "output_fields": 42,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_ff224ca383ea",
+          "label": "Młynary, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5cae3ba9d35a",
+          "label": "Urząd Miasta i Gminy Młynaryul. Dworcowa 2914-420 Młynary",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_00682efabd06",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6a5a3d5a432a",
+          "label": "/podpis/",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_35f90c3b7399",
+          "label": "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.  o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.154
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.pdf",
+    "extension": "pdf",
+    "sha256": "3c7f6a8d3ccddac4f0926b4b1450b0b1f89256f3d99bb0f5162e95dc7a923f10",
+    "status": "converted",
+    "fields": 37,
+    "raw_fields": 8,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 31,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 8,
+      "output_fields": 37,
+      "standard_additions": 31,
+      "suppressed": [
+        {
+          "id": "f_f7739b17247e",
+          "label": "Młynary, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6266461e6e52",
+          "label": "/ adres /",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_310491545f13",
+          "label": "14-420 Młynary",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.185
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.png",
+    "extension": "png",
+    "sha256": "42af6393d6dc568daf6a0904005940a5be99de7a9f071e283e4dc517f94c29be",
+    "status": "converted",
+    "fields": 35,
+    "raw_fields": 3,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 34,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 3,
+      "output_fields": 35,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_05ac203578e4",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 2.706
+  },
+  {
+    "group": "03",
+    "source": "reference/coi-official/forms/03/Wniosek o wydanie zaświadczenia.xlsx",
+    "extension": "xlsx",
+    "sha256": "a464bc289b17d2ba0c416aec55df5937d9a7ca0da83a6d344eda7e171e5e483b",
+    "status": "converted",
+    "fields": 43,
+    "raw_fields": 14,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 14,
+      "output_fields": 43,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_a15bf7d9712a",
+          "label": "/ nr telefonu /",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f613d75d8946",
+          "label": "/podpis/",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c8756388ce21",
+          "label": "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r.  o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.181
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.doc",
+    "extension": "doc",
+    "sha256": "e717dc255395c55604b803bff288554ed07e8609f0d3aebc315efbe12e36e698",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.docx",
+    "extension": "docx",
+    "sha256": "5c80f453ad5d69cb4f2541291ef435b4c6f4ab51404079a4126f5d3554f35e24",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 13,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 30,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 13,
+      "output_fields": 39,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_1a00d9b83070",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a6da891b4704",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25e661590239",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dfeff5c7e40a",
+          "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1af7f0bf2c2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.163
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.jpeg",
+    "extension": "jpeg",
+    "sha256": "5106de926173dadc1b5b93d330f4e6e7ed407ebf99f84da493cac944f0e76404",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 39,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7be78dc01ca4",
+          "label": "WÓJT GMINY PŁOSKINIA",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_e86e74d03bad",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_753df7734047",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bab6b3628952",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.241
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.jpg",
+    "extension": "jpg",
+    "sha256": "c14d2fe1ec3b03494794c98954f44212dfbb6d636e920fffa5050b08011b9765",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 36,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 39,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7be78dc01ca4",
+          "label": "WÓJT GMINY PŁOSKINIA",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_e86e74d03bad",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_753df7734047",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bab6b3628952",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.276
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.ods",
+    "extension": "ods",
+    "sha256": "0ec713b2a5e183697639409f25b033551cc866fb925dbf01281dbc458e5b1994",
+    "status": "converted",
+    "fields": 47,
+    "raw_fields": 24,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 44,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 24,
+      "output_fields": 47,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_38e26cac4bba",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_148966cbf777",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_dd09412153f2",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1e1dcb909f45",
+          "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1af7f0bf2c2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.16
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.pdf",
+    "extension": "pdf",
+    "sha256": "8ba4a8c133f08c9a9893695d91387c98ac1a978395f4c931b12565bfe43fa311",
+    "status": "converted",
+    "fields": 39,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 30,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 39,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_1a00d9b83070",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a6da891b4704",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0bd0731a4a04",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3ee101be34e2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.187
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.png",
+    "extension": "png",
+    "sha256": "5992645abec43713ed0631dc9a8a7d006693e328300252e5f7b20bb82c3cefa5",
+    "status": "converted",
+    "fields": 40,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 37,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 40,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25b1721402cc",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_e86e74d03bad",
+          "label": "Płoskinia 8",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2825d613735a",
+          "label": "14-526 Płoskinia",
+          "reason": "fixed recipient header or form title"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.18
+  },
+  {
+    "group": "04",
+    "source": "reference/coi-official/forms/04/Wniosek o wynajęcie świetlicy.xlsx",
+    "extension": "xlsx",
+    "sha256": "3ec7b7aad2e472aeb6355f77b101f568849dea493e6b02eba6cb1e93c721f200",
+    "status": "converted",
+    "fields": 46,
+    "raw_fields": 20,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 43,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 20,
+      "output_fields": 46,
+      "standard_additions": 30,
+      "suppressed": [
+        {
+          "id": "f_08f2f3aa40cd",
+          "label": "(adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cdfb7517e9e1",
+          "label": "(nr telefonu)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd09412153f2",
+          "label": "( imię i nazwisko – wnioskodawca, w przypadku innej osoby niż wnioskodawca - zgoda osoby odpowiedzialnej)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1e1dcb909f45",
+          "label": "Jednocześnie oświadczam, że(w przypadku innej osoby niż wnioskodawca, zbiorcze oświadczenie tej osoby załączyć do wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1af7f0bf2c2",
+          "label": "(czytelny podpis wnioskodawcy)",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.232
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.doc",
+    "extension": "doc",
+    "sha256": "73527169cf69aa83545ab69d7f9b318503a9dcba5e55dbe76902649e2f1d0fe6",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.002
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.docx",
+    "extension": "docx",
+    "sha256": "a6f5f41e459a1dba2c9c02ad24cb496870e32340ecb4cde96d990b446268cbc9",
+    "status": "converted",
+    "fields": 58,
+    "raw_fields": 14,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 49,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 14,
+      "output_fields": 58,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_4ffdd9805850",
+          "label": "dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9f40fc471d92",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c25ab4753163",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.17
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.jpeg",
+    "extension": "jpeg",
+    "sha256": "d826ff9fa386dee10113ef647c967e02b7adabe964b9d58b1f85dfd5f6a3a837",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 34,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 61,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 34,
+      "output_fields": 66,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2b4bca8f34f",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b3a6d0e9c248",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_880f9687d38d",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_8b23278370ac",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_75ffdf618cfd",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35579da5fda3",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bcbd090b2485",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7be1e3df3136",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df60a6995152",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fd1669cd79e2",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6ca45cc89135",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2809cb581a4a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_01d22d4fa77a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d87e6b7299b1",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_9c51ca836f22",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.968
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.jpg",
+    "extension": "jpg",
+    "sha256": "9ab799d09f705c87cf5cafc35f9ddb863cd20a595ac7c66e4221d9de02202b6f",
+    "status": "converted",
+    "fields": 65,
+    "raw_fields": 34,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 59,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 34,
+      "output_fields": 65,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2b4bca8f34f",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b3a6d0e9c248",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_880f9687d38d",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_8b23278370ac",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_75ffdf618cfd",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35579da5fda3",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bcbd090b2485",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7be1e3df3136",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df60a6995152",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fd1669cd79e2",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6ca45cc89135",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2809cb581a4a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_01d22d4fa77a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d87e6b7299b1",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_9c51ca836f22",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.914
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.ods",
+    "extension": "ods",
+    "sha256": "78be30862cfaef96c736f705786334681ef591836015b316599484e7104688d7",
+    "status": "converted",
+    "fields": 92,
+    "raw_fields": 69,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 89,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 69,
+      "output_fields": 92,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_4ffdd9805850",
+          "label": "dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dc503b192534",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_29b526a44c87",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_cb08dabe4816",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4289a6e8cf31",
+          "label": "a/ jezdnia (przy zajęciu do 20% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_969b66229c05",
+          "label": "b/ jezdnia (przy zajęciu powyżej 20% do 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_29bcb6487ca0",
+          "label": "c/ jezdnia (przy zajęciu powyżej 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7ae8a1be6787",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6edbd9c74899",
+          "label": "/ podpis Wnioskodawcy/",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.174
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.pdf",
+    "extension": "pdf",
+    "sha256": "b251035b40bdd8a264b9c1035f466c57760b15db73d84a3ceebf9716c62ce14a",
+    "status": "converted",
+    "fields": 70,
+    "raw_fields": 26,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 49,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 26,
+      "output_fields": 70,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_2200b0ebb575",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f23285143ae5",
+          "label": "nr telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0341af3184d3",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a935d7510d87",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.243
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.png",
+    "extension": "png",
+    "sha256": "8daaac3e579ccb46326c13e43a1501aefd1036c26e89e6b6152331de01c91a8e",
+    "status": "converted",
+    "fields": 76,
+    "raw_fields": 45,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 70,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 45,
+      "output_fields": 76,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2b4bca8f34f",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b3a6d0e9c248",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_880f9687d38d",
+          "label": "Urząd Miasta i Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_8b23278370ac",
+          "label": "Miasteczko",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_75ffdf618cfd",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35579da5fda3",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bcbd090b2485",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7be1e3df3136",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df60a6995152",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fd1669cd79e2",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_6ca45cc89135",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_2809cb581a4a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_01d22d4fa77a",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d87e6b7299b1",
+          "label": "o wydanie zezwolenia na zajęcie pasa drogowego",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_9c51ca836f22",
+          "label": "Roboty będą realizowane w terminie od dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_625054b5846f",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.851
+  },
+  {
+    "group": "06",
+    "source": "reference/coi-official/forms/06/Wniosek o wydanie zezwolenia na zajęcie pasa drogowego.xlsx",
+    "extension": "xlsx",
+    "sha256": "787099906ea66527d1ad4eed02620e268b87bd13b0f4c2e7a6d5748d149d10a7",
+    "status": "converted",
+    "fields": 91,
+    "raw_fields": 65,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 88,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 65,
+      "output_fields": 91,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_4ffdd9805850",
+          "label": "dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_526bb6205639",
+          "label": "Adres zamieszkania/siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0c9f3dd6b538",
+          "label": "nr telefonu i e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4289a6e8cf31",
+          "label": "a/ jezdnia (przy zajęciu do 20% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_969b66229c05",
+          "label": "b/ jezdnia (przy zajęciu powyżej 20% do 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_29bcb6487ca0",
+          "label": "c/ jezdnia (przy zajęciu powyżej 50% szerokości)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7ae8a1be6787",
+          "label": "do dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6edbd9c74899",
+          "label": "/ podpis Wnioskodawcy/",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.259
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.DOC",
+    "extension": "doc",
+    "sha256": "8563c1a84e99f22b2f9dc0724a54137206ec11263b774ae7922261081f9d447c",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.JPE",
+    "extension": "jpe",
+    "sha256": "895760a7117d4e232e3106352fa219876d893454d5ee886e1140ec86a0ec48ac",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "unsupported_format",
+      "message": "Niedozwolony format pliku."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.JPG",
+    "extension": "jpg",
+    "sha256": "ab6810c4fd4f245891c7b15e2380b7c242c34aa22d219c83af96fe85b4f320ca",
+    "status": "converted",
+    "fields": 85,
+    "raw_fields": 117,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 75,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 117,
+      "output_fields": 85,
+      "standard_additions": 29,
+      "suppressed": [
+        {
+          "id": "f_0cd394d803c5",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_393a8909d6c4",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_27a2aa55c7e5",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ee318e39bfe7",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_43c5dd66f993",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_aacbb4509f56",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fcfc55c0b64f",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35c502500651",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4bfe7e9459b1",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_da733cf55a7e",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f200408d3830",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a556c72be1f4",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_77f0186c33cb",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_00747becc59c",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ff9b0a69cf4d",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1a46a4b64054",
+          "label": "i Rozwoju Wsi z dnia 5 lipca 2010 r. w sprawie warunków i sposobu hodowania i utrzymywania chartów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_21266d03400d",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5711a40fe708",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1ecbed8da452",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_247bd63b5105",
+          "label": "Pochodzenie psa (metryka**, numer rodowodu**, imię, nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e8aa4a27210f",
+          "label": "Adres miejsca utrzymywania psa/psów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5e0ba7149d20",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa/psy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e32b586bd136",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_57f0a0fd710a",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_137b608dc5ff",
+          "label": "Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a038e0cf301c",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9c17f9604a10",
+          "label": "e przez e-mail: iodQum.wroc.pl",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c56cb489dec6",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 9.08
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.ODS",
+    "extension": "ods",
+    "sha256": "42a839c26665dea886c2328b6eaec78477050a84e863eb7d49df5454c41f2d4e",
+    "status": "converted",
+    "fields": 69,
+    "raw_fields": 84,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 55,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 84,
+      "output_fields": 69,
+      "standard_additions": 29,
+      "suppressed": [
+        {
+          "id": "f_436bfbb3a502",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6d918333b83b",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4e27da668de1",
+          "label": "Wydział Środowiska",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_0cf0354a839b",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych za agresywne",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_72e0594dc485",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_17a917b2285b",
+          "label": "Pochodzenie psa (metryka**, numer rodowodu**, imię, nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b3897b0738e1",
+          "label": "Adres miejsca utrzymywania psa/psów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d5774bae1c29",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa/psy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b8ee930084dc",
+          "label": "Oświadczam, że  zaszczepiono psa/psy przeciwko wściekliźnie – w załączeniu kopia dla każdego psa",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3cad224ad886",
+          "label": "Oświadczam, że zapewniam  warunki utrzymywania psa, zgodnie z rozporządzeniem Ministra Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3fe19eaf9cb1",
+          "label": "/podpis wnioskodawcy/",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df4a89a97ce9",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3fabeabdb53e",
+          "label": "przez e-mail: iod@um.wroc.pl",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_602256f44ae3",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.183
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.PDF",
+    "extension": "pdf",
+    "sha256": "22d99255ad6b8d93501dd6f0303a819dd8c37a671de49fd5c43c3c9565f682cc",
+    "status": "converted",
+    "fields": 55,
+    "raw_fields": 39,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 33,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 39,
+      "output_fields": 55,
+      "standard_additions": 32,
+      "suppressed": [
+        {
+          "id": "f_052d96d3f135",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_314a9b9c1b0a",
+          "label": "Imię i",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b10a0df3a41d",
+          "label": "nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_651d34156243",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_39e4b5f6e737",
+          "label": "(w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_74a2331f3990",
+          "label": "nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_174fdc537808",
+          "label": "Adres",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e5c1e0ed99cf",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0cf3bfe43763",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dfef4a49b8d9",
+          "label": "telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.27
+  },
+  {
+    "group": "07",
+    "source": "reference/coi-official/forms/07/Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanychza agresywne.PNG",
+    "extension": "png",
+    "sha256": "5f373c9b16c88d0203eaddf1f70fe6662f1532a915d1ece7bd30f3f744336179",
+    "status": "converted",
+    "fields": 85,
+    "raw_fields": 118,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 75,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 118,
+      "output_fields": 85,
+      "standard_additions": 29,
+      "suppressed": [
+        {
+          "id": "f_0cd394d803c5",
+          "label": "Wrocław, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ee318e39bfe7",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_393a8909d6c4",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_93a7b077ee5c",
+          "label": "Urząd Miejski Wrocławia",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_aacbb4509f56",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_fcfc55c0b64f",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_35c502500651",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4bfe7e9459b1",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_da733cf55a7e",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f200408d3830",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_b83cc647cc47",
+          "label": "Wniosek o wydanie zezwolenia na hodowanie lub utrzymywanie psów ras uznawanych",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_77f0186c33cb",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_00747becc59c",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9a5ed9e15c77",
+          "label": "A | DANE IDENTYFIKACYJNE WNIOSKODAWCY",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ff9b0a69cf4d",
+          "label": "Telefon",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_48c8d264d148",
+          "label": "i Rozwoju Wsi z dnia 5 lipca 2010 r. w sprawie warunków i sposobu hodowania i utrzymywania chartów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5711a40fe708",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1ecbed8da452",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a8a0cc8f2c7d",
+          "label": "INFORMACJA O POSIADANYM PSIE (w przypadku więcej niż jednego psa pobrać odpowiednią liczbę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_247bd63b5105",
+          "label": "Pochodzenie psa (metryka**, numer rodowodu**, imię, nazwisko i adres poprzedniego właściciela)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_448dcd1f9e65",
+          "label": "Adres miejsca utrzymywania psa/psów",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7b725785d75b",
+          "label": "Opis miejsca i warunków w jakich wnioskodawca zamierza utrzymywać psa/psy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_57f0a0fd710a",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c8910ed1b28f",
+          "label": "Rolnictwa i Rozwoju Wsi z dnia 5 lipca 2010r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_00039d72301d",
+          "label": "Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bae6b7b68a5c",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_abe9f811b6f7",
+          "label": "e przez e-mail: iodQum.wroc.pl",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b0c24d3d6760",
+          "label": "e telefonicznie",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 8.775
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.doc",
+    "extension": "doc",
+    "sha256": "2e37ffaaf831dc1fb1444694feb1e152fd251e211451e2c182e1b0fa364eda05",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.docx",
+    "extension": "docx",
+    "sha256": "2d584a9a1d04805417149b845d6267c9f577396207577660ac2854985e282921",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie znaleziono czytelnego tekstu ani pól formularza.",
+      "status": 422,
+      "code": "no_text"
+    },
+    "processing_seconds": 0.308
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.jpeg",
+    "extension": "jpeg",
+    "sha256": "2520eb24f40a4bb6688144fa989c59e03eb3089a250d7285acbb7613fa10267b",
+    "status": "converted",
+    "fields": 115,
+    "raw_fields": 75,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 102,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 75,
+      "output_fields": 115,
+      "standard_additions": 50,
+      "suppressed": [
+        {
+          "id": "f_e867d6dc9c2a",
+          "label": "DEKLARACJA O WYSOKOŚCI MIESIĘCZNEJ OPŁATY",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_eafb6683774f",
+          "label": "C. OKOLICZNOŚCI UZASADNIAJĄCE ZŁOŻENIE DEKLARACJI",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6588c931db33",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_49253e250634",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8a7cf4ae4ede",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e1f7d202b132",
+          "label": "stanowi podstawę do wystawienia tytułu wykonawczego (art. 3a $ 1 i 2 — ustawy z dnia 17 czerwca 1966 r",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 18.911
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.jpg",
+    "extension": "jpg",
+    "sha256": "3a6df4584b028793acbaee7eb84b4940fe6ffc015f55f67bc819a8c0ae487e53",
+    "status": "converted",
+    "fields": 117,
+    "raw_fields": 77,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 102,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 77,
+      "output_fields": 117,
+      "standard_additions": 50,
+      "suppressed": [
+        {
+          "id": "f_015455610ed3",
+          "label": "DEKLARACJA O WYSOKOŚCI MIESIĘCZNEJ OPŁATY",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_0af00a05eec3",
+          "label": "C. OKOLICZNOŚCI UZASADNIAJĄCE ZŁOŻENIE DEKLARACJI",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_49253e250634",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e199c7263178",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_96a9b5573ee9",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a08bf53c4b89",
+          "label": "stanowi podstawę do wystawienia tytułu wykonawczego (art. 3a $ 1 i 2 — ustawy z dnia 17 czerwca 1966 r",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 18.984
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.ods",
+    "extension": "ods",
+    "sha256": "1c8b2175f7d6e235b2630b970978bb9de9a5104bc072b52058dd547447a202c5",
+    "status": "converted",
+    "fields": 154,
+    "raw_fields": 204,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 149,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 204,
+      "output_fields": 154,
+      "standard_additions": 44,
+      "suppressed": [
+        {
+          "id": "f_c7575ba3f43f",
+          "label": "Nazwisko, imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f8b996180f2a",
+          "label": "Adres zamieszkania",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_35bcc84b8366",
+          "label": "PESEL",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c1cb09a1e629",
+          "label": "Adres lub opis miejsca lokalizacji pojemników",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e45c56abb24f",
+          "label": "Adres e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8f6ee8c5226d",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c6cc436870f0",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ec7058e25758",
+          "label": "Podpis składającego deklarację / osoby reprezentującej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_fa7190521a74",
+          "label": "Podpis współmałżonka (wypełnić tylko w przypadku zaznaczenia poz. B 1.1.2)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_abb7aadc3624",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_aab3b0210eec",
+          "label": "osoby fizyczne nieprowadzące działalności gospodarczej figurujące w rejestrze PESEL wpisują numer PESEL",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3f23255c0889",
+          "label": "osoby fizyczne nieprowadzące działalności gospodarczej i nie posiadające numeru PESEL wpisują numer dokumentu tożsamości i jego rodzaj",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_558aa73d7770",
+          "label": "osoba fizyczna prowadząca działalność gospodarczą jest OSOBĄ FIZYCZNĄ i musi wpisać PESEL",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f480c0d7d7f2",
+          "label": "pozostałe podmioty wpisują numer NIP lub REGON",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.296
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.pdf",
+    "extension": "pdf",
+    "sha256": "b0ebb030f204c3bc7314f80aab47c354146d91607bac36fdc08cfa8a7c115536",
+    "status": "converted",
+    "fields": 88,
+    "raw_fields": 60,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 48,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 60,
+      "output_fields": 88,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_cd7d5a059251",
+          "label": "w terminie 14 dni od dnia powstania na nieruchomości odpadów komunalnych lub",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_01637523a897",
+          "label": "w terminie do 10 dnia miesiąca następującego po miesiącu, w którym nastąpiła zmiana danych stanowiących podstawę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_904cb92f1f9f",
+          "label": "Nazwisko, imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ee4e4f2d32e4",
+          "label": "Adres zamieszkania",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7a6a156b9d84",
+          "label": "Adres lub opis m",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_32e2938fd786",
+          "label": "Adres e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8ceaab3e10f6",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.581
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.png",
+    "extension": "png",
+    "sha256": "b8b23d616d5bacc6826601d2cf10abfbaf5b0c3e5b9e34d87689a340c29e469f",
+    "status": "converted",
+    "fields": 116,
+    "raw_fields": 76,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 102,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 76,
+      "output_fields": 116,
+      "standard_additions": 50,
+      "suppressed": [
+        {
+          "id": "f_015455610ed3",
+          "label": "DEKLARACJA O WYSOKOŚCI MIESIĘCZNEJ OPŁATY",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_cc70427bdab0",
+          "label": "C. OKOLICZNOŚCI UZASADNIAJĄCE ZŁOŻENIE DEKLARACJI",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6588c931db33",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_49253e250634",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8a7cf4ae4ede",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e1f7d202b132",
+          "label": "stanowi podstawę do wystawienia tytułu wykonawczego (art. 3a $ 1 i 2 — ustawy z dnia 17 czerwca 1966 r",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 18.584
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.xlsx",
+    "extension": "xlsx",
+    "sha256": "3f61cb1ef2f60bd538ad66dfd978245d5e175f01f0811904ed4453055aef5a18",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Arkusz przekracza limit liczby komórek.",
+      "status": 413,
+      "code": "cell_limit"
+    },
+    "processing_seconds": 0.565
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.doc",
+    "extension": "doc",
+    "sha256": "901a80a61bf7f89e7075bba56f82d11244680da55b2437e77862c85a17542b4a",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.002
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.docx",
+    "extension": "docx",
+    "sha256": "b0665d0f9621e53118fcac0662b2230981c5e0258e3e122e37929b94a76f159f",
+    "status": "converted",
+    "fields": 80,
+    "raw_fields": 79,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 47,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 79,
+      "output_fields": 80,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_9f3030d74c86",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_89e3bf532bc7",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_95ba8d84845f",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ef5c79b05551",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dddb5ff350c9",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6e716de30457",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e3d3732e1a40",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6e1b9536ab54",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1c7a8c923f6e",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a5cd354d1336",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_76094ac9e526",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_69de8aae32e2",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c2639cb0a400",
+          "label": "Ja niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4a457e045fbc",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_35debea6552f",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5533074d9379",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_630f54c8fe10",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_280f4b75ec99",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3253dbffb72c",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3cda2d2e2947",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e4342034dfd3",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2ce088e6dcb5",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_28b158b74c5a",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b3e87536db60",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_14e8b748b1fe",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_08e01838d222",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_960b6b89a3d6",
+          "label": "Ja niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d392ec8d94c2",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e5810b73e24",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_12845a4faf8e",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1919dc478fd0",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_db81f7cff823",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bfbde4710cdc",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4d4f3e9a0c2b",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2b37fe7dab00",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d4735eb2aaee",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c166cb6614bf",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2715412bae88",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e152824eb69",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_265ff0fe2d00",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dcee74828ebb",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c00a7d7de239",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f5100765b48b",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_303c9b8896b2",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6ea734dd7544",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7677f122df38",
+          "label": "Ja niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.224
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.jpeg",
+    "extension": "jpeg",
+    "sha256": "9e7e85be23deb68baf4d7a45dda7d7b2b30d621fd9dc503d2348629fff8e700d",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie można odczytać dokumentu. Plik może być uszkodzony lub zaszyfrowany.",
+      "status": 422,
+      "code": "invalid_document"
+    },
+    "processing_seconds": 0.126
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.jpg",
+    "extension": "jpg",
+    "sha256": "5da17ca6ce5a758794483c5cdc3d296f0884e1ddebf6625e4091fe3a3e34e1ef",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie można odczytać dokumentu. Plik może być uszkodzony lub zaszyfrowany.",
+      "status": 422,
+      "code": "invalid_document"
+    },
+    "processing_seconds": 0.126
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.ods",
+    "extension": "ods",
+    "sha256": "f09455c87a20be4c91bde4da57486c0fff175ede86074ccc8d3e6e7fd4663295",
+    "status": "converted",
+    "fields": 168,
+    "raw_fields": 212,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 157,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 212,
+      "output_fields": 168,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_31d7f1764c3f",
+          "label": "z dnia 26 listopada 2024 r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d2784bc4cb10",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d390f8fc9130",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ef5c79b05551",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dddb5ff350c9",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54bec2e1a3c3",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5b7e1a2f4907",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6785c1dbff9d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4ee5507c4ea8",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_116533fbe035",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63e50e37fc4c",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ae781a9c5c02",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0261f5430c93",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_787b5576da76",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_902619a8e31a",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1aa3bab8adfd",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_baaeb0110f7a",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb94fb410338",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b7af8553f3e",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_de2fd0bc954e",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do stypendium",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6575066a9ba9",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac743c88a5e7",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cad02ced6669",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6ca708865209",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6472867f65ae",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e2e1faeb1ac6",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c9924e24d97b",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2c7d7fea0bee",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54152afd8149",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_89192308de37",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5f2abff01a85",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8173762e2662",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b726374ec14",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_50ecbad8342d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_228fd9a5c471",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8cc4c32dd35d",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3f6653d69ff5",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7a956d4f316d",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0d63925793a3",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_08ece18db9e8",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac39c4aca044",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do nagrody",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a00a73719c86",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_486b3e453c86",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ec0257f7deaa",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_66b94bd9be30",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a32d81e9acf5",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6827173ff693",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_30955b80e5cd",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f23379cd659e",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_83795303af6a",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_84f374176d47",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c31102b9b277",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_351f4ca3f97c",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4cd259c683c6",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2b5511868632",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1bb087e50f44",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1c18d136e9e",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0588b938f006",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d61a64fd364a",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_566bf887c6a6",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d23c1427df58",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_399c3b7bfcae",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0fd26e78a4bb",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_37b20010ff54",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9ea27616b20a",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c4dd7f641083",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f8923896e3b8",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_58feca438091",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25a2a7ac5d67",
+          "label": "2. Zgoda w imieniu podopiecznego nieletniego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_81a70227fee9",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e771a06a13f",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ef31744fc017",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.229
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.pdf",
+    "extension": "pdf",
+    "sha256": "d9ace125afc5c4af18d1679eb63b85428a0391326bcb7bdf0022ec0fd4e77797",
+    "status": "converted",
+    "fields": 80,
+    "raw_fields": 85,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 47,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 85,
+      "output_fields": 80,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_13a0c8c8a090",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ee1bdc4020c6",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_94a6911fed0e",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_09fab3bf2827",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_fe4df2e2e755",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1d4cfbb6e535",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5482b064cd46",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_38c8a1e78743",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d6b611cd73fe",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_27383c350cb3",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_421feaee89df",
+          "label": "Adres do korespondencji (j",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5b31ab1408ce",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4c62d54aeaf7",
+          "label": "a niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3764c9fa7ad5",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8eb6eb4c4bcb",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6291440e7de2",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4b4ad3fd8bf2",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c125d2336e65",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_23daac8e60ef",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b7c352e72a63",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3e806328fe98",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_b2338bbe4a91",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_44a1aa05d4e9",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4c05597436",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6398ebfdf995",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6821cb618bec",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d98bfe146f88",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_98616e04c695",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_387ed78a2db6",
+          "label": "a niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8a14680f3311",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_542594116c45",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1afe353b18cc",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_19459da21c90",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1c9ca5fce067",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bd1e217a58af",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_10ffb6485703",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_fae6737f2b8c",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dcb283b21ed5",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_993261ad0e00",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63c047232dd5",
+          "label": "adres skrzynki",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9b98294a023b",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_52e79e3dfa53",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_172fa6efd371",
+          "label": "Adres do korespondencji (j",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1fa49177c5bf",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f5e954c3e277",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8313315357b1",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_de28281383f7",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e74b3281893c",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d653e2003d91",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c288c4db6768",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_94608dcd122b",
+          "label": "a niżej podpisany",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.439
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.png",
+    "extension": "png",
+    "sha256": "117a903a918ddfff5b266da75488e4153768899f46169111d5884147816ea334",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie można odczytać dokumentu. Plik może być uszkodzony lub zaszyfrowany.",
+      "status": 422,
+      "code": "invalid_document"
+    },
+    "processing_seconds": 0.124
+  },
+  {
+    "group": "09",
+    "source": "reference/coi-official/forms/09/Wniosek o przyznanie stypendium.xlsx",
+    "extension": "xlsx",
+    "sha256": "8f8b6c8627cf9434872f3bb6a05abde477a2c282d8bb9fc830f88383ef90ef75",
+    "status": "converted",
+    "fields": 166,
+    "raw_fields": 211,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 155,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 211,
+      "output_fields": 166,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_31d7f1764c3f",
+          "label": "z dnia 26 listopada 2024 r",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d2784bc4cb10",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d390f8fc9130",
+          "label": "Wniosek o przyznanie stypendium sportowego Rady Miasta Zgierza",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ef5c79b05551",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dddb5ff350c9",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54bec2e1a3c3",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5b7e1a2f4907",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6785c1dbff9d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4ee5507c4ea8",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_116533fbe035",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63e50e37fc4c",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ae781a9c5c02",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0261f5430c93",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_787b5576da76",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_902619a8e31a",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1aa3bab8adfd",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_baaeb0110f7a",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb94fb410338",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b7af8553f3e",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_de2fd0bc954e",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do stypendium",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6575066a9ba9",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac743c88a5e7",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_cad02ced6669",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6ca708865209",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6472867f65ae",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e2e1faeb1ac6",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c9924e24d97b",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2c7d7fea0bee",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_54152afd8149",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_89192308de37",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5f2abff01a85",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8173762e2662",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6b726374ec14",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_50ecbad8342d",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_228fd9a5c471",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8cc4c32dd35d",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3f6653d69ff5",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7a956d4f316d",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0d63925793a3",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_08ece18db9e8",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ac39c4aca044",
+          "label": "2. Zgoda w imieniu kandydata nieletniego do nagrody",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a00a73719c86",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_486b3e453c86",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ec0257f7deaa",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_66b94bd9be30",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a32d81e9acf5",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6827173ff693",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_30955b80e5cd",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f23379cd659e",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_83795303af6a",
+          "label": "Numer telefonu (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_84f374176d47",
+          "label": "Telefon kontaktowy (opcjonalnie)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c31102b9b277",
+          "label": "Adres siedziby",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_351f4ca3f97c",
+          "label": "adres siedziby klubu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_4cd259c683c6",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2b5511868632",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1bb087e50f44",
+          "label": "Adres zameldowania (adres zameldowania może być inny niż adres zamieszkania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f1c18d136e9e",
+          "label": "Adres do korespondencji (jeśli różni się od adresu zameldowania)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0588b938f006",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d61a64fd364a",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_566bf887c6a6",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d23c1427df58",
+          "label": "Imię i nazwisko zawodniczki/zawodnika",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_399c3b7bfcae",
+          "label": "Podpis i pieczątka wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0fd26e78a4bb",
+          "label": "Imię i nazwisko kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_37b20010ff54",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_9ea27616b20a",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c4dd7f641083",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f8923896e3b8",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_58feca438091",
+          "label": "Podpis kandydata",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_25a2a7ac5d67",
+          "label": "2. Zgoda w imieniu podopiecznego nieletniego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_81a70227fee9",
+          "label": "Imię i nazwisko podopiecznego",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0e771a06a13f",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ef31744fc017",
+          "label": "Podpis rodzica/opiekuna prawnego",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.384
+  }
+]

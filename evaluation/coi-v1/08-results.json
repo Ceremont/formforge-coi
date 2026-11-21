@@ -1,0 +1,418 @@
+[
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.doc",
+    "extension": "doc",
+    "sha256": "2e37ffaaf831dc1fb1444694feb1e152fd251e211451e2c182e1b0fa364eda05",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.docx",
+    "extension": "docx",
+    "sha256": "2d584a9a1d04805417149b845d6267c9f577396207577660ac2854985e282921",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie znaleziono czytelnego tekstu ani pól formularza.",
+      "status": 422,
+      "code": "no_text"
+    },
+    "processing_seconds": 0.308
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.jpeg",
+    "extension": "jpeg",
+    "sha256": "2520eb24f40a4bb6688144fa989c59e03eb3089a250d7285acbb7613fa10267b",
+    "status": "converted",
+    "fields": 115,
+    "raw_fields": 75,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 102,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 75,
+      "output_fields": 115,
+      "standard_additions": 50,
+      "suppressed": [
+        {
+          "id": "f_e867d6dc9c2a",
+          "label": "DEKLARACJA O WYSOKOŚCI MIESIĘCZNEJ OPŁATY",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_eafb6683774f",
+          "label": "C. OKOLICZNOŚCI UZASADNIAJĄCE ZŁOŻENIE DEKLARACJI",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6588c931db33",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_49253e250634",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8a7cf4ae4ede",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e1f7d202b132",
+          "label": "stanowi podstawę do wystawienia tytułu wykonawczego (art. 3a $ 1 i 2 — ustawy z dnia 17 czerwca 1966 r",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 18.911
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.jpg",
+    "extension": "jpg",
+    "sha256": "3a6df4584b028793acbaee7eb84b4940fe6ffc015f55f67bc819a8c0ae487e53",
+    "status": "converted",
+    "fields": 117,
+    "raw_fields": 77,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 102,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 77,
+      "output_fields": 117,
+      "standard_additions": 50,
+      "suppressed": [
+        {
+          "id": "f_015455610ed3",
+          "label": "DEKLARACJA O WYSOKOŚCI MIESIĘCZNEJ OPŁATY",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_0af00a05eec3",
+          "label": "C. OKOLICZNOŚCI UZASADNIAJĄCE ZŁOŻENIE DEKLARACJI",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_49253e250634",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e199c7263178",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_96a9b5573ee9",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a08bf53c4b89",
+          "label": "stanowi podstawę do wystawienia tytułu wykonawczego (art. 3a $ 1 i 2 — ustawy z dnia 17 czerwca 1966 r",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 18.984
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.ods",
+    "extension": "ods",
+    "sha256": "1c8b2175f7d6e235b2630b970978bb9de9a5104bc072b52058dd547447a202c5",
+    "status": "converted",
+    "fields": 154,
+    "raw_fields": 204,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 149,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 204,
+      "output_fields": 154,
+      "standard_additions": 44,
+      "suppressed": [
+        {
+          "id": "f_c7575ba3f43f",
+          "label": "Nazwisko, imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f8b996180f2a",
+          "label": "Adres zamieszkania",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_35bcc84b8366",
+          "label": "PESEL",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c1cb09a1e629",
+          "label": "Adres lub opis miejsca lokalizacji pojemników",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e45c56abb24f",
+          "label": "Adres e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8f6ee8c5226d",
+          "label": "Imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_c6cc436870f0",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ec7058e25758",
+          "label": "Podpis składającego deklarację / osoby reprezentującej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_fa7190521a74",
+          "label": "Podpis współmałżonka (wypełnić tylko w przypadku zaznaczenia poz. B 1.1.2)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_abb7aadc3624",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_aab3b0210eec",
+          "label": "osoby fizyczne nieprowadzące działalności gospodarczej figurujące w rejestrze PESEL wpisują numer PESEL",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3f23255c0889",
+          "label": "osoby fizyczne nieprowadzące działalności gospodarczej i nie posiadające numeru PESEL wpisują numer dokumentu tożsamości i jego rodzaj",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_558aa73d7770",
+          "label": "osoba fizyczna prowadząca działalność gospodarczą jest OSOBĄ FIZYCZNĄ i musi wpisać PESEL",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f480c0d7d7f2",
+          "label": "pozostałe podmioty wpisują numer NIP lub REGON",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.296
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.pdf",
+    "extension": "pdf",
+    "sha256": "b0ebb030f204c3bc7314f80aab47c354146d91607bac36fdc08cfa8a7c115536",
+    "status": "converted",
+    "fields": 88,
+    "raw_fields": 60,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 48,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 60,
+      "output_fields": 88,
+      "standard_additions": 47,
+      "suppressed": [
+        {
+          "id": "f_cd7d5a059251",
+          "label": "w terminie 14 dni od dnia powstania na nieruchomości odpadów komunalnych lub",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_01637523a897",
+          "label": "w terminie do 10 dnia miesiąca następującego po miesiącu, w którym nastąpiła zmiana danych stanowiących podstawę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_904cb92f1f9f",
+          "label": "Nazwisko, imię",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ee4e4f2d32e4",
+          "label": "Adres zamieszkania",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7a6a156b9d84",
+          "label": "Adres lub opis m",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_32e2938fd786",
+          "label": "Adres e-mail",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8ceaab3e10f6",
+          "label": "Nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.581
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.png",
+    "extension": "png",
+    "sha256": "b8b23d616d5bacc6826601d2cf10abfbaf5b0c3e5b9e34d87689a340c29e469f",
+    "status": "converted",
+    "fields": 116,
+    "raw_fields": 76,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 102,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 76,
+      "output_fields": 116,
+      "standard_additions": 50,
+      "suppressed": [
+        {
+          "id": "f_015455610ed3",
+          "label": "DEKLARACJA O WYSOKOŚCI MIESIĘCZNEJ OPŁATY",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_cc70427bdab0",
+          "label": "C. OKOLICZNOŚCI UZASADNIAJĄCE ZŁOŻENIE DEKLARACJI",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6588c931db33",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_49253e250634",
+          "label": "H. PODPIS SKŁADAJĄCEGO DEKLARACJĘ / OSOBY REPREZENTUJĄCEJ",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8a7cf4ae4ede",
+          "label": "Podpis i pieczęć przyjmującego deklarację",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e1f7d202b132",
+          "label": "stanowi podstawę do wystawienia tytułu wykonawczego (art. 3a $ 1 i 2 — ustawy z dnia 17 czerwca 1966 r",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 18.584
+  },
+  {
+    "group": "08",
+    "source": "reference/coi-official/forms/08/Deklaracja o wysokości opłaty.xlsx",
+    "extension": "xlsx",
+    "sha256": "3f61cb1ef2f60bd538ad66dfd978245d5e175f01f0811904ed4453055aef5a18",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Arkusz przekracza limit liczby komórek.",
+      "status": 413,
+      "code": "cell_limit"
+    },
+    "processing_seconds": 0.565
+  }
+]

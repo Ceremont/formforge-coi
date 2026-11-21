@@ -1,0 +1,510 @@
+[
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.DOC",
+    "extension": "doc",
+    "sha256": "0a32774bbc471cd8fa4dc4fbe8dff775219b663df48cb6ebb6d8aecb102bb2e2",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.JPG",
+    "extension": "jpg",
+    "sha256": "a215b1b268e7dae950df347856d9a84b305fa38a512c0f5c1014ad850da9da43",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 57,
+      "standard_additions": 48,
+      "suppressed": [
+        {
+          "id": "f_848eb090071a",
+          "label": "Ulan-Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_17f40737776f",
+          "label": "o stwierdzenie nadpłaty podatku",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_64eea39ec489",
+          "label": "zaliczyć na poczet przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 3.016
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.ODS",
+    "extension": "ods",
+    "sha256": "808bfb541e4c0ac18e8ab25388b154c02f00a32199bc225a98500e7495db5fb3",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 24,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 56,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 24,
+      "output_fields": 57,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_848eb090071a",
+          "label": "Ulan-Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_3b78903a744f",
+          "label": "Urząd Gminy",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6e8e90c929b",
+          "label": "Ulan-Majorat",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_4043d02f05b7",
+          "label": "Ulan-Majorat 57",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_c407900f3aac",
+          "label": "21-307 Ulan-Majorat",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_71f4fb3f7ec2",
+          "label": "o stwierdzenie nadpłaty podatku",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_bd37a8bf363f",
+          "label": "Na podstawie art. 75 ustawy z dnia 29 sierpnia 1997 r. - Ordynacja podatkowa",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6f180ebe3c03",
+          "label": "zaliczyć na poczet  przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63945a10684e",
+          "label": "zwrócić przelewem na wskazany rachunek",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d3142e390d05",
+          "label": "podpis wnioskodawcy lub osoby upoważnionej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7be6821c10f6",
+          "label": "Numer PESEL wpisują podatnicy będący osobami fizycznymi objętymi rejestrem PESEL nieprowadzący działalności",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bda617bb7324",
+          "label": "gospodarczej. Identyfikator podatkowy NIP wpisują pozostali podatnicy",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.461
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.PDF",
+    "extension": "pdf",
+    "sha256": "b4874b7d784e4e64045481fe281d683fdbb5060a8a163fec3909d8260091a394",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 12,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 50,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 12,
+      "output_fields": 57,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_ef876cb5de37",
+          "label": "Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_88e9f949dc9f",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62ba3e5ee024",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_6a0060d63830",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_320c91fe936f",
+          "label": "zaliczyć na poczet przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e1f092ad0529",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.529
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.PNG",
+    "extension": "png",
+    "sha256": "091151313018ca413e0e2ba572a54679511d43e4b6b7bbf8d774d1133c441aa0",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 8,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 56,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 8,
+      "output_fields": 57,
+      "standard_additions": 48,
+      "suppressed": [
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_63945a10684e",
+          "label": "zwrócić przelewem na wskazany rachunek",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 2.871
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.docx",
+    "extension": "docx",
+    "sha256": "f551277f2e57b3e042b54ecb5de7d0285dbadd60579cc475ce08a1b073128aa0",
+    "status": "converted",
+    "fields": 57,
+    "raw_fields": 13,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 50,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 13,
+      "output_fields": 57,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_848eb090071a",
+          "label": "Ulan-Majorat, dnia",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_57929dc1609b",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_954721e851ae",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e821a29580c3",
+          "label": "zaliczyć na poczet  przyszłego zobowiązania podatkowego z tytułu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f103fc205977",
+          "label": "zwrócić przelewem na wskazany rachunek",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_56993ba9f661",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 55,
+      "matched_fields": 52,
+      "field_precision": 0.9454545454545454,
+      "field_recall": 1.0,
+      "field_f1": 0.9719626168224299,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 1.0,
+      "structural_components": {
+        "section_f1": 1.0,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 0.483
+  },
+  {
+    "group": "05",
+    "source": "reference/coi-official/forms/05/Wniosek o stwierdzenie nadpłaty podatku.jpeg",
+    "extension": "jpeg",
+    "sha256": "2c07718c062e8f4de67a2f2689e0589fcd2e99294fd2e73799b211124c290e17",
+    "status": "converted",
+    "fields": 58,
+    "raw_fields": 10,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 55,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 10,
+      "output_fields": 58,
+      "standard_additions": 49,
+      "suppressed": [
+        {
+          "id": "f_8281ed0f2b78",
+          "label": "Wnioskodawca",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb5b290070f6",
+          "label": "adres zamieszkania/siedziba firmy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d593fda21f8",
+          "label": "Kwotę nadpłaty proszę",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bc9c0ecbef0b",
+          "label": "w załączeniu",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "expected_interactive_fields": 52,
+      "generated_interactive_fields": 56,
+      "matched_fields": 52,
+      "field_precision": 0.9285714285714286,
+      "field_recall": 1.0,
+      "field_f1": 0.962962962962963,
+      "field_type_accuracy": 1.0,
+      "structural_similarity": 0.9928571428571429,
+      "structural_components": {
+        "section_f1": 0.9714285714285714,
+        "within_section_order": 1.0,
+        "tab_types": 1.0,
+        "flow_edges": 1.0
+      },
+      "conditional_rules_coverage": 1.0,
+      "uuid_comparison": false
+    },
+    "processing_seconds": 3.022
+  }
+]

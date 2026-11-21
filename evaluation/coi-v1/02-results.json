@@ -1,0 +1,685 @@
+[
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.doc",
+    "extension": "doc",
+    "sha256": "5f0659b52d9764041d6344d8959e2f20a91a42a1aa595e161706def758f24396",
+    "status": "rejected",
+    "error": {
+      "status": 415,
+      "code": "doc_not_supported",
+      "message": "Format DOC nie jest obsługiwany: brak zweryfikowanego konwertera na licencji permisywnej. Zapisz plik jako DOCX lub PDF."
+    },
+    "processing_seconds": 0.001
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.docx",
+    "extension": "docx",
+    "sha256": "3552082dba95f10824cbe113d0238bdc8281ac37316f557b99da43d0fcda0d48",
+    "status": "rejected",
+    "error": {
+      "ok": false,
+      "message": "Nie znaleziono czytelnego tekstu ani pól formularza.",
+      "status": 422,
+      "code": "no_text"
+    },
+    "processing_seconds": 0.197
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.jpeg",
+    "extension": "jpeg",
+    "sha256": "9c6be43789a51e40b5e86cb5ccf6d18eb297b2f085692a8025c2a04207f3f484",
+    "status": "converted",
+    "fields": 65,
+    "raw_fields": 45,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 53,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 45,
+      "output_fields": 65,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_51de88c94555",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d9ea7b041451",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6c8573aa111",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d30a0462540b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_595e33a73d29",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a70534019fc8",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_adb9a62fbca4",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df2029269a3f",
+          "label": "Dane wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_035981bdb86f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d658e626a762",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2d2e10a61d6d",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4cf1650d57",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df906fe6618f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a9c0c363357c",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0f73bd4c9b2d",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb8918086de1",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d72db478180",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_24e929b303ee",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_807d5bafee45",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f02930e3edb1",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62043653c045",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.316
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.jpg",
+    "extension": "jpg",
+    "sha256": "afd2fd2b46f936129a8531cfb58986b89476aa57c24550cc163ffb8ce47c9c61",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 44,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 44,
+      "output_fields": 66,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_51de88c94555",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d9ea7b041451",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6c8573aa111",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d30a0462540b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_595e33a73d29",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a70534019fc8",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_adb9a62fbca4",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df2029269a3f",
+          "label": "Dane wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_035981bdb86f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d658e626a762",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2d2e10a61d6d",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4cf1650d57",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df906fe6618f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e217a0f43d82",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_664b140c0b19",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb8918086de1",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d72db478180",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_24e929b303ee",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_807d5bafee45",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62043653c045",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.517
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.ods",
+    "extension": "ods",
+    "sha256": "ea2e98dcb30ee6150f9fbc93cf95f1c077f7831c2bb1480312ccbe12708943df",
+    "status": "converted",
+    "fields": 76,
+    "raw_fields": 39,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 76,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 39,
+      "output_fields": 76,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_ccb9dd5d903b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_08bebc9e73f1",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_702c11592c61",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe, ale ułatwią kontakt w sprawie wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e6f5a221fcb3",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d1597769d125",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_183518a5c8ea",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bfec140595ae",
+          "label": "Art. 9 ustawy z dnia 16 listopada 2006 r. o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8ae269882354",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ea30f8488d03",
+          "label": "Podpis",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.188
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.pdf",
+    "extension": "pdf",
+    "sha256": "be4d196a6622490e7dc18b2c2740986ef62d95beb45803da9b016ace72fe1dee",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 23,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 49,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 23,
+      "output_fields": 66,
+      "standard_additions": 48,
+      "suppressed": [
+        {
+          "id": "f_93c17267cd45",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_c449a8c418d4",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_77676521d3a9",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_1dca8a591e3c",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_5fa645ce53b4",
+          "label": "Art. 9 ustawy z dnia 16 listopada 2006 r. o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.256
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.png",
+    "extension": "png",
+    "sha256": "8a81945e0a88474d15e0add5d4ab9aeb0140e76c2ace81ea728ded8bb832f8b5",
+    "status": "converted",
+    "fields": 66,
+    "raw_fields": 45,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 54,
+    "ocr": true,
+    "normalization": {
+      "applied": true,
+      "source_fields": 45,
+      "output_fields": 66,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_51de88c94555",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d9ea7b041451",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_f6c8573aa111",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_d30a0462540b",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_595e33a73d29",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_a70534019fc8",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_adb9a62fbca4",
+          "label": "Wniosek o zwrot opłaty skarbowej",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_df2029269a3f",
+          "label": "Dane wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_035981bdb86f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d658e626a762",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_2d2e10a61d6d",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_dd4cf1650d57",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_df906fe6618f",
+          "label": "2. Adres siedziby lub miejsca zamieszkania wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_a9c0c363357c",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_0f73bd4c9b2d",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie sq obowiazkowe,",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_eb8918086de1",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_7d72db478180",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_24e929b303ee",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_807d5bafee45",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_f02930e3edb1",
+          "label": "Data i podpis wnioskodawcy",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_62043653c045",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 3.334
+  },
+  {
+    "group": "02",
+    "source": "reference/coi-official/forms/02/Wniosek o zwrot opłaty skarbowej.xlsx",
+    "extension": "xlsx",
+    "sha256": "6b76b513c0e8adb478fdf18447ab970ea8bc922d6fb566d7923dfc043a7c3545",
+    "status": "converted",
+    "fields": 74,
+    "raw_fields": 35,
+    "schema_valid": true,
+    "business_rules_valid": true,
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_count": 74,
+    "ocr": false,
+    "normalization": {
+      "applied": true,
+      "source_fields": 35,
+      "output_fields": 74,
+      "standard_additions": 46,
+      "suppressed": [
+        {
+          "id": "f_61356d490488",
+          "label": "Urząd Gminy Stawiguda",
+          "reason": "fixed recipient header or form title"
+        },
+        {
+          "id": "f_702c11592c61",
+          "label": "3. Dane kontaktowe wnioskodawcy (dane kontaktowe nie są obowiązkowe, ale ułatwią kontakt w sprawie wniosku)",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_e6f5a221fcb3",
+          "label": "Numer telefonu",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_d1597769d125",
+          "label": "Adres poczty elektronicznej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_183518a5c8ea",
+          "label": "Imię i nazwisko",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_bfec140595ae",
+          "label": "Art. 9 ustawy z dnia 16 listopada 2006 r. o opłacie skarbowej",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_8ae269882354",
+          "label": "Data",
+          "reason": "replaced by standard section or electronic workflow"
+        },
+        {
+          "id": "f_ea30f8488d03",
+          "label": "Podpis",
+          "reason": "replaced by standard section or electronic workflow"
+        }
+      ],
+      "policy": "published design standards; content-driven applicant profile",
+      "reference_json_used_at_runtime": false
+    },
+    "metrics": {
+      "field_precision": null,
+      "field_recall": null,
+      "field_f1": null,
+      "field_type_accuracy": null,
+      "structural_similarity": null,
+      "conditional_rules_coverage": null
+    },
+    "ground_truth": "No official FormDefinition supplied; these metrics are not measurable without annotation.",
+    "processing_seconds": 0.231
+  }
+]

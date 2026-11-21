@@ -1,0 +1,412 @@
+{
+  "title": "WNIOSEK O WYDANIE ZAŚWIADCZENIA",
+  "tabs": [
+    {
+      "id": "c129988f-e024-5f99-966d-801d552bac56",
+      "title": "Strona 1",
+      "type": "MAIN",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 4,
+          "cols": 3,
+          "field": {
+            "id": "dec54185-a7c1-52f6-9606-b5fb488ab25b",
+            "type": "SECTION",
+            "techName": "dane_formularza_section_s1",
+            "title": "Dane formularza",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f739f027-7925-5565-b898-699ec0b4ef9f",
+                  "type": "TEXT_FIELD",
+                  "techName": "mlynary_dnia_224ca383ea",
+                  "title": "Młynary, dnia",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "f1eba03a-642b-5c47-bf02-cf746fc4c08b",
+                  "type": "TEXT_FIELD",
+                  "techName": "imie_i_nazwisko_39e6e7abaf",
+                  "title": "/ imię i nazwisko /",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 1,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "d330992b-c5c2-5082-8400-80f0825ea1b6",
+                  "type": "TEXT_FIELD",
+                  "techName": "adres_5bd7c2ab94",
+                  "title": "/ adres /",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 2,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "rows": 14,
+          "cols": 3,
+          "field": {
+            "id": "dcef306f-bd8c-5f22-98b5-54cd9be2666f",
+            "type": "SECTION",
+            "techName": "pesel_section_s2",
+            "title": "/ PESEL /",
+            "description": "",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [
+              {
+                "x": 0,
+                "y": 0,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4bb6fb87-9618-5901-bbec-ed7462911199",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_0",
+                  "title": "",
+                  "description": "/ nr telefonu /",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 1,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "69a818d8-faab-554c-aac5-5dacf05323f3",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_1",
+                  "title": "",
+                  "description": "ilości posiadanych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 2,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "4b847893-c5c0-5c79-b259-4dd119b68522",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_2",
+                  "title": "",
+                  "description": "ilości dzierżawionych użytków rolnych w hektarach fizycznych i przeliczeniowych",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 3,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "0984ea72-6c29-57ba-8532-a5d097eb5590",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_3",
+                  "title": "",
+                  "description": "okresie posiadania gospodarstwa rolnego",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 4,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "2195872c-c9b4-56b5-b9b8-25c1cb6f8e42",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_4",
+                  "title": "",
+                  "description": "nieposiadaniu użytków rolnych / gospodarstwa rolnego na terenie Gminy Młynary",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 5,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "085c49b9-54ec-551f-bdf7-b9100cc97590",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_5",
+                  "title": "",
+                  "description": "………………………………………\n\t\t\t\t\t\t\t\t\t           /podpis/",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 6,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cd8716eb-a5b8-5e92-a357-63a372395cbc",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_6",
+                  "title": "",
+                  "description": "Opłata za wydanie zaświadczenia wynosi 17 zł (od każdego egzemplarza). Obowiązek uiszczenia opłaty skarbowej powstaje z chwilą złożenia wniosku o wydanie zaświadczenia.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 7,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "cffd448d-5722-57f2-a825-a3d03586baaf",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_7",
+                  "title": "",
+                  "description": "Opłatę skarbową należy wnieść w kasie lub bezgotówkowo na rachunek tut. Urzędu – przed złożeniem wniosku. Konto bankowe Urzędu: Bank PKO BP S.A. 12 1234 1234 1234 1234 1234 1234.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 8,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "93cc9493-4d5b-50c4-b2dd-2289dd65481d",
+                  "type": "TEXT_BLOCK",
+                  "techName": "pole_static_s2_8",
+                  "title": "",
+                  "description": "Zwolnienie z opłaty skarbowej określa art. 2, natomiast wyłączenie art. 7 ustawy z dnia 16 listopada 2006 r. \no opłacie skarbowej.",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 0,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 9,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "87f344c6-050e-522b-9068-5a6ba82ce144",
+                  "type": "TEXT_FIELD",
+                  "techName": "prosze_o_wydanie_zaswiadczenia_o_76e6e7560c",
+                  "title": "Proszę o wydanie zaświadczenia o",
+                  "description": "Wymagane zgodnie z oznaczeniem w dokumencie.",
+                  "options": [],
+                  "validation": [
+                    "REQUIRED"
+                  ],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 9,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 10,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "1aeafc47-936f-5e7b-baf6-f69ec2c2826e",
+                  "type": "TEXT_FIELD",
+                  "techName": "inne_5e5569a634",
+                  "title": "inne",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 10,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 11,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "519ef874-ca12-509a-ae73-673255a28135",
+                  "type": "TEXT_FIELD",
+                  "techName": "zaswiadczenie_potrzebne_jest_celem_przedlozenia_w_4ae295177d",
+                  "title": "Zaświadczenie potrzebne jest celem przedłożenia w",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 11,
+                  "tooltipMessage": ""
+                }
+              },
+              {
+                "x": 0,
+                "y": 12,
+                "rows": 1,
+                "cols": 3,
+                "field": {
+                  "id": "bb39d999-310c-5a0d-8c88-e2f5e46a200b",
+                  "type": "TEXT_FIELD",
+                  "techName": "informacje_94d9cab160",
+                  "title": "INFORMACJE",
+                  "description": "",
+                  "options": [],
+                  "validation": [],
+                  "readOnly": false,
+                  "repeatingSectionGrid": [],
+                  "states": [],
+                  "questionOrder": 12,
+                  "tooltipMessage": ""
+                }
+              }
+            ],
+            "states": [],
+            "questionOrder": 1,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6019253-a3c6-5846-b846-17f74f41b926",
+      "title": "Strona końcowa",
+      "type": "FINISH",
+      "questions": [
+        {
+          "x": 0,
+          "y": 0,
+          "rows": 1,
+          "cols": 3,
+          "field": {
+            "id": "d70be4ee-450e-5cea-90db-6ade6e0dba84",
+            "type": "INFO_SECTION",
+            "techName": "podglad_finish_info",
+            "title": "Podgląd",
+            "description": "Zanim przejdziesz do wyboru sposobu podpisu, sprawdź dane na podglądzie. Jeśli zobaczysz błędy, wróć do edycji.",
+            "options": [],
+            "validation": [],
+            "readOnly": false,
+            "repeatingSectionGrid": [],
+            "states": [],
+            "questionOrder": 0,
+            "tooltipMessage": ""
+          }
+        }
+      ]
+    }
+  ],
+  "flow": {
+    "links": [
+      {
+        "id": "5d555671-1f60-5bd3-819d-925d6b5b6265",
+        "source": "c129988f-e024-5f99-966d-801d552bac56",
+        "target": "f6019253-a3c6-5846-b846-17f74f41b926"
+      }
+    ]
+  }
+}

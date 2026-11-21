@@ -1,0 +1,103 @@
+{
+  "schema_valid": true,
+  "schema_errors": [],
+  "compatibility_profile_valid": false,
+  "business_rules_valid": false,
+  "valid": false,
+  "errors": [
+    {
+      "code": "compatibility_model",
+      "message": "Input should be a valid list",
+      "path": "tabs/0/questions/4/field/repeatingSectionGrid/3/field/validation",
+      "severity": "error"
+    },
+    {
+      "code": "compatibility_model",
+      "message": "Input should be a valid list",
+      "path": "tabs/0/questions/5/field/repeatingSectionGrid/2/field/validation",
+      "severity": "error"
+    },
+    {
+      "code": "compatibility_model",
+      "message": "Input should be a valid list",
+      "path": "tabs/0/questions/7/field/repeatingSectionGrid/0/field/validation",
+      "severity": "error"
+    },
+    {
+      "code": "compatibility_model",
+      "message": "Extra inputs are not permitted",
+      "path": "tabs/2/questions/1/minItemRows",
+      "severity": "error"
+    },
+    {
+      "code": "finish_info_only",
+      "message": "Na FINISH dozwolone jest wyłącznie INFO_SECTION.",
+      "path": "fec2ea3a-c696-4b1b-9069-c6bd89865455",
+      "severity": "error"
+    },
+    {
+      "code": "missing_field_properties",
+      "message": "Brak właściwości komponentu: states",
+      "path": "tabs/0/questions/0",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/0",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/1",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/3",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/0/questions/3/field/repeatingSectionGrid/8",
+      "severity": "error"
+    },
+    {
+      "code": "validation_array",
+      "message": "validation musi być tablicą.",
+      "path": "tabs/0/questions/4/field/repeatingSectionGrid/3",
+      "severity": "error"
+    },
+    {
+      "code": "validation_array",
+      "message": "validation musi być tablicą.",
+      "path": "tabs/0/questions/5/field/repeatingSectionGrid/2",
+      "severity": "error"
+    },
+    {
+      "code": "validation_array",
+      "message": "validation musi być tablicą.",
+      "path": "tabs/0/questions/7/field/repeatingSectionGrid/0",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/2/questions/0/field/repeatingSectionGrid/0",
+      "severity": "error"
+    },
+    {
+      "code": "registry_read_only",
+      "message": "Dane inicjalne z rejestru muszą być readOnly.",
+      "path": "tabs/2/questions/0/field/repeatingSectionGrid/1",
+      "severity": "error"
+    }
+  ],
+  "warnings": [],
+  "schema_profile": "published unchanged + recursive compatibility + technical rules",
+  "grid_key": "repeatingSectionGrid",
+  "target_import_verified": false
+}
