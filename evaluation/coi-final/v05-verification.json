@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "checks": [
+    "keyboard upload",
+    "help",
+    "overview",
+    "PDF page raster and bbox",
+    "source zoom",
+    "field search and filters",
+    "automatic validation",
+    "stale export blocked",
+    "undo and redo",
+    "invalid draft and discard",
+    "repeating rows preserving values",
+    "FINISH without inputs",
+    "JSON search and format and validation",
+    "JSON download",
+    "1280x800 and 390x844 no page overflow",
+    "unsupported file recovery",
+    "three prospective form journeys"
+  ],
+  "cases": [
+    {
+      "id": "residence-cert",
+      "status": "passed",
+      "detected_fields": 19,
+      "seconds": 1.525,
+      "manual_edit": "First label amended for review journey; not used to alter raw benchmark score."
+    },
+    {
+      "id": "civil-record",
+      "status": "passed",
+      "detected_fields": 24,
+      "seconds": 1.685,
+      "manual_edit": "First label amended for review journey; not used to alter raw benchmark score."
+    },
+    {
+      "id": "krk-company",
+      "status": "passed",
+      "detected_fields": 11,
+      "seconds": 1.681,
+      "manual_edit": "First label amended for review journey; not used to alter raw benchmark score."
+    }
+  ],
+  "browserErrors": [],
+  "externalRequests": [],
+  "version": "0.5.0",
+  "pytest": {
+    "passed": 194,
+    "seconds": 11.21
+  },
+  "ruff": "passed",
+  "additional_browser_suites": [
+    "ui_smoke.cjs",
+    "ui_review.cjs",
+    "ui_coi.cjs"
+  ],
+  "screenshots": "docs/screenshots; synthetic documents only"
+}

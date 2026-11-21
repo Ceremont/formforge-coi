@@ -10,10 +10,10 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 import jwt
-from fastapi import Depends, FastAPI, File, HTTPException, Request, UploadFile
+from fastapi import Depends, FastAPI, File, HTTPException, Query, Request, UploadFile
 from fastapi.exceptions import RequestValidationError
 from fastapi.openapi.docs import get_swagger_ui_html
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse, Response
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from fastapi.staticfiles import StaticFiles
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -40,7 +40,7 @@ async def lifespan(app):
 
 app = FastAPI(
     title="FormForge COI",
-    version="0.4.0",
+    version="0.5.0",
     description="Lokalne przetwarzanie formularzy i eksport COI FormDefinition. Walidacja schematu, reguł technicznych i jawne uwagi do potwierdzenia.",
     docs_url=None,
     redoc_url=None,
@@ -176,7 +176,7 @@ async def health():
             pass
     return {
         "status": "ok",
-        "version": "0.4.0",
+        "version": "0.5.0",
         "python": sys.version.split()[0],
         "offline": True,
         "ocr": {"available": bool(languages), "languages": languages},
@@ -184,6 +184,7 @@ async def health():
         "coi_compatibility": "official_schema_and_business_rules_available",
         "target_import_verified": False,
         "max_upload_mb": settings.max_upload_mb,
+        "processing_timeout": settings.processing_timeout,
     }
 
 
@@ -302,6 +303,56 @@ async def validate_form(request: ValidateRequest):
         "coi_validation": coi_report,
         "quality_review": review(request.form, issues, coi_report),
     }
+
+
+@app.post("/api/v1/forms/source-page", dependencies=[Depends(authenticate)])
+async def source_page(request: Request, file: UploadFile = File(...), page: int = Query(1, ge=1, le=100)):
+    """Request-scoped, isolated PDF raster for source-coordinate review."""
+    acquired = False
+    process = None
+    try:
+        uploads = await request.form()
+        if sum(hasattr(value, "filename") for _, value in uploads.multi_items()) != 1:
+            raise DocumentError("Prześlij dokładnie jeden plik.", 400, "single_file_required")
+        data = await file.read(settings.max_upload_mb * 1024 * 1024 + 1)
+        extension = FileValidator(settings).validate(file.filename or "", file.content_type or "", data)
+        if extension != "pdf":
+            raise DocumentError("Podgląd stron obsługuje PDF. Dla innych formatów użyj widoku tekstu lub obrazu.", 415, "source_format")
+        try:
+            await asyncio.wait_for(app.state.workers.acquire(), timeout=1)
+            acquired = True
+        except TimeoutError as exc:
+            raise DocumentError("Procesy są zajęte. Ponów podgląd za chwilę.", 429, "busy") from exc
+        with tempfile.TemporaryDirectory(prefix="formforge-source-") as directory:
+            source, target = Path(directory) / "source.pdf", Path(directory) / "page.png"
+            source.write_bytes(data)
+            del data
+            env = {k: v for k, v in os.environ.items() if not k.startswith("FORMFORGE_JWT_")}
+            env.update(TMPDIR=directory, TMP=directory, TEMP=directory)
+            process = await asyncio.create_subprocess_exec(sys.executable, str(ROOT.parent / "deploy/render_source.py"), str(source), str(target), str(page), str(settings.max_pages), str(settings.worker_memory_mb), env=env, stdout=asyncio.subprocess.DEVNULL, stderr=asyncio.subprocess.DEVNULL, start_new_session=True)
+            try:
+                await asyncio.wait_for(process.wait(), timeout=12)
+            except TimeoutError as exc:
+                try:
+                    os.killpg(process.pid, signal.SIGKILL)
+                except ProcessLookupError:
+                    pass
+                await process.wait()
+                raise DocumentError("Podgląd przekroczył limit czasu. Możesz otworzyć lokalny oryginał PDF.", 408, "source_timeout") from exc
+            if process.returncode or not target.exists():
+                raise DocumentError("Nie można wyrenderować tej strony PDF. Sprawdź numer strony lub otwórz oryginał.", 422, "source_render_failed")
+            image_data = target.read_bytes()
+        return Response(image_data, media_type="image/png")
+    finally:
+        if process is not None and process.returncode is None:
+            try:
+                os.killpg(process.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+            await process.wait()
+        if acquired:
+            app.state.workers.release()
+        await file.close()
 
 
 @app.post("/api/v1/forms/preview", dependencies=[Depends(authenticate)])

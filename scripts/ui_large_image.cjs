@@ -12,7 +12,7 @@ const root=path.resolve(__dirname,'..'),base=process.env.FORMFORGE_BASE_URL||'ht
   const start=Date.now(),converted=page.waitForResponse(r=>r.url().includes('/forms/convert'),{timeout:100000});
   await page.locator('#file-input').setInputFiles(path.join(dir,file));const response=await converted;assert.equal(response.status(),200);const data=await response.json();
   assert.equal(data.coi_validation.valid,true);assert.equal(data.quality.completeness_verified,false);assert.ok(data.form.fields.length>50);assert.ok(data.document.analysis.image_tiles.length>10);
-  await page.locator('#results').waitFor({state:'visible'});await page.waitForFunction(()=>document.querySelector('.source-tiled')?.naturalHeight>30000);
+  await page.locator('#results').waitFor({state:'visible'});await page.locator('[data-tab="document"]').click();await page.waitForFunction(()=>document.querySelector('.source-tiled')?.naturalHeight>30000);
   const field=data.form.fields.find(f=>f.source_reference.page>=4&&f.source_reference.bbox),tile=data.document.analysis.image_tiles.find(t=>t.page===field.source_reference.page),box=field.source_reference.input_bbox||field.source_reference.bbox;
   await page.locator(`[data-source-field="${field.id}"]`).click();const top=parseFloat(await page.locator('.source-region').evaluate(n=>n.style.top));const height=await page.locator('.source-tiled').evaluate(n=>n.naturalHeight);
   assert.ok(Math.abs(top-(box[1]+tile.source_bbox[1])/height*100)<.001);
