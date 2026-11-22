@@ -20,7 +20,7 @@ def main():
                 time.sleep(.1)
         else:
             raise RuntimeError('offline server failed')
-        assert health['version'] == '1.0.0'
+        assert health['version'] == os.environ.get('FORMFORGE_EXPECTED_VERSION','1.0.0')
         blocked = []
         for host in ['1.1.1.1', '8.8.8.8']:
             try:

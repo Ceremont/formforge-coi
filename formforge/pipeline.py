@@ -53,7 +53,7 @@ def convert(path: Path, filename: str, extension: str, settings: Settings) -> di
         "preview_export": COIJsonMapper().export(form),
         "coi_validation": coi_report,
         "normalization": normalization,
-        "quality_review": review(form, issues, coi_report),
+        "quality_review": review(form, issues, coi_report, export),
         "quality": {
             "status": "no_fields" if not form.fields else "partial" if unresolved else "review_required",
             "completeness_verified": False,

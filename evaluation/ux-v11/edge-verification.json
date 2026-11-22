@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8772",
+  "cases": [
+    {
+      "case": "official-01",
+      "source_predicates": 0,
+      "policy_predicates": 33,
+      "exported_states": 29,
+      "confirmed_one_only": true
+    },
+    {
+      "case": "official-05",
+      "source_predicates": 0,
+      "policy_predicates": 35,
+      "exported_states": 31,
+      "confirmed_one_only": true
+    }
+  ],
+  "checks": [
+    "recursive exported-state counters",
+    "source versus COI policy counts",
+    "one explicit confirmation without bulk acceptance",
+    "grouped complete warning categories",
+    "real official dynamic visibility",
+    "registry limitation explained",
+    "blocking errors and labelled draft download",
+    "unsupported rule remains visible at export",
+    "manual add/delete",
+    "repeating rows and FINISH",
+    "preview FileList retained",
+    "stale revalidation cannot replace new upload",
+    "cancel real OCR waiting and recover"
+  ],
+  "browserErrors": [],
+  "externalRequests": []
+}

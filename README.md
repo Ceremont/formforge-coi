@@ -1,12 +1,12 @@
-# FormForge COI 1.0
+# FormForge COI 1.1 — Smart Workspace
 
-**Od dokumentu do e-formularza.** Lokalny konwerter pustych formularzy urzędowych
+**Od dokumentu do e-formularza.** Cztery oddzielne ekrany: **Dodaj dokument → Sprawdź i popraw → Przetestuj formularz → Eksportuj do COI**. Lokalny konwerter pustych formularzy urzędowych
 do COI FormDefinition: upload → analiza → przegląd źródła → edycja → walidacja → JSON.
-Powstał jako rozwinięcie istniejącego projektu, bez przepisywania API i UI.
+Pełne narzędzia pozostają w **Tryb ekspercki**; zmiana trybu zachowuje dokument, edycję i odpowiedzi testowe. [Raport UX 1.1](docs/UX_1.1_REPORT.md).
 
-![FormForge — przegląd wyniku](docs/screenshots/02-overview.png)
+![FormForge — sprawdzanie pól](docs/screenshots/ux-1.1/review-1280x800.png)
 
-To wydanie konkursowe z jawnymi ograniczeniami. **68/69** przekazanych źródeł daje
+Wydanie 1.1 upraszcza UX. Poniższe metryki rozpoznania pochodzą z zamrożonej ewaluacji 1.0, bez nowego strojenia silnika. Ograniczenia pozostają jawne. **68/69** przekazanych źródeł daje
 JSON poprawny w lokalnym schemacie, profilu rekurencyjnym i regułach technicznych.
 Nie oznacza to kompletnego rozpoznania. Importer rzeczywistego COI **nie był dostępny**.
 Nowe trzy dokumenty R3: mikro F1 surowych pól **52,63% → 58,95%** względem 0.3;
@@ -31,7 +31,7 @@ Inny port: `FORMFORGE_HTTP_PORT=8766 docker compose up -d --wait`.
 Zatrzymanie: `docker compose down`.
 Buildx w badanym macOS odrzucał znormalizowany Unicode w ścieżce. Ten sam kod
 zbudowano i uruchomiono przez Compose z tymczasowego katalogu ASCII. W takim
-przypadku rozpakuj ZIP do katalogu ASCII; alternatywnie `docker build -t formforge-coi:1.0.0 .`,
+przypadku rozpakuj ZIP do katalogu ASCII; alternatywnie `docker build -t formforge-coi:1.1.0 .`,
 a następnie `docker compose up -d --no-build --wait`.
 
 Obraz bazowy oficjalny Python 3.14.5 slim-trixie jest przypięty digestem.
@@ -59,7 +59,7 @@ Do testów dodatkowo zainstaluj `requirements-dev.lock`, następnie:
 ```
 
 Oryginały organizatora nie są potrzebne do działania. Czysty ZIP ich nie zawiera;
-sprawdzono 181 passed / 15 jawnych SKIP, ponieważ źródła są osobno dostarczane. Pełne testy
+W pełnym checkout wykonano 203 testy. Rozpakowana paczka: 188 PASS i 15 jawnych SKIP, ponieważ źródła są osobno dostarczane. Pełne testy
 referencji wymagają odtworzenia `reference/coi-official/` z legalnie otrzymanego pakietu.
 Nie interpretuj SKIP jako zaliczonego benchmarku.
 

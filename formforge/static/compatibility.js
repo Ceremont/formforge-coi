@@ -14,7 +14,11 @@
     card('Walidatory',result.form.fields.reduce((n,f)=>n+f.validation.length,0)+' reguł w modelu','good');
     const dictionaries=new Set(result.form.fields.map(f=>f.coi?.dictionary_name||f.dictionary?.id).filter(Boolean));
     card('Słowniki',dictionaries.size+' użytych; pełne oficjalne wartości nie są lokalnie dostępne','warning');
-    card('Zależności dynamiczne',(q.counts?.dependencies||0)+' reguł; '+(r.unsupported_features||[]).length+' nieobsługiwanych cech',(r.unsupported_features||[]).length?'warning':'good');
+    const deps=q.metrics?.dependencies;
+    card('Warunki wykryte w źródle',deps?String(deps.source)+' porównań':'Nie oceniono','good');
+    card('Warunki dodane przez standard COI',deps?String(deps.standard_policy)+' porównań':'Nie oceniono','warning');
+    card('Stany w eksportowanym JSON',deps?.exported_states!=null?String(deps.exported_states)+' stanów na wszystkich poziomach; '+Object.entries(deps.exported_by_type).map(([k,v])=>k+': '+v).join(', '):'Nie oceniono','good');
+    card('Warunki ręczne / nieobsługiwane cechy',(deps?.manual??'—')+' ręcznych porównań; '+(r.unsupported_features||[]).length+' nieobsługiwanych cech',(r.unsupported_features||[]).length?'warning':'good');
     card('Porównanie z referencją','Nie jest wykonywane w runtime dla nowego źródła; wyniki par 01/05 są w benchmarku.','warning');
     card('Import na platformie COI','Nieprzeprowadzony. Poprawność lokalna nie potwierdza importu.','warning');
     root.append(cards);

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "seconds": 51.862,
+  "fields": 181,
+  "tiles": 16,
+  "quality": "partial",
+  "checks": [
+    "actual 61.9MP image upload",
+    "HTTP worker completes within deadline",
+    "valid official COI",
+    "quality disclosure",
+    "source tile offset on original image",
+    "readable source scaling"
+  ],
+  "browserErrors": [],
+  "externalRequests": [],
+  "base": "http://127.0.0.1:8772",
+  "version": "1.1.0"
+}

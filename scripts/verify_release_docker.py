@@ -9,7 +9,8 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DEST = ROOT / 'evaluation/coi-final'
+VERSION = (ROOT/'VERSION').read_text().strip()
+DEST = ROOT / ('evaluation/coi-final' if VERSION=='1.0.0' else 'evaluation/ux-v11')
 BASE = os.environ.get('FORMFORGE_BASE_URL', 'http://127.0.0.1:8766')
 
 
@@ -34,7 +35,7 @@ def upload(path, endpoint='/api/v1/forms/convert'):
 def main():
     sys.path.insert(0, str(ROOT))
     health = json.load(urllib.request.urlopen(BASE + '/api/health', timeout=5))
-    assert health['version'] == '1.0.0' and {'pol', 'eng'} <= set(health['ocr']['languages'])
+    assert health['version'] == VERSION and {'pol', 'eng'} <= set(health['ocr']['languages'])
     cases = []
     for filename in ['zaswiadczenie.pdf', 'skan.pdf', 'zaswiadczenie.doc', 'zezwolenie.docx', 'zaswiadczenie.xlsx', 'zaswiadczenie.ods', 'zaswiadczenie.png', 'checkbox.jpg']:
         path = ROOT / 'demo_samples' / filename
@@ -69,7 +70,7 @@ def main():
     (DEST / 'container-os-packages.txt').write_text(packages + '\n')
     temp = command('docker', 'exec', cid, 'python', '-c', 'import pathlib,json;print(json.dumps([p.name for p in pathlib.Path("/tmp").glob("formforge-*")]))')
     assert json.loads(temp) == []
-    report = dict(status='passed', image='formforge-coi:1.0.0', image_id=info['Image'], base_digest='sha256:c845af9399020c7e562969a13689e929074a10fd057acd1b1fad06a2fb068e97', build='real docker compose build in byte-identical ASCII temporary context; Unicode Buildx path error recorded', health=health, cases=cases, source_page_png=True, uid=uid, read_only=True, internal_processor_network=True, temp_directories_after=0, excluded_ocr_optional_libraries_absent=True, complete_native_sbom=False)
+    report = dict(status='passed', image='formforge-coi:'+VERSION, image_id=info['Image'], base_digest='sha256:c845af9399020c7e562969a13689e929074a10fd057acd1b1fad06a2fb068e97', build='real docker compose build in byte-identical ASCII temporary context; Unicode Buildx path error recorded', health=health, cases=cases, source_page_png=True, uid=uid, read_only=True, internal_processor_network=True, temp_directories_after=0, excluded_ocr_optional_libraries_absent=True, complete_native_sbom=False)
     (DEST / 'docker-verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(report, ensure_ascii=False, indent=2))
 

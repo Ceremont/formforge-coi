@@ -1,4 +1,6 @@
-# FormForge 1.0 — architektura
+# FormForge 1.1 — architektura
+
+Smart Workspace ma cztery oddzielne ekrany. `journey.js` steruje widocznością i przenosi istniejący DOM źródła/podglądu przy zmianie trybu. Prosty panel właściwości synchronizuje kanoniczny `editor.js`; nie tworzy drugiego modelu. `quality_review.metrics` osobno liczy źródło, model, eksport oraz pochodzenie warunków i rekurencyjne stany.
 
 Istniejące API FastAPI oraz Jinja/własny JavaScript zostały rozwinięte, nie zastąpione.
 Domyślnym wynikiem jest oficjalny COI FormDefinition. Dawny JSON preview pozostaje

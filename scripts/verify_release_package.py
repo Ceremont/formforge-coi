@@ -16,7 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    archive_path = ROOT / 'FormForge-COI-v1.0.0-release.zip'
+    version=(ROOT/'VERSION').read_text().strip()
+    archive_path = ROOT / f'FormForge-COI-v{version}-release.zip'
     with tempfile.TemporaryDirectory(prefix='formforge-package-') as directory:
         destination = Path(directory)
         with zipfile.ZipFile(archive_path) as archive:
@@ -53,7 +54,7 @@ def main():
                     time.sleep(.1)
             else:
                 raise RuntimeError('Unpacked source server failed')
-            assert health['version'] == '1.0.0'
+            assert health['version'] == version
             assert b'FormForge' in urllib.request.urlopen(base).read()
             path = checkout / 'demo_samples/zaswiadczenie.pdf'
             boundary='package-release-check'
@@ -67,8 +68,8 @@ def main():
             except subprocess.TimeoutExpired:
                 server.kill()
                 server.wait()
-        report=dict(status='passed',archive_crc_and_file_sha256=True,files=len(manifest['files']),raw_originals_absent=True,secrets_and_personal_developer_paths_absent=True,unpacked_tests=summary,unpacked_ui_api_conversion=True,dependency_environment='Existing installed Python3.14 dev dependencies; no internet/install in this check. Source/sample/runtime assets are taken from the unpacked ZIP.',code_sha256={str(p.relative_to(checkout)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (checkout/'formforge').rglob('*') if p.is_file() and '__pycache__' not in p.parts})
-        (ROOT/'evaluation/coi-final/package-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+        report=dict(version=version,status='passed',archive_crc_and_file_sha256=True,files=len(manifest['files']),raw_originals_absent=True,secrets_and_personal_developer_paths_absent=True,unpacked_tests=summary,unpacked_ui_api_conversion=True,dependency_environment='Existing installed Python3.14 dev dependencies; no internet/install in this check. Source/sample/runtime assets are taken from the unpacked ZIP.',code_sha256={str(p.relative_to(checkout)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (checkout/'formforge').rglob('*') if p.is_file() and '__pycache__' not in p.parts})
+        (ROOT/('evaluation/coi-final' if version=='1.0.0' else 'evaluation/ux-v11')/'package-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
         print(json.dumps({k:v for k,v in report.items() if k!='code_sha256'},ensure_ascii=False,indent=2))
 
 

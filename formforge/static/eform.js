@@ -32,7 +32,9 @@
     const date=new Date(Date.UTC(century+yy, mm%20-1, dd));
     return date.getUTCFullYear()===century+yy && date.getUTCMonth()===mm%20-1 && date.getUTCDate()===dd;
   }
-  window.FormForgeRender = function(container, model, official) {
+  window.FormForgeRender = function(container, model, official, options={}) {
+    const saved=new Map(),previousPage=options.preserveValues?container.querySelector('[aria-label="Strona e-formularza"]')?.value:null;
+    if(options.preserveValues)for(const input of container.querySelectorAll('input[name],select[name],textarea[name]')){const key=input.name;if(!saved.has(key))saved.set(key,[]);saved.get(key).push({node:input,type:input.tagName+':'+input.type,value:input.value,checked:input.checked});}
     container.replaceChildren();
     const shell=el('div','eform-shell'); container.append(shell);
     shell.append(el('h2','eform-title',model.title), el('p','eform-subtitle','* Pola wymagane · Dane służą wyłącznie do testowania podglądu.'));
@@ -80,7 +82,7 @@
         }
         if(field.field_type==='consent') row.append(el('p','eform-help',field.help_text));
         if(field.coi?.dictionary_name)row.append(el('p','eform-help','Słownik COI: '+field.coi.dictionary_name+'. Pełne wartości udostępnia platforma COI; lokalny podgląd zawiera tylko wartości jawnie podane w dokumencie.'));
-        if(field.coi?.default_value_type==='EXTERNAL_SYSTEM')row.append(el('p','eform-help','Dane inicjalne: '+field.coi.default_value+'. Rejestr nie jest podłączony w lokalnym podglądzie.'));
+        if(field.coi?.default_value_type==='EXTERNAL_SYSTEM')row.append(el('p','eform-help eform-registry-note','Te dane ma udostępnić rejestr publiczny. W lokalnym teście rejestr nie jest podłączony, dlatego pole jest zablokowane. Nie pobieramy danych obywatela.'));
         const error=el('p','eform-error'); error.id=field.id+'_error'; error.setAttribute('role','alert'); errors[field.id]=error; row.append(error);
         if(field.group_id){const definition=(model.groups||[]).find(g=>g.id===field.group_id);if(definition)row.prepend(el('p','eform-group-title',definition.title));}
         group.append(row);
@@ -94,6 +96,7 @@
     previous.type=next.type='button';selector.setAttribute('aria-label','Strona e-formularza');
     const tabs=[...new Set([...model.sections].sort((a,b)=>a.order-b.order).map(s=>s.coi?.tab||'Strona '+s.page))];
     for(const value of ['Wszystkie strony',...tabs,'FINISH']){const option=el('option','',value==='FINISH'?'Zakończenie (FINISH)':value);option.value=value;selector.append(option);}
+    if(previousPage&&[...selector.options].some(o=>o.value===previousPage))selector.value=previousPage;
     nav.append(previous,selector,next);form.before(nav);
     const finish=el('section','eform-finish');finish.hidden=true;finish.append(el('h3','','Zakończenie'),el('p','','To lokalny podgląd strony INFO_SECTION. Wniosek nie został wysłany.'));
     const finishTab=official?.tabs?.find(t=>t.type==='FINISH');
@@ -117,6 +120,14 @@
         }
         const remove=el('button','secondary','Usuń wiersz');remove.type='button';remove.addEventListener('click',()=>{for(const id of Object.values(ids)){viewFields.splice(viewFields.findIndex(f=>f.id===id),1);delete byId[id];delete wrappers[id];delete controls[id];delete errors[id];}instance.remove();count--;add.disabled=false;refresh();});instance.append(remove);add.before(instance);add.disabled=count>=20;refresh();
       });
+    }
+    for(const field of model.fields){
+      if(field.coi?.default_value_type==='EXTERNAL_SYSTEM')continue;
+      const before=saved.get(field.id)||[];
+      for(let i=0;i<(controls[field.id]||[]).length;i++){const input=controls[field.id][i],old=before[i];if(!old||old.type!==input.tagName+':'+input.type)continue;
+        if(input.type==='file'){old.node.required=input.required;old.node.dataset.required=input.dataset.required;input.replaceWith(old.node);controls[field.id][i]=old.node;}
+        else if(['checkbox','radio'].includes(input.type))input.checked=old.checked;else input.value=old.value;
+      }
     }
     const submitRow=el('div','eform-submit'); const submit=el('button','primary','Sprawdź formularz →'); submit.type='submit'; submitRow.append(submit); form.append(submitRow);
     const status=el('p'); status.setAttribute('role','status'); form.append(status);

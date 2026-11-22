@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0 — User First / Smart Workspace
+
+- Four separate Polish workflow screens, compact header/stepper and adjustable 50/50 review.
+- One canonical editor, explicit per-field confirmation, grouped messages, full citizen preview.
+- Mode changes preserve drafts, values and FileList; stale old validation cannot replace a new upload.
+- Correct recursive COI-state counters, with source/policy/manual predicates reported separately.
+- COI export unchanged in four baseline regression cases; no recognition model or dependency changes.
+- Real browser, filled fictional PDF/DOCX, Docker/offline and package checks in evaluation/ux-v11.
+
 ## 1.0.0 — HackNation Competition Edition
 
 - Pinned official base image digest and real Compose/API/browser/offline verification.

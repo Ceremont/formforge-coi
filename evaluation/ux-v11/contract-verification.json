@@ -1,0 +1,156 @@
+{
+  "demo": {
+    "export_identical_to_v1_0": true,
+    "metrics": {
+      "model": {
+        "fields": 9,
+        "input_fields": 9,
+        "information_fields": 0,
+        "sections": 2,
+        "pages": 1,
+        "dictionaries_used": 0,
+        "dictionary_definitions": 0
+      },
+      "dependencies": {
+        "source": 0,
+        "standard_policy": 0,
+        "manual": 0,
+        "unverified": 0,
+        "model_predicates": 0,
+        "exported_states": 0,
+        "exported_by_type": {},
+        "units": "Model: configured comparison predicates, including section/COI expressions. Export: state objects on all recursive components; a state can combine several predicates. Rule evidence and COI policy metadata take precedence over field origin. Missing legacy evidence is unverified. COI expressions without a policy marker follow their declared node origin. Manual rules are separate from source and standard policy. Static readOnly and unconditional flow links are not dynamic states."
+      },
+      "export": {
+        "available": true,
+        "pages": 2,
+        "main_pages": 1,
+        "finish_pages": 1,
+        "sections": 2,
+        "input_components": 9,
+        "information_components": 3,
+        "components_total": 14,
+        "dictionaries_used": 0,
+        "dictionary_bindings": 0
+      }
+    },
+    "sha256": "eb974afda06c5d9bcd9758f4fddd393542a56be59ef5aa56bca5d61ddd9de29e"
+  },
+  "multi": {
+    "export_identical_to_v1_0": true,
+    "metrics": {
+      "model": {
+        "fields": 17,
+        "input_fields": 17,
+        "information_fields": 0,
+        "sections": 3,
+        "pages": 3,
+        "dictionaries_used": 1,
+        "dictionary_definitions": 1
+      },
+      "dependencies": {
+        "source": 1,
+        "standard_policy": 0,
+        "manual": 0,
+        "unverified": 0,
+        "model_predicates": 1,
+        "exported_states": 1,
+        "exported_by_type": {
+          "SHOW": 1
+        },
+        "units": "Model: configured comparison predicates, including section/COI expressions. Export: state objects on all recursive components; a state can combine several predicates. Rule evidence and COI policy metadata take precedence over field origin. Missing legacy evidence is unverified. COI expressions without a policy marker follow their declared node origin. Manual rules are separate from source and standard policy. Static readOnly and unconditional flow links are not dynamic states."
+      },
+      "export": {
+        "available": true,
+        "pages": 4,
+        "main_pages": 3,
+        "finish_pages": 1,
+        "sections": 3,
+        "input_components": 17,
+        "information_components": 6,
+        "components_total": 26,
+        "dictionaries_used": 0,
+        "dictionary_bindings": 0
+      }
+    },
+    "sha256": "7722d06a95e94421dfc0817650c3457b9042bab8625ca381cbebf44681cd35b4"
+  },
+  "01": {
+    "export_identical_to_v1_0": true,
+    "metrics": {
+      "model": {
+        "fields": 54,
+        "input_fields": 52,
+        "information_fields": 2,
+        "sections": 15,
+        "pages": 2,
+        "dictionaries_used": 5,
+        "dictionary_definitions": 5
+      },
+      "dependencies": {
+        "source": 0,
+        "standard_policy": 33,
+        "manual": 0,
+        "unverified": 0,
+        "model_predicates": 33,
+        "exported_states": 29,
+        "exported_by_type": {
+          "SHOW": 29
+        },
+        "units": "Model: configured comparison predicates, including section/COI expressions. Export: state objects on all recursive components; a state can combine several predicates. Rule evidence and COI policy metadata take precedence over field origin. Missing legacy evidence is unverified. COI expressions without a policy marker follow their declared node origin. Manual rules are separate from source and standard policy. Static readOnly and unconditional flow links are not dynamic states."
+      },
+      "export": {
+        "available": true,
+        "pages": 4,
+        "main_pages": 3,
+        "finish_pages": 1,
+        "sections": 15,
+        "input_components": 52,
+        "information_components": 3,
+        "components_total": 70,
+        "dictionaries_used": 2,
+        "dictionary_bindings": 6
+      }
+    },
+    "sha256": "8134d80fe2b4eaa3c4c5077df71a081f8ba02c1d4d15625ae3f8de936e866904"
+  },
+  "05": {
+    "export_identical_to_v1_0": true,
+    "metrics": {
+      "model": {
+        "fields": 57,
+        "input_fields": 55,
+        "information_fields": 2,
+        "sections": 17,
+        "pages": 1,
+        "dictionaries_used": 6,
+        "dictionary_definitions": 6
+      },
+      "dependencies": {
+        "source": 0,
+        "standard_policy": 35,
+        "manual": 0,
+        "unverified": 0,
+        "model_predicates": 35,
+        "exported_states": 31,
+        "exported_by_type": {
+          "SHOW": 31
+        },
+        "units": "Model: configured comparison predicates, including section/COI expressions. Export: state objects on all recursive components; a state can combine several predicates. Rule evidence and COI policy metadata take precedence over field origin. Missing legacy evidence is unverified. COI expressions without a policy marker follow their declared node origin. Manual rules are separate from source and standard policy. Static readOnly and unconditional flow links are not dynamic states."
+      },
+      "export": {
+        "available": true,
+        "pages": 4,
+        "main_pages": 3,
+        "finish_pages": 1,
+        "sections": 17,
+        "input_components": 55,
+        "information_components": 3,
+        "components_total": 75,
+        "dictionaries_used": 2,
+        "dictionary_bindings": 6
+      }
+    },
+    "sha256": "3e6f8d8ac4d558002ac0846d46c3779e2a26fa5d0529b80a56e5b9ce9b9c4295"
+  }
+}
