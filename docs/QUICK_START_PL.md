@@ -1,30 +1,65 @@
-# FormForge — start dla jury
+# FormForge 1.1 — cztery kroki do konfiguracji COI
 
-Od dokumentu do e-formularza. Wydanie 1.0, przetwarzanie lokalne, jawny przegląd wyniku.
+**Projektujesz wzór formularza. Użyj pustego blankietu, bez danych obywatela.**
 
-1. Rozpakuj ZIP do katalogu o prostej nazwie, np. `FormForge-COI`.
-2. Otwórz terminal w tym katalogu i uruchom Docker Desktop.
-3. Wykonaj:
+## Uruchomienie
+
+Rozpakuj projekt do katalogu o prostej nazwie, np. `FormForge-COI`.
+Uruchom Docker Desktop i wykonaj w tym katalogu:
 
 ```sh
 docker compose build
 docker compose up -d --wait
-docker compose ps
 curl http://127.0.0.1:8000/api/health
 ```
 
-4. Otwórz http://127.0.0.1:8000. Dokumentacja API: http://127.0.0.1:8000/docs.
-5. Kliknij „Wydanie zaświadczenia” albo prześlij nowy pusty dokument.
-6. Porównaj źródło z polami. Popraw etykietę/typ/opcje w edytorze, poczekaj na walidację.
-7. Otwórz podgląd i zgodność. Pobierz JSON COI. Wartości testowe z podglądu nie są eksportowane.
+Otwórz http://127.0.0.1:8000. Inny port:
+`FORMFORGE_HTTP_PORT=8772 docker compose up -d --wait`.
+Zatrzymanie: `docker compose down`.
+Jeśli Buildx zgłasza problem Unicode w ścieżce, użyj katalogu ASCII.
+Pierwszy build potrzebuje Internetu; po instalacji analiza działa lokalnie.
 
-Zatrzymanie: `docker compose down`. Port zajęty: ustaw
-`FORMFORGE_HTTP_PORT=8766 docker compose up -d --wait`, otwórz port 8766.
-Błąd Buildx dotyczący Unicode: przenieś rozpakowany projekt do katalogu ASCII.
-Alternatywa lokalna Python 3.14 + Tesseract: dokładne komendy w README.
-Pierwszy build potrzebuje Internetu; gotowy obraz analizuje bez dostępu zewnętrznego.
+## 1. Dodaj dokument
 
-Sprawdzone 68/69 źródeł daje lokalnie poprawny JSON. To nie wynik kompletności.
-Importer COI: niezweryfikowany. DOC: podzbiór Word97–2003, bez obiektów/makr.
-Trzy nowe dokumenty mają F1 surowych pól 58,95%, więc weryfikacja człowieka jest konieczna.
-Film <=3 min, dostęp do repo i kwestie prawne wymagają finalizacji przez zespół.
+Kliknij **Wybierz dokument**, upuść pusty formularz albo wybierz
+**Wypróbuj przykładowy formularz**. Przykład jest analizowany od początku.
+Po zakończeniu otworzy się krok 2; nie szukaj wyniku na dole strony.
+
+## 2. Sprawdź i popraw
+
+Po lewej dokument, po prawej lista pól i wybrane właściwości. Kliknij pole,
+aby zobaczyć jego źródło. Podpis **Pole dodane na podstawie standardu COI** oznacza
+uzupełnienie wymagające przeglądu, a nie bezpośredni odczyt z dokumentu.
+
+Popraw nazwę, typ, obowiązkowość i opcje. Potwierdź sprawdzone pole checkboxem.
+Możesz dodać brakujące lub usunąć nadmiarowe pole. Zmiany są automatycznie
+sprawdzane. Uchwyt między panelami zmienia ich szerokość; działa też klawiaturą.
+
+**Zobacz uwagi** rozdziela błędy do poprawy, elementy do potwierdzenia i informacje.
+Przycisk **Zatwierdź i przejdź dalej** nie potwierdza wszystkich pól zbiorczo.
+
+## 3. Przetestuj formularz
+
+Zobacz formularz oczami obywatela. Wpisuj tylko fikcyjne odpowiedzi. Sprawdź wybory,
+widoczność, wymagane pola, strony i powtarzanie. Rejestry publiczne nie są podłączone;
+wyjaśnienie przy zablokowanym polu nie oznacza pobrania danych.
+
+**Wróć do edycji** pozwala poprawić strukturę. **Przejdź do eksportu** otwiera podsumowanie.
+Odpowiedzi testowe nie są wpisywane do JSON COI.
+
+## 4. Eksportuj do COI
+
+Sprawdź osobno schemat JSON, lokalne reguły, przegląd treści i status importera.
+Kliknij **Pobierz JSON COI**. Przy blokujących błędach dostępny jest jawny szkic;
+popraw błędy przed użyciem pliku. Poprawność lokalna nie jest potwierdzeniem importu.
+
+## Tryb ekspercki
+
+Przycisk w headerze udostępnia pełny edytor, wszystkie wcześniejsze zakładki,
+JSON, diagnostykę i API. Zmiana trybu zachowuje dokument, bieżące prawki i wartości
+preview. Nie trzeba zaczynać od nowa. W **Przegląd → Co oznaczają liczby?** są
+odrębne liczniki źródła/modelu/eksportu i stanów COI.
+
+DOC ma ograniczony odczyt Word97–2003; Word/arkusze nie zachowują pełnego składu
+w widoku źródła. Rzeczywisty importer COI i kompletność dowolnego nowego formularza
+nie są potwierdzone. Więcej: UX_1.1_REPORT.md, KNOWN_LIMITATIONS.md i README.

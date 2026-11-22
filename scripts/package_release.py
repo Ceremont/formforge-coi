@@ -32,14 +32,16 @@ def selected():
     files.update(directory / name for name in EVIDENCE if (directory / name).is_file())
     for name in ['exports','comparisons','annotations-known','unknown-documents','promoted-development-documents','secondary-audit-documents']:
         files.update(p for p in (directory / name).rglob('*.json') if p.is_file())
+    files.update(p for p in (ROOT/'evaluation/ux-v11').glob('*.json') if p.is_file())
     return sorted(files, key=lambda p: p.relative_to(ROOT).as_posix())
 
 
 def main():
-    target = ROOT / 'FormForge-COI-v1.0.0-release.zip'
+    version=(ROOT/'VERSION').read_text().strip()
+    target = ROOT / f'FormForge-COI-v{version}-release.zip'
     files = selected()
     assert all(p.is_file() and not p.is_symlink() for p in files)
-    manifest = dict(project='FormForge COI — HackNation Competition Edition', version='1.0.0', git_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(), git_branch=subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip(), dependencies_included=False, raw_organizer_and_external_originals_included=False, historical_experiments='Preserved in Git, omitted raw traces/originals from this clean source ZIP. Summary evidence/annotations and generated submission exports retained.', setup='See README and QUICK_START_PL; install/build once before offline runtime.', files=[dict(path=p.relative_to(ROOT).as_posix(),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files])
+    manifest = dict(project='FormForge COI — HackNation Competition Edition', version=version, git_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(), git_branch=subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip(), dependencies_included=False, raw_organizer_and_external_originals_included=False, historical_experiments='Preserved in Git, omitted raw traces/originals from this clean source ZIP. Summary evidence/annotations and generated submission exports retained.', setup='See README and QUICK_START_PL; install/build once before offline runtime.', files=[dict(path=p.relative_to(ROOT).as_posix(),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files])
     temporary = target.with_suffix('.zip.tmp')
     with zipfile.ZipFile(temporary,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
         for path in files:

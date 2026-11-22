@@ -1,6 +1,6 @@
 services:
   formforge:
-    image: formforge-coi:1.0.0
+    image: formforge-coi:1.1.0
     build: .
     init: true
     environment:
@@ -37,7 +37,7 @@ services:
     networks: [offline]
 
   gateway:
-    image: formforge-coi:1.0.0
+    image: formforge-coi:1.1.0
     init: true
     entrypoint: ["python", "/app/deploy/gateway.py"]
     ports:

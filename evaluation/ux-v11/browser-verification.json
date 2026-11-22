@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8772",
+  "checks": [
+    "four separate screens",
+    "no main sidebar or tabs",
+    "help",
+    "PDF upload and automatic review",
+    "field selection and source bbox",
+    "pointer and keyboard resize",
+    "label and type edits",
+    "confirmation persisted and invalidated after edit",
+    "dynamic radio visibility",
+    "mode switching preserves preview values",
+    "JSON download excludes test answers",
+    "1280x800 and 1440x900 no horizontal overflow",
+    "new upload and actual example",
+    "image zoom before field selection",
+    "keyboard field navigation",
+    "PDF original/map toggle",
+    "home navigation retains conversion"
+  ],
+  "browserErrors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,59 @@
+{
+  "version": "1.1.0",
+  "branch": "feature/ux-simplification",
+  "baseline_commit": "15f574d",
+  "pytest": {
+    "passed": 203,
+    "failed": 0,
+    "seconds": 12.47,
+    "warning": "Starlette HTTPX test client deprecation; dev only"
+  },
+  "ruff": "passed",
+  "browser": {
+    "four_screens": "passed",
+    "viewports": [
+      "1280x800",
+      "1440x900"
+    ],
+    "primary_cta_in_viewport": true,
+    "pointer_keyboard_resize": true,
+    "mode_preserves_draft_values_filelist": true,
+    "stale_response_isolation": true,
+    "grouped_diagnostics": "passed",
+    "blocking_and_draft_export": "passed",
+    "unsupported_export_warning": "passed",
+    "uncaught_errors": [],
+    "external_requests": []
+  },
+  "legacy_browser_suites": [
+    "ui_smoke.cjs",
+    "ui_review.cjs",
+    "ui_coi.cjs",
+    "ui_large_image.cjs"
+  ],
+  "filled_document_tests": [
+    "fictional AcroForm PDF",
+    "fictional filled DOCX table"
+  ],
+  "filled_document_redaction_guaranteed": false,
+  "engine_core_modules_unchanged": 17,
+  "coi_serialization_identical_to_1_0_cases": [
+    "demo",
+    "multi",
+    "01",
+    "05"
+  ],
+  "frozen_1_0_evaluation_unchanged": true,
+  "docker": "actual Compose build/run/API/frontend passed",
+  "offline": "actual --network none PDF/DOC/OCR/local model passed",
+  "package": {
+    "pytest_passed": 188,
+    "external_source_skips": 15,
+    "unpacked_http_conversion": "passed"
+  },
+  "target_import_verified": false,
+  "independent_human_usability_study": false,
+  "merge_to_main": false,
+  "push": false,
+  "docker_runtime_source_files_match_workspace": 51
+}

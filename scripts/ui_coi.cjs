@@ -13,7 +13,7 @@ const root=path.resolve(__dirname,'..'),base=process.env.FORMFORGE_BASE_URL||'ht
     const dir=path.join(root,'reference/coi-official/forms/05'),file=(await fs.readdir(dir)).find(n=>n.toLowerCase().endsWith('.pdf'));
     const response=page.waitForResponse(r=>r.url().includes('/forms/convert'));await page.locator('#file-input').setInputFiles(path.join(dir,file));
     const data=await (await response).json();assert.equal(data.coi_validation.valid,true);assert.equal(data.export.tabs.length,4);
-    await page.locator('#results').waitFor({state:'visible'});await page.getByRole('tab',{name:'Zgodność z COI'}).click();
+    await page.locator('#results').waitFor({state:'visible'});await page.locator('#expert-mode').click();await page.getByRole('tab',{name:'Zgodność z COI'}).click();
     assert.match(await page.locator('#coi-view').textContent(),/Nieprzeprowadzony/);assert.match(await page.locator('#coi-view').textContent(),/uzupełnień standardu/);
     await page.screenshot({path:path.join(out,'coi-compliance.png'),fullPage:true});
     await page.locator('[data-tab="eform"]').click();
@@ -27,9 +27,9 @@ const root=path.resolve(__dirname,'..'),base=process.env.FORMFORGE_BASE_URL||'ht
     await page.screenshot({path:path.join(out,'coi-eform.png'),fullPage:true});
     await page.locator('[data-tab="fields"]').click();const field=page.locator('#fields-body tr').filter({has:page.locator('.label-input[value="Kwota"]')});
     // Locate by current input value (the DOM value property is authoritative).
-    const id=data.form.fields.find(f=>f.label==='Kwota').id,row=page.locator(`tr[data-field-id="${id}"]`);await row.locator('summary').click();await row.locator('.confirm-input').check();await row.locator('.label-input').fill('Kwota nadpłaty');
+    const id=data.form.fields.find(f=>f.label==='Kwota').id,row=page.locator(`tr[data-field-id="${id}"]`);await row.locator('summary').click();await row.locator('.label-input').fill('Kwota nadpłaty');await row.locator('.confirm-input').check();
     const edited=page.waitForResponse(r=>r.url().endsWith('/forms/validate'));await page.locator('#apply-fields').click();const updated=await (await edited).json();assert.equal(updated.coi_validation.valid,true);assert.equal(updated.form.fields.find(f=>f.id===id).coi.confirmed,true);
-    const downloadPromise=page.waitForEvent('download');await page.locator('#download-json').click();const download=await downloadPromise;assert.equal(download.suggestedFilename(),'formforge-coi.json');await download.saveAs(path.join(out,'official-download.json'));
+    await page.locator('#expert-export').click();const downloadPromise=page.waitForEvent('download');await page.locator('#download-json').click();const download=await downloadPromise;assert.equal(download.suggestedFilename(),'formforge-coi.json');await download.saveAs(path.join(out,'official-download.json'));
     const payload=JSON.parse(await fs.readFile(path.join(out,'official-download.json'),'utf8'));assert.deepEqual(Object.keys(payload).sort(),['flow','tabs','title']);assert.ok(JSON.stringify(payload).includes('Kwota nadpłaty'));
     const checked=await context.request.post(base+'/api/v1/forms/coi-validate',{data:payload});assert.equal((await checked.json()).valid,true);
     assert.deepEqual(errors,[]);assert.deepEqual(external,[]);

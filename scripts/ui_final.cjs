@@ -6,11 +6,11 @@ const root=path.resolve(__dirname,'..'),base=process.env.FORMFORGE_BASE_URL||'ht
 const browser=await chromium.launch({headless:true,executablePath:process.env.FORMFORGE_CHROMIUM||chromium.executablePath()});
 const context=await browser.newContext({viewport:{width:1440,height:900},locale:'pl-PL',acceptDownloads:true}),page=await context.newPage();const errors=[],external=[],cases=[];
 page.on('pageerror',e=>errors.push(e.message));await context.route('**/*',r=>{const u=new URL(r.request().url());if(['http:','https:'].includes(u.protocol)&&u.origin!==new URL(base).origin){external.push(u.href);return r.abort();}return r.continue();});
-const out=path.join(root,'docs/screenshots');await fs.mkdir(out,{recursive:true});
-const tab=async name=>page.locator('[data-tab="'+name+'"]').click();
+const out=path.join(root,'output/ux-v11/legacy-final-screenshots');await fs.mkdir(out,{recursive:true});
+const tab=async name=>{if(await page.locator('#expert-mode').getAttribute('aria-pressed')!=='true')await page.locator('#expert-mode').click();await page.locator('[data-tab="'+name+'"]').click();};
 const loaded=async()=>{await page.locator('#results').waitFor({state:'visible'});await page.waitForFunction(()=>!window.FormForgeWorkspace.get().busy);};
 const saved=async()=>page.waitForFunction(()=>!window.FormForgeUX.isDirty()&&!document.getElementById('apply-fields').disabled);
-const download=async()=>{const pending=page.waitForEvent('download');await page.locator('#download-json').click();const d=await pending;const stream=await d.createReadStream();let body='';for await(const chunk of stream)body+=chunk;const json=JSON.parse(body);assert.deepEqual(Object.keys(json).sort(),['flow','tabs','title']);return json;};
+const download=async()=>{if(await page.locator('#expert-mode').getAttribute('aria-pressed')==='true')await page.locator('#expert-export').click();else await page.locator('[data-step="4"]').click();const pending=page.waitForEvent('download');await page.locator('#download-json').click();const d=await pending;const stream=await d.createReadStream();let body='';for await(const chunk of stream)body+=chunk;const json=JSON.parse(body);assert.deepEqual(Object.keys(json).sort(),['flow','tabs','title']);return json;};
 try{
 await page.goto(base);await page.getByText('Serwer lokalny · online').waitFor();await page.screenshot({path:path.join(out,'01-upload.png'),fullPage:true});
 await page.locator('#open-help').click();await page.locator('#help-dialog').waitFor({state:'visible'});await page.locator('#close-help').click();await page.locator('#dropzone').focus();const chooser=page.waitForEvent('filechooser');await page.keyboard.press('Enter');await(await chooser).setFiles(path.join(root,'demo_samples/wielostronicowy.pdf'));await loaded();await page.screenshot({path:path.join(out,'02-overview.png'),fullPage:true});

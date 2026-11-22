@@ -40,7 +40,7 @@ async def lifespan(app):
 
 app = FastAPI(
     title="FormForge COI",
-    version="1.0.0",
+    version="1.1.0",
     description="Lokalne przetwarzanie formularzy i eksport COI FormDefinition. Walidacja schematu, reguł technicznych i jawne uwagi do potwierdzenia.",
     docs_url=None,
     redoc_url=None,
@@ -176,7 +176,7 @@ async def health():
             pass
     return {
         "status": "ok",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "python": sys.version.split()[0],
         "offline": True,
         "ocr": {"available": bool(languages), "languages": languages},
@@ -301,7 +301,7 @@ async def validate_form(request: ValidateRequest):
         "value_issues": [i.model_dump() for i in value_issues],
         "export": export,
         "coi_validation": coi_report,
-        "quality_review": review(request.form, issues, coi_report),
+        "quality_review": review(request.form, issues, coi_report, export),
     }
 
 

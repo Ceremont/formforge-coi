@@ -3,12 +3,12 @@
   'use strict';
   const W=window.FormForgeWorkspace,$=id=>document.getElementById(id);
   const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
-  let dirty=false,revision=0,timer=null,applying=false,committed=null,loadedFile=null,undo=[],redo=[];
+  let dirty=false,revision=0,timer=null,applying=false,committed=null,loadedFile=null,undo=[],redo=[],pendingApply=null,finishApply=null;
   let query='',filter='all',compact=false,processingTimer=null,processingStart=0;
   const clone=x=>structuredClone(x),model=()=>W.get().result?.form;
   const button=(text,action,cls='secondary')=>{const b=el('button',cls,text);b.type='button';b.addEventListener('click',action);return b;};
   function fieldId(id){const r=W.get().result;return r?.form.fields.find(f=>f.id===id)?.id||r?.coi_validation?.provenance?.[id]?.internal_field_id;}
-  function jump(id){const actual=fieldId(id);W.selectTab('fields');filter='all';query='';filters();const row=actual&&document.querySelector('[data-field-id="'+CSS.escape(actual)+'"]');if(row){row.hidden=false;row.querySelector('details').open=true;row.scrollIntoView({block:'center',behavior:'smooth'});row.querySelector('.label-input').focus({preventScroll:true});}}
+  function jump(id){if(window.FormForgeJourney&&!window.FormForgeJourney.isExpert())return window.FormForgeJourney.edit(id);const actual=fieldId(id);W.selectTab('fields');filter='all';query='';filters();const row=actual&&document.querySelector('[data-field-id="'+CSS.escape(actual)+'"]');if(row){row.hidden=false;row.querySelector('details').open=true;row.scrollIntoView({block:'center',behavior:'smooth'});row.querySelector('.label-input').focus({preventScroll:true});}}
   function toggleStale(){
     $('draft-banner').hidden=!dirty;
     for(const name of ['json','eform','overview','coi','structure'])$('panel-'+name)?.setAttribute('data-stale',String(dirty));
@@ -18,6 +18,7 @@
     $('download-draft').disabled=dirty||applying||!r;
     $('undo-edit')?.toggleAttribute('disabled',dirty||applying||!undo.length);
     $('redo-edit')?.toggleAttribute('disabled',dirty||applying||!redo.length);
+    window.FormForgeJourney?.stateChanged();
   }
   function draft(){if(!model())return;dirty=true;revision++;toggleStale();clearTimeout(timer);timer=setTimeout(()=>apply({silent:true}),1100);$('save-status').textContent='Zmiany oczekują na walidację…';}
   function focusSnapshot(){const node=document.activeElement,row=node?.closest('[data-field-id]');return row?{id:row.dataset.fieldId,cls:node.classList[0],start:node.selectionStart,end:node.selectionEnd,open:[...document.querySelectorAll('.advanced-field[open]')].map(n=>n.closest('tr').dataset.fieldId)}:null;}
@@ -27,9 +28,10 @@
     clearTimeout(timer);let next;
     try{next=options.snapshot?clone(options.snapshot):window.FormForgeEditor.read(clone(model()),$('fields-body'));}
     catch(error){dirty=true;toggleStale();W.error('Niepoprawna edycja: '+error.message);return;}
-    const sent=revision,focus=focusSnapshot();applying=true;$('apply-fields').disabled=true;toggleStale();
+    const sent=revision,sourceAtStart=W.get().sourceFile,focus=focusSnapshot();applying=true;pendingApply=new Promise(resolve=>finishApply=resolve);$('apply-fields').disabled=true;toggleStale();
     try{
       const checked=await W.request('/api/v1/forms/validate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({form:next})});
+      if(!W.get().result||W.get().sourceFile!==sourceAtStart)return;
       if(sent!==revision&&!options.snapshot){timer=setTimeout(()=>apply({silent:true}),150);return;}
       if(options.history==='undo'){redo.push(clone(committed));undo.pop();}
       else if(options.history==='redo'){undo.push(clone(committed));redo.pop();}
@@ -37,9 +39,10 @@
       committed=clone(checked.form);dirty=false;$('error-banner').hidden=true;W.replace(checked);restoreFocus(focus);
       $('save-status').textContent='Zapisano zmiany w pamięci karty. JSON i podgląd zostały odświeżone.';
       if(!options.silent)W.toast('Zaktualizowano formularz i JSON');
-    }catch(error){dirty=true;W.error(error.message);$('save-status').textContent='Zmiany nie zostały zastosowane. Popraw wskazane błędy.';}
-    finally{applying=false;$('apply-fields').disabled=false;toggleStale();}
+    }catch(error){if(W.get().result&&W.get().sourceFile===sourceAtStart){dirty=true;W.error(error.message);$('save-status').textContent='Zmiany nie zostały zastosowane. Popraw wskazane błędy.';}}
+    finally{applying=false;finishApply?.();pendingApply=null;finishApply=null;$('apply-fields').disabled=false;toggleStale();}
   }
+  async function flush(){clearTimeout(timer);if(pendingApply)await pendingApply;if(dirty)await apply({silent:true});return !dirty&&!applying;}
   function overview(result){
     const root=$('overview-view');root.replaceChildren();const form=result.form,q=result.quality_review||{},counts=q.counts||{};
     const head=el('div','overview-head'),text=el('div');text.append(el('h3','','Sprawdź wynik przed eksportem'),el('p','','Lokalne kontrole oceniają konfigurację. Porównaj źródło z polami — poprawny JSON nie dowodzi kompletności rozpoznania.'));
@@ -114,18 +117,19 @@
     if(text.includes('repeat'))return 'W źródle rozpoznano wskazówkę powtarzania grupy; potwierdź jej zakres.';
     return 'Zastosowano regułę analizy źródła ('+field.detection_method+'); szczegóły techniczne pozostają w modelu JSON.';
   }
-  document.addEventListener('input',event=>{if(event.target.closest('#fields-body,#editor-tools')&&!event.target.closest('.condition-builder'))draft();});
-  document.addEventListener('change',event=>{if(event.target.closest('#fields-body,#editor-tools')&&!event.target.closest('.condition-builder'))draft();});
+  function invalidateConfirmation(event){const row=event.target.closest('#fields-body tr');if(row&&!event.target.classList.contains('confirm-input'))row.querySelector('.confirm-input').checked=false;}
+  document.addEventListener('input',event=>{invalidateConfirmation(event);if(event.target.closest('#fields-body,#editor-tools')&&!event.target.closest('.condition-builder'))draft();});
+  document.addEventListener('change',event=>{invalidateConfirmation(event);if(event.target.closest('#fields-body,#editor-tools')&&!event.target.closest('.condition-builder'))draft();});
   document.addEventListener('formforge-draft',draft);
   document.addEventListener('formforge-edit',event=>jump(event.detail));
   document.addEventListener('formforge-reset',()=>{clearTimeout(timer);dirty=false;committed=null;loadedFile=null;undo=[];redo=[];query='';filter='all';$('final-editor-controls')?.remove();$('editor-tools')?.remove();for(const id of ['fields-body','structure-view','json-view','validation-view','coi-view','overview-view'])$(id).replaceChildren();});
   document.addEventListener('formforge-processing',event=>{clearInterval(processingTimer);$('processing-elapsed').textContent='';if(event.detail.active){processingStart=performance.now();$('process-file').textContent=event.detail.file.name+' · '+(event.detail.file.size/1024).toFixed(1)+' KB';$('process-note').textContent='Serwer analizuje dokument. Szczegółowe etapy i ich czasy pojawią się po zakończeniu — bez szacowanego procentu postępu.';processingTimer=setInterval(()=>$('processing-elapsed').textContent='Czas przetwarzania: '+((performance.now()-processingStart)/1000).toFixed(1)+' s',100);}else $('processing-elapsed').textContent='Czas oczekiwania: '+((performance.now()-processingStart)/1000).toFixed(1)+' s';});
   $('discard-edits').addEventListener('click',()=>{clearTimeout(timer);revision++;dirty=false;if(committed){const current=W.get().result;W.replace({form:clone(committed),issues:current.issues,coi_validation:current.coi_validation,quality_review:current.quality_review,export:W.get().exportData});}toggleStale();});
   $('cancel-processing').addEventListener('click',W.cancel);
-  $('try-example').addEventListener('click',event=>{event.stopPropagation();document.querySelector('.demo-grid').scrollIntoView({behavior:'smooth',block:'center'});document.querySelector('[data-demo]').focus({preventScroll:true});});
+  $('try-example').addEventListener('click',event=>{event.stopPropagation();document.querySelector('[data-demo="zaswiadczenie.pdf"]').click();});
   $('open-help').addEventListener('click',()=>$('help-dialog').showModal());$('close-help').addEventListener('click',()=>$('help-dialog').close());
   $('json-search').addEventListener('input',renderJSON);$('json-format').addEventListener('click',()=>{compact=!compact;$('json-format').textContent=compact?'Sformatuj JSON':'Widok zwarty';renderJSON();});
   $('json-validate').addEventListener('click',async()=>{try{const r=await W.request('/api/v1/forms/coi-validate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(W.get().exportData)});$('json-validation').textContent=r.valid?'Schemat i lokalne reguły techniczne są poprawne. Sprawdź również semantykę pól i ostrzeżenia; importer COI nie został zweryfikowany.':'JSON zawiera błędy: '+(r.errors||[]).map(i=>i.message).join(' ');}catch(error){$('json-validation').textContent=error.message;}});
   $('download-draft').addEventListener('click',()=>{if(dirty||!W.get().exportData)return;const blob=new Blob([JSON.stringify(W.get().exportData,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=el('a');a.href=url;a.download='formforge-coi-szkic.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);W.toast('Pobrano szkic. Rozwiąż wskazane problemy przed użyciem na platformie.');});
-  window.FormForgeUX={render,apply,draft,isDirty:()=>dirty,reason,jump};
+  window.FormForgeUX={render,apply,flush,draft,isDirty:()=>dirty,reason,jump};
 })();
